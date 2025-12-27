@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Froggy Eye Ltd - Mobile Apps That Make Life Better</title>
+    <meta name="description" content="Froggy Eye Ltd creates innovative mobile applications for iOS and Android. Discover our collection of utility, entertainment, and lifestyle apps.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #10b981;
+            --primary-dark: #059669;
+            --secondary: #1e293b;
+            --text: #334155;
+            --text-light: #64748b;
+            --bg: #f8fafc;
+            --white: #ffffff;
+            --card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --card-shadow-hover: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #059669 0%, #10b981 50%, #34d399 100%);
+            color: var(--white);
+            padding: 80px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
+        }
+
+        .hero .tagline {
+            font-size: 1.25rem;
+            opacity: 0.95;
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+
+        .hero-description {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        /* About Section */
+        .about {
+            background: var(--white);
+            padding: 80px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: var(--secondary);
+            margin-bottom: 16px;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            font-size: 1.1rem;
+            color: var(--text-light);
+            max-width: 600px;
+            margin: 0 auto 50px;
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .about-card {
+            text-align: center;
+            padding: 30px;
+        }
+
+        .about-icon {
+            width: 64px;
+            height: 64px;
+            background: linear-gradient(135deg, #10b981, #059669);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 28px;
+        }
+
+        .about-card h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--secondary);
+            margin-bottom: 12px;
+        }
+
+        .about-card p {
+            color: var(--text-light);
+        }
+
+        /* Apps Section */
+        .apps {
+            padding: 80px 20px;
+        }
+
+        .apps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 30px;
+        }
+
+        .app-card {
+            background: var(--white);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: var(--card-shadow);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .app-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--card-shadow-hover);
+        }
+
+        .app-card.coming-soon {
+            opacity: 0.85;
+            background: linear-gradient(135deg, var(--white) 0%, #f1f5f9 100%);
+        }
+
+        .app-header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 18px;
+            object-fit: cover;
+            box-shadow: 0 4px 12px rgb(0 0 0 / 0.15);
+            flex-shrink: 0;
+        }
+
+        .app-icon.placeholder {
+            background: linear-gradient(135deg, #e2e8f0, #cbd5e1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+        }
+
+        .app-title-section {
+            flex: 1;
+        }
+
+        .app-title {
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: var(--secondary);
+            margin-bottom: 4px;
+        }
+
+        .app-category {
+            font-size: 0.85rem;
+            color: var(--primary);
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .coming-soon-badge {
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            color: white;
+            font-size: 0.7rem;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .app-description {
+            color: var(--text-light);
+            line-height: 1.7;
+            flex: 1;
+            margin-bottom: 20px;
+        }
+
+        .app-features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .feature-tag {
+            background: #f1f5f9;
+            color: var(--text);
+            font-size: 0.8rem;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-weight: 500;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--secondary);
+            color: var(--white);
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .footer-logo {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .footer h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        .footer p {
+            opacity: 0.8;
+            max-width: 500px;
+            margin: 0 auto 30px;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: var(--white);
+            text-decoration: none;
+            opacity: 0.8;
+            transition: opacity 0.2s;
+        }
+
+        .footer-links a:hover {
+            opacity: 1;
+        }
+
+        .copyright {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            opacity: 0.6;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero .tagline {
+                font-size: 1.1rem;
+            }
+
+            .section-title {
+                font-size: 1.75rem;
+            }
+
+            .apps-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .app-header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .app-title-section {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="logo">🐸</div>
+            <h1>Froggy Eye Ltd</h1>
+            <p class="tagline">Mobile Apps That Make Life Better</p>
+            <p class="hero-description">
+                We're a UK-based indie app studio dedicated to creating thoughtful,
+                well-designed mobile applications that solve real problems and bring joy to everyday moments.
+            </p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h2 class="section-title">Our Mission</h2>
+            <p class="section-subtitle">
+                Building apps that are simple, useful, and delightful to use.
+            </p>
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="about-icon">🎯</div>
+                    <h3>User-Focused</h3>
+                    <p>Every app we create starts with a real user need. We prioritize simplicity and ease of use above all else.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">✨</div>
+                    <h3>Quality Crafted</h3>
+                    <p>We believe in doing things right. Our apps are carefully designed and built to provide the best possible experience.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">🚀</div>
+                    <h3>Always Improving</h3>
+                    <p>We continuously listen to feedback and improve our apps. Your experience matters to us.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apps Section -->
+    <section class="apps">
+        <div class="container">
+            <h2 class="section-title">Our Apps</h2>
+            <p class="section-subtitle">
+                Discover our collection of mobile apps for iOS and Android
+            </p>
+            <div class="apps-grid">
+                <!-- Eight Ball Wisdom -->
+                <div class="app-card">
+                    <div class="app-header">
+                        <img src="icons/eight_ball_wisdom.png" alt="Eight Ball Wisdom" class="app-icon">
+                        <div class="app-title-section">
+                            <h3 class="app-title">Eight Ball Wisdom</h3>
+                            <span class="app-category">Entertainment</span>
+                        </div>
+                    </div>
+                    <p class="app-description">
+                        Shake your phone and let the mystical Magic 8 Ball reveal your fortune!
+                        Get answers to life's questions with this classic fortune-telling experience.
+                        Features realistic shake detection, beautiful animations, and 20 classic responses.
+                    </p>
+                    <div class="app-features">
+                        <span class="feature-tag">Shake Detection</span>
+                        <span class="feature-tag">Fortune Telling</span>
+                        <span class="feature-tag">Fun Animations</span>
+                    </div>
+                </div>
+
+                <!-- Focus Timer -->
+                <div class="app-card">
+                    <div class="app-header">
+                        <img src="icons/focus_timer.png" alt="Focus Timer" class="app-icon">
+                        <div class="app-title-section">
+                            <h3 class="app-title">Focus Timer</h3>
+                            <span class="app-category">Productivity</span>
+                        </div>
+                    </div>
+                    <p class="app-description">
+                        Boost your productivity with our beautifully designed Pomodoro-style focus timer.
+                        Stay concentrated on tasks with customizable work sessions, break reminders,
+                        and progress tracking to help you achieve more every day.
+                    </p>
+                    <div class="app-features">
+                        <span class="feature-tag">Pomodoro Technique</span>
+                        <span class="feature-tag">Custom Sessions</span>
+                        <span class="feature-tag">Progress Tracking</span>
+                    </div>
+                </div>
+
+                <!-- Food Score -->
+                <div class="app-card">
+                    <div class="app-header">
+                        <img src="icons/food_score.png" alt="Food Score" class="app-icon">
+                        <div class="app-title-section">
+                            <h3 class="app-title">Food Score</h3>
+                            <span class="app-category">Health & Fitness</span>
+                        </div>
+                    </div>
+                    <p class="app-description">
+                        Make healthier food choices with Food Score! Simply scan any food barcode
+                        to instantly get health scores and detailed nutritional information.
+                        Understand what you're eating and make informed dietary decisions.
+                    </p>
+                    <div class="app-features">
+                        <span class="feature-tag">Barcode Scanner</span>
+                        <span class="feature-tag">Health Scores</span>
+                        <span class="feature-tag">Nutrition Info</span>
+                    </div>
+                </div>
+
+                <!-- Journey Crumbs - Coming Soon -->
+                <div class="app-card coming-soon">
+                    <div class="app-header">
+                        <div class="app-icon placeholder">🗺️</div>
+                        <div class="app-title-section">
+                            <h3 class="app-title">Journey Crumbs</h3>
+                            <span class="coming-soon-badge">Coming Soon</span>
+                        </div>
+                    </div>
+                    <p class="app-description">
+                        Capture and relive your road trip adventures! Record your journeys with photos,
+                        videos, and memories pinned to interactive maps. Create beautiful trip stories
+                        and never forget the amazing places you've discovered.
+                    </p>
+                    <div class="app-features">
+                        <span class="feature-tag">Trip Recording</span>
+                        <span class="feature-tag">Photo Memories</span>
+                        <span class="feature-tag">Interactive Maps</span>
+                    </div>
+                </div>
+
+                <!-- Love Me Not -->
+                <div class="app-card">
+                    <div class="app-header">
+                        <div class="app-icon placeholder">🌸</div>
+                        <div class="app-title-section">
+                            <h3 class="app-title">Love Me Not</h3>
+                            <span class="app-category">Entertainment</span>
+                        </div>
+                    </div>
+                    <p class="app-description">
+                        A charming digital take on the classic petal-picking game! Pick petals one by one
+                        to discover if "they love you" or "love you not." Perfect for those whimsical moments
+                        when you need a fun way to make decisions or just want to play.
+                    </p>
+                    <div class="app-features">
+                        <span class="feature-tag">Petal Picking</span>
+                        <span class="feature-tag">Beautiful Design</span>
+                        <span class="feature-tag">Fun & Playful</span>
+                    </div>
+                </div>
+
+                <!-- My LTD Tax -->
+                <div class="app-card">
+                    <div class="app-header">
+                        <img src="icons/my_ltd_tax.png" alt="My LTD Tax" class="app-icon">
+                        <div class="app-title-section">
+                            <h3 class="app-title">My LTD Tax</h3>
+                            <span class="app-category">Finance</span>
+                        </div>
+                    </div>
+                    <p class="app-description">
+                        The essential companion for UK limited company directors. Track expenses,
+                        manage important tax deadlines, and stay on top of your company filings.
+                        Simplify your tax management and never miss a deadline again.
+                    </p>
+                    <div class="app-features">
+                        <span class="feature-tag">Expense Tracking</span>
+                        <span class="feature-tag">Tax Deadlines</span>
+                        <span class="feature-tag">UK Focused</span>
+                    </div>
+                </div>
+
+                <!-- PokePriceChecker -->
+                <div class="app-card">
+                    <div class="app-header">
+                        <img src="icons/pokepricedex.png" alt="PokePriceChecker" class="app-icon">
+                        <div class="app-title-section">
+                            <h3 class="app-title">PokePriceChecker</h3>
+                            <span class="app-category">Utilities</span>
+                        </div>
+                    </div>
+                    <p class="app-description">
+                        The ultimate tool for Pokemon card collectors! Instantly check the market value
+                        of your Pokemon cards using your camera. Get real-time pricing data, track your
+                        collection's worth, and make informed buying and selling decisions.
+                    </p>
+                    <div class="app-features">
+                        <span class="feature-tag">Card Scanner</span>
+                        <span class="feature-tag">Price Lookup</span>
+                        <span class="feature-tag">Market Values</span>
+                    </div>
+                </div>
+
+                <!-- Treasure Hunter Live -->
+                <div class="app-card">
+                    <div class="app-header">
+                        <img src="icons/treasure_hunter.png" alt="Treasure Hunter Live" class="app-icon">
+                        <div class="app-title-section">
+                            <h3 class="app-title">Treasure Hunter Live</h3>
+                            <span class="app-category">Games</span>
+                        </div>
+                    </div>
+                    <p class="app-description">
+                        Embark on real-world treasure hunting adventures! Discover hidden treasures
+                        in your area, create hunts for friends and family, and explore the world
+                        around you in this exciting location-based mobile game.
+                    </p>
+                    <div class="app-features">
+                        <span class="feature-tag">GPS-Based</span>
+                        <span class="feature-tag">Real-World</span>
+                        <span class="feature-tag">Create Hunts</span>
+                    </div>
+                </div>
+
+                <!-- Wheel of Choices -->
+                <div class="app-card">
+                    <div class="app-header">
+                        <img src="icons/wheel_of_choices.png" alt="Wheel of Choices" class="app-icon">
+                        <div class="app-title-section">
+                            <h3 class="app-title">Wheel of Choices</h3>
+                            <span class="app-category">Utilities</span>
+                        </div>
+                    </div>
+                    <p class="app-description">
+                        Can't decide? Let the wheel choose for you! Add your options, spin the colorful wheel,
+                        and let fate make the decision. Perfect for choosing restaurants, settling debates,
+                        picking activities, or any time you need help making a choice.
+                    </p>
+                    <div class="app-features">
+                        <span class="feature-tag">Custom Options</span>
+                        <span class="feature-tag">Fun Spinning</span>
+                        <span class="feature-tag">Decision Maker</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">🐸</div>
+            <h3>Froggy Eye Ltd</h3>
+            <p>Creating thoughtful mobile apps from the United Kingdom</p>
+            <div class="footer-links">
+                <a href="mailto:contact@froggyeye.com">Contact Us</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+            <p class="copyright">&copy; 2024 Froggy Eye Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
