@@ -84,21 +84,18 @@ def main():
     username = hosting_username()
     print(f"Hosting account: {username}, deploying commit {sha[:12]}")
 
-    tarball = f"https://codeload.github.com/{GH_REPO}/tar.gz/{sha}"
-    src_dir = f"{GH_REPO.split('/')[1]}-{sha}"
-    excl = " ".join(f"--exclude={e}" for e in EXCLUDES)
-    cmd = (f"cd /home/{username} && rm -rf deploy_tmp && mkdir deploy_tmp && "
-           f"curl -sL {tarball} -o deploy_tmp/site.tgz && "
-           f"tar -xzf deploy_tmp/site.tgz -C deploy_tmp && "
-           f"rsync -a --delete {excl} deploy_tmp/{src_dir}/public_html/ {DOCROOT}/ && "
-           f"rm -rf deploy_tmp && echo DEPLOYED-{sha[:12]}")
-    assert not any(c in cmd for c in "|<>"), "cron commands must not contain pipes/redirection"
+    # Cron commands are capped at 255 chars, so the real work lives in
+    # deploy_remote.sh (in this repo); the cron just fetches and runs it.
+    script_url = (f"https://raw.githubusercontent.com/{GH_REPO}/main/"
+                  ".claude/skills/froggyeye-website/scripts/deploy_remote.sh")
+    cmd = f"curl -sL {script_url} -o /tmp/fe_deploy.sh && bash /tmp/fe_deploy.sh"
+    assert len(cmd) <= 255 and not any(c in cmd for c in "|<>")
 
     print("Creating deploy cron job…")
     api("POST", f"/accounts/{username}/cron-jobs", {"time": "* * * * *", "command": cmd})
     uid = None
     for j in api("GET", f"/accounts/{username}/cron-jobs")["data"]:
-        if f"DEPLOYED-{sha[:12]}" in j["command"]:
+        if "fe_deploy.sh" in j["command"]:
             uid = j["uid"]
     if not uid:
         sys.exit("Could not find the created cron job")
@@ -112,7 +109,7 @@ def main():
             output = api("GET", f"/accounts/{username}/cron-jobs/{uid}/output").get("output", "")
             if output.strip():
                 break
-        if f"DEPLOYED-{sha[:12]}" not in output:
+        if f"DEPLOYED {stamp}" not in output:
             sys.exit(f"Deploy cron did not report success. Output:\n{output or '(no output — cron may not have run yet)'}")
         print(f"Server reported: {output.strip().splitlines()[-1]}")
     finally:
