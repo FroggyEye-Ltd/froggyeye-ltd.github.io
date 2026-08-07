@@ -91,14 +91,17 @@ def main():
     cmd = f"curl -sL {script_url} -o /tmp/fe_deploy.sh && bash /tmp/fe_deploy.sh"
     assert len(cmd) <= 255 and not any(c in cmd for c in "|<>")
 
-    print("Creating deploy cron job…")
-    api("POST", f"/accounts/{username}/cron-jobs", {"time": "* * * * *", "command": cmd})
-    uid = None
-    for j in api("GET", f"/accounts/{username}/cron-jobs")["data"]:
-        if "fe_deploy.sh" in j["command"]:
-            uid = j["uid"]
-    if not uid:
+    existing = api("GET", f"/accounts/{username}/cron-jobs")
+    existing = existing.get("data", existing) if isinstance(existing, dict) else existing
+    if not any("fe_deploy.sh" in j["command"] for j in existing):
+        print("Creating deploy cron job…")
+        api("POST", f"/accounts/{username}/cron-jobs", {"time": "* * * * *", "command": cmd})
+    jobs = api("GET", f"/accounts/{username}/cron-jobs")
+    jobs = jobs.get("data", jobs) if isinstance(jobs, dict) else jobs
+    uids = [j["uid"] for j in jobs if "fe_deploy.sh" in j["command"]]
+    if not uids:
         sys.exit("Could not find the created cron job")
+    uid = uids[0]
 
     try:
         print("Waiting for the cron to run (fires on the next minute boundary)…")
@@ -113,7 +116,8 @@ def main():
             sys.exit(f"Deploy cron did not report success. Output:\n{output or '(no output — cron may not have run yet)'}")
         print(f"Server reported: {output.strip().splitlines()[-1]}")
     finally:
-        api("DELETE", f"/accounts/{username}/cron-jobs/{uid}")
+        for u in uids:
+            api("DELETE", f"/accounts/{username}/cron-jobs/{u}")
         print("Deploy cron job removed.")
 
     print("Verifying live site…")
