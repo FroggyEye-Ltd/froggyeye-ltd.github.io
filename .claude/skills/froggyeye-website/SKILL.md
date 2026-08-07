@@ -1,6 +1,6 @@
 ---
 name: froggyeye-website
-description: Manage the Froggy Eye Ltd website at froggyeye.com — the studio main page plus 18 per-app promo subdomains. Use this whenever the user asks to add a new app, update store assets, regenerate a promo page, refresh SEO/sitemap, change shared elements (footer, logo, emails), or build a zip for Hostinger upload. Triggers include: "add an app", "update the website", "rebuild the promo page for X", "fetch new screenshots", "build the zip", "regenerate the site", "the store URLs are out of date".
+description: Manage the Froggy Eye Ltd website at froggyeye.com — the studio main page plus per-app promo subdomains, with fully automated deploy to Hostinger. Use this whenever the user asks to add a new app, update store assets, regenerate a promo page, refresh SEO/sitemap, change shared elements (footer, logo, emails), deploy the site, or add a subdomain. Triggers include: "add an app", "update the website", "deploy the site", "rebuild the promo page for X", "fetch new screenshots", "regenerate the site", "the store URLs are out of date".
 ---
 
 # Froggy Eye Ltd website skill
@@ -35,11 +35,21 @@ The 18 subdomains map to subfolders under `public_html/`. They are served by Hos
 
 The single source of truth for per-app metadata is `data/apps.json` in this skill. It contains, for every app:
 - `folder` — subdomain folder name (matches Hostinger subdomain)
-- `name`, `tagline`, `category`
+- `name`, `tagline`, `category` — stored as RAW text (no HTML entities); scripts escape at render time
 - `theme` — preset name from `data/themes.json` (controls page colour palette)
 - `package_id` — Android applicationId (for fetching Play Store listing)
 - `apple_id` — App Store numeric ID (or `null`)
 - `apple_url`, `play_url` — full store URLs (or `null` if not yet listed)
+- `user_authored` (optional, true) — page was hand-built, NOT template-rendered. Scripts never
+  regenerate/patch these pages or overwrite their per-sub llms.txt/sitemap/robots
+  (currently: studysingalong, luckynumbers, postpilot)
+- `extra_pages` (optional) — extra HTML pages under the subdomain to list in the main sitemap
+- `llms_desc` (optional) — richer description for the root llms.txt line
+
+The page COPY for template-rendered apps lives in `data/content/<folder>.json` — headline,
+eyebrow, lead, chips, steps, features (with inline SVG icons), examples, plans, stats, faq,
+plus optional `og_image_alt`, `seo_title`, `seo_desc` overrides. To author a new app's page,
+copy an existing content file as a schema reference and write fresh copy.
 
 Whenever you need per-app data, **read `data/apps.json` first**. Don't hardcode app lists.
 
@@ -48,14 +58,18 @@ Whenever you need per-app data, **read `data/apps.json` first**. Don't hardcode 
 ### 1. Add a new app
 
 ```
-1. Read data/apps.json
-2. Append a new entry for the app (folder, name, tagline, theme, package_id)
-3. Run scripts/gen_promo.py --only <folder>   # generates the subdomain page
+1. Read data/apps.json; append a new entry (folder, name, tagline, category,
+   schema_category, theme, package_id, card_emoji, card_gradient)
+2. Write data/content/<folder>.json — the page copy (copy an existing file as schema)
+3. Run scripts/gen_promo.py --only <folder>   # renders the subdomain page
 4. Run scripts/fetch_store_assets.py --only <folder>   # pulls screenshots + feature graphic
-5. Run scripts/postprocess.py --only <folder>          # injects screenshots, store URLs
+   (needs a LIVE Play listing — if not live yet, drop icon.png/feature.png/screenshot1.png
+   into public_html/<folder>/ from the app repo's store_assets/ instead)
+5. Run scripts/postprocess.py --only <folder>          # screenshots, store URLs, studio bar
 6. Run scripts/regen_main_index.py                     # rebuilds the main site grid
-7. Run scripts/seo_enhance.py                          # refreshes sitemap, llms.txt, JSON-LD
-8. Tell the user to add the subdomain in Hostinger's panel pointing to public_html/<folder>
+7. Run scripts/seo_enhance.py && scripts/discovery_enhance.py  # sitemap, llms.txt, JSON-LD
+8. Run scripts/create_subdomain.py <folder>            # creates <folder>.froggyeye.com via API
+9. Run scripts/deploy.py                               # commit-stamp, push, deploy, verify live
 ```
 
 ### 2. Refresh store assets (screenshots + feature graphics)
@@ -91,14 +105,21 @@ python3 scripts/regen_main_index.py
 
 Place new logo files at `public_html/icons/logo.png` (icon-only crop, 512×512) and `public_html/icons/logo-full.png` (full wordmark, 1024×1024). The main site auto-references these — no HTML edits needed.
 
-### 7. Build a fresh zip for Hostinger upload
+### 7. Deploy to Hostinger (automated — no zip, no FTP)
 
 ```
-python3 scripts/build_zip.py
-# → produces ~/Desktop/froggyeye-website.zip
+python3 scripts/deploy.py
 ```
 
-The zip contains the contents of `public_html/` (no wrapper folder), excludes `.DS_Store`, and is ready to drop into Hostinger File Manager → public_html → Upload → Extract.
+This stamps `public_html/version.txt`, commits + pushes to GitHub, then uses the
+Hostinger API (`HOSTINGER_API_TOKEN` in `~/.zshenv`) to run a temporary cron job on
+the hosting account that pulls the repo tarball and rsyncs `public_html/` into the
+live docroot, then verifies `https://froggyeye.com/version.txt` matches. Takes ~2 min
+(cron fires on minute boundaries). Requires a clean git tree — commit content changes
+first so the deploy commit is just the version stamp.
+
+Legacy fallback (manual): `python3 scripts/build_zip.py` → `~/Desktop/froggyeye-website.zip`
+→ Hostinger File Manager → public_html → Upload → Extract.
 
 ### 8. Sanity check
 
@@ -137,27 +158,40 @@ The CSS template is `templates/promo_template.css` — it uses placeholders (`__
 6. **All emails go to `info@froggyeye.com`** — ensure newly added pages don't introduce alternate addresses.
 7. **The studio bar** (the `← Part of Froggy Eye Ltd` strip at top of every subdomain page) must be present on every promo page.
 
-## Hostinger reminders
+## Hostinger
 
-- All 17 subdomains are configured in Hostinger and point to subfolders. Eyesight Angel does not yet have a subdomain — when adding it ask the user to set up `eyesightangel.froggyeye.com` → `public_html/eyesightangel`.
-- After uploading a fresh zip, Hostinger may show "Your website couldn't be recognized" — this is just their CMS auto-detector failing on a static site and is harmless. Tell the user to ignore it.
+- Hosting is Hostinger shared hosting, account `u384964577`, docroot
+  `/home/u384964577/domains/froggyeye.com/public_html`. Subdomains are folders inside it.
+- The Hostinger API token is `HOSTINGER_API_TOKEN` in `~/.zshenv`. It can list/create/delete
+  subdomains (`scripts/create_subdomain.py`) and run account cron jobs (how `scripts/deploy.py`
+  deploys). There is no file-upload API and no FTP/SSH endpoint — the cron trick is the deploy path.
+- Subdomains: create with `python3 scripts/create_subdomain.py <folder>` (no hPanel needed).
+  Eyesight Angel has content JSON but no registry entry, site folder or subdomain yet — when it
+  ships, add the registry entry then run workflow 1.
+- The GitHub repo (FroggyEye-Ltd/froggyeye-ltd.github.io, public) is the source of truth;
+  the deploy pulls from it, so anything not committed+pushed does NOT deploy.
 
 ## Files in this skill
 
 - `SKILL.md` — this file
 - `data/apps.json` — app registry (canonical source of truth)
+- `data/content/<folder>.json` — per-app page copy for template-rendered apps
 - `data/themes.json` — colour theme presets
 - `templates/promo_template.html` — full per-app page HTML structure
 - `templates/promo_template.css` — themed CSS for promo pages
-- `scripts/gen_promo.py` — render one or all promo pages from data + templates
+- `scripts/gen_promo.py` — render one or all promo pages from templates + registry + content JSONs
 - `scripts/fetch_store_assets.py` — pull feature.png + screenshot1.png from Play Store listings
 - `scripts/refresh_store_urls.py` — refresh App Store + Play Store URLs in apps.json
-- `scripts/postprocess.py` — inject screenshots / feature banners / store URLs into rendered pages
+- `scripts/postprocess.py` — inject screenshots / feature banner / store URLs / studio bar into rendered pages
 - `scripts/regen_main_index.py` — render the main `public_html/index.html`
 - `scripts/seo_enhance.py` — refresh main-domain JSON-LD, canonical, sitemap.xml, robots.txt, llms.txt
 - `scripts/discovery_enhance.py` — comprehensive search/AI discovery: FAQPage + BreadcrumbList JSON-LD, per-subdomain sitemap/robots/llms files, og:image dimensions, dns-prefetch hints, internal cross-link "More apps" section, humans.txt + security.txt
 - `scripts/sanity.py` — audit current site state
-- `scripts/build_zip.py` — package public_html for Hostinger upload
+- `scripts/deploy.py` — automated deploy to Hostinger (push + API cron + live verify)
+- `scripts/deploy_remote.sh` — the server-side half of deploy.py (fetched by the cron)
+- `scripts/create_subdomain.py` — create/list/delete `<app>.froggyeye.com` subdomains via the Hostinger API
+- `scripts/build_zip.py` — legacy manual fallback: package public_html for hand upload
+- `scripts/legacy/` — historical one-off generators (content now extracted to data/content/)
 
 ## When invoked
 
