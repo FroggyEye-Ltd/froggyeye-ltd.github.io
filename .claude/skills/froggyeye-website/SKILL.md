@@ -166,6 +166,9 @@ The CSS template is `templates/promo_template.css` — it uses placeholders (`__
   subdomains (`scripts/create_subdomain.py`) and run account cron jobs (how `scripts/deploy.py`
   deploys). There is no file-upload API and no FTP/SSH endpoint — the cron trick is the deploy path.
 - Subdomains: create with `python3 scripts/create_subdomain.py <folder>` (no hPanel needed).
+  After creation, DNS is an ALIAS to `<sub>.froggyeye.com.cdn.hstgr.net`, and that CDN endpoint
+  can take 5–15 minutes to provision — the subdomain won't resolve until it does. This is normal;
+  poll patiently, do NOT delete/recreate (that restarts the provisioning clock).
   Eyesight Angel has content JSON but no registry entry, site folder or subdomain yet — when it
   ships, add the registry entry then run workflow 1.
 - The GitHub repo (FroggyEye-Ltd/froggyeye-ltd.github.io, public) is the source of truth;
