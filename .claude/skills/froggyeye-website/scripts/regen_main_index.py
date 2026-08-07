@@ -2,6 +2,8 @@
 """Regenerate public_html/index.html (the studio main page) from data/apps.json.
 Preserves the dark studysingalong design language and links each app card to its subdomain."""
 import sys
+from html import escape as _esc
+def esc(s): return _esc(s, quote=False)
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _common import load_apps, SITE_ROOT
@@ -126,12 +128,12 @@ def render_card(a):
     icon = f'icons/{a["folder"]}.png'
     return f'''      <a class="app-card reveal" href="https://{a["folder"]}.froggyeye.com">
         <div class="app-card-art" style="background: linear-gradient(135deg, {g0}, {g1});">
-          <img src="{icon}" alt="{a["name"]}">
+          <img src="{icon}" alt="{esc(a["name"])}">
         </div>
         <div class="app-card-info">
-          <p class="app-card-cat">{a["category"]}</p>
-          <h3 class="app-card-title">{a["name"]}</h3>
-          <p class="app-card-tag">{a["tagline"]}</p>
+          <p class="app-card-cat">{esc(a["category"])}</p>
+          <h3 class="app-card-title">{esc(a["name"])}</h3>
+          <p class="app-card-tag">{esc(a["tagline"])}</p>
           <span class="app-card-cta">Learn more →</span>
         </div>
       </a>'''

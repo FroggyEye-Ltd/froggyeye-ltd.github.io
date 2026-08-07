@@ -4,19 +4,47 @@
 2. Insert feature-banner section under hero.
 3. Replace href="#" placeholders with real Apple/Play URLs from data/apps.json.
 4. Hide buttons whose URL is null."""
-import re, sys
+import json, re, sys
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
-from _common import load_apps, SITE_ROOT, parse_only_arg
+from _common import load_apps, SITE_ROOT, SKILL_ROOT, parse_only_arg
 
-BANNER = (
-    '\n<section class="feature-banner-section" style="padding: 0 0 64px 0;">\n'
-    '  <div class="wrap">\n'
-    '    <div class="feature-banner reveal" style="max-width: 720px; margin: 0 auto; border-radius: var(--r-xl); overflow: hidden; box-shadow: 0 30px 80px rgba(0,0,0,0.4); border: 1px solid var(--border);">\n'
-    '      <img src="feature.png" alt="" style="width:100%; height:auto; display:block;">\n'
-    '    </div>\n'
-    '  </div>\n'
-    '</section>\n'
-)
+def banner_html(alt):
+    return (
+        '\n<section class="feature-banner-section" style="padding: 0 0 64px 0;">\n'
+        '  <div class="wrap">\n'
+        '    <div class="feature-banner reveal" style="max-width: 720px; margin: 0 auto; border-radius: var(--r-xl); overflow: hidden; box-shadow: 0 30px 80px rgba(0,0,0,0.4); border: 1px solid var(--border);">\n'
+        f'      <img src="feature.png" alt="{alt}" style="width:100%; height:auto; display:block;">\n'
+        '    </div>\n'
+        '  </div>\n'
+        '</section>\n'
+    )
+
+STUDIO_CSS = """
+.studio-bar {
+  background: linear-gradient(90deg, #FF2E7E 0%, #7C3AED 100%);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-align: center;
+  padding: 8px 16px;
+  position: relative;
+  z-index: 60;
+}
+.studio-bar a { color: #fff; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; }
+.studio-bar a:hover { text-decoration: underline; }
+.studio-bar .arrow { display: inline-block; transition: transform 150ms ease; }
+.studio-bar a:hover .arrow { transform: translateX(-4px); }
+
+"""
+
+STUDIO_BAR = ('<div class="studio-bar"><a href="https://froggyeye.com">'
+              '<span class="arrow">←</span><span>Part of <strong>Froggy Eye Ltd</strong>'
+              ' · See all our apps</span></a></div>\n\n')
+
+def load_content(folder):
+    p = SKILL_ROOT / "data" / "content" / f"{folder}.json"
+    return json.loads(p.read_text()) if p.exists() else {}
 
 def patch(app):
     folder = app["folder"]
@@ -43,7 +71,9 @@ def patch(app):
 
     # 2. Feature banner
     if (SITE_ROOT / folder / "feature.png").exists() and 'feature-banner' not in text:
-        text = text.replace('<div class="marquee"', BANNER + '<div class="marquee"', 1)
+        content = load_content(folder)
+        alt = content.get("og_image_alt", "")
+        text = text.replace('<div class="marquee"', banner_html(alt) + '<div class="marquee"', 1)
 
     # 3. Store URLs
     apple = app.get("apple_url")
@@ -71,6 +101,12 @@ def patch(app):
     # 4. Hide-rule for missing-store buttons
     if 'a.store[data-na]' not in text:
         text = text.replace('</style>', 'a.store[data-na]{display:none !important;}</style>', 1)
+
+    # 5. Studio bar (constraint: present on every promo page)
+    if '.studio-bar {' not in text:
+        text = text.replace('</style>', STUDIO_CSS + '</style>', 1)
+    if 'class="studio-bar"' not in text:
+        text = text.replace('<body>\n', '<body>\n' + STUDIO_BAR, 1)
 
     p.write_text(text)
     print(f"  ✓ {folder}: shot={'Y' if (SITE_ROOT/folder/'screenshot1.png').exists() else '-'}, feat={'Y' if (SITE_ROOT/folder/'feature.png').exists() else '-'}, apple={'Y' if apple else '-'}, play={'Y' if play else '-'}")

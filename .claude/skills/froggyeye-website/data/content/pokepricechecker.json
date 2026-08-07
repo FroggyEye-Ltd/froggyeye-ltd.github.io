@@ -1,0 +1,237 @@
+{
+  "folder": "pokepricechecker",
+  "name": "PokePriceChecker",
+  "tagline": "Pokemon card prices, instantly.",
+  "meta_desc": "Point your camera at any Pokemon card. PokePriceChecker recognises it and shows you live market prices from major TCG marketplaces.",
+  "nav_examples": "Sets",
+  "hero_eyebrow": "iOS & Android · Live TCG market prices",
+  "headline_pre": "Know what your cards",
+  "headline_accent": "are really worth.",
+  "lead": "Snap any Pokemon card with your camera and PokePriceChecker shows you live market values from major TCG marketplaces. Built for collectors who buy smart and sell smarter.",
+  "meta_items": [
+    "Live market data",
+    "Camera scanning",
+    "Portfolio tracking",
+    "No ads, no tracking"
+  ],
+  "phone_content": "        <h4>Just scanned</h4>\n        <div class=\"phone-art\"><div class=\"emoji\">🃏</div></div>\n        <div>\n          <p class=\"phone-title\">Charizard ex · Obsidian Flames</p>\n          <p class=\"phone-sub\">125/197 · Special Illustration Rare</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>NEAR MINT</span><span>£148.50</span></div>\n        <div class=\"phone-controls\">\n          <span class=\"ic\">📷</span>\n          <span class=\"play\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M8 5v14l11-7z\"/></svg></span>\n          <span class=\"ic\">📊</span>\n        </div>\n        <div class=\"phone-lyric\"><b>30-day high:</b> £162  <b>Low:</b> £128<br><b>Trend:</b> ↑ 7% · Add to portfolio?</div>",
+  "chips": [
+    "⚡ Base Set",
+    "🔥 Obsidian Flames",
+    "🌊 Surging Sparks",
+    "🌀 Paldean Fates",
+    "🪙 151",
+    "🌿 Lost Origin",
+    "🌌 Crown Zenith",
+    "💎 Hidden Fates",
+    "✨ Shining Fates",
+    "🎭 Stellar Crown"
+  ],
+  "how_head_pre": "Point. Scan.",
+  "how_head_accent": "See the real number.",
+  "how_lead": "No more squinting at eBay completed-listings on a phone screen. PokePriceChecker reads the card and shows you a clean, real-time price across the whole market.",
+  "steps": [
+    [
+      "Snap the card",
+      "Lay it on a flat surface, point your camera. Set, number, rarity, language — recognised in milliseconds."
+    ],
+    [
+      "See live prices",
+      "We aggregate TCGplayer, eBay completed listings, CardMarket, and others. The number you see is what the market actually pays right now."
+    ],
+    [
+      "Track your collection",
+      "Add to your portfolio. Watch its value over time. Get alerts on big movers — buy or sell with conviction."
+    ]
+  ],
+  "feat_head_pre": "For collectors who care",
+  "feat_head_line2": "about getting the price right.",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg>",
+      "Sub-second card recognition",
+      "Computer vision trained on every English-language Pokemon TCG set since Base. Plus most Japanese sets."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\"/></svg>",
+      "Multi-source pricing",
+      "TCGplayer, eBay sold prices, CardMarket Europe, Cardmavin. We weight them so you get a real market number."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\"/></svg>",
+      "Portfolio tracking",
+      "Build your digital binder. Total value, biggest movers, historical price trends — all on one screen."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9\"/><path d=\"M13.73 21a2 2 0 0 1-3.46 0\"/></svg>",
+      "Price alerts",
+      "Pro alerts you when a card crosses a threshold. Catch the spikes. Avoid the dips."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"13 2 3 14 12 14 11 22 21 10 12 10 13 2\"/></svg>",
+      "Trade & flip insights",
+      "Smart suggestions on what to hold, what to sell, what's about to move based on real demand signals."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"9 11 12 14 22 4\"/><path d=\"M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11\"/></svg>",
+      "Condition prompts",
+      "We ask the right questions for accurate condition grading: corners, surface, edges, centring. PSA/CGC-aware."
+    ]
+  ],
+  "ex_eyebrow": "Cards in the wild",
+  "ex_head": "What people scan most:",
+  "ex_lead": "A snapshot of the most-scanned cards in PokePriceChecker over the last month — across the UK, US, and Europe.",
+  "examples": [
+    [
+      "#FF4D2E,#7C2D12",
+      "🔥",
+      "Charizard ex · Obsidian",
+      "SIR · £148"
+    ],
+    [
+      "#FACC15,#A16207",
+      "⚡",
+      "Pikachu (Holo) · Base",
+      "Vintage · £72"
+    ],
+    [
+      "#67E8F9,#0E7490",
+      "🌊",
+      "Lapras VMAX",
+      "Sword & Shield · £42"
+    ],
+    [
+      "#A855F7,#5B21B6",
+      "🌀",
+      "Mew ex · 151",
+      "Ultra Rare · £58"
+    ],
+    [
+      "#34D399,#047857",
+      "🌿",
+      "Rayquaza VMAX",
+      "Evolving Skies · £88"
+    ],
+    [
+      "#FB7185,#9F1239",
+      "🎭",
+      "Lugia VSTAR",
+      "Silver Tempest · £39"
+    ],
+    [
+      "#FBBF24,#D97706",
+      "🪙",
+      "Snorlax (Promo)",
+      "Player's Cup · £28"
+    ],
+    [
+      "#3DF5B0,#0F766E",
+      "✨",
+      "Charizard V · Shining",
+      "Shining Fates · £62"
+    ]
+  ],
+  "pricing_lead": "Free for casual lookups. Pro is for serious collectors and resellers who need full portfolio tools and alerts.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "£0",
+      "blurb": "30 scans / month. Basic price lookup.",
+      "items": [
+        "30 scans / month",
+        "Single-source pricing",
+        "Save 50 cards",
+        "30-day history"
+      ],
+      "cta": "Download free"
+    },
+    {
+      "name": "Pro — Annual",
+      "featured": true,
+      "tag": "For collectors",
+      "price": "£24.99",
+      "per": "/ year",
+      "strike": "£47.88 if billed monthly",
+      "blurb": "Unlimited scans, full portfolio, alerts, and historical data going back years.",
+      "items": [
+        "Unlimited scans",
+        "Full portfolio tracking",
+        "Price drop & spike alerts",
+        "Multi-source pricing",
+        "Historical market data"
+      ],
+      "cta": "Start 7-day free trial"
+    },
+    {
+      "name": "Pro — Monthly",
+      "price": "£3.99",
+      "per": "/ month",
+      "blurb": "Same Pro features, billed monthly.",
+      "items": [
+        "Unlimited scans",
+        "All Pro features",
+        "Cancel anytime"
+      ],
+      "cta": "Go monthly"
+    }
+  ],
+  "why_eyebrow": "Why a price app",
+  "why_head_pre": "The TCG market moves fast.",
+  "why_head_accent": "Your binder shouldn't be guessing.",
+  "why_lead": "A Charizard that was £80 six months ago can be £140 now — or £60. Without live data, every collector is making decisions on a year-old number. PokePriceChecker is the binder companion that's actually current.",
+  "why_body": "We pull from the marketplaces serious collectors use, weight by actual transaction volume, and give you one trustworthy number per card. Then we let you watch your collection grow, dip, and spike like the asset it is.",
+  "stats": [
+    [
+      "Live",
+      "grad",
+      "Pricing from major TCG marketplaces, refreshed continuously through Pro. No stale data."
+    ],
+    [
+      "Sub-second",
+      "mint",
+      "Card recognition. Even on bad lighting, scuffed sleeves, and dodgy supermarket fluorescents."
+    ],
+    [
+      "Yours",
+      "yellow",
+      "Portfolio. We never share what's in your collection. Not with sellers, not with anyone."
+    ]
+  ],
+  "faq": [
+    [
+      "Which sets are supported?",
+      "Every English-language set since Base. Most Japanese sets. Promos and special releases (Player's Cup, World Championships, Pokemon Center exclusives) all included."
+    ],
+    [
+      "How accurate is the price?",
+      "We aggregate live data from the marketplaces collectors actually use. The number is a weighted market-rate, not an asking price. We show ranges and history so you can sanity-check."
+    ],
+    [
+      "Does condition matter?",
+      "Massively. We prompt you for condition (Mint, NM, LP, MP) and adjust the price accordingly. PSA/CGC graded support is on Pro."
+    ],
+    [
+      "Will it scan in dim lighting?",
+      "Yes — we're tuned for low-light, sleeve glare, and slight angles. Best results on a flat surface in normal room light."
+    ],
+    [
+      "Can I export my portfolio?",
+      "Yes — CSV export anytime, plus PDF reports on Pro for insurance valuations or tax purposes."
+    ],
+    [
+      "Does it support Magic: The Gathering or other TCGs?",
+      "Today, Pokemon only. MTG, Yu-Gi-Oh, and One Piece are on the roadmap — Pro users get early access."
+    ],
+    [
+      "How does Pro billing work?",
+      "Annual or monthly through Apple or Google. Cancel any time in your phone's subscription settings."
+    ]
+  ],
+  "final_title": "Know your collection.",
+  "final_body": "Free to download. iPhone and Android. Your binder just got a lot smarter.",
+  "footer_blurb": "Live Pokemon card prices, instantly. Portfolio tracking for collectors who care about real numbers. Made in the UK.",
+  "theme": "ember",
+  "og_image_alt": "PokePriceChecker — Pokemon card price scanner app",
+  "seo_desc": "Live Pokemon card prices with portfolio tracking. Camera-based card recognition.",
+  "seo_title": "PokePriceChecker — Pokemon card prices, instantly | Froggy Eye Ltd"
+}

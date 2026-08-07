@@ -1,0 +1,237 @@
+{
+  "folder": "solarwise",
+  "name": "SolarWise",
+  "tagline": "Smart solar panel calculator.",
+  "meta_desc": "SolarWise uses real NASA data, your tariffs, and engineering models to tell you exactly what solar will save you — before you spend a penny on installers.",
+  "nav_examples": "Reports",
+  "hero_eyebrow": "iOS & Android · Powered by real NASA solar data",
+  "headline_pre": "Should you go solar?",
+  "headline_accent": "Find out in 30 seconds.",
+  "lead": "SolarWise uses real NASA solar data, your local electricity tariffs, and full engineering models to tell you exactly how much you'll save — before you spend a penny on installers.",
+  "meta_items": [
+    "Real NASA data",
+    "No installer spin",
+    "Honest payback periods",
+    "No ads, no tracking"
+  ],
+  "phone_content": "        <h4>Your solar quote</h4>\n        <div class=\"phone-art\"><div class=\"emoji\">☀️</div></div>\n        <div>\n          <p class=\"phone-title\">Payback in 7.4 years</p>\n          <p class=\"phone-sub\">5.6 kWp · 10 kWh battery · SE roof</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>£8,420 SAVED · 25Y</span><span>VS £6,200 INSTALL</span></div>\n        <div class=\"phone-controls\">\n          <span class=\"ic\">📊</span>\n          <span class=\"play\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M8 5v14l11-7z\"/></svg></span>\n          <span class=\"ic\">📤</span>\n        </div>\n        <div class=\"phone-lyric\"><b>Yr 1 generation:</b> 5,128 kWh<br><b>Self-consumption:</b> 71% with battery · feed-in: 29%</div>",
+  "chips": [
+    "☀️ Roof check",
+    "🔋 Battery sizing",
+    "💷 Tariff aware",
+    "🛰 NASA data",
+    "🌍 UK & EU",
+    "📈 25-yr forecast",
+    "🏠 Property report",
+    "⚡ Self-consumption",
+    "🌧 Weather model",
+    "📋 Installer quote"
+  ],
+  "how_head_pre": "Tell us about your roof.",
+  "how_head_accent": "We tell you the truth.",
+  "how_lead": "Real engineering models, real solar data, real tariffs. No installer optimism, no salesperson tricks. The number you get is the number you'll get.",
+  "steps": [
+    [
+      "Describe your house",
+      "Postcode, roof orientation, shading, electricity usage. We pull real solar irradiance from NASA for your exact location."
+    ],
+    [
+      "Get a real quote",
+      "System size, battery sizing, expected generation, self-consumption rate, payback period, lifetime savings. Year-by-year forecast included."
+    ],
+    [
+      "Compare installer quotes",
+      "Pro generates a PDF you can take to installers. The numbers are yours; the installers have to match them."
+    ]
+  ],
+  "feat_head_pre": "Designed by an engineer.",
+  "feat_head_line2": "Built by a homeowner.",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><polygon points=\"16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76\"/></svg>",
+      "Real NASA solar data",
+      "Solar irradiance pulled from satellite-derived datasets for your exact coordinates. Not a national average."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"13 2 3 14 12 14 11 22 21 10 12 10 13 2\"/></svg>",
+      "Battery sizing recommendations",
+      "Should you add storage? How many kWh? We answer based on usage profile, tariff, and electricity price trajectory."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\"/></svg>",
+      "25-year financial forecast",
+      "Year-by-year energy generation, savings, payback, and lifetime ROI. With degradation accounted for."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6\"/><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"18\"/><line x1=\"16\" y1=\"6\" x2=\"16\" y2=\"22\"/></svg>",
+      "Region-aware tariffs",
+      "Smart Export Guarantee, Octopus Agile, Economy 7 — UK tariffs modelled accurately. Plus EU FiT schemes."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"9 11 12 14 22 4\"/><path d=\"M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11\"/></svg>",
+      "Honest payback periods",
+      "No vendor spin. Real numbers, properly conservative assumptions, transparent inputs you can edit."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z\"/></svg>",
+      "Installer-ready PDF",
+      "Pro generates a quote-comparable PDF: kWp, panels, inverter, battery, expected output. Take it to three installers."
+    ]
+  ],
+  "ex_eyebrow": "Real properties",
+  "ex_head": "Sample SolarWise reports:",
+  "ex_lead": "Anonymised reports from real households across the UK and EU. Each one is honest about the upside — and the downside.",
+  "examples": [
+    [
+      "#FBBF24,#A16207",
+      "🏠",
+      "3-bed semi · Surrey",
+      "Payback 7.4y · save £8.4k"
+    ],
+    [
+      "#FACC15,#854D0E",
+      "🏡",
+      "Detached · Yorkshire",
+      "Payback 9.1y · save £6.8k"
+    ],
+    [
+      "#FCD34D,#854D0E",
+      "🏘",
+      "Terrace · Bristol",
+      "Payback 11y · marginal"
+    ],
+    [
+      "#FBBF24,#9A3412",
+      "🏰",
+      "Cottage · Devon",
+      "Payback 8.5y · battery key"
+    ],
+    [
+      "#FDE047,#A16207",
+      "🏘",
+      "End-terrace · Manchester",
+      "Payback 10y · west roof"
+    ],
+    [
+      "#A855F7,#5B21B6",
+      "🏚",
+      "Listed · Lake District",
+      "Not recommended (planning)"
+    ],
+    [
+      "#67E8F9,#0E7490",
+      "🏖",
+      "Coastal · Cornwall",
+      "Payback 6.8y · best case"
+    ],
+    [
+      "#22D3EE,#0F766E",
+      "🏔",
+      "Highland · Scotland",
+      "Payback 11.5y · marginal"
+    ]
+  ],
+  "pricing_lead": "Free quote with the essentials. Pro is for installer-comparable reports and detailed engineering output.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "£0",
+      "blurb": "One quote. Real numbers. Honest answer.",
+      "items": [
+        "1 property quote",
+        "10-year forecast",
+        "Basic battery sizing",
+        "Standard inputs"
+      ],
+      "cta": "Download free"
+    },
+    {
+      "name": "Pro — One time",
+      "featured": true,
+      "tag": "Pay once",
+      "price": "£12.99",
+      "per": "once",
+      "blurb": "Full engineering report. PDF for installers. Multi-property. No subscription.",
+      "items": [
+        "Unlimited property quotes",
+        "25-year financial forecast",
+        "Installer-ready PDF report",
+        "Advanced battery modelling",
+        "Multi-property comparison"
+      ],
+      "cta": "Unlock Pro"
+    },
+    {
+      "name": "Annual support",
+      "price": "£9.99",
+      "per": "/ year",
+      "blurb": "Pro plus annual tariff & data updates.",
+      "items": [
+        "All Pro features",
+        "Yearly tariff updates",
+        "New scheme support",
+        "Priority email support"
+      ],
+      "cta": "Go annual"
+    }
+  ],
+  "why_eyebrow": "Why this exists",
+  "why_head_pre": "Most solar quotes are designed",
+  "why_head_accent": "to make a sale.",
+  "why_lead": "Installer estimates are notorious for overpromising — perfect roof angle, top-tier panels, generous self-consumption assumptions, and a payback period that conveniently lands at exactly 'manageable'. SolarWise has no axe to grind.",
+  "why_body": "Built by a homeowner who burned through three vendor quotes before realising none of them used the same assumptions. SolarWise standardises the maths and makes it boring (which is what you want when spending £8,000).",
+  "stats": [
+    [
+      "NASA",
+      "grad",
+      "Solar irradiance data, location-specific. Better than any installer's spreadsheet."
+    ],
+    [
+      "£0",
+      "mint",
+      "Affiliate kickbacks, vendor sponsorships, hidden fees. We don't sell your enquiries."
+    ],
+    [
+      "Yours",
+      "yellow",
+      "Inputs. Edit any assumption — we show our working. The numbers are reproducible."
+    ]
+  ],
+  "faq": [
+    [
+      "How accurate are the numbers?",
+      "Within ±10% on payback periods for typical UK homes — comparable to MCS-certified surveys. Inputs you give matter; the more accurate they are, the better the answer."
+    ],
+    [
+      "Do you sell my data to installers?",
+      "No. SolarWise has no installer affiliations, no lead-generation revenue, and no sponsorships. We make money from Pro upgrades — that's it."
+    ],
+    [
+      "Does it work outside the UK?",
+      "Today: UK and major EU markets (Germany, France, Spain, Italy, Netherlands). The US is in beta. Australia is on the roadmap."
+    ],
+    [
+      "Can it tell me what panels to buy?",
+      "Pro recommends typical panel and inverter combinations matched to your system size. We don't push specific brands — you choose."
+    ],
+    [
+      "What about half-shaded roofs?",
+      "We model shading impact using your description (or a satellite check on Pro). The result is realistic — not the 'optimal' result installers tend to quote."
+    ],
+    [
+      "Will my quote stay valid?",
+      "Tariffs and incentives change. Pro updates your report annually so it stays current. Free reports are accurate at the date they were generated."
+    ],
+    [
+      "Can I share the report with my partner / accountant?",
+      "Yes — Pro generates a PDF designed exactly for sharing with whoever's signing off the spend."
+    ]
+  ],
+  "final_title": "Find out before you spend.",
+  "final_body": "Free to download. iPhone and Android. Real numbers about a real decision in under a minute.",
+  "footer_blurb": "Honest solar panel calculator with real NASA data, real tariffs, and zero installer spin. Made in the UK by a homeowner.",
+  "theme": "solar",
+  "og_image_alt": "SolarWise — solar panel savings calculator app",
+  "seo_desc": "Honest solar panel calculator using NASA solar data. 25-year payback forecast, battery sizing.",
+  "seo_title": "SolarWise — Smart solar panel calculator | Froggy Eye Ltd"
+}

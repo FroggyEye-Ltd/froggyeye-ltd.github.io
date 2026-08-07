@@ -1,0 +1,234 @@
+{
+  "folder": "lovescore",
+  "name": "Love Score",
+  "tagline": "Calculate love. Settle the score.",
+  "meta_desc": "Love Score reveals the compatibility percentage between two names — instant, fun, and made for sharing. The perfect ice-breaker.",
+  "nav_examples": "Examples",
+  "hero_eyebrow": "iOS & Android · The party-game compatibility test",
+  "headline_pre": "Two names.",
+  "headline_accent": "One number. Endless arguments.",
+  "lead": "Type a name. Type another. Love Score reveals the compatibility percentage with a beautifully illustrated breakdown. Frivolous? Yes. Wildly fun? Also yes.",
+  "meta_items": [
+    "Made for the group chat",
+    "Tasteful, never crude",
+    "No ads in Plus"
+  ],
+  "phone_content": "        <h4>Compatibility</h4>\n        <div class=\"phone-art\"><div class=\"emoji\">💘</div></div>\n        <div>\n          <p class=\"phone-title\">Lily & Theo · 87%</p>\n          <p class=\"phone-sub\">Strong communication · Magnetic pull</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>HIGHEST</span><span>LONGEVITY</span></div>\n        <div class=\"phone-controls\">\n          <span class=\"ic\">↻</span>\n          <span class=\"play\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M8 5v14l11-7z\"/></svg></span>\n          <span class=\"ic\">📤</span>\n        </div>\n        <div class=\"phone-lyric\"><b>Communication</b> 92% · <b>Romance</b> 88%<br><b>Longevity</b> 81% · <b>Fun</b> 95%</div>",
+  "chips": [
+    "💘 Crush check",
+    "👯 Best friend",
+    "💍 Wedding seating",
+    "🎭 Hypothetical",
+    "👫 Real couple",
+    "🤔 Co-worker",
+    "📱 Texting first",
+    "🎲 Random pair",
+    "👨‍👩‍👧 Family",
+    "🐈 You & cat"
+  ],
+  "how_head_pre": "Two names. Three taps.",
+  "how_head_accent": "One satisfyingly silly answer.",
+  "how_lead": "Love Score is meant to be funny, frivolous, and just plausible enough to make your group chat lose it. Use responsibly. Or don't.",
+  "steps": [
+    [
+      "Enter two names",
+      "First names, full names, nicknames, pet names — whatever you call them. The algorithm doesn't judge."
+    ],
+    [
+      "Tap calculate",
+      "A satisfying animation. A cosmic-feeling reveal. The number drops. Love Score commits to the bit."
+    ],
+    [
+      "Read the breakdown",
+      "Compatibility across communication, romance, longevity, and fun. Plus a one-liner you'll actually screenshot."
+    ]
+  ],
+  "feat_head_pre": "Built for the group chat.",
+  "feat_head_line2": "Tasteful, never tacky.",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2 2M16.4 16.4l2 2M5.6 18.4l2-2M16.4 7.6l2-2\"/></svg>",
+      "Beautiful share cards",
+      "Every score gets a custom-illustrated card. Designed to look lovely in stories, group chats, and screenshots."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\"/></svg>",
+      "Save your matches",
+      "Plus keeps a private list of every pairing you've checked. Compare crushes. Settle ancient debates."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"9 11 12 14 22 4\"/><path d=\"M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11\"/></svg>",
+      "Compatibility breakdown",
+      "Communication, romance, longevity, fun. See where you'd thrive — or where things might wobble."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z\"/></svg>",
+      "One-tap share",
+      "Send the result to a friend, save it to your camera roll, or export the card directly to your favourite app."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>",
+      "Tasteful and family-friendly",
+      "No crude jokes, no inappropriate matches. Rated 12+, designed for grown-ups and silly cousins alike."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" ry=\"2\"/><path d=\"M7 11V7a5 5 0 0 1 10 0v4\"/></svg>",
+      "Names stay on your device",
+      "We don't store the people you've been quietly checking. The algorithm runs locally. Your secret crushes stay secret."
+    ]
+  ],
+  "ex_eyebrow": "Real Love Scores",
+  "ex_head": "What people actually check:",
+  "ex_lead": "Anonymised pairings from real Love Score users — anything from celebrities to wedding seating-chart simulations.",
+  "examples": [
+    [
+      "#FB7185,#9F1239",
+      "💘",
+      "Lily & Theo · 87%",
+      "Real couple · 3 years in"
+    ],
+    [
+      "#FACC15,#A16207",
+      "👯",
+      "Sasha & Mira · 94%",
+      "Best-friend audit"
+    ],
+    [
+      "#FF2E7E,#7C3AED",
+      "💍",
+      "Aunt Pam & uncle Bob · 71%",
+      "Wedding seating sim"
+    ],
+    [
+      "#A855F7,#5B21B6",
+      "🎭",
+      "Beyoncé & Beyoncé · 100%",
+      "Self-care energy"
+    ],
+    [
+      "#67E8F9,#0E7490",
+      "🤔",
+      "Linda from accounts · 32%",
+      "Don't ask"
+    ],
+    [
+      "#FB7185,#FFE14D",
+      "📱",
+      "Crush #4 · 58%",
+      "Probably text first"
+    ],
+    [
+      "#34D399,#059669",
+      "👨‍👩‍👧",
+      "Mum & dad · 96%",
+      "Sweet"
+    ],
+    [
+      "#7C3AED,#FACC15",
+      "🐈",
+      "Me & cat · 99%",
+      "Obvious"
+    ]
+  ],
+  "pricing_lead": "Free for as many matches as you want. Plus removes ads, saves matches privately, and unlocks premium card designs.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "£0",
+      "blurb": "Match anyone. Share results. Forever free.",
+      "items": [
+        "Unlimited matches",
+        "Standard breakdown",
+        "Share cards"
+      ],
+      "cta": "Download free"
+    },
+    {
+      "name": "Plus — Forever",
+      "featured": true,
+      "tag": "One time",
+      "price": "£2.99",
+      "per": "once",
+      "blurb": "Pay once. Save your matches. Unlock all the cards.",
+      "items": [
+        "Ad-free forever",
+        "Save unlimited matches privately",
+        "Premium card designs",
+        "Deep compatibility analytics",
+        "Group-mode for events"
+      ],
+      "cta": "Unlock Plus"
+    },
+    {
+      "name": "Single Card Pack",
+      "price": "£0.99",
+      "per": "per pack",
+      "blurb": "Just want one premium card style?",
+      "items": [
+        "Single themed pack",
+        "Lifetime use",
+        "No subscription"
+      ],
+      "cta": "Browse packs"
+    }
+  ],
+  "why_eyebrow": "Why this exists",
+  "why_head_pre": "Some questions deserve",
+  "why_head_accent": "a beautifully animated answer.",
+  "why_lead": "Love Score is not a dating app. It's a tiny, harmless ritual for the moment between sending the text and pretending you didn't care about sending the text. The percentage is silly. The pause it gives you is real.",
+  "why_body": "We didn't want a calculator. We wanted a satisfying ceremony — names in, illustration out, screenshot to the group chat. That's all this is. That's a lot.",
+  "stats": [
+    [
+      "Free",
+      "grad",
+      "Forever for the basics. Plus is a one-time payment, never a subscription."
+    ],
+    [
+      "On device",
+      "mint",
+      "Names and matches never leave your phone. We don't track who you're curious about."
+    ],
+    [
+      "Made by",
+      "yellow",
+      "A small UK indie studio. Apps that don't take themselves too seriously."
+    ]
+  ],
+  "faq": [
+    [
+      "Is the algorithm real?",
+      "It's based on numerology, name compatibility theories, and a healthy dose of indie magic. Reproducible? Yes. Scientifically valid? Lovingly, no."
+    ],
+    [
+      "Will it tell me to break up with someone?",
+      "Never. Love Score is meant for fun. We don't issue relationship verdicts. Read the result, laugh, get on with your day."
+    ],
+    [
+      "Can my friends see what I've checked?",
+      "Only if you share. Saved matches in Plus stay on your device, encrypted. We can't see them. We don't want to."
+    ],
+    [
+      "Is there a 'serious' mode?",
+      "Plus has a deeper analytics view that breaks compatibility into more dimensions, but we resist taking ourselves seriously."
+    ],
+    [
+      "Can I check the same names twice?",
+      "Yes — and the answer will always be the same. Love Score is deterministic. No 'roll again until you like it'."
+    ],
+    [
+      "Will I see ads?",
+      "Free has unobtrusive banners. Plus removes them forever for £2.99. That's it for monetisation — no upsells, no pop-ups."
+    ],
+    [
+      "Can I delete my history?",
+      "Any saved match — instantly, with one tap. Or delete everything in Settings."
+    ]
+  ],
+  "final_title": "Settle the score.",
+  "final_body": "Free to download. iPhone and Android. The percentage is one tap away.",
+  "footer_blurb": "A frivolous, beautiful name-compatibility app for the group chat. Made in the UK by Froggy Eye Ltd.",
+  "theme": "rose",
+  "og_image_alt": "Love Score — name compatibility calculator app",
+  "seo_desc": "Two names, one compatibility number. Fun, frivolous, made for the group chat.",
+  "seo_title": "Love Score — Calculate love. Settle the score | Froggy Eye Ltd"
+}

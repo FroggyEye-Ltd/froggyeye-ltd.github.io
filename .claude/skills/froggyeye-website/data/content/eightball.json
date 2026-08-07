@@ -1,0 +1,237 @@
+{
+  "folder": "eightball",
+  "name": "Eight Ball Wisdom",
+  "tagline": "Ask. Shake. Believe.",
+  "meta_desc": "The classic Magic 8 Ball, beautifully reimagined. Real shake physics, cinematic animations, and 20 classic answers (with a few new twists).",
+  "nav_examples": "Themes",
+  "hero_eyebrow": "iOS & Android · The classic oracle, reimagined",
+  "headline_pre": "Ask anything.",
+  "headline_accent": "The ball already knows.",
+  "lead": "The classic Magic 8 Ball, reimagined for the phone era. Real shake physics. Stunning animations. The same 20 cosmic answers, plus a few mischievous new ones.",
+  "meta_items": [
+    "Real shake physics",
+    "Cinematic animations",
+    "Premium themes",
+    "No ads, no tracking"
+  ],
+  "phone_content": "        <h4>Ask the ball</h4>\n        <div class=\"phone-art\"><div class=\"emoji\">🎱</div></div>\n        <div>\n          <p class=\"phone-title\">\"It is decidedly so.\"</p>\n          <p class=\"phone-sub\">The ball has spoken.</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>SHAKE TO ASK</span><span>20 ANSWERS</span></div>\n        <div class=\"phone-controls\">\n          <span class=\"ic\">↻</span>\n          <span class=\"play\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M8 5v14l11-7z\"/></svg></span>\n          <span class=\"ic\">📜</span>\n        </div>\n        <div class=\"phone-lyric\"><b>Q:</b> Should I text them first?<br><b>A:</b> \"It is decidedly so.\" ✨</div>",
+  "chips": [
+    "✨ Classic",
+    "🌌 Cosmic",
+    "💎 Crystal",
+    "🌃 Neon",
+    "🌹 Velvet",
+    "🔮 Mystic",
+    "🪐 Galaxy",
+    "❄️ Frost",
+    "🔥 Inferno",
+    "🌸 Bloom"
+  ],
+  "how_head_pre": "Ask. Shake.",
+  "how_head_accent": "Believe (or don't).",
+  "how_lead": "The same ritual that ate up your friend's bedroom in 1995, except now it lives in your pocket and looks like cinema.",
+  "steps": [
+    [
+      "Hold the question",
+      "Type it, say it, or just think it really hard. The ball doesn't judge. The ball is busy."
+    ],
+    [
+      "Shake the phone",
+      "Real accelerometer-based shake. Tilt it. Flick it. Bash it dramatically. The ink swirls accordingly."
+    ],
+    [
+      "Read the answer",
+      "Twenty classic responses rise from the inky depths in cinematic detail. Reroll if you don't like the first one. We won't tell."
+    ]
+  ],
+  "feat_head_pre": "It looks unreasonable.",
+  "feat_head_line2": "It feels obscene. It's so much fun.",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2 2M16.4 16.4l2 2M5.6 18.4l2-2M16.4 7.6l2-2\"/></svg>",
+      "Real shake physics",
+      "Accelerometer-driven motion. The ball, the ink, the bubbles all behave like the real thing — but better."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"23 7 16 12 23 17 23 7\"/><rect x=\"1\" y=\"5\" width=\"15\" height=\"14\" rx=\"2\" ry=\"2\"/></svg>",
+      "Cinematic animations",
+      "Watch the answer rise from depths in slow, satisfying focus. We tuned every frame."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\"/></svg>",
+      "20 classic answers",
+      "All the originals — 'Most Likely', 'Don't Count On It', 'Ask Again Later'. Plus a few additions only Eight Ball Wisdom knows."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2 2M16.4 16.4l2 2M5.6 18.4l2-2M16.4 7.6l2-2\"/></svg>",
+      "Premium themes",
+      "Switch from classic black to crystal, cosmic, neon, velvet, frost. Same wisdom; different wardrobe."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9\"/><path d=\"M13.73 21a2 2 0 0 1-3.46 0\"/></svg>",
+      "Quick-decide widget",
+      "Home screen widget. One tap. One answer. For when you don't even have time to open the app."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" ry=\"2\"/><path d=\"M7 11V7a5 5 0 0 1 10 0v4\"/></svg>",
+      "Question history",
+      "Re-read your past questions and what fate said. Some patterns are surprisingly accurate. Or terrifying."
+    ]
+  ],
+  "ex_eyebrow": "Themed balls",
+  "ex_head": "Same wisdom. Different vibe.",
+  "ex_lead": "Eight Ball Wisdom ships with one classic theme. Plus unlocks the lot.",
+  "examples": [
+    [
+      "#1E1B4B,#A855F7",
+      "🎱",
+      "Classic Black",
+      "The original"
+    ],
+    [
+      "#67E8F9,#A78BFA",
+      "💎",
+      "Crystal",
+      "Translucent, refracts light"
+    ],
+    [
+      "#A855F7,#FF2E7E",
+      "🌌",
+      "Cosmic",
+      "Stars swirl in the ink"
+    ],
+    [
+      "#FF2E7E,#FACC15",
+      "🌃",
+      "Neon",
+      "Tokyo at 3am"
+    ],
+    [
+      "#FB7185,#7C3AED",
+      "🌹",
+      "Velvet",
+      "Deep, plush, royal"
+    ],
+    [
+      "#22D3EE,#0E7490",
+      "❄️",
+      "Frost",
+      "Icy, crisp, mountain-lake"
+    ],
+    [
+      "#FACC15,#FF4D2E",
+      "🔥",
+      "Inferno",
+      "Lava in the answer well"
+    ],
+    [
+      "#FB7185,#FACC15",
+      "🌸",
+      "Bloom",
+      "Petals drift around the orb"
+    ]
+  ],
+  "pricing_lead": "Free with the classic ball. One Plus unlock removes ads forever and opens the rest of the cosmos.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "£0",
+      "blurb": "Classic theme. 20 answers. The full ritual.",
+      "items": [
+        "Classic black ball",
+        "All 20 answers",
+        "Real shake physics",
+        "Question history (last 20)"
+      ],
+      "cta": "Download free"
+    },
+    {
+      "name": "Plus — Forever",
+      "featured": true,
+      "tag": "One time",
+      "price": "£3.99",
+      "per": "once",
+      "blurb": "Pay once. Unlock everything. No subscription.",
+      "items": [
+        "Ad-free forever",
+        "All 9 premium themes",
+        "Custom answer packs",
+        "Unlimited history",
+        "Home-screen widget",
+        "Haptic feedback engine"
+      ],
+      "cta": "Unlock Plus"
+    },
+    {
+      "name": "Theme Pack",
+      "price": "£0.99",
+      "per": "per pack",
+      "blurb": "Just want one theme? Buy it on its own.",
+      "items": [
+        "Single themed ball",
+        "Lifetime use",
+        "No subscription"
+      ],
+      "cta": "Browse themes"
+    }
+  ],
+  "why_eyebrow": "Why a Magic 8 Ball",
+  "why_head_pre": "Sometimes you don't want advice.",
+  "why_head_accent": "You want the dice rolled for you.",
+  "why_lead": "There's a reason the original sold over a billion units. The Magic 8 Ball isn't fortune-telling; it's a tiny ritual that lets you off the hook of having to choose.",
+  "why_body": "Should you text first? Pizza or curry? Take the job or wait? Sometimes the answer doesn't matter half as much as just deciding. The ball decides for you. Then you find out how you feel about it.",
+  "stats": [
+    [
+      "20",
+      "grad",
+      "Classic answers, all hand-balanced. 10 yes, 5 no, 5 'ask again later' — like the original."
+    ],
+    [
+      "9",
+      "mint",
+      "Hand-crafted ball themes in Plus. From Crystal to Inferno to Bloom."
+    ],
+    [
+      "0",
+      "yellow",
+      "Subscriptions. Plus is one one-time payment. Fair's fair."
+    ]
+  ],
+  "faq": [
+    [
+      "Is this just the Magic 8 Ball app?",
+      "It's the Magic 8 Ball app done properly. Real physics, beautiful art, no ad-stuffing. The version we wanted to exist."
+    ],
+    [
+      "Why pay for a Magic 8 Ball?",
+      "You don't have to — the free version is genuinely complete. Plus exists if you want all the themes and you'd rather pay once than see ads."
+    ],
+    [
+      "Does it actually predict the future?",
+      "It actually does not. Probability says it'll be right slightly under 50% of the time. The fun is in the ritual, not the result."
+    ],
+    [
+      "Can my kids use it?",
+      "Yes — no inappropriate answers, no scary themes, rated 4+/Everyone. Bedtime questions encouraged."
+    ],
+    [
+      "Does it work offline?",
+      "Always. Shake works on a plane, in a tent, on the moon."
+    ],
+    [
+      "Will I get pestered with notifications?",
+      "Never. Eight Ball Wisdom doesn't push notifications. The ball waits for you."
+    ],
+    [
+      "Refund if I don't like it?",
+      "Plus is one cheap one-off. If you want a refund within 14 days, message us — done, no fuss."
+    ]
+  ],
+  "final_title": "Shake it.",
+  "final_body": "Free to download. iPhone and Android. The ball is waiting.",
+  "footer_blurb": "The Magic 8 Ball, reimagined. Real shake physics, cinematic answers, beautifully crafted. Made in the UK.",
+  "theme": "mystic",
+  "og_image_alt": "Eight Ball Wisdom — Magic 8 Ball oracle app",
+  "seo_desc": "The classic Magic 8 Ball, reimagined. Real shake physics, cinematic animations, 20 classic answers.",
+  "seo_title": "Eight Ball Wisdom — The mystic 8-ball, reimagined | Froggy Eye Ltd"
+}

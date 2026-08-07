@@ -20,6 +20,7 @@
 - [Food Score](https://foodscore.froggyeye.com): Scan it. Score it. Eat smarter.
 - [Love Me Not](https://lovemenot.froggyeye.com): Let the petals decide
 - [Love Score](https://lovescore.froggyeye.com): Calculate love. Settle the score.
+- [Lucky Numbers](https://luckynumbers.froggyeye.com): UK Lotto & EuroMillions number picker
 - [My LTD Tax](https://myltdtax.froggyeye.com): UK director's tax companion
 - [NovelWeaver](https://novelweaver.froggyeye.com): Your AI novel-writing partner
 - [PokePriceChecker](https://pokepricechecker.froggyeye.com): Pokemon card prices, instantly

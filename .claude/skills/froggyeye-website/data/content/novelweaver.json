@@ -1,0 +1,238 @@
+{
+  "folder": "novelweaver",
+  "name": "NovelWeaver",
+  "tagline": "Your AI novel-writing partner.",
+  "meta_desc": "NovelWeaver helps you write full novels with AI — characters, plot, world-building, chapters. Export to PDF or ePub when you're done.",
+  "nav_examples": "Stories",
+  "hero_eyebrow": "iOS & Android · Your AI co-author for fiction",
+  "headline_pre": "Write the novel",
+  "headline_accent": "you've been putting off.",
+  "lead": "NovelWeaver harnesses AI to help you craft full-length novels — characters, plot, world, chapters. Whether you're a seasoned writer or just curious, your story is closer than you think.",
+  "meta_items": [
+    "Full novels, not snippets",
+    "Export to ePub & PDF",
+    "Multiple writing styles",
+    "No ads, no tracking"
+  ],
+  "phone_content": "        <h4>Now writing</h4>\n        <div class=\"phone-art\"><div class=\"emoji\">📖</div></div>\n        <div>\n          <p class=\"phone-title\">Chapter 7 of 24</p>\n          <p class=\"phone-sub\">\"The Glass Sea\" · Literary thriller</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>4,200 WORDS TODAY</span><span>62K SO FAR</span></div>\n        <div class=\"phone-controls\">\n          <span class=\"ic\">⏪</span>\n          <span class=\"play\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M8 5v14l11-7z\"/></svg></span>\n          <span class=\"ic\">⏩</span>\n        </div>\n        <div class=\"phone-lyric\"><b>Iris stood at the cliff edge.</b> The fog rolled in slowly, as if it knew her name. The lighthouse blinked once. Then twice.</div>",
+  "chips": [
+    "📖 Literary",
+    "🗡 Fantasy",
+    "🚀 Sci-fi",
+    "🕵 Thriller",
+    "💔 Romance",
+    "👻 Horror",
+    "🌍 Historical",
+    "🤖 Cyberpunk",
+    "🌙 YA",
+    "🎭 Drama"
+  ],
+  "how_head_pre": "Idea in.",
+  "how_head_accent": "Manuscript out.",
+  "how_lead": "NovelWeaver isn't a chatbot for snippets — it's a guided novel-writing companion that holds the whole story together while you focus on the parts you love.",
+  "steps": [
+    [
+      "Set the foundations",
+      "Genre, tone, length, point-of-view. Tell us about your protagonist. Build a world (or pick one off the shelf)."
+    ],
+    [
+      "Generate chapter by chapter",
+      "NovelWeaver writes each chapter with full memory of the last. Edit anything. Regenerate any scene. Stay in the driver's seat."
+    ],
+    [
+      "Export and share",
+      "Beautifully formatted ePub or PDF, ready for Kindle, KDP, or just the in-built reader. Read it. Share it. Self-publish it."
+    ]
+  ],
+  "feat_head_pre": "AI as collaborator.",
+  "feat_head_line2": "You as the author.",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\"/></svg>",
+      "Full novels, not snippets",
+      "Multi-chapter, plot-coherent stories with character arcs that span the whole book. Up to 100k+ words on Pro."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\"/><circle cx=\"9\" cy=\"7\" r=\"4\"/><path d=\"M23 21v-2a4 4 0 0 0-3-3.87\"/><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"/></svg>",
+      "Character builder",
+      "Define personalities, backstories, secrets, voice. The AI keeps everyone in character across chapters."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2 2M16.4 16.4l2 2M5.6 18.4l2-2M16.4 7.6l2-2\"/></svg>",
+      "Genre & style presets",
+      "From Hemingway-spare to high-fantasy lush. Pick a voice or describe one — NovelWeaver matches it."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6\"/><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"18\"/><line x1=\"16\" y1=\"6\" x2=\"16\" y2=\"22\"/></svg>",
+      "World-building",
+      "Maps, magic systems, factions, languages. As detailed as you want. The AI honours every constraint."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"9 11 12 14 22 4\"/><path d=\"M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11\"/></svg>",
+      "Edit anything, anytime",
+      "Don't like a paragraph? Rewrite it. A whole chapter? Regenerate. Your control, every step."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z\"/></svg>",
+      "Export-ready manuscripts",
+      "ePub, PDF, DOCX. Properly formatted with chapter breaks, drop-caps, and front matter. Print or publish."
+    ]
+  ],
+  "ex_eyebrow": "Real generated work",
+  "ex_head": "What people have written:",
+  "ex_lead": "Anonymised excerpts from real NovelWeaver manuscripts. From first-time hobbyists to indie self-published authors.",
+  "examples": [
+    [
+      "#A855F7,#5B21B6",
+      "📖",
+      "The Glass Sea",
+      "Literary thriller · 84k"
+    ],
+    [
+      "#FB7185,#9F1239",
+      "💔",
+      "Letters We Burned",
+      "Romance · 62k"
+    ],
+    [
+      "#FACC15,#A16207",
+      "🗡",
+      "Throne of Salt",
+      "High fantasy · 120k"
+    ],
+    [
+      "#67E8F9,#0E7490",
+      "🚀",
+      "Beyond Cassini",
+      "Hard sci-fi · 78k"
+    ],
+    [
+      "#34D399,#047857",
+      "🕵",
+      "The Quiet Door",
+      "Detective · 71k"
+    ],
+    [
+      "#FB7185,#FACC15",
+      "🌍",
+      "Vienna 1913",
+      "Historical · 95k"
+    ],
+    [
+      "#7C3AED,#FF2E7E",
+      "🌙",
+      "Crown of Salt",
+      "YA fantasy · 67k"
+    ],
+    [
+      "#22D3EE,#3B82F6",
+      "🤖",
+      "Greylight",
+      "Cyberpunk · 88k"
+    ]
+  ],
+  "pricing_lead": "Free for your first short novel. Pro is for prolific writers — unlimited length, advanced models, faster generation.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "£0",
+      "blurb": "One novel up to 30k words. Basic AI model.",
+      "items": [
+        "1 novel · 30k words max",
+        "Standard AI model",
+        "Basic export (PDF)",
+        "10 character profiles"
+      ],
+      "cta": "Download free"
+    },
+    {
+      "name": "Pro — Annual",
+      "featured": true,
+      "tag": "Most chosen",
+      "price": "£79.99",
+      "per": "/ year",
+      "strike": "£155.88 if billed monthly",
+      "blurb": "Unlimited novels. Advanced AI. Priority queue. Pro export options.",
+      "items": [
+        "Unlimited novels & length",
+        "Advanced AI models",
+        "Priority generation queue",
+        "ePub + DOCX export",
+        "Style refinement tools",
+        "Pro support"
+      ],
+      "cta": "Start 7-day free trial"
+    },
+    {
+      "name": "Pro — Monthly",
+      "price": "£12.99",
+      "per": "/ month",
+      "blurb": "Same Pro features, billed monthly.",
+      "items": [
+        "Unlimited novels",
+        "All Pro features",
+        "Cancel anytime"
+      ],
+      "cta": "Go monthly"
+    }
+  ],
+  "why_eyebrow": "Why a novel app",
+  "why_head_pre": "Most AI writing tools want to be ChatGPT.",
+  "why_head_accent": "NovelWeaver wants to write a book.",
+  "why_lead": "Generic chatbots can spit out a paragraph. They can't hold a 24-chapter narrative together while keeping ten characters distinct, your magic system internally consistent, and your tone steady. That's a different problem.",
+  "why_body": "We built NovelWeaver as a story engine — long-context, character-aware, plot-tracking. The AI does the holding-it-together. You do the inventing.",
+  "stats": [
+    [
+      "100k+",
+      "grad",
+      "Words possible per novel on Pro. We've stress-tested books at 150,000."
+    ],
+    [
+      "~60s",
+      "mint",
+      "Average chapter generation time on Pro. Faster than re-reading what you wrote yesterday."
+    ],
+    [
+      "Yours",
+      "yellow",
+      "Every word. We don't claim ownership of generated text. Sell, publish, or just keep it for yourself."
+    ]
+  ],
+  "faq": [
+    [
+      "Will my novel feel AI-generated?",
+      "Less than you'd expect. Pro models, careful prompting, and your edits make for human-readable prose. Pure AI never beats AI + author. NovelWeaver is the second option."
+    ],
+    [
+      "Can I publish what I write?",
+      "Yes. You own the output. Use it for personal projects, KDP self-publishing, blogs, fiction collections — whatever you like."
+    ],
+    [
+      "Do you train on my writing?",
+      "No. Your manuscripts and edits are not used to train AI models. They stay yours, encrypted, on our servers (or fully on-device with the upcoming local mode)."
+    ],
+    [
+      "How long does a chapter take?",
+      "30–90 seconds depending on length and model. Pro users get priority queue access, especially during peak hours."
+    ],
+    [
+      "Can I write in a language other than English?",
+      "Yes — French, German, Spanish, Italian, Portuguese, Dutch, Swedish, Polish, Japanese and more, with native fluency."
+    ],
+    [
+      "What about plagiarism / AI detection?",
+      "NovelWeaver output is AI-assisted, not copy-pasted from existing works. Detection tools may flag any AI-touched text — that's worth knowing if you're submitting to publishers who forbid AI use."
+    ],
+    [
+      "How do I cancel?",
+      "Through your phone's subscription settings — Apple ID or Google Play. We don't pull dark patterns to keep you."
+    ]
+  ],
+  "final_title": "Write the book.",
+  "final_body": "Free to download. iPhone and Android. The first chapter writes itself. The rest is on you.",
+  "footer_blurb": "An AI novel-writing partner that helps you finish books, not just write paragraphs. Made in the UK.",
+  "theme": "purple_dawn",
+  "og_image_alt": "NovelWeaver — AI novel-writing app",
+  "seo_desc": "AI novel-writing partner. Full chapters, characters, world-building, export to ePub.",
+  "seo_title": "NovelWeaver — Your AI novel-writing partner | Froggy Eye Ltd"
+}

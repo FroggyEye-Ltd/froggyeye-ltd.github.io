@@ -1,0 +1,233 @@
+{
+  "folder": "eyesightangel",
+  "name": "Eyesight Angel",
+  "tagline": "A guardian for your child's eyes.",
+  "meta_desc": "Eyesight Angel uses your phone's front camera to gently warn kids when they're too close to the screen. On-device AI, no nagging, real eye protection.",
+  "nav_examples": "Reports",
+  "hero_eyebrow": "Now on iOS & Android",
+  "headline_pre": "Save your kid's eyesight",
+  "headline_accent": "without the screen battle.",
+  "lead": "Eyesight Angel uses your phone's front camera to detect when faces are too close to the screen — and gently nudges them back. On-device AI. No video leaves the phone. No nagging required.",
+  "meta_items": [
+    "On-device AI",
+    "No video uploaded",
+    "Built with optometrists"
+  ],
+  "phone_content": "        <h4>Live distance</h4>\n        <div class=\"phone-art\"><div class=\"emoji\">👁️</div></div>\n        <div>\n          <p class=\"phone-title\">42 cm — perfect</p>\n          <p class=\"phone-sub\">Lily · Reading mode</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>SAFE ZONE</span><span>1h 12m</span></div>\n        <div class=\"phone-controls\">\n          <span class=\"ic\">📊</span>\n          <span class=\"play\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M8 5v14l11-7z\"/></svg></span>\n          <span class=\"ic\">👨‍👩‍👧</span>\n        </div>\n        <div class=\"phone-lyric\"><b>Today:</b> 0 close-up alerts<br><b>This week:</b> down 18% on screen-too-close moments.</div>",
+  "chips": [
+    "📚 Reading",
+    "🎨 Drawing",
+    "🎮 Gaming",
+    "🎬 Video",
+    "📱 Social",
+    "📞 Video calls",
+    "📝 Homework",
+    "🎵 Music apps",
+    "🧩 Puzzles",
+    "🌙 Bedtime"
+  ],
+  "how_head_pre": "Set it once.",
+  "how_head_accent": "It just watches.",
+  "how_lead": "No special hardware. No subscriptions to start. Just the phone they already have, doing one quiet job in the background.",
+  "steps": [
+    [
+      "Set up the profile",
+      "Pick your child's age. We use clinical guidelines (paediatric optometry) to set the right safe distance."
+    ],
+    [
+      "Turn on the angel",
+      "The front camera measures face-to-screen distance using on-device AI. Nothing leaves the phone — ever."
+    ],
+    [
+      "Get the gentle nudge",
+      "Too close? A friendly animation — not a scary alarm — asks them to back up. Reports show parents how it's going."
+    ]
+  ],
+  "feat_head_pre": "A guardian that doesn't shame.",
+  "feat_head_line2": "Just gently corrects.",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg>",
+      "On-device AI",
+      "Distance is computed locally. No cloud. No video uploaded. No data sold. Privacy isn't a feature — it's the foundation."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>",
+      "Kid-safe alerts",
+      "Animated nudges, not scary warnings. Children actually respond to them. The first user-tested kid app we've shipped."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\"/></svg>",
+      "Daily parent reports",
+      "See how often the screen got too close, when, and during which apps. Spot patterns before glasses do."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"9 11 12 14 22 4\"/><path d=\"M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11\"/></svg>",
+      "Built with optometrists",
+      "Distance thresholds based on real paediatric eye-health guidelines, not made up by app developers."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\"/><circle cx=\"9\" cy=\"7\" r=\"4\"/><path d=\"M23 21v-2a4 4 0 0 0-3-3.87\"/><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"/></svg>",
+      "Family-ready",
+      "Up to 5 child profiles on Plus. Each profile has its own safe distance and reports."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" ry=\"2\"/><path d=\"M7 11V7a5 5 0 0 1 10 0v4\"/></svg>",
+      "No microphone, no contacts",
+      "We use the front camera for distance only. Mic, contacts, location — never accessed."
+    ]
+  ],
+  "ex_eyebrow": "What it watches",
+  "ex_head": "Apps where eyes drift in:",
+  "ex_lead": "Eyesight Angel works across every app. Here's where it actually catches the most close-up screen time in real households.",
+  "examples": [
+    [
+      "#22D3EE,#0E7490",
+      "📚",
+      "Reading apps",
+      "Avg. 22cm closer than safe"
+    ],
+    [
+      "#A855F7,#5B21B6",
+      "🎮",
+      "Mobile games",
+      "Worst offender on weekends"
+    ],
+    [
+      "#34D399,#059669",
+      "🎨",
+      "Drawing apps",
+      "Pen leans = face leans"
+    ],
+    [
+      "#FACC15,#A16207",
+      "🎬",
+      "Video / TikTok",
+      "Long sessions, drift in over time"
+    ],
+    [
+      "#FB7185,#9F1239",
+      "📞",
+      "Video calls",
+      "Schoolwork hours mostly"
+    ],
+    [
+      "#FBBF24,#D97706",
+      "📝",
+      "Homework apps",
+      "Bedroom desk lighting issue"
+    ],
+    [
+      "#67E8F9,#0E7490",
+      "🌙",
+      "Bedtime use",
+      "Triggers extra-strict mode"
+    ],
+    [
+      "#FED7AA,#FB923C",
+      "🧩",
+      "Puzzles & maze",
+      "Looks-too-close detection"
+    ]
+  ],
+  "pricing_lead": "Free for one child. Family Plus covers up to 5 profiles and full report history.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "£0",
+      "blurb": "One child. Daily reports. Real protection.",
+      "items": [
+        "1 child profile",
+        "Live distance monitor",
+        "Daily report",
+        "7-day history"
+      ],
+      "cta": "Download free"
+    },
+    {
+      "name": "Family Plus — Annual",
+      "featured": true,
+      "tag": "For families",
+      "price": "£19.99",
+      "per": "/ year",
+      "strike": "£35.88 if billed monthly",
+      "blurb": "Up to 5 kids. Long-term reports. Monthly eye-health tips from real optometrists.",
+      "items": [
+        "Up to 5 child profiles",
+        "Lifetime report history",
+        "Monthly eye-health tips",
+        "Multi-device sync",
+        "Priority support"
+      ],
+      "cta": "Start 7-day free trial"
+    },
+    {
+      "name": "Family — Monthly",
+      "price": "£2.99",
+      "per": "/ month",
+      "blurb": "Same Family features, billed monthly.",
+      "items": [
+        "Up to 5 children",
+        "Lifetime history",
+        "Cancel anytime"
+      ],
+      "cta": "Go monthly"
+    }
+  ],
+  "why_eyebrow": "Why this matters",
+  "why_head_pre": "Childhood myopia is up.",
+  "why_head_accent": "Most of it is preventable.",
+  "why_lead": "Reading or staring at a phone too closely, for too long, with too little daylight is the single biggest driver of childhood short-sightedness. Optometrists have known this for years. Most parents haven't been told.",
+  "why_body": "Eyesight Angel doesn't try to limit screen time — that's a fight you're not winning. It just makes sure the screen time they do have isn't damaging their eyes.",
+  "stats": [
+    [
+      "40cm",
+      "grad",
+      "Minimum recommended viewing distance for school-age children — well over what most actually use."
+    ],
+    [
+      "On device",
+      "mint",
+      "All face detection. Zero video uploaded. Privacy isn't optional with kids."
+    ],
+    [
+      "£0",
+      "yellow",
+      "Cost to start. The whole basic experience is free; Plus is for multi-child households."
+    ]
+  ],
+  "faq": [
+    [
+      "Does it record my child?",
+      "No. The front camera is used for live distance estimation only — frames are never saved or uploaded. Nothing leaves the phone."
+    ],
+    [
+      "How accurate is it?",
+      "Within ±3cm in good light, less in dim conditions. We use depth heuristics that don't need a special TrueDepth camera."
+    ],
+    [
+      "Will it kill the battery?",
+      "Around 4–6% per active hour. We sample efficiently and pause when no face is detected."
+    ],
+    [
+      "Is it actually clinical?",
+      "Distance thresholds and report logic were developed with paediatric optometrists. We're not a medical device — we're a healthy-habit tool."
+    ],
+    [
+      "What if my child rotates the phone?",
+      "We handle portrait, landscape, and any rotation. Distance still works."
+    ],
+    [
+      "Does it work in the dark?",
+      "Reduced accuracy below typical room lighting. We notify the user when conditions are too poor for confident measurement."
+    ],
+    [
+      "Can I use it for myself?",
+      "Of course — it works for adults too. Knowledge workers love it for posture and reading distance."
+    ]
+  ],
+  "final_title": "Protect their eyes.",
+  "final_body": "Free to download. iPhone and Android. Five minutes to set up. A lifetime of better habits.",
+  "footer_blurb": "Eyesight protection for kids — gentle, on-device, built with optometrists. Made in the UK by Froggy Eye Ltd.",
+  "theme": "cyan_safe"
+}

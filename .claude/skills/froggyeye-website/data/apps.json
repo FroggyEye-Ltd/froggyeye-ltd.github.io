@@ -11,7 +11,10 @@
     "apple_url": "https://apps.apple.com/gb/app/apexroute/id6760571266",
     "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.apexroute",
     "card_emoji": "🛣️",
-    "card_gradient": ["#FF4D2E", "#7C2D12"]
+    "card_gradient": [
+      "#FF4D2E",
+      "#7C2D12"
+    ]
   },
   {
     "folder": "blipblobb",
@@ -25,7 +28,10 @@
     "apple_url": "https://apps.apple.com/gb/app/blipblobb/id6759348974",
     "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.blipblobb",
     "card_emoji": "📡",
-    "card_gradient": ["#00D4FF", "#0087B3"]
+    "card_gradient": [
+      "#00D4FF",
+      "#0087B3"
+    ]
   },
   {
     "folder": "byebyejob",
@@ -39,7 +45,10 @@
     "apple_url": "https://apps.apple.com/gb/app/byebyejob/id6757801661",
     "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.byebyejob",
     "card_emoji": "⚖️",
-    "card_gradient": ["#14B8A6", "#0F766E"]
+    "card_gradient": [
+      "#14B8A6",
+      "#0F766E"
+    ]
   },
   {
     "folder": "doordigest",
@@ -53,7 +62,10 @@
     "apple_url": "https://apps.apple.com/gb/app/door-digest/id6761689563",
     "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.doordigest",
     "card_emoji": "🚪",
-    "card_gradient": ["#A855F7", "#5B21B6"]
+    "card_gradient": [
+      "#A855F7",
+      "#5B21B6"
+    ]
   },
   {
     "folder": "eightball",
@@ -67,7 +79,10 @@
     "apple_url": "https://apps.apple.com/gb/app/8-ball-wisdom-yes-no-oracle/id6762535370",
     "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.eightball",
     "card_emoji": "🎱",
-    "card_gradient": ["#A78BFA", "#4C1D95"]
+    "card_gradient": [
+      "#A78BFA",
+      "#4C1D95"
+    ]
   },
   {
     "folder": "focustimer",
@@ -81,7 +96,10 @@
     "apple_url": null,
     "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.focustimer",
     "card_emoji": "⏳",
-    "card_gradient": ["#34D399", "#059669"]
+    "card_gradient": [
+      "#34D399",
+      "#059669"
+    ]
   },
   {
     "folder": "foodscore",
@@ -95,7 +113,10 @@
     "apple_url": "https://apps.apple.com/gb/app/food-score/id6756872057",
     "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.foodscore",
     "card_emoji": "🥦",
-    "card_gradient": ["#FACC15", "#A16207"]
+    "card_gradient": [
+      "#FACC15",
+      "#A16207"
+    ]
   },
   {
     "folder": "lovemenot",
@@ -109,7 +130,10 @@
     "apple_url": "https://apps.apple.com/gb/app/lovemenot/id6762488944",
     "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.lovemenot",
     "card_emoji": "🌸",
-    "card_gradient": ["#FF2E7E", "#9D174D"]
+    "card_gradient": [
+      "#FF2E7E",
+      "#9D174D"
+    ]
   },
   {
     "folder": "lovescore",
@@ -123,7 +147,29 @@
     "apple_url": "https://apps.apple.com/gb/app/love-score/id6757624029",
     "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.lovescore",
     "card_emoji": "💘",
-    "card_gradient": ["#FB7185", "#9F1239"]
+    "card_gradient": [
+      "#FB7185",
+      "#9F1239"
+    ]
+  },
+  {
+    "folder": "luckynumbers",
+    "name": "Lucky Numbers",
+    "tagline": "UK Lotto & EuroMillions number picker",
+    "category": "Entertainment · 18+",
+    "schema_category": "EntertainmentApplication",
+    "theme": "forest",
+    "package_id": "com.froggyeye.luckynumbers",
+    "apple_id": null,
+    "apple_url": null,
+    "play_url": null,
+    "card_emoji": "🍀",
+    "card_gradient": [
+      "#2E7D5B",
+      "#123C2B"
+    ],
+    "user_authored": true,
+    "_note": "Page generated outside the promo template (ship pipeline) — do not regenerate. Store URLs pending review (submitted Aug 2026); run refresh_store_urls.py once live."
   },
   {
     "folder": "myltdtax",
@@ -137,7 +183,10 @@
     "apple_url": "https://apps.apple.com/gb/app/my-ltd-tax/id6756664049",
     "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.myltdtax",
     "card_emoji": "🧾",
-    "card_gradient": ["#14B8A6", "#0F766E"]
+    "card_gradient": [
+      "#14B8A6",
+      "#0F766E"
+    ]
   },
   {
     "folder": "novelweaver",
@@ -151,7 +200,10 @@
     "apple_url": "https://apps.apple.com/gb/app/novel-weaver/id6757206495",
     "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.novelweaver",
     "card_emoji": "📖",
-    "card_gradient": ["#A855F7", "#5B21B6"]
+    "card_gradient": [
+      "#A855F7",
+      "#5B21B6"
+    ]
   },
   {
     "folder": "pokepricechecker",
@@ -165,7 +217,33 @@
     "apple_url": "https://apps.apple.com/gb/app/pokepricechecker/id6756551044",
     "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.pokepricechecker",
     "card_emoji": "🃏",
-    "card_gradient": ["#FF4D2E", "#7C2D12"]
+    "card_gradient": [
+      "#FF4D2E",
+      "#7C2D12"
+    ]
+  },
+  {
+    "folder": "postpilot",
+    "name": "PostPilot",
+    "tagline": "Your AI social manager. On autopilot.",
+    "category": "Desktop · Mac & PC",
+    "schema_category": "SoftwareApplication",
+    "theme": "forest",
+    "package_id": null,
+    "apple_id": null,
+    "apple_url": null,
+    "play_url": null,
+    "card_emoji": "🛫",
+    "card_gradient": [
+      "#34D399",
+      "#047857"
+    ],
+    "user_authored": true,
+    "_note": "Custom desktop-product page with extra subpages (telegram-setup, thank-you) — not template-rendered; no mobile store listings.",
+    "extra_pages": [
+      "telegram-setup.html"
+    ],
+    "llms_desc": "AI writing assistant for social media (desktop app, Mac & Windows)"
   },
   {
     "folder": "solarwise",
@@ -179,7 +257,10 @@
     "apple_url": "https://apps.apple.com/gb/app/solarwise-solar-calculator/id6761774468",
     "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.solarwise",
     "card_emoji": "☀️",
-    "card_gradient": ["#FBBF24", "#D97706"]
+    "card_gradient": [
+      "#FBBF24",
+      "#D97706"
+    ]
   },
   {
     "folder": "studysingalong",
@@ -193,7 +274,10 @@
     "apple_url": "https://apps.apple.com/gb/app/study-singalong/id6763167965",
     "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.studysingalong",
     "card_emoji": "🎵",
-    "card_gradient": ["#FF2E7E", "#7C3AED"],
+    "card_gradient": [
+      "#FF2E7E",
+      "#7C3AED"
+    ],
     "user_authored": true,
     "_note": "User-authored design canon — do NOT regenerate this page from the template."
   },
@@ -209,7 +293,10 @@
     "apple_url": "https://apps.apple.com/gb/app/tileverse/id6758224449",
     "play_url": null,
     "card_emoji": "🌍",
-    "card_gradient": ["#0EA5E9", "#0369A1"]
+    "card_gradient": [
+      "#0EA5E9",
+      "#0369A1"
+    ]
   },
   {
     "folder": "treasurehunterlive",
@@ -223,7 +310,10 @@
     "apple_url": "https://apps.apple.com/gb/app/treasure-hunter-live/id6756575730",
     "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.thlive",
     "card_emoji": "🗺️",
-    "card_gradient": ["#F59E0B", "#A16207"]
+    "card_gradient": [
+      "#F59E0B",
+      "#A16207"
+    ]
   },
   {
     "folder": "wheelofchoices",
@@ -237,6 +327,9 @@
     "apple_url": "https://apps.apple.com/gb/app/wheel-of-choices/id6762063529",
     "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.wheelofchoices",
     "card_emoji": "🎡",
-    "card_gradient": ["#7C3AED", "#4C1D95"]
+    "card_gradient": [
+      "#7C3AED",
+      "#4C1D95"
+    ]
   }
 ]

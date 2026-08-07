@@ -1,0 +1,237 @@
+{
+  "folder": "doordigest",
+  "name": "DoorDigest",
+  "tagline": "AI summaries of every doorbell event.",
+  "meta_desc": "DoorDigest reads your Ring doorbell events and writes you a clear daily summary — so you know exactly what happened at your door without scrubbing footage.",
+  "nav_examples": "Examples",
+  "hero_eyebrow": "iOS & Android · Works with your Ring",
+  "headline_pre": "Stop scrubbing doorbell footage.",
+  "headline_accent": "Read the digest.",
+  "lead": "DoorDigest watches your Ring events, picks out what mattered, and sends you a clear, written summary every day. Less paranoia, less footage, more peace of mind.",
+  "meta_items": [
+    "Works with Ring",
+    "AI does the watching",
+    "You get the headlines",
+    "No ads, no tracking"
+  ],
+  "phone_content": "        <h4>Today's digest</h4>\n        <div class=\"phone-art\"><div class=\"emoji\">🚪</div></div>\n        <div>\n          <p class=\"phone-title\">14 events · 3 worth knowing</p>\n          <p class=\"phone-sub\">Tuesday · Front door</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>QUIET DAY</span><span>3 ALERTS</span></div>\n        <div class=\"phone-controls\">\n          <span class=\"ic\">📅</span>\n          <span class=\"play\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M8 5v14l11-7z\"/></svg></span>\n          <span class=\"ic\">📨</span>\n        </div>\n        <div class=\"phone-lyric\"><b>09:14</b> · Amazon delivery · package left in porch<br><b>14:02</b> · Postwoman · letters posted, no parcel</div>",
+  "chips": [
+    "📦 Deliveries",
+    "👥 Visitors",
+    "🐈 Cats",
+    "🚗 Cars",
+    "🚶 Walkers",
+    "🌧️ Weather",
+    "🌙 Late-night",
+    "📨 Mail",
+    "🐕 Dogs",
+    "🚨 Suspicious"
+  ],
+  "how_head_pre": "Connect once.",
+  "how_head_accent": "Get your day, summarised.",
+  "how_lead": "We do the watching. You read a clean summary on your terms — daily, weekly, or only when something actually matters.",
+  "steps": [
+    [
+      "Connect Ring",
+      "One-tap login to your Ring account. We pull events securely and respect your existing subscriptions and recordings."
+    ],
+    [
+      "AI watches the events",
+      "Every clip is analysed: people, packages, vehicles, animals, time of day, length of stay. The boring 99% gets summarised; the interesting 1% gets flagged."
+    ],
+    [
+      "You get the headlines",
+      "Daily digest in plain English. Optional smart alerts the moment something unusual happens. Search history any time."
+    ]
+  ],
+  "feat_head_pre": "Less scrubbing.",
+  "feat_head_line2": "More knowing.",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"3\"/><path d=\"M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z\"/></svg>",
+      "Plain-English summaries",
+      "Each event gets a one-line description. 'Amazon driver, 4s on porch, package left.' That's it."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9\"/><path d=\"M13.73 21a2 2 0 0 1-3.46 0\"/></svg>",
+      "Smart alerts only",
+      "We alert on what's odd: late-night activity, repeat strangers, missing-package patterns. Not on every cat."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\"/></svg>",
+      "Search your door history",
+      "'When did the postwoman come last week?' Type it. Get the moment. Open the clip."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg>",
+      "Multi-camera friendly",
+      "Front door, side gate, garage. DoorDigest summarises across all of them in one digest."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>",
+      "Privacy by default",
+      "Footage stays on Ring. We process metadata and a thumbnail strip — never long-term recordings."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\"/></svg>",
+      "Weekly review",
+      "Sundays you get a clean weekly recap: total events, anomalies, packages received, repeat visitors."
+    ]
+  ],
+  "ex_eyebrow": "Real digests",
+  "ex_head": "Sounds like:",
+  "ex_lead": "Examples of how DoorDigest writes up a typical day at the door — calm, useful, and never alarmist for the sake of it.",
+  "examples": [
+    [
+      "#A855F7,#5B21B6",
+      "📦",
+      "Tuesday — 14 events",
+      "Mostly post & deliveries"
+    ],
+    [
+      "#67E8F9,#0E7490",
+      "🐈",
+      "Wednesday — 6 events",
+      "Quiet · neighbour's cat ×3"
+    ],
+    [
+      "#FACC15,#A16207",
+      "🚨",
+      "Friday — 22 events",
+      "Late-night repeat visitor flagged"
+    ],
+    [
+      "#A855F7,#FACC15",
+      "🌧️",
+      "Saturday — 3 events",
+      "Storm · false motion ×many"
+    ],
+    [
+      "#FB7185,#9F1239",
+      "👥",
+      "Sunday — 11 events",
+      "Family visit weekend"
+    ],
+    [
+      "#34D399,#059669",
+      "📨",
+      "Monday — 9 events",
+      "Postie ran early today"
+    ],
+    [
+      "#22D3EE,#3B82F6",
+      "🚗",
+      "Holiday — 28 events",
+      "Long away · all reviewed"
+    ],
+    [
+      "#FDE047,#D97706",
+      "📅",
+      "Weekly recap",
+      "47 events · 4 worth knowing"
+    ]
+  ],
+  "pricing_lead": "Free trial on Pro. Pro is what makes it worth opening daily — but the basics genuinely work for one camera.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "£0",
+      "blurb": "One camera. Daily digest. The headlines.",
+      "items": [
+        "1 camera",
+        "Daily digest",
+        "Basic event tagging",
+        "7-day history"
+      ],
+      "cta": "Download free"
+    },
+    {
+      "name": "Pro — Annual",
+      "featured": true,
+      "tag": "For households",
+      "price": "£29.99",
+      "per": "/ year",
+      "strike": "£59.88 if billed monthly",
+      "blurb": "Every camera, full history, smart alerts, search.",
+      "items": [
+        "Unlimited cameras",
+        "Full history search",
+        "Smart anomaly alerts",
+        "Weekly recaps",
+        "Priority processing"
+      ],
+      "cta": "Start 7-day free trial"
+    },
+    {
+      "name": "Pro — Monthly",
+      "price": "£4.99",
+      "per": "/ month",
+      "blurb": "Same Pro features, billed monthly.",
+      "items": [
+        "Unlimited cameras",
+        "Full history search",
+        "Smart alerts"
+      ],
+      "cta": "Go monthly"
+    }
+  ],
+  "why_eyebrow": "Why a digest",
+  "why_head_pre": "Doorbell apps were built to grab your attention.",
+  "why_head_accent": "DoorDigest gives it back.",
+  "why_lead": "Most camera apps poke you for every twitch — every neighbour's cat, every car turning around, every leaf blowing past. The result isn't more security; it's banner-ad fatigue.",
+  "why_body": "DoorDigest takes the firehose, sips it, and tells you what's there. The only alerts that survive are the ones you'd genuinely want at 11pm.",
+  "stats": [
+    [
+      "90%+",
+      "grad",
+      "Of doorbell events most homes don't actually need to see in real time."
+    ],
+    [
+      "~30s",
+      "mint",
+      "Average time to read your daily digest. Replaces 10 minutes of scrubbing."
+    ],
+    [
+      "Privacy-first",
+      "yellow",
+      "Footage stays on Ring. We process metadata and a small preview strip."
+    ]
+  ],
+  "faq": [
+    [
+      "Does this replace Ring?",
+      "No — Ring keeps the cameras and footage. DoorDigest sits on top, watches what comes in, and writes the summary you actually read."
+    ],
+    [
+      "Do you have my video?",
+      "Only thumbnails and metadata, briefly, to generate the digest. Long-term footage stays on Ring's servers."
+    ],
+    [
+      "Will I miss a real emergency?",
+      "Smart alerts fire in real time on suspicious activity (late-night visitors, package thefts, repeated unknowns). Everything else is in the digest."
+    ],
+    [
+      "Is it accurate?",
+      "We get the obvious right (deliveries, post, family) reliably. Edge cases get flagged for your review rather than guessed at."
+    ],
+    [
+      "How many cameras can I connect?",
+      "Free: one. Pro: as many as your Ring account has."
+    ],
+    [
+      "Cancel any time?",
+      "Yes — through your phone's subscription settings. Your digests stay accessible until your billing period ends."
+    ],
+    [
+      "Does it work with cameras other than Ring?",
+      "Ring first — Nest and Eufy support is in beta for Pro users. Tell us your setup and we'll prioritise."
+    ]
+  ],
+  "final_title": "Read your day.",
+  "final_body": "Free to download. iPhone and Android. Connect Ring once and stop scrubbing footage forever.",
+  "footer_blurb": "AI summaries of every doorbell event so you know what happened at your door without scrubbing footage. Made in the UK.",
+  "theme": "purple_dawn",
+  "og_image_alt": "DoorDigest — AI Ring doorbell event summaries",
+  "seo_desc": "AI summaries of every Ring doorbell event. Daily digest, smart alerts, multi-camera support.",
+  "seo_title": "DoorDigest — AI doorbell event summaries | Froggy Eye Ltd"
+}

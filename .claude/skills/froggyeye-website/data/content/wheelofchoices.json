@@ -1,0 +1,237 @@
+{
+  "folder": "wheelofchoices",
+  "name": "Wheel of Choices",
+  "tagline": "The cure for indecision.",
+  "meta_desc": "Restaurants, movies, chores, dares. Wheel of Choices makes any decision instant. Add options, give it a spin, let chance do its thing.",
+  "nav_examples": "Wheels",
+  "hero_eyebrow": "iOS & Android · Decisions in one spin",
+  "headline_pre": "Stop debating.",
+  "headline_accent": "Spin the wheel.",
+  "lead": "Restaurants, movies, chores, dares. Wheel of Choices makes any decision instant. Add the options, give it a spin, let chance settle it. The fastest decision-maker on your phone.",
+  "meta_items": [
+    "Save unlimited wheels",
+    "Themed presets",
+    "Instant decisions",
+    "No ads, no tracking"
+  ],
+  "phone_content": "        <h4>Tonight's wheel</h4>\n        <div class=\"phone-art\"><div class=\"emoji\">🎡</div></div>\n        <div>\n          <p class=\"phone-title\">Pizza · 23%</p>\n          <p class=\"phone-sub\">7 options · weighted</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>JUST SPUN</span><span>WINNER!</span></div>\n        <div class=\"phone-controls\">\n          <span class=\"ic\">↻</span>\n          <span class=\"play\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M8 5v14l11-7z\"/></svg></span>\n          <span class=\"ic\">📤</span>\n        </div>\n        <div class=\"phone-lyric\"><b>Saved wheel:</b> \"Where shall we eat?\"<br>7 places · last spun Tuesday · winner: Roma's.</div>",
+  "chips": [
+    "🍕 Dinner",
+    "🎬 Movie night",
+    "🧹 Chores",
+    "🎲 Dares",
+    "✈️ Holiday",
+    "🎁 Gift ideas",
+    "💪 Workout",
+    "🍷 Drinks",
+    "🎤 Karaoke",
+    "📚 Book club"
+  ],
+  "how_head_pre": "Add the options.",
+  "how_head_accent": "Hit spin. Live with it.",
+  "how_lead": "Wheel of Choices isn't profound. It's just very, very good at the thing it does — turning a 30-minute argument into a 3-second decision.",
+  "steps": [
+    [
+      "Add your options",
+      "Type them in. Paste a list. Pick from a saved wheel. Add as many or as few as you like."
+    ],
+    [
+      "Spin",
+      "A satisfying animation, a clean reveal, an answer you have to live with. (Or spin again. We don't tell.)"
+    ],
+    [
+      "Save the wheel",
+      "Plus lets you save unlimited wheels — your 'Where shall we eat?' wheel is one tap away every Friday."
+    ]
+  ],
+  "feat_head_pre": "Built for the moment",
+  "feat_head_line2": "you stop talking and just decide.",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2 2M16.4 16.4l2 2M5.6 18.4l2-2M16.4 7.6l2-2\"/></svg>",
+      "Custom options",
+      "Add unlimited choices. Weight them if you want — heavier for the ones you secretly favour. We won't tell."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\"/></svg>",
+      "Saved wheels",
+      "Plus lets you save your favourite wheels. Restaurants, movies, weekly chores — all one tap away."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"9 11 12 14 22 4\"/><path d=\"M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11\"/></svg>",
+      "Themed presets",
+      "Pre-built wheels for date night, family meals, drinking games, gift ideas. Start with one, customise later."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z\"/></svg>",
+      "Share the result",
+      "One tap sends the verdict to your group chat with a beautiful animated card. Settles arguments instantly."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"13 2 3 14 12 14 11 22 21 10 12 10 13 2\"/></svg>",
+      "Weighted spins",
+      "Plus lets you bias the wheel towards specific options. For when you want fate, but with a thumb on the scale."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>",
+      "Ad-free spinning",
+      "Plus removes all ads. The free version is plenty usable; Plus is for the people who run their lives through this app."
+    ]
+  ],
+  "ex_eyebrow": "Real wheels",
+  "ex_head": "Wheels people actually run:",
+  "ex_lead": "A taste of the wheels saved by Wheel of Choices users — the things life can't seem to make a call on without help.",
+  "examples": [
+    [
+      "#A855F7,#5B21B6",
+      "🍕",
+      "Where shall we eat?",
+      "7 local favourites"
+    ],
+    [
+      "#C084FC,#7E22CE",
+      "🎬",
+      "Friday film night",
+      "Top 12 unwatched"
+    ],
+    [
+      "#67E8F9,#0E7490",
+      "🧹",
+      "Chore wheel",
+      "Whose turn at the bins"
+    ],
+    [
+      "#FB7185,#9F1239",
+      "🎲",
+      "Truth or dare",
+      "Dare prompts only"
+    ],
+    [
+      "#FACC15,#A16207",
+      "✈️",
+      "Next holiday",
+      "5 destinations bookmarked"
+    ],
+    [
+      "#34D399,#059669",
+      "💪",
+      "Today's workout",
+      "8-style randomiser"
+    ],
+    [
+      "#FBBF24,#D97706",
+      "🍷",
+      "Drink decisions",
+      "Cocktail or beer"
+    ],
+    [
+      "#A78BFA,#5B21B6",
+      "📚",
+      "Book club pick",
+      "12 unread on shelf"
+    ]
+  ],
+  "pricing_lead": "Free for the basics. Plus is for the people who run their week through Wheel of Choices.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "£0",
+      "blurb": "Spin anything. Up to 3 saved wheels.",
+      "items": [
+        "Unlimited spins",
+        "Up to 3 saved wheels",
+        "Standard themes",
+        "Share results"
+      ],
+      "cta": "Download free"
+    },
+    {
+      "name": "Plus — Annual",
+      "featured": true,
+      "tag": "For decision avoiders",
+      "price": "£8.99",
+      "per": "/ year",
+      "strike": "£17.88 if billed monthly",
+      "blurb": "Unlimited saved wheels, weighted spins, premium themes, ad-free.",
+      "items": [
+        "Unlimited saved wheels",
+        "Weighted probability spins",
+        "Premium themes & sounds",
+        "Ad-free forever",
+        "Family Sharing"
+      ],
+      "cta": "Start 7-day free trial"
+    },
+    {
+      "name": "Plus — Monthly",
+      "price": "£1.49",
+      "per": "/ month",
+      "blurb": "Same Plus features, billed monthly.",
+      "items": [
+        "Unlimited wheels",
+        "All Plus features",
+        "Cancel anytime"
+      ],
+      "cta": "Go monthly"
+    }
+  ],
+  "why_eyebrow": "Why a wheel",
+  "why_head_pre": "The hardest part of choosing",
+  "why_head_accent": "is just choosing.",
+  "why_lead": "Most decisions don't deserve a 30-minute group chat. The pizza place, the film, whose turn at the dishes — the answer is fine, the dithering is the actual cost. Wheel of Choices gives you permission to just stop.",
+  "why_body": "Spin it. Live with it. Find out you're actually relieved you didn't have to choose.",
+  "stats": [
+    [
+      "3 sec",
+      "grad",
+      "Average time from open to verdict on a saved wheel. Faster than the first 'I dunno'."
+    ],
+    [
+      "0",
+      "mint",
+      "Subscription nags. Plus is cheap. Free works. We don't pester you to upgrade."
+    ],
+    [
+      "Yours",
+      "yellow",
+      "Wheels. Saved locally and synced privately if you choose. We don't peek at your dinner choices."
+    ]
+  ],
+  "faq": [
+    [
+      "Why does this exist as an app?",
+      "Because website wheel-spinners are clunky, ad-stuffed, and don't save your wheels. Wheel of Choices is the version we always wanted on our phones."
+    ],
+    [
+      "Are the spins really random?",
+      "Yes — properly random. Weighted spins on Plus let you bias the result, but unweighted is genuinely uniform across all options."
+    ],
+    [
+      "Can I share a wheel with my partner?",
+      "Plus has Family Sharing — saved wheels sync across devices. Use the same wheels with your housemates, kids, or partner."
+    ],
+    [
+      "Does it work offline?",
+      "Always. Wheel of Choices doesn't need the internet to spin a wheel."
+    ],
+    [
+      "Will I see ads in the free version?",
+      "A small banner. Plus removes them entirely. We don't run interstitials, video ads, or rewarded ads."
+    ],
+    [
+      "Can I hide options?",
+      "Yes — disable any option without removing it. Use it tonight; bring it back next week."
+    ],
+    [
+      "Is there a 'redo' button?",
+      "Yes. We won't judge. Some decisions need two spins."
+    ]
+  ],
+  "final_title": "Stop debating.",
+  "final_body": "Free to download. iPhone and Android. The wheel is waiting.",
+  "footer_blurb": "The fastest decision-maker on your phone. Save your wheels. Settle the argument. Made in the UK.",
+  "theme": "purple_dawn",
+  "og_image_alt": "Wheel of Choices — random decision spinner app",
+  "seo_desc": "Decision-making wheel. Add options, spin, settle the argument in three seconds.",
+  "seo_title": "Wheel of Choices — The cure for indecision | Froggy Eye Ltd"
+}

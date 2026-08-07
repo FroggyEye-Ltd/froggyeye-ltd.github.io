@@ -1,0 +1,237 @@
+{
+  "folder": "foodscore",
+  "name": "Food Score",
+  "tagline": "Scan it. Score it. Eat smarter.",
+  "meta_desc": "Food Score scans any food barcode and gives you a clear A–E health rating in a second. Honest nutrition info, allergen alerts, and personalised goals.",
+  "nav_examples": "Examples",
+  "hero_eyebrow": "iOS & Android · A–E health rating in one scan",
+  "headline_pre": "Stop guessing",
+  "headline_accent": "what you're eating.",
+  "lead": "Food Score scans any product's barcode and gives you a clear A–E health rating in seconds. Honest nutrition info. Personalised to your diet. No marketing spin.",
+  "meta_items": [
+    "Millions of products",
+    "A–E scoring",
+    "Allergen alerts",
+    "No ads, no tracking"
+  ],
+  "phone_content": "        <h4>Just scanned</h4>\n        <div class=\"phone-art\"><div class=\"emoji\">🥦</div></div>\n        <div>\n          <p class=\"phone-title\">Whole-grain bread · A</p>\n          <p class=\"phone-sub\">Brand X · sliced loaf</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>HEALTHIER PICK</span><span>3 ALTERNATIVES</span></div>\n        <div class=\"phone-controls\">\n          <span class=\"ic\">📷</span>\n          <span class=\"play\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M8 5v14l11-7z\"/></svg></span>\n          <span class=\"ic\">📊</span>\n        </div>\n        <div class=\"phone-lyric\"><b>Why A:</b> Low salt · whole grains · 4g fibre/slice<br><b>Watch:</b> contains wheat & sesame.</div>",
+  "chips": [
+    "🥦 Vegetables",
+    "🥩 Meats",
+    "🍞 Breads",
+    "🧀 Dairy",
+    "🍝 Pasta",
+    "🍫 Snacks",
+    "🥤 Drinks",
+    "🥫 Tinned",
+    "🧊 Frozen",
+    "🍳 Breakfast"
+  ],
+  "how_head_pre": "Point. Scan.",
+  "how_head_accent": "Done in under a second.",
+  "how_lead": "No food diaries. No calorie counting. No guilt. Just clear scores on the products in your trolley before they end up in your fridge.",
+  "steps": [
+    [
+      "Scan a barcode",
+      "Point your camera. We recognise millions of products instantly. The score appears before you've looked up."
+    ],
+    [
+      "See the honest score",
+      "An A–E grade based on real nutrition science — sugars, salt, fat, fibre, processing, additives. Personalised to your diet."
+    ],
+    [
+      "Find a better option",
+      "If we can suggest a healthier alternative on the same shelf, we will. Same brand or different — better is the goal."
+    ]
+  ],
+  "feat_head_pre": "Honest food scoring.",
+  "feat_head_line2": "Without the marketing spin.",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg>",
+      "Lightning barcode scanning",
+      "Sub-second recognition with our offline barcode database. Even on bad supermarket WiFi."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"9 11 12 14 22 4\"/><path d=\"M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11\"/></svg>",
+      "Clear A–E rating",
+      "From green-A 'eat freely' to red-E 'maybe a treat'. Based on Nutri-Score, plus our own additive checks."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\"/></svg>",
+      "Healthier alternatives",
+      "Plus surfaces better-scoring options on the same shelf. Sometimes it's a different brand. Sometimes it's the supermarket's own."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2 2M16.4 16.4l2 2M5.6 18.4l2-2M16.4 7.6l2-2\"/></svg>",
+      "Personalised diet goals",
+      "Vegan, low-sugar, gluten-free, keto, low-FODMAP. Food Score adjusts the rating for what matters to you."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>",
+      "Allergen alerts",
+      "Big bold flags on the 14 major allergens. Plus a custom list for your household."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\"/></svg>",
+      "Trends over time",
+      "Plus tracks the average score of what you scan. See your shopping trolley get healthier — week by week."
+    ]
+  ],
+  "ex_eyebrow": "Real scans",
+  "ex_head": "What scores actually look like:",
+  "ex_lead": "A handful of real product scores from a typical UK shopping trolley. Some surprises in there.",
+  "examples": [
+    [
+      "#84CC16,#65A30D",
+      "🥦",
+      "Frozen broccoli — A",
+      "Tesco own brand"
+    ],
+    [
+      "#FACC15,#A16207",
+      "🍞",
+      "Whole-grain loaf — A",
+      "Hovis Best of Both"
+    ],
+    [
+      "#FB923C,#9A3412",
+      "🍫",
+      "Chocolate biscuit — D",
+      "Big high-street brand"
+    ],
+    [
+      "#EF4444,#7F1D1D",
+      "🥤",
+      "Energy drink — E",
+      "Sugary, high salt"
+    ],
+    [
+      "#86EFAC,#15803D",
+      "🥗 ",
+      "Mixed salad bag — A",
+      "Sainsbury's"
+    ],
+    [
+      "#FED7AA,#9A3412",
+      "🍝",
+      "Tomato pasta sauce — C",
+      "Mid-tier added sugar"
+    ],
+    [
+      "#84CC16,#3F6212",
+      "🍳",
+      "Free-range eggs — A",
+      "Six-pack"
+    ],
+    [
+      "#FACC15,#854D0E",
+      "🧀",
+      "Mature cheddar — B",
+      "200g block"
+    ]
+  ],
+  "pricing_lead": "Free for 30 scans a month — plenty for a casual user. Plus is for proper weekly shoppers and dietary-needs households.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "£0",
+      "blurb": "30 scans / month. The basics, well done.",
+      "items": [
+        "30 barcode scans / month",
+        "A–E score",
+        "Major allergens",
+        "7-day history"
+      ],
+      "cta": "Download free"
+    },
+    {
+      "name": "Plus — Annual",
+      "featured": true,
+      "tag": "For weekly shops",
+      "price": "£17.99",
+      "per": "/ year",
+      "strike": "£35.88 if billed monthly",
+      "blurb": "Unlimited scans. Personalised goals. Healthier alternatives. Trolley trends.",
+      "items": [
+        "Unlimited scans",
+        "Healthier alternatives finder",
+        "Personalised diet plans",
+        "Lifetime trend tracking",
+        "Custom allergen list"
+      ],
+      "cta": "Start 7-day free trial"
+    },
+    {
+      "name": "Plus — Monthly",
+      "price": "£2.99",
+      "per": "/ month",
+      "blurb": "Same Plus features, billed monthly.",
+      "items": [
+        "Unlimited scans",
+        "All Plus features",
+        "Cancel anytime"
+      ],
+      "cta": "Go monthly"
+    }
+  ],
+  "why_eyebrow": "Why score?",
+  "why_head_pre": "Food labels were designed",
+  "why_head_accent": "for everyone except you.",
+  "why_lead": "Most labels are tuned for legal compliance, not for the person trying to make a 30-second decision in aisle 4. Food Score boils all that down to the only question you actually want answered: is this any good for me?",
+  "why_body": "We use Nutri-Score as a starting point, then add ultra-processed-food checks, additive scoring, and personal-diet adjustments. The result is one letter you can trust.",
+  "stats": [
+    [
+      "A–E",
+      "grad",
+      "Single-letter scoring, validated against international nutrition standards."
+    ],
+    [
+      "<1s",
+      "mint",
+      "Average barcode-to-score time on a recent device. Faster than reading the front of a packet."
+    ],
+    [
+      "Privacy",
+      "yellow",
+      "Your scans stay on your phone. We don't sell shopping data — to anyone, ever."
+    ]
+  ],
+  "faq": [
+    [
+      "Where do the scores come from?",
+      "We blend the EU Nutri-Score nutritional algorithm with additional checks for processing level (NOVA), additives, and your own dietary preferences. It's transparent — every score shows its working."
+    ],
+    [
+      "What if a product isn't in your database?",
+      "We crowdsource missing products. Snap the front and back, we add it within 24 hours. UK and Europe coverage is best; growing daily."
+    ],
+    [
+      "Is this an Apple Health replacement?",
+      "No. Food Score isn't a calorie counter or food diary. It's a quick, honest 'is this stuff actually good?' before you buy it."
+    ],
+    [
+      "Can I trust an A?",
+      "An A means it's a genuinely healthy choice in its category — not that you should eat unlimited amounts. Common sense still applies."
+    ],
+    [
+      "Does it work on UK supermarket own-brands?",
+      "Yes — Tesco, Sainsbury's, M&S, Aldi, Lidl, Morrisons, Co-op, Waitrose, Asda. All extensively covered."
+    ],
+    [
+      "Can I add my family's allergies?",
+      "Yes, on Plus. Build a household allergen list and every scan flags accordingly."
+    ],
+    [
+      "Is it accurate for kids' food?",
+      "We have a special children's mode that adjusts thresholds for age-appropriate guidance. Especially useful for school-lunch shopping."
+    ]
+  ],
+  "final_title": "Eat smarter.",
+  "final_body": "Free to download. iPhone and Android. Your next better trolley starts at the next scan.",
+  "footer_blurb": "Honest A–E health scores for any food product. No marketing spin. Made in the UK by Froggy Eye Ltd.",
+  "theme": "citrus",
+  "og_image_alt": "Food Score — barcode food health scanner app",
+  "seo_desc": "Clear A–E health rating for any food. Scan barcode, see honest score, find healthier alternatives.",
+  "seo_title": "Food Score — Scan food. Get a clear health score | Froggy Eye Ltd"
+}

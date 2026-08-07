@@ -1,0 +1,236 @@
+{
+  "folder": "blipblobb",
+  "name": "BlipBlobb",
+  "tagline": "Group chats. No internet required.",
+  "meta_desc": "BlipBlobb creates instant local chats over WiFi. No accounts, no servers, no signal. Conferences, festivals, classrooms — stay in sync with the room.",
+  "nav_examples": "Use cases",
+  "hero_eyebrow": "iOS & Android · Works offline · No accounts",
+  "headline_pre": "Group chats that work",
+  "headline_accent": "even when the internet doesn't.",
+  "lead": "BlipBlobb creates instant local chats over WiFi — no signups, no servers, no signal. Open the app, join the room, talk to everyone in it.",
+  "meta_items": [
+    "Made for events",
+    "Zero data collection",
+    "Works offline"
+  ],
+  "phone_content": "        <h4>Local rooms</h4>\n        <div class=\"phone-art\"><div class=\"emoji\">📡</div></div>\n        <div>\n          <p class=\"phone-title\">FogCon · Sat Hall A</p>\n          <p class=\"phone-sub\">62 nearby · 4 active threads</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>WIFI</span><span>62 PEERS</span></div>\n        <div class=\"phone-controls\">\n          <span class=\"ic\">💬</span>\n          <span class=\"play\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M8 5v14l11-7z\"/></svg></span>\n          <span class=\"ic\">📎</span>\n        </div>\n        <div class=\"phone-lyric\"><b>Mira:</b> queue moved, panel starts in 4<br><b>Dev:</b> save me a seat ❤️</div>",
+  "chips": [
+    "🎤 Conferences",
+    "🎉 Festivals",
+    "💍 Weddings",
+    "🏫 Classrooms",
+    "🚌 Tour groups",
+    "🏕️ Campsites",
+    "🚢 Cruises",
+    "✈️ In-flight",
+    "🏟️ Stadiums",
+    "🏔️ Off-grid"
+  ],
+  "how_head_pre": "Three taps in.",
+  "how_head_accent": "Talking to the room.",
+  "how_lead": "No signup. No phone number. No QR codes. Open the app and you're discovered by everyone on the same WiFi.",
+  "steps": [
+    [
+      "Open BlipBlobb",
+      "Pick a name. Pick a colour. That's the entire setup. Takes about ten seconds."
+    ],
+    [
+      "Join a room",
+      "Anyone on your WiFi shows up automatically. Or hit Create Room and share a passcode for privacy."
+    ],
+    [
+      "Chat without limits",
+      "Text, voice notes, photos, files. No cellular, no servers, no someone-else's-cloud."
+    ]
+  ],
+  "feat_head_pre": "Built for the room.",
+  "feat_head_line2": "Not the cloud.",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12.55a11 11 0 0 1 14.08 0\"/><path d=\"M1.42 9a16 16 0 0 1 21.16 0\"/><path d=\"M8.53 16.11a6 6 0 0 1 6.95 0\"/><line x1=\"12\" y1=\"20\" x2=\"12.01\" y2=\"20\"/></svg>",
+      "Local-first messaging",
+      "Messages travel device-to-device over the WiFi you're already on. No relay servers, no dependency."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" ry=\"2\"/><path d=\"M7 11V7a5 5 0 0 1 10 0v4\"/></svg>",
+      "No accounts, ever",
+      "No phone number. No email. No login. Your name lasts as long as the chat does."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\"/><circle cx=\"9\" cy=\"7\" r=\"4\"/><path d=\"M23 21v-2a4 4 0 0 0-3-3.87\"/><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"/></svg>",
+      "Auto-discover peers",
+      "Anyone on the same WiFi appears in the room list. Ad-hoc social network on demand."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z\"/></svg>",
+      "Files & voice notes",
+      "Send photos, voice notes, and documents at WiFi speed. No upload bar, no '0%'."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>",
+      "Encrypted in transit",
+      "Private rooms are end-to-end encrypted. Even if someone's snooping the network, they're snooping noise."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"13 2 3 14 12 14 11 22 21 10 12 10 13 2\"/></svg>",
+      "No bandwidth waste",
+      "Messages stay local — nothing goes to the wider internet. Perfect when the venue WiFi is on its knees."
+    ]
+  ],
+  "ex_eyebrow": "Where it shines",
+  "ex_head": "Made for these moments:",
+  "ex_lead": "BlipBlobb is the chat for situations regular messengers were never built for — places where signal is poor, formal apps fail, and you just need to talk to whoever's nearby.",
+  "examples": [
+    [
+      "#00D4FF,#3B82F6",
+      "🎤",
+      "Conference floor",
+      "FogCon · 1,200 attendees"
+    ],
+    [
+      "#5EEAD4,#0087B3",
+      "🎉",
+      "Festival camp",
+      "Glasto · 3 nearby tents"
+    ],
+    [
+      "#FACC15,#D97706",
+      "💍",
+      "Wedding venue",
+      "Reception · 80 guests"
+    ],
+    [
+      "#A855F7,#5B21B6",
+      "🏫",
+      "Year 10 trip",
+      "Mr. Davies' class · 28 students"
+    ],
+    [
+      "#FB7185,#9F1239",
+      "🚌",
+      "Coach tour",
+      "Day 3 Italy · 42 travellers"
+    ],
+    [
+      "#34D399,#059669",
+      "🏕️",
+      "Campsite",
+      "Lake Coniston · 6 vans"
+    ],
+    [
+      "#FBBF24,#A16207",
+      "🚢",
+      "Cruise deck",
+      "Aurora-A · poker night"
+    ],
+    [
+      "#22D3EE,#0E7490",
+      "🏔️",
+      "Off-grid hut",
+      "Lake hut · no signal at all"
+    ]
+  ],
+  "pricing_lead": "Free for casual chat. Plus is for organisers who need bigger rooms and history.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "£0",
+      "blurb": "Up to 12 people in a room. The chat that just works.",
+      "items": [
+        "Rooms up to 12",
+        "Text, voice, photos",
+        "Auto-discover peers",
+        "Forever free"
+      ],
+      "cta": "Download free"
+    },
+    {
+      "name": "Plus — Annual",
+      "featured": true,
+      "tag": "For organisers",
+      "price": "£12.99",
+      "per": "/ year",
+      "strike": "£23.88 if billed monthly",
+      "blurb": "Run real events. Save the conversation. Brand the room.",
+      "items": [
+        "Rooms up to 500 people",
+        "Persistent chat history",
+        "Custom event branding",
+        "Pinned messages",
+        "Priority support"
+      ],
+      "cta": "Start 7-day free trial"
+    },
+    {
+      "name": "Plus — Monthly",
+      "price": "£1.99",
+      "per": "/ month",
+      "blurb": "Same Plus features, billed monthly. Cancel any time.",
+      "items": [
+        "Rooms up to 500 people",
+        "Persistent history",
+        "Custom branding"
+      ],
+      "cta": "Go monthly"
+    }
+  ],
+  "why_eyebrow": "Why local",
+  "why_head_pre": "The wider internet isn't always there.",
+  "why_head_accent": "The room always is.",
+  "why_lead": "Cloud chat fails the moment signal does — at festivals, on coaches, in basements, mid-flight, in any venue with overloaded WiFi. BlipBlobb cuts the cloud out entirely.",
+  "why_body": "Your conversation lives on the devices in the room and nowhere else. Faster, more private, more reliable when it counts.",
+  "stats": [
+    [
+      "0",
+      "grad",
+      "Servers your messages touch. The chat is the network."
+    ],
+    [
+      "~10s",
+      "mint",
+      "From open-app to chatting. Pick a name and you're in."
+    ],
+    [
+      "End-to-end",
+      "yellow",
+      "Encryption on private rooms. The venue WiFi can't read what you send."
+    ]
+  ],
+  "faq": [
+    [
+      "Does it really work without internet?",
+      "Yes — as long as devices are on the same WiFi network or hotspot. The internet is only used optionally for software updates."
+    ],
+    [
+      "Do I need to make an account?",
+      "Never. Pick a display name, you're in. Nothing about you is stored on our servers — because there are no servers."
+    ],
+    [
+      "How big can a room get?",
+      "Free rooms up to 12 people. Plus rooms up to 500. Beyond that, message us — we can support festival-scale rooms."
+    ],
+    [
+      "What if my WiFi is locked down?",
+      "BlipBlobb works on any open or password-protected WiFi as long as you're on it. If client isolation is on, we fall back to phone-to-phone Bluetooth."
+    ],
+    [
+      "Is it actually private?",
+      "Yes. Private rooms are end-to-end encrypted. We don't see your messages because they don't touch our infrastructure."
+    ],
+    [
+      "Will my battery die?",
+      "BlipBlobb uses peer discovery sparingly. A typical day in a busy room is about 3–5% battery."
+    ],
+    [
+      "Can I use it for sensitive things?",
+      "Plus has end-to-end encryption and pinned messages, but BlipBlobb isn't a Signal replacement. For anything genuinely confidential, use a dedicated secure messenger."
+    ]
+  ],
+  "final_title": "Talk to the room.",
+  "final_body": "Free to download. Free to use. iPhone and Android. Open it, you're in.",
+  "footer_blurb": "Local group chat that works without signal. Built for events, festivals, classrooms, and anywhere the internet gives up.",
+  "theme": "ocean",
+  "og_image_alt": "BlipBlobb — local WiFi group chat app",
+  "seo_desc": "Group chats that work without internet. Local discovery over WiFi. No accounts, no servers.",
+  "seo_title": "BlipBlobb — Local group chats over WiFi | Froggy Eye Ltd"
+}

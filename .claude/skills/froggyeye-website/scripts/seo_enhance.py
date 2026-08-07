@@ -7,7 +7,19 @@
 import json, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _common import load_apps, SITE_ROOT
+from _common import load_apps, SITE_ROOT, SKILL_ROOT
+
+def _content(app):
+    p = SKILL_ROOT / "data" / "content" / f"{app['folder']}.json"
+    return json.loads(p.read_text()) if p.exists() else {}
+
+def seo_desc(app):
+    """Richer description for meta/JSON-LD: content seo_desc, else tagline."""
+    return _content(app).get("seo_desc") or app["tagline"]
+
+def seo_title(app):
+    """Hand-tuned twitter/social title: content seo_title, else name — tagline formula."""
+    return _content(app).get("seo_title") or f'{app["name"]} — {app["tagline"]} | Froggy Eye Ltd'
 
 PUBLISHER = {
     "@type": "Organization",
@@ -33,7 +45,7 @@ def app_jsonld(app):
         "@context": "https://schema.org",
         "@type": "MobileApplication",
         "name": app["name"],
-        "description": app["tagline"],
+        "description": seo_desc(app),
         "applicationCategory": app["schema_category"],
         "operatingSystem": ", ".join(operating) if operating else "iOS, Android",
         "url": f"https://{folder}.froggyeye.com",
@@ -45,6 +57,9 @@ def app_jsonld(app):
 
 def patch_app_page(app):
     folder = app["folder"]
+    if app.get("user_authored"):
+        print(f"  · {folder}: user-authored — skipping")
+        return
     p = SITE_ROOT / folder / "index.html"
     if not p.exists():
         return
@@ -54,11 +69,12 @@ def patch_app_page(app):
     if 'rel="canonical"' not in text:
         additions.append(f'<link rel="canonical" href="{canonical}" />')
     if 'name="twitter:card"' not in text:
+        img = "feature.png" if (SITE_ROOT / folder / "feature.png").exists() else "icon.png"
         additions.append(
             f'<meta name="twitter:card" content="summary_large_image" />\n'
-            f'<meta name="twitter:title" content="{app["name"]} — {app["tagline"]} | Froggy Eye Ltd" />\n'
-            f'<meta name="twitter:description" content="{app["tagline"]}" />\n'
-            f'<meta name="twitter:image" content="{canonical}feature.png" />')
+            f'<meta name="twitter:title" content="{seo_title(app)}" />\n'
+            f'<meta name="twitter:description" content="{seo_desc(app)}" />\n'
+            f'<meta name="twitter:image" content="{canonical}{img}" />')
     if 'application/ld+json' not in text:
         additions.append('<script type="application/ld+json">\n' + json.dumps(app_jsonld(app), indent=2) + '\n</script>')
     if additions and '</head>' in text:
@@ -137,6 +153,8 @@ def write_sitemap(apps):
         if a.get("subdomain_live") is False:
             continue
         urls.append((f"https://{a['folder']}.froggyeye.com/", today, "0.9"))
+        for pg in a.get("extra_pages", []):
+            urls.append((f"https://{a['folder']}.froggyeye.com/{pg}", today, "0.6"))
     body = "\n".join(
         f'  <url>\n    <loc>{u}</loc>\n    <lastmod>{d}</lastmod>\n    <priority>{p}</priority>\n  </url>'
         for u, d, p in urls)
@@ -146,7 +164,7 @@ def write_sitemap(apps):
 
 def write_llms_txt(apps):
     lines = ["# Froggy Eye Ltd", "",
-             "> A UK-based indie mobile app studio. We design and ship thoughtful, well-crafted apps for iOS and Android — eighteen of them, spanning productivity, games, family, finance, and creativity.", "",
+             "> A UK-based indie app studio. We design and ship thoughtful, well-crafted apps for iOS, Android, Mac and Windows — eighteen of them, spanning productivity, games, family, finance, creativity, and social tools.", "",
              "## About", "",
              "- [Main site](https://froggyeye.com): Studio overview and app catalogue",
              "- [Privacy policy](https://froggyeye.com/privacy.html)",
@@ -154,9 +172,9 @@ def write_llms_txt(apps):
              "- Contact: info@froggyeye.com", "",
              "## Apps", ""]
     for a in apps:
-        lines.append(f"- [{a['name']}](https://{a['folder']}.froggyeye.com): {a['tagline']}")
+        lines.append(f"- [{a['name']}](https://{a['folder']}.froggyeye.com): {a.get('llms_desc') or a['tagline']}")
     lines += ["", "## Notes for AI agents", "",
-              "All app pages are server-rendered HTML. Each app subdomain has product details, pricing, FAQ, and links to its App Store and Google Play listings where available. Use the app's subdomain as the canonical reference URL.", ""]
+              "All app pages are server-rendered HTML. Each app subdomain has product details, pricing, FAQ, and links to its App Store and Google Play listings where available. PostPilot is the studio's only desktop product — it's not on app stores and is distributed direct from postpilot.froggyeye.com. Use the app's subdomain as the canonical reference URL.", ""]
     (SITE_ROOT / "llms.txt").write_text("\n".join(lines))
     print("  ✓ llms.txt")
 

@@ -1,0 +1,237 @@
+{
+  "folder": "tileverse",
+  "name": "Tileverse",
+  "tagline": "Claim the world, one tile at a time.",
+  "meta_desc": "Claim digital tiles anywhere on Earth. Build a virtual empire on the real-world map. Compete with friends. Strategy meets the planet.",
+  "nav_examples": "Empires",
+  "hero_eyebrow": "iOS · Strategy on the real-world map",
+  "headline_pre": "Claim the real world,",
+  "headline_accent": "one tile at a time.",
+  "lead": "Claim digital tiles anywhere on Earth — your hometown, holiday spots, famous landmarks, secret hideaways. Build a virtual empire on the real-world map. Trade. Compete. Conquer.",
+  "meta_items": [
+    "Live world map",
+    "Multiplayer rivalry",
+    "In-app economy",
+    "No ads, no tracking"
+  ],
+  "phone_content": "        <h4>Your empire</h4>\n        <div class=\"phone-art\"><div class=\"emoji\">🌍</div></div>\n        <div>\n          <p class=\"phone-title\">142 tiles · Tier IV</p>\n          <p class=\"phone-sub\">North-West Empire · #82 globally</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>+12 THIS WEEK</span><span>RIVAL: SAGE</span></div>\n        <div class=\"phone-controls\">\n          <span class=\"ic\">⏪</span>\n          <span class=\"play\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M8 5v14l11-7z\"/></svg></span>\n          <span class=\"ic\">⚔️</span>\n        </div>\n        <div class=\"phone-lyric\"><b>Big Ben</b> contested · <b>Edinburgh Castle</b> yours<br><b>3 tiles</b> available next to your stronghold</div>",
+  "chips": [
+    "🏰 Landmarks",
+    "🌆 Cities",
+    "🌊 Coastlines",
+    "🏔 Mountains",
+    "🌲 Forests",
+    "🏖 Beaches",
+    "🏟 Stadiums",
+    "🎢 Theme parks",
+    "🛬 Airports",
+    "🏝 Islands"
+  ],
+  "how_head_pre": "Pick a square.",
+  "how_head_accent": "Build your empire.",
+  "how_lead": "Every square metre of Earth is a claimable tile. Start small, expand strategically, fortify what matters. The whole world is the game board.",
+  "steps": [
+    [
+      "Claim your first tile",
+      "Anywhere on the planet — your bedroom, your school, the Eiffel Tower. The first one is yours, free."
+    ],
+    [
+      "Build outwards",
+      "Cluster tiles into territories. Lock down landmarks. Grow your empire one square at a time."
+    ],
+    [
+      "Compete & trade",
+      "Rival empires want what you've got. Fortify, ally, trade, or wage tile war. The leaderboard is the world."
+    ]
+  ],
+  "feat_head_pre": "A strategy game.",
+  "feat_head_line2": "On a map of the real world.",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6\"/><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"18\"/><line x1=\"16\" y1=\"6\" x2=\"16\" y2=\"22\"/></svg>",
+      "Live, real-world map",
+      "Beautifully rendered planet — see claimed tiles, contested zones, and your territory grow in real time."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"13 2 3 14 12 14 11 22 21 10 12 10 13 2\"/></svg>",
+      "Strategic tile claiming",
+      "Cluster tiles for bonuses. Lock down landmarks for prestige. Choke points matter — ask any general."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\"/><circle cx=\"9\" cy=\"7\" r=\"4\"/><path d=\"M23 21v-2a4 4 0 0 0-3-3.87\"/><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"/></svg>",
+      "Real multiplayer",
+      "Real players, real competition. Form alliances or wage long campaigns over the regions you care about."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\"/></svg>",
+      "In-app economy",
+      "Earn, trade, and compound. Tiles you claim today might double in value next quarter — watch the market."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2 2M16.4 16.4l2 2M5.6 18.4l2-2M16.4 7.6l2-2\"/></svg>",
+      "Premium empire flags",
+      "Plus unlocks custom flag designs, empire colours, and territorial banners. Look the part."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><polygon points=\"16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76\"/></svg>",
+      "Daily quests",
+      "New objectives every day — claim a coastline, take a landmark, build a 12-tile cluster. Steady progress without grinding."
+    ]
+  ],
+  "ex_eyebrow": "Empires we've seen",
+  "ex_head": "What people are claiming:",
+  "ex_lead": "Anonymised top empires from the global Tileverse leaderboard. From single-village fortifications to landmark-only minimalists.",
+  "examples": [
+    [
+      "#0EA5E9,#0369A1",
+      "🏰",
+      "Landmark Hunter",
+      "All UK landmarks · Tier VII"
+    ],
+    [
+      "#22D3EE,#0E7490",
+      "🌆",
+      "London Lord",
+      "C1–C2 saturation · Tier VI"
+    ],
+    [
+      "#5EEAD4,#0F766E",
+      "🌊",
+      "Coastline Empire",
+      "From Land's End to Dover"
+    ],
+    [
+      "#A855F7,#5B21B6",
+      "🏔",
+      "Highland Crown",
+      "Scottish peaks specialist"
+    ],
+    [
+      "#FACC15,#A16207",
+      "🏟",
+      "Stadium Hunter",
+      "Every Premier League ground"
+    ],
+    [
+      "#FB7185,#9F1239",
+      "🎢",
+      "Theme Park Tycoon",
+      "Disney + Universal complete"
+    ],
+    [
+      "#34D399,#047857",
+      "🌲",
+      "Forest King",
+      "Black Forest dominance"
+    ],
+    [
+      "#3DF5B0,#0F766E",
+      "🏝 ",
+      "Island Collector",
+      "All UK isles"
+    ]
+  ],
+  "pricing_lead": "Free to play, with real strategy. Plus is for serious players who want bigger empires and faster growth.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "£0",
+      "blurb": "Up to 100 tiles. Full strategy. The whole world to play on.",
+      "items": [
+        "Up to 100 tiles",
+        "Standard tile generation",
+        "Empire flags (basic)",
+        "Daily quests"
+      ],
+      "cta": "Download free"
+    },
+    {
+      "name": "Plus — Annual",
+      "featured": true,
+      "tag": "For empire builders",
+      "price": "£14.99",
+      "per": "/ year",
+      "strike": "£35.88 if billed monthly",
+      "blurb": "Bigger empires, faster claiming, exclusive flags, leaderboard recognition.",
+      "items": [
+        "Up to 5,000 tiles",
+        "Faster tile generation",
+        "Premium empire flags & themes",
+        "Exclusive leaderboard recognition",
+        "Priority server support"
+      ],
+      "cta": "Start 7-day free trial"
+    },
+    {
+      "name": "Plus — Monthly",
+      "price": "£2.99",
+      "per": "/ month",
+      "blurb": "Same Plus features, billed monthly.",
+      "items": [
+        "5,000 tiles",
+        "All Plus features",
+        "Cancel anytime"
+      ],
+      "cta": "Go monthly"
+    }
+  ],
+  "why_eyebrow": "Why a world game",
+  "why_head_pre": "Most strategy games invent a fake map.",
+  "why_head_accent": "We use the one you already know.",
+  "why_lead": "Risk has six continents. Civilization has tile-based fantasy. Tileverse has Earth — every street, every coastline, every landmark you care about. Familiar enough to be personal. Big enough to never run out.",
+  "why_body": "Tiles aren't ownership of real property — they're digital claims on a digital map. But the satisfaction of holding your home town in tier-VII fortifications? That's real.",
+  "stats": [
+    [
+      "510 trillion",
+      "grad",
+      "Tiles on the planet (1m² each). You will never run out of new ground to claim."
+    ],
+    [
+      "Real-time",
+      "mint",
+      "Multiplayer. See rival claims, alliances, and battles as they happen."
+    ],
+    [
+      "Digital",
+      "yellow",
+      "Tiles only. They are not real property and confer no real-world rights. The fun is in the game."
+    ]
+  ],
+  "faq": [
+    [
+      "Is this real estate?",
+      "No. Tileverse tiles are digital game assets. They do not represent ownership of real property and confer no real-world rights of any kind. It's a game."
+    ],
+    [
+      "Do I need to be in a place to claim it?",
+      "No — claim anywhere on the planet from the comfort of your sofa. You don't need to physically visit Mount Everest to plant a flag on it."
+    ],
+    [
+      "How does the multiplayer work?",
+      "Other real players see your claims and can challenge contested tiles. Alliances let you defend territory together. Wars are fun. Wars are also optional."
+    ],
+    [
+      "Can my friends and I play together?",
+      "Absolutely — form alliances, share territories, defend each other's strongholds. The most successful empires are usually built together."
+    ],
+    [
+      "How does pricing work?",
+      "Free to play with up to 100 tiles. Plus removes the limit (up to 5,000) and unlocks premium customisation."
+    ],
+    [
+      "Can I lose tiles I've claimed?",
+      "In contested zones, yes — that's the strategy. Your stronghold tiles are protected once fortified."
+    ],
+    [
+      "Will the map ever fill up?",
+      "510 trillion tiles. No."
+    ]
+  ],
+  "final_title": "Plant your flag.",
+  "final_body": "Free to download. iPhone and Android. Pick a square. Build the empire.",
+  "footer_blurb": "A real-world map strategy game where every square is up for grabs. Made in the UK by Froggy Eye Ltd.",
+  "theme": "tile",
+  "og_image_alt": "Tileverse — real-world map strategy game",
+  "seo_desc": "Claim digital tiles on a real-world map. Multiplayer strategy. Build a virtual empire.",
+  "seo_title": "Tileverse — Claim the world, one tile at a time | Froggy Eye Ltd"
+}

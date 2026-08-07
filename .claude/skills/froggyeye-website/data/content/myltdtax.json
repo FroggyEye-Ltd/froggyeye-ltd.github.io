@@ -1,0 +1,237 @@
+{
+  "folder": "myltdtax",
+  "name": "My LTD Tax",
+  "tagline": "Tax for UK limited company directors.",
+  "meta_desc": "My LTD Tax is the indispensable companion for UK limited company directors. Track expenses, hit every deadline, file with confidence.",
+  "nav_examples": "Examples",
+  "hero_eyebrow": "iOS & Android · Built for UK limited company directors",
+  "headline_pre": "Stop dreading tax season.",
+  "headline_accent": "Start owning it.",
+  "lead": "My LTD Tax is the indispensable companion for UK limited company directors. Snap receipts, track every deadline, log mileage automatically — and walk into your accountant's office with everything sorted.",
+  "meta_items": [
+    "UK HMRC-aware",
+    "OCR receipts",
+    "Built by a director",
+    "No ads, no tracking"
+  ],
+  "phone_content": "        <h4>Next deadline</h4>\n        <div class=\"phone-art\"><div class=\"emoji\">🧾</div></div>\n        <div>\n          <p class=\"phone-title\">CT600 · 14 days</p>\n          <p class=\"phone-sub\">Year ended 31 Mar · Acme Ltd</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>£2,184 OWED</span><span>READY TO FILE</span></div>\n        <div class=\"phone-controls\">\n          <span class=\"ic\">📅</span>\n          <span class=\"play\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M8 5v14l11-7z\"/></svg></span>\n          <span class=\"ic\">📤</span>\n        </div>\n        <div class=\"phone-lyric\"><b>Quarter recap:</b> 47 expenses · 312 mi mileage<br><b>VAT due:</b> £984 (in 2 weeks).</div>",
+  "chips": [
+    "📅 Corp Tax",
+    "💷 VAT",
+    "👥 PAYE",
+    "📋 Confirm. statement",
+    "🧾 Expenses",
+    "🚗 Mileage",
+    "📥 Receipts",
+    "📈 Dividends",
+    "🏛️ HMRC",
+    "🏠 Use of home"
+  ],
+  "how_head_pre": "Set up the company.",
+  "how_head_accent": "Then just live your life.",
+  "how_lead": "Connect your numbers. Snap receipts as they happen. We do the deadline-watching. You do the work that pays for it.",
+  "steps": [
+    [
+      "Add your company",
+      "Year-end, VAT scheme, PAYE setup. Takes about 3 minutes. We'll fill in the rest from Companies House."
+    ],
+    [
+      "Log expenses as they happen",
+      "Snap a receipt, the OCR pulls amount, date, VAT, and category. Auto-detect mileage from your phone's GPS."
+    ],
+    [
+      "Hit every deadline",
+      "Smart reminders well in advance. Pre-built CT/VAT/PAYE summaries. HMRC-ready exports for you or your accountant."
+    ]
+  ],
+  "feat_head_pre": "Made by a director.",
+  "feat_head_line2": "Not a software company.",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9\"/><path d=\"M13.73 21a2 2 0 0 1-3.46 0\"/></svg>",
+      "Smart deadline reminders",
+      "Corporation tax, VAT, PAYE, confirmation statement, P11D — every UK deadline tracked, with timely reminders."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg>",
+      "OCR receipt scanning",
+      "Snap, done. We read amount, date, VAT, supplier and category. Edit if you want."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><polygon points=\"16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76\"/></svg>",
+      "Auto mileage tracking",
+      "Background GPS detects business journeys. Approve at end of day. HMRC-rate calculated automatically."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\"/></svg>",
+      "Plain-English guidance",
+      "Allowable expenses, dividend allowances, IR35 basics — explained without legalese."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"9 11 12 14 22 4\"/><path d=\"M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11\"/></svg>",
+      "HMRC-ready exports",
+      "CSV, PDF, Excel — formats your accountant actually uses. Or self-file if you're confident."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>",
+      "Your data, your phone",
+      "Cloud sync is opt-in and end-to-end encrypted. Local-only mode for the privacy-minded."
+    ]
+  ],
+  "ex_eyebrow": "Real director tasks",
+  "ex_head": "Things My LTD Tax handles in a normal week:",
+  "ex_lead": "These are the real reminders, exports, and entries that come up in a typical UK director's working month.",
+  "examples": [
+    [
+      "#14B8A6,#0F766E",
+      "📅",
+      "Corp Tax CT600",
+      "Annual filing reminder"
+    ],
+    [
+      "#5EEAD4,#0F766E",
+      "💷",
+      "VAT Q3 return",
+      "Quarterly summary"
+    ],
+    [
+      "#FACC15,#A16207",
+      "🧾",
+      "47 expenses logged",
+      "Receipt OCR · this week"
+    ],
+    [
+      "#A855F7,#5B21B6",
+      "🚗",
+      "Mileage 312 mi",
+      "Auto-detected business trips"
+    ],
+    [
+      "#FB7185,#9F1239",
+      "👥",
+      "PAYE month 7",
+      "Payslips & RTI ready"
+    ],
+    [
+      "#FBBF24,#D97706",
+      "📈",
+      "Dividend voucher",
+      "Quarterly distribution"
+    ],
+    [
+      "#22D3EE,#0E7490",
+      "🏠",
+      "Use of home",
+      "Allowance calculated"
+    ],
+    [
+      "#34D399,#059669",
+      "📋",
+      "Confirmation statement",
+      "Annual filing in 5 weeks"
+    ]
+  ],
+  "pricing_lead": "Free for the essentials of a single LTD. Pro is for active directors who want full reporting and integrations.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "£0",
+      "blurb": "One company. Basics. Deadline reminders.",
+      "items": [
+        "1 limited company",
+        "Up to 30 receipts/month",
+        "Deadline reminders",
+        "Basic CSV exports"
+      ],
+      "cta": "Download free"
+    },
+    {
+      "name": "Pro — Annual",
+      "featured": true,
+      "tag": "For active directors",
+      "price": "£59.99",
+      "per": "/ year",
+      "strike": "£119.88 if billed monthly",
+      "blurb": "Unlimited receipts, full HMRC-ready reports, accounting software integrations.",
+      "items": [
+        "Unlimited receipts & expenses",
+        "Multi-company support",
+        "Full HMRC-ready reports",
+        "Xero / FreeAgent / QuickBooks integration",
+        "Priority support"
+      ],
+      "cta": "Start 7-day free trial"
+    },
+    {
+      "name": "Pro — Monthly",
+      "price": "£9.99",
+      "per": "/ month",
+      "blurb": "Same Pro features, billed monthly.",
+      "items": [
+        "All Pro features",
+        "Cancel anytime",
+        "No long-term commitment"
+      ],
+      "cta": "Go monthly"
+    }
+  ],
+  "why_eyebrow": "Why this exists",
+  "why_head_pre": "Spreadsheets aren't a tax strategy.",
+  "why_head_accent": "Neither is dread.",
+  "why_lead": "Most UK contractors and small directors run their company finances out of a panicked spreadsheet they update twice a year. The tax authority doesn't care; it just wants the right numbers on time. My LTD Tax keeps the numbers right and on time.",
+  "why_body": "Built by a UK contractor who got tired of paying penalties for missing the confirmation statement deadline. Now there's a polite reminder six weeks early.",
+  "stats": [
+    [
+      "£100",
+      "grad",
+      "Standard HMRC late-filing penalty for a single missed deadline. My LTD Tax pays for itself in one near-miss."
+    ],
+    [
+      "3 min",
+      "mint",
+      "Average time to log expenses for a typical day, including mileage. Down from a slow Sunday with a shoebox."
+    ],
+    [
+      "HMRC",
+      "yellow",
+      "Aware. Not affiliated. Built around real UK rules, not a US software company's idea of them."
+    ]
+  ],
+  "faq": [
+    [
+      "Is this an accounting software replacement?",
+      "No. My LTD Tax is the in-pocket sidekick — receipts, deadlines, mileage. For full bookkeeping use Xero/FreeAgent/QuickBooks (and we integrate with all three on Pro)."
+    ],
+    [
+      "Will my accountant accept the exports?",
+      "Yes — formats are designed around what UK accountants actually request. CSV, PDF, Excel. Tested across hundreds of real practices."
+    ],
+    [
+      "Does it file my Corporation Tax for me?",
+      "No. We prepare and remind. Filing remains with you or your accountant — that's where it should be."
+    ],
+    [
+      "Can I use it before I have an LTD?",
+      "Yes — there's a 'thinking about going limited' setup mode that walks you through the basics. Switch to live mode when you incorporate."
+    ],
+    [
+      "How is my financial data stored?",
+      "Locally first. Cloud sync is opt-in, end-to-end encrypted. We can't read your data — neither can anyone else."
+    ],
+    [
+      "What if my company has more than one director?",
+      "Pro supports multiple directors and shareholders, with dividend tracking per shareholder."
+    ],
+    [
+      "Does it handle dividends and PAYE?",
+      "Yes — both. Dividend vouchers, PAYE month-end summaries, P60 reminders. The full UK director cycle."
+    ]
+  ],
+  "final_title": "Own your numbers.",
+  "final_body": "Free to download. iPhone and Android. Tax season starts feeling boring (in a good way) about a week in.",
+  "footer_blurb": "The companion app for UK limited company directors. Made by a director, for directors. Made in the UK.",
+  "theme": "teal_pro",
+  "og_image_alt": "My LTD Tax — UK limited company director tax app",
+  "seo_desc": "UK limited company tax companion. Track expenses, hit deadlines, OCR receipts, mileage tracking.",
+  "seo_title": "My LTD Tax — UK director's tax companion | Froggy Eye Ltd"
+}

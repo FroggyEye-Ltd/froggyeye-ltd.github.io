@@ -1,0 +1,235 @@
+{
+  "folder": "lovemenot",
+  "name": "Love Me Not",
+  "tagline": "He loves me. He loves me not.",
+  "meta_desc": "A charming digital take on the petal-picking ritual. Beautiful flowers, gentle physics, and a little magic for the questions you don't dare ask.",
+  "nav_examples": "Flowers",
+  "hero_eyebrow": "iOS & Android · A digital petal-picking ritual",
+  "headline_pre": "He loves you. He loves you not.",
+  "headline_accent": "Let the petals decide.",
+  "lead": "A charming take on the petal-picking ritual. Pick petals one by one and let chance answer the question you don't dare ask. Beautifully animated. Gently calming. Completely playful.",
+  "meta_items": [
+    "Family-friendly",
+    "Calming animations",
+    "No ads in Plus"
+  ],
+  "phone_content": "        <h4>One petal at a time</h4>\n        <div class=\"phone-art\"><div class=\"emoji\">🌸</div></div>\n        <div>\n          <p class=\"phone-title\">She loves me</p>\n          <p class=\"phone-sub\">Cherry blossom · 11 petals left</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>JUST PLUCKED</span><span>SHE LOVES YOU?</span></div>\n        <div class=\"phone-controls\">\n          <span class=\"ic\">↻</span>\n          <span class=\"play\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M8 5v14l11-7z\"/></svg></span>\n          <span class=\"ic\">📤</span>\n        </div>\n        <div class=\"phone-lyric\"><b>Q:</b> Should I text first tonight?<br>One petal at a time. Let it answer.</div>",
+  "chips": [
+    "🌹 Rose",
+    "🌻 Sunflower",
+    "🌸 Cherry blossom",
+    "🌼 Daisy",
+    "🌷 Tulip",
+    "🌺 Hibiscus",
+    "🪷 Lotus",
+    "💮 Plum",
+    "🥀 Wilted (joke)",
+    "🌿 Wildflower"
+  ],
+  "how_head_pre": "Pick a petal.",
+  "how_head_accent": "Wait for the answer.",
+  "how_lead": "The same ritual people have been doing in fields for centuries. We just made the petals beautiful and the flowers infinite.",
+  "steps": [
+    [
+      "Choose your flower",
+      "Rose, daisy, sunflower, cherry blossom, lotus — pick the one that fits the question and the mood."
+    ],
+    [
+      "Ask the question",
+      "Type it, or just hold it in your head. The flower doesn't need to know — only fate does."
+    ],
+    [
+      "Pick petals",
+      "One by one, slowly. Each one alternates the answer. The last petal decides. The animation makes it feel like more."
+    ]
+  ],
+  "feat_head_pre": "A small ritual.",
+  "feat_head_line2": "Beautifully crafted.",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2 2M16.4 16.4l2 2M5.6 18.4l2-2M16.4 7.6l2-2\"/></svg>",
+      "Hand-tuned animations",
+      "Every petal floats with real physics — falling, drifting, settling. We obsessed over how it feels."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\"/></svg>",
+      "Eight signature flowers",
+      "Rose, daisy, sunflower, cherry, lotus, hibiscus, tulip, plum. Plus seasonal exclusives in Plus."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z\"/></svg>",
+      "Share the verdict",
+      "Send a beautifully-animated card with the result to a friend. Made for the group chat."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 18V5l12-2v13\"/><circle cx=\"6\" cy=\"18\" r=\"3\"/><circle cx=\"18\" cy=\"16\" r=\"3\"/></svg>",
+      "Ambient soundscapes",
+      "Optional birdsong, summer breeze, rainfall. Or pure silence. Your call."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>",
+      "No ads, no tracking",
+      "Plus is one tap. Free includes the original daisy. Nothing creepy in either tier."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" ry=\"2\"/><path d=\"M7 11V7a5 5 0 0 1 10 0v4\"/></svg>",
+      "Save the answers",
+      "Plus keeps a private, encrypted journal of your past questions and the petals' verdicts."
+    ]
+  ],
+  "ex_eyebrow": "Petals to pick from",
+  "ex_head": "Pick the flower for the question.",
+  "ex_lead": "Some questions deserve a daisy. Some deserve a rose. Pick wisely — or don't, that's part of the fun.",
+  "examples": [
+    [
+      "#FF2E7E,#9D174D",
+      "🌹",
+      "Rose",
+      "For the serious questions"
+    ],
+    [
+      "#FACC15,#A16207",
+      "🌻",
+      "Sunflower",
+      "For the optimist"
+    ],
+    [
+      "#FB7185,#9D174D",
+      "🌸",
+      "Cherry blossom",
+      "For the fleeting moment"
+    ],
+    [
+      "#FED7AA,#FFB800",
+      "🌼",
+      "Daisy",
+      "The classic. The original."
+    ],
+    [
+      "#FF2E7E,#FB7185",
+      "🌷",
+      "Tulip",
+      "For confident questions"
+    ],
+    [
+      "#7C3AED,#4C1D95",
+      "🌺",
+      "Hibiscus",
+      "For the bold ones"
+    ],
+    [
+      "#A78BFA,#5B21B6",
+      "🪷",
+      "Lotus",
+      "For the spiritual ones"
+    ],
+    [
+      "#FB7185,#FFE14D",
+      "🌿",
+      "Wildflower",
+      "For the everyday"
+    ]
+  ],
+  "pricing_lead": "Free with the daisy. Plus unlocks the rest of the garden — and saves your answers privately.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "£0",
+      "blurb": "The daisy. The classic ritual. Forever free.",
+      "items": [
+        "Daisy flower",
+        "Custom questions",
+        "Share results",
+        "Light/dark mode"
+      ],
+      "cta": "Download free"
+    },
+    {
+      "name": "Plus — Forever",
+      "featured": true,
+      "tag": "One time",
+      "price": "£3.99",
+      "per": "once",
+      "blurb": "Pay once, unlock the whole garden. No subscription.",
+      "items": [
+        "All 8 signature flowers",
+        "Seasonal exclusive flowers",
+        "Private answer journal",
+        "Premium soundscapes",
+        "Ad-free forever"
+      ],
+      "cta": "Unlock Plus"
+    },
+    {
+      "name": "Single Flower",
+      "price": "£0.99",
+      "per": "each",
+      "blurb": "Just want one specific flower? Buy it on its own.",
+      "items": [
+        "Single signature flower",
+        "Lifetime use",
+        "No subscription"
+      ],
+      "cta": "Browse flowers"
+    }
+  ],
+  "why_eyebrow": "Why a flower",
+  "why_head_pre": "Some questions don't want answers.",
+  "why_head_accent": "They want a ritual.",
+  "why_lead": "'Should I text first?' isn't really asking for advice. It's asking for permission to feel a certain way. Pulling petals — slowly, ridiculously, deliberately — gives you the space to land on the answer that's already in there.",
+  "why_body": "Love Me Not isn't a fortune teller. It's a tiny pause button between the question and the action. Sometimes that's all you actually needed.",
+  "stats": [
+    [
+      "8",
+      "grad",
+      "Hand-illustrated signature flowers, plus seasonal exclusives every quarter."
+    ],
+    [
+      "0",
+      "mint",
+      "Subscriptions. Plus is a one-time payment because charging monthly for petals is silly."
+    ],
+    [
+      "Calm",
+      "yellow",
+      "Background. Optional sound. Beautiful. Nothing about this app should be loud."
+    ]
+  ],
+  "faq": [
+    [
+      "Is this the petal app from your childhood?",
+      "It's the petal ritual you remember, redrawn at 240Hz. Soft physics, real flowers, no nasty surprises."
+    ],
+    [
+      "Is it actually fortune-telling?",
+      "Mathematically, no — it's a 50/50 with extra steps. Emotionally, sort of, in the way any small ritual is. The fun is the ritual, not the result."
+    ],
+    [
+      "Can my children play it?",
+      "Yes. Rated 4+/Everyone. No inappropriate questions, no scary flowers, no ads in Plus."
+    ],
+    [
+      "Does it work offline?",
+      "Always. Pick petals on a plane, in the bath, in a tent. The flower doesn't need WiFi."
+    ],
+    [
+      "Why is Plus a one-time payment?",
+      "Because charging monthly for an app about petals would be ridiculous. Pay £3.99 once. Done."
+    ],
+    [
+      "Will my custom questions be sent anywhere?",
+      "Never. Custom questions live on your phone only. We don't see them. We don't want to."
+    ],
+    [
+      "Is there a Sunday-roast version where the daisy is sarcastic?",
+      "Plus includes a 'cheeky' personality option for the chronically online. Don't tell your gran."
+    ]
+  ],
+  "final_title": "Pick a petal.",
+  "final_body": "Free to download. iPhone and Android. The flower is waiting.",
+  "footer_blurb": "A beautifully animated take on the petal-picking ritual. Calming, charming, and a little bit magic.",
+  "theme": "magenta_violet",
+  "og_image_alt": "Love Me Not — digital petal-picking app",
+  "seo_desc": "A charming digital take on the petal-picking ritual. Beautifully animated flowers and gentle questions.",
+  "seo_title": "Love Me Not — Let the petals decide | Froggy Eye Ltd"
+}

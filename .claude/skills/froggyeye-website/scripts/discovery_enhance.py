@@ -10,6 +10,8 @@ Adds, on top of seo_enhance.py:
 6. humans.txt + .well-known/security.txt at the main site
 7. dns-prefetch hints for performance
 """
+from html import escape as _esc
+def esc(s): return _esc(s, quote=False)
 import json, re, sys, random
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -180,8 +182,8 @@ def render_more_apps(this_app, all_apps):
         cards.append(f'''      <a href="https://{a["folder"]}.froggyeye.com" class="more-card">
         <div class="more-card-art" style="background: linear-gradient(135deg, {g0}, {g1});">{a["card_emoji"]}</div>
         <div>
-          <div class="more-card-title">{a["name"]}</div>
-          <div class="more-card-tag">{a["tagline"]}</div>
+          <div class="more-card-title">{esc(a["name"])}</div>
+          <div class="more-card-tag">{esc(a["tagline"])}</div>
         </div>
       </a>''')
     css = """
@@ -210,6 +212,9 @@ def render_more_apps(this_app, all_apps):
 
 def patch_app(app, all_apps):
     folder = app["folder"]
+    if app.get("user_authored"):
+        print(f"  · {folder}: user-authored — leaving page and discovery files alone")
+        return False
     p = SITE_ROOT / folder / "index.html"
     if not p.exists():
         return False

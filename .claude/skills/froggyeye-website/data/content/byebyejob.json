@@ -1,0 +1,237 @@
+{
+  "folder": "byebyejob",
+  "name": "ByeByeJob",
+  "tagline": "Redundancy and severance, sorted.",
+  "meta_desc": "ByeByeJob is the calm, clear guide through redundancy and severance — built for the UK and US. Know your rights, claim what you're owed, plan what's next.",
+  "nav_examples": "Steps",
+  "hero_eyebrow": "iOS & Android · UK & US · No legalese",
+  "headline_pre": "Just been made redundant?",
+  "headline_accent": "You're not on your own.",
+  "lead": "ByeByeJob is the calm, clear guide through redundancy and severance — built for the UK and US. Know your rights, calculate what you're owed, and plan what's next. Without the legalese, without the panic.",
+  "meta_items": [
+    "UK & US guidance",
+    "Severance calculator",
+    "Step-by-step recovery",
+    "No ads, no tracking"
+  ],
+  "phone_content": "        <h4>Your situation</h4>\n        <div class=\"phone-art\"><div class=\"emoji\">⚖️</div></div>\n        <div>\n          <p class=\"phone-title\">£8,420 owed</p>\n          <p class=\"phone-sub\">Statutory + notice + accrued holiday</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>STEP 3 OF 7</span><span>SETTLEMENT REVIEW</span></div>\n        <div class=\"phone-controls\">\n          <span class=\"ic\">📋</span>\n          <span class=\"play\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M8 5v14l11-7z\"/></svg></span>\n          <span class=\"ic\">📤</span>\n        </div>\n        <div class=\"phone-lyric\"><b>Up next:</b> review your settlement agreement<br><b>Watch for:</b> the post-employment restrictions clause.</div>",
+  "chips": [
+    "⚖️ Rights",
+    "💷 Severance",
+    "📋 Settlement",
+    "📑 References",
+    "💼 CV refresh",
+    "🤝 Networking",
+    "🎯 Interview prep",
+    "💰 Tax-free £30k",
+    "📅 Notice period",
+    "🧠 Mental health"
+  ],
+  "how_head_pre": "Walk through it.",
+  "how_head_accent": "One clear step at a time.",
+  "how_lead": "From the redundancy meeting to your next role, ByeByeJob is the calm, ordered playbook. We don't rush you. We don't sell you anything you don't need. We just help.",
+  "steps": [
+    [
+      "Tell us your situation",
+      "UK or US, salary, length of service, notice period, age. We work out exactly what statutory pay, notice, and holiday you're owed."
+    ],
+    [
+      "Review the offer",
+      "Settlement agreement on the table? We highlight what to query, what's normal, and what's actually below market. Not legal advice — but a sharp prompt list."
+    ],
+    [
+      "Plan your recovery",
+      "CV refresh checklist, networking templates, interview prep, mental-health resources. The actual journey, mapped."
+    ]
+  ],
+  "feat_head_pre": "Calm guidance.",
+  "feat_head_line2": "When you need it most.",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"9 11 12 14 22 4\"/><path d=\"M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11\"/></svg>",
+      "Country-specific rights",
+      "UK statutory redundancy rules and US WARN/severance norms, explained without the legalese. Updated for 2026."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\"/></svg>",
+      "Severance calculator",
+      "Statutory pay, notice pay, accrued holiday, tax-free thresholds, contractual extras. Honest numbers in seconds."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\"/></svg>",
+      "Settlement reviewer",
+      "Plus reviews your settlement agreement and flags clauses that need attention — restrictions, references, payment timing."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\"/><circle cx=\"9\" cy=\"7\" r=\"4\"/><path d=\"M23 21v-2a4 4 0 0 0-3-3.87\"/><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"/></svg>",
+      "Job-search next steps",
+      "CV refresh prompts, networking message templates, interview prep — adapted to your industry and seniority."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>",
+      "Mental health resources",
+      "Curated, vetted resources for the emotional side of losing a job. Because that matters as much as the cheque."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" ry=\"2\"/><path d=\"M7 11V7a5 5 0 0 1 10 0v4\"/></svg>",
+      "Privacy-first",
+      "Your salary, employer, and case details stay encrypted on your device. We never share, sell, or look at your data."
+    ]
+  ],
+  "ex_eyebrow": "Real cases",
+  "ex_head": "Situations ByeByeJob actually handles:",
+  "ex_lead": "Anonymised case studies from real users — including how ByeByeJob helped them spot what they were missing.",
+  "examples": [
+    [
+      "#14B8A6,#0F766E",
+      "⚖️",
+      "12 years · UK manager",
+      "Spotted £4,200 missed in calc"
+    ],
+    [
+      "#5EEAD4,#0F766E",
+      "💷",
+      "8 years · US engineer",
+      "Negotiated 2 extra weeks"
+    ],
+    [
+      "#67E8F9,#0E7490",
+      "📋",
+      "Settlement review",
+      "Restrictive covenant flagged"
+    ],
+    [
+      "#FACC15,#A16207",
+      "💼",
+      "CV refresh",
+      "Two interviews in 10 days"
+    ],
+    [
+      "#A855F7,#5B21B6",
+      "🤝",
+      "Networking template",
+      "Won 5 warm intros"
+    ],
+    [
+      "#FB7185,#9F1239",
+      "🧠",
+      "Mental health",
+      "Free helpline numbers · UK"
+    ],
+    [
+      "#34D399,#059669",
+      "💰",
+      "Tax-free £30k",
+      "Optimised PILON structure"
+    ],
+    [
+      "#FBBF24,#D97706",
+      "📅",
+      "Notice period",
+      "Calculated correctly first time"
+    ]
+  ],
+  "pricing_lead": "Free for the essentials. Pro is for serious recovery — settlement reviews and 1:1 expert consultations.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "£0",
+      "blurb": "Severance calculator. Rights guidance. Step-by-step plan.",
+      "items": [
+        "Severance calculator",
+        "UK & US rights guide",
+        "Recovery checklist",
+        "Mental health resources"
+      ],
+      "cta": "Download free"
+    },
+    {
+      "name": "Pro — One time",
+      "featured": true,
+      "tag": "Pay once",
+      "price": "£24.99",
+      "per": "once",
+      "blurb": "Unlimited calculations, settlement reviewer, and a 1:1 consultation with our redundancy expert.",
+      "items": [
+        "Unlimited severance calculations",
+        "Settlement agreement reviewer",
+        "Advanced rights guidance",
+        "1:1 expert consultation",
+        "Priority document review"
+      ],
+      "cta": "Unlock Pro"
+    },
+    {
+      "name": "Annual support",
+      "price": "£14.99",
+      "per": "/ year",
+      "blurb": "Pro plus annual updates as employment law changes.",
+      "items": [
+        "All Pro features",
+        "Annual rights updates",
+        "Priority support",
+        "Re-review on each new role"
+      ],
+      "cta": "Go annual"
+    }
+  ],
+  "why_eyebrow": "Why this exists",
+  "why_head_pre": "Redundancy is bewildering.",
+  "why_head_accent": "It shouldn't be.",
+  "why_lead": "Most people get made redundant once, maybe twice in a career. They don't have time to learn employment law. Their employer's HR has done it a hundred times. The asymmetry is the problem.",
+  "why_body": "ByeByeJob closes the gap. Plain-English rights, real numbers, a calm playbook. No charging you in your worst week — Pro is a one-time payment, not a subscription that runs while you're job-hunting.",
+  "stats": [
+    [
+      "£30k",
+      "grad",
+      "Tax-free threshold for UK redundancy payments. Most people don't structure around it correctly."
+    ],
+    [
+      "Days",
+      "mint",
+      "Recovery starts within. The longer you wait to plan, the longer the gap looks on the CV."
+    ],
+    [
+      "Yours",
+      "yellow",
+      "Data. Salary, employer, case — never shared, never sold, never looked at by us. Encrypted on device."
+    ]
+  ],
+  "faq": [
+    [
+      "Is this legal advice?",
+      "No — ByeByeJob is information and guidance, not legal advice. For complex cases (especially settlement disputes) we recommend consulting an employment solicitor. Pro includes a referral to vetted UK and US specialists."
+    ],
+    [
+      "Does it cover my country?",
+      "UK and US in full. Ireland, Australia, and Canada in beta. Tell us your country and we'll prioritise."
+    ],
+    [
+      "Will my employer find out I'm using it?",
+      "No. Everything happens on your device. We don't notify anyone, ever."
+    ],
+    [
+      "How accurate is the severance calculator?",
+      "Within £50 of HMRC-published statutory amounts for UK cases. US is calibrated to federal WARN and common state-level rules; check your state."
+    ],
+    [
+      "What if my settlement offer is below market?",
+      "Pro's settlement reviewer flags the things to negotiate on — and we have a 1:1 expert consultation included to walk you through it."
+    ],
+    [
+      "Is there ongoing support after Pro?",
+      "Yes — Annual support keeps you covered for the next role too. Recurring redundancies (sadly common in some industries) are handled."
+    ],
+    [
+      "Cancel any time?",
+      "Pro is a one-time payment, no subscription. Annual support cancels in your phone's subscription settings."
+    ]
+  ],
+  "final_title": "Take back the day.",
+  "final_body": "Free to download. iPhone and Android. The first calculation is one tap away.",
+  "footer_blurb": "Calm, clear guidance through redundancy and severance for the UK and US. Made in the UK by people who've been there.",
+  "theme": "teal_pro",
+  "og_image_alt": "ByeByeJob — UK and US redundancy guide app",
+  "seo_desc": "Calm, clear guide through redundancy and severance. UK & US guidance, severance calculator, recovery plan.",
+  "seo_title": "ByeByeJob — Redundancy and severance, sorted | Froggy Eye Ltd"
+}

@@ -1,0 +1,236 @@
+{
+  "folder": "focustimer",
+  "name": "Focus Timer",
+  "tagline": "The Pomodoro timer you'll actually love.",
+  "meta_desc": "Focus Timer is a beautiful, distraction-free Pomodoro timer that doesn't get in the way of getting things done. Custom sessions, real progress, ad-free.",
+  "nav_examples": "Sessions",
+  "hero_eyebrow": "Android · Pomodoro · Made in the UK",
+  "headline_pre": "A focus timer that",
+  "headline_accent": "gets out of your way.",
+  "lead": "Focus Timer is built on the proven Pomodoro technique — but stripped of the noise. Set a session, ignore your phone, get more done. Calm, quiet, surprisingly motivating.",
+  "meta_items": [
+    "No ads. Ever.",
+    "Distraction-free",
+    "Made in the UK"
+  ],
+  "phone_content": "        <h4>In session</h4>\n        <div class=\"phone-art\"><div class=\"emoji\">⏳</div></div>\n        <div>\n          <p class=\"phone-title\">22:14</p>\n          <p class=\"phone-sub\">Deep work · Session 3 of 4</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>STARTED 14:00</span><span>BREAK AT 14:25</span></div>\n        <div class=\"phone-controls\">\n          <span class=\"ic\">⏸</span>\n          <span class=\"play\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M8 5v14l11-7z\"/></svg></span>\n          <span class=\"ic\">⏭</span>\n        </div>\n        <div class=\"phone-lyric\"><b>Today's focus:</b> 1h 47m<br><b>Streak:</b> 14 days running.</div>",
+  "chips": [
+    "⏱ Pomodoro 25/5",
+    "🧠 Deep 50/10",
+    "🎯 Sprint 15/3",
+    "🎓 Study 45/15",
+    "🌊 Flow 90/20",
+    "📝 Writing 60/10",
+    "🛠 Build 25/5",
+    "📚 Read 20/5",
+    "🧘 Calm 30/10",
+    "🌙 Wind-down"
+  ],
+  "how_head_pre": "Pick a session.",
+  "how_head_accent": "Press start. Get on with it.",
+  "how_lead": "No dashboards demanding attention. No goals demanding metrics. Just a timer, a couple of choices, and a screen you don't need to look at.",
+  "steps": [
+    [
+      "Pick a preset",
+      "Pomodoro (25/5), Deep Work (50/10), Sprint (15/3) — or build your own. Save it. Tap it next time."
+    ],
+    [
+      "Press start, look away",
+      "The screen goes calm. Your phone gets quieter. Notifications hush automatically if you let it."
+    ],
+    [
+      "Watch your hours add up",
+      "End-of-day, end-of-week stats show real focus time. Streaks for the consistency-minded. No leaderboards."
+    ]
+  ],
+  "feat_head_pre": "Built for actual focus.",
+  "feat_head_line2": "Not engagement.",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"13 2 3 14 12 14 11 22 21 10 12 10 13 2\"/></svg>",
+      "Custom sessions",
+      "25/5? 90/20? Build the cadence that fits your brain. Save unlimited presets in Plus."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\"/></svg>",
+      "Streaks & stats",
+      "Daily, weekly, monthly focus minutes. Streaks for consistency. No comparison to other users."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>",
+      "Distraction-free mode",
+      "Optional Do Not Disturb integration that silences notifications during focus sessions automatically."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9\"/><path d=\"M13.73 21a2 2 0 0 1-3.46 0\"/></svg>",
+      "Gentle break reminders",
+      "A soft chime, not a klaxon. Optional. Skippable. Off entirely if you prefer."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"3 6 5 6 21 6\"/><path d=\"M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6\"/><path d=\"M10 11v6M14 11v6\"/></svg>",
+      "No ads, no upsells",
+      "Plus is one tap. The free app is genuinely complete. We don't grind you down with banners."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"9 11 12 14 22 4\"/><path d=\"M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11\"/></svg>",
+      "Calendar integration",
+      "Plus links Focus Timer to your Apple/Google Calendar so your work blocks become scheduled."
+    ]
+  ],
+  "ex_eyebrow": "Sessions in the wild",
+  "ex_head": "What focused users actually run:",
+  "ex_lead": "We don't tell you how to work. But here's what tens of thousands of focused minutes look like across our user base.",
+  "examples": [
+    [
+      "#34D399,#059669",
+      "⏱",
+      "Pomodoro 25/5",
+      "Most popular weekday session"
+    ],
+    [
+      "#A7F3D0,#047857",
+      "🧠",
+      "Deep 50/10",
+      "Senior engineers, designers"
+    ],
+    [
+      "#FACC15,#A16207",
+      "🎯",
+      "Sprint 15/3",
+      "Email triage, admin"
+    ],
+    [
+      "#A855F7,#5B21B6",
+      "🎓",
+      "Study 45/15",
+      "Uni & college students"
+    ],
+    [
+      "#67E8F9,#0E7490",
+      "🌊",
+      "Flow 90/20",
+      "Writers, researchers"
+    ],
+    [
+      "#FB7185,#9F1239",
+      "📝",
+      "Writing 60/10",
+      "Journalists, novelists"
+    ],
+    [
+      "#FBBF24,#D97706",
+      "🛠",
+      "Build 25/5",
+      "Indie devs, founders"
+    ],
+    [
+      "#3DF5B0,#0F766E",
+      "🧘 ",
+      "Calm 30/10",
+      "Mindful end-of-day work"
+    ]
+  ],
+  "pricing_lead": "Free is genuinely complete. Plus is for the people who run their workdays through Focus Timer.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "£0",
+      "blurb": "Pomodoro, Deep Work, and 3 custom presets.",
+      "items": [
+        "Pomodoro & Deep presets",
+        "3 custom sessions",
+        "30-day stats",
+        "Daily streaks"
+      ],
+      "cta": "Download free"
+    },
+    {
+      "name": "Plus — Annual",
+      "featured": true,
+      "tag": "Most chosen",
+      "price": "£14.99",
+      "per": "/ year",
+      "strike": "£23.88 if billed monthly",
+      "blurb": "Unlimited presets, lifetime stats, calendar integration, premium themes.",
+      "items": [
+        "Unlimited custom sessions",
+        "Lifetime stats history",
+        "Calendar integration",
+        "Premium themes & sounds",
+        "Priority support"
+      ],
+      "cta": "Start 7-day free trial"
+    },
+    {
+      "name": "Plus — Monthly",
+      "price": "£1.99",
+      "per": "/ month",
+      "blurb": "Same Plus features, billed monthly.",
+      "items": [
+        "Unlimited presets",
+        "Lifetime stats",
+        "Cancel anytime"
+      ],
+      "cta": "Go monthly"
+    }
+  ],
+  "why_eyebrow": "Why Pomodoro",
+  "why_head_pre": "Focus is a muscle.",
+  "why_head_accent": "Pomodoro is the gym.",
+  "why_lead": "Decades of evidence: working in fixed time blocks, with deliberate rest, beats white-knuckling through long unbroken sessions. The Pomodoro Technique isn't a trick — it's how focus actually works.",
+  "why_body": "Focus Timer takes the technique seriously. No gamification. No achievements. No dashboards screaming about productivity. Just the blocks, the breaks, and your real progress.",
+  "stats": [
+    [
+      "25/5",
+      "grad",
+      "The original Pomodoro ratio. Validated by decades of focused-work research."
+    ],
+    [
+      "0",
+      "mint",
+      "Notifications, badges, leaderboards, or 'streaks lost!' guilt-trips. Promise."
+    ],
+    [
+      "100%",
+      "yellow",
+      "Of revenue from Plus. Zero from ads, zero from tracking, zero from selling data."
+    ]
+  ],
+  "faq": [
+    [
+      "How is this different from any other Pomodoro app?",
+      "Most are loaded with gamification, ads, and dashboards. Focus Timer is what you actually want when you want to focus — quiet, beautiful, and out of the way."
+    ],
+    [
+      "Will I lose my streak if I miss a day?",
+      "No streak shaming. We show you a calendar of your focused days; missing one doesn't reset anything dramatically. This isn't Duolingo for work."
+    ],
+    [
+      "Does it block apps for me?",
+      "No — that's not our job. We integrate with iOS Focus and Android DND so your existing setup goes quiet automatically."
+    ],
+    [
+      "Can I sync between iPhone and iPad/Mac?",
+      "Plus syncs your stats and presets across devices via iCloud or your Google account."
+    ],
+    [
+      "Does it work offline?",
+      "Always. Focus Timer doesn't need the internet to focus."
+    ],
+    [
+      "How does Plus billing work?",
+      "Annual or monthly through Apple or Google. Cancel any time in your phone's subscription settings."
+    ],
+    [
+      "Will you show me ads if I don't pay?",
+      "Never. The free app is ad-free. Plus is for people who want more presets and longer history."
+    ]
+  ],
+  "final_title": "Get on with it.",
+  "final_body": "Free to download. iPhone and Android. The next focused hour starts when you press start.",
+  "footer_blurb": "A beautiful, distraction-free Pomodoro timer for the kind of work that actually matters. Made in the UK.",
+  "theme": "forest",
+  "og_image_alt": "Focus Timer — Pomodoro productivity app",
+  "seo_desc": "Beautiful, distraction-free Pomodoro timer. Custom sessions, real progress, ad-free.",
+  "seo_title": "Focus Timer — The Pomodoro timer you'll love | Froggy Eye Ltd"
+}

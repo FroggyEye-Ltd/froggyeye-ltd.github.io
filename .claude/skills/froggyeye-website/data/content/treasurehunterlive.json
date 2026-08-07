@@ -1,0 +1,237 @@
+{
+  "folder": "treasurehunterlive",
+  "name": "Treasure Hunter Live",
+  "tagline": "Real adventures. Real places.",
+  "meta_desc": "Treasure Hunter Live turns the world into a treasure map. GPS-driven hunts in your area. Create hunts for friends and family.",
+  "nav_examples": "Hunts",
+  "hero_eyebrow": "iOS & Android · GPS treasure hunts in your area",
+  "headline_pre": "Real adventures hidden in the streets",
+  "headline_accent": "you walk every day.",
+  "lead": "Treasure Hunter Live turns the world into a treasure map. Hunt in your area, create hunts for friends and family, and rediscover the magic of going outside.",
+  "meta_items": [
+    "GPS-based",
+    "Family-safe",
+    "Create your own hunts",
+    "No ads, no tracking"
+  ],
+  "phone_content": "        <h4>Active hunt</h4>\n        <div class=\"phone-art\"><div class=\"emoji\">🗺️</div></div>\n        <div>\n          <p class=\"phone-title\">The Riverwalk Mystery</p>\n          <p class=\"phone-sub\">Clue 3 of 7 · 240m to next</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>HUNT TIME 22:14</span><span>PRIZE: PIZZA</span></div>\n        <div class=\"phone-controls\">\n          <span class=\"ic\">📍</span>\n          <span class=\"play\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M8 5v14l11-7z\"/></svg></span>\n          <span class=\"ic\">🧭</span>\n        </div>\n        <div class=\"phone-lyric\"><b>Clue:</b> \"Where the water meets the bridge of nine arches —<br>look up, count the swans, the next clue follows the eldest.\"</div>",
+  "chips": [
+    "🎂 Birthdays",
+    "👨‍👩‍👧 Family days",
+    "💼 Team away-days",
+    "💕 Date nights",
+    "🎄 Christmas",
+    "🏛 City tours",
+    "🏖 Holiday hunts",
+    "🏫 School trips",
+    "🎓 University tours",
+    "🎉 Hen parties"
+  ],
+  "how_head_pre": "Open the map.",
+  "how_head_accent": "Step outside.",
+  "how_lead": "GPS-driven, story-rich treasure hunts that turn your neighbourhood (or anywhere you're travelling) into a place worth exploring on foot.",
+  "steps": [
+    [
+      "Find a hunt nearby",
+      "Browse community-created hunts in your area, or download a curated city tour. From 30 minutes to a whole afternoon."
+    ],
+    [
+      "Follow the clues",
+      "GPS guides you toward each clue location. Solve riddles, decode photos, or simply find the marker. Family-safe pacing."
+    ],
+    [
+      "Claim the prize",
+      "Hunts can end at a real prize (book a restaurant, a treat in the post, or a hidden cache). Or just at the joy of having gone outside."
+    ]
+  ],
+  "feat_head_pre": "An app that gets you",
+  "feat_head_line2": "off your phone (almost).",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><polygon points=\"16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76\"/></svg>",
+      "GPS-based gameplay",
+      "Real walks, real locations, real puzzles. The world becomes the playing field — phone is just the map."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6\"/><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"18\"/><line x1=\"16\" y1=\"6\" x2=\"16\" y2=\"22\"/></svg>",
+      "Hunt creator tool",
+      "Drop clues at any GPS location. Add photos, riddles, or simple location markers. Build a story. Hide a prize."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>",
+      "Family-safe modes",
+      "Tailored for kids: parental controls, age-appropriate clues, walking-distance constraints. Made for school trips and family days."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\"/><circle cx=\"9\" cy=\"7\" r=\"4\"/><path d=\"M23 21v-2a4 4 0 0 0-3-3.87\"/><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"/></svg>",
+      "Community hunts",
+      "Hunts created by other players in your area. Discover your neighbourhood like a tourist — with someone else's clues."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2 2M16.4 16.4l2 2M5.6 18.4l2-2M16.4 7.6l2-2\"/></svg>",
+      "Themed prize templates",
+      "Pizza-night hunts, treasure-chest hunts, city-tour finals. Plus templates to make hunt-building effortless."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\"/></svg>",
+      "Offline hunt support",
+      "Pro hunts download fully — no signal? No problem. Perfect for rural treasure hunts and no-data school trips."
+    ]
+  ],
+  "ex_eyebrow": "Real hunts",
+  "ex_head": "Hunts people have built and run:",
+  "ex_lead": "A snapshot of community and curated hunts running across the UK and EU right now.",
+  "examples": [
+    [
+      "#F59E0B,#A16207",
+      "🎂",
+      "10th Birthday Hunt",
+      "Bristol · 1.2 mi · 8 clues"
+    ],
+    [
+      "#FBBF24,#854D0E",
+      "💕",
+      "First Anniversary",
+      "Edinburgh · romantic walk"
+    ],
+    [
+      "#FACC15,#9A3412",
+      "👨‍👩‍👧",
+      "Sunday Family Day",
+      "Lakes · 4-hr loop"
+    ],
+    [
+      "#FCD34D,#A16207",
+      "🏛",
+      "Ye Olde London",
+      "City of London · history"
+    ],
+    [
+      "#FBBF24,#7C2D12",
+      "💼",
+      "Team Away-Day",
+      "Manchester · 2hr build"
+    ],
+    [
+      "#FED7AA,#854D0E",
+      "🎄",
+      "Christmas Eve",
+      "Bath · seasonal classics"
+    ],
+    [
+      "#FACC15,#FB923C",
+      "🎓",
+      "University Tour",
+      "Oxford colleges"
+    ],
+    [
+      "#FBBF24,#FFE14D",
+      "🎉",
+      "Hen Party Hunt",
+      "York · 8 stops · pubs included"
+    ]
+  ],
+  "pricing_lead": "Free for casual hunting. Plus is for hunt creators and offline-mode adventurers.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "£0",
+      "blurb": "Hunt nearby. Solve community hunts. The basics, for free.",
+      "items": [
+        "Browse community hunts",
+        "1 hunt creation / month",
+        "5 clues per hunt",
+        "Standard prize templates"
+      ],
+      "cta": "Download free"
+    },
+    {
+      "name": "Plus — Annual",
+      "featured": true,
+      "tag": "For hunt-makers",
+      "price": "£12.99",
+      "per": "/ year",
+      "strike": "£23.88 if billed monthly",
+      "blurb": "Unlimited hunts, advanced clue mechanics, offline play, premium templates.",
+      "items": [
+        "Unlimited hunt creation",
+        "Up to 50 clues per hunt",
+        "Offline hunt support",
+        "Advanced clue types (photo, audio, AR)",
+        "Premium prize templates"
+      ],
+      "cta": "Start 7-day free trial"
+    },
+    {
+      "name": "Plus — Monthly",
+      "price": "£1.99",
+      "per": "/ month",
+      "blurb": "Same Plus features, billed monthly.",
+      "items": [
+        "Unlimited hunts",
+        "All Plus features",
+        "Cancel anytime"
+      ],
+      "cta": "Go monthly"
+    }
+  ],
+  "why_eyebrow": "Why this matters",
+  "why_head_pre": "Most apps want you to look at the screen.",
+  "why_head_accent": "Treasure Hunter Live wants you to look up.",
+  "why_lead": "Geocaching-style adventure has been around for decades, but the apps stayed clunky and the hunts looked like spreadsheets. Treasure Hunter Live is the version that actually feels like an adventure — for kids, for couples, for teams.",
+  "why_body": "It's the app we kept reaching for at family birthdays, hen-do weekends, and away-days. So we built it. Now it's yours.",
+  "stats": [
+    [
+      "Outside",
+      "grad",
+      "The whole point. We measure success in steps taken, not minutes opened."
+    ],
+    [
+      "Family-safe",
+      "mint",
+      "Kid mode caps walking distances, vets clues, and lets parents review the whole route."
+    ],
+    [
+      "Yours",
+      "yellow",
+      "Hunts. Build them, share them privately, or publish to the community. You decide."
+    ]
+  ],
+  "faq": [
+    [
+      "Is this safe for children?",
+      "Yes — kid mode constrains walking distance, prohibits crossing major roads in the route, and lets parents review every clue before the hunt starts."
+    ],
+    [
+      "How accurate is the GPS?",
+      "±5–10m typically. Clue radii are tunable so 'reach this spot' isn't frustratingly precise. Indoor venues use Bluetooth beacons (Plus)."
+    ],
+    [
+      "Can I make a hunt without writing it from scratch?",
+      "Yes — Plus has hunt templates for birthdays, anniversaries, team away-days, city tours, and more. Drop your start/end points, we fill in the rest."
+    ],
+    [
+      "Will it work where I live?",
+      "Anywhere with a map and walkable streets. We've had hunts run in 60+ countries. Truly remote locations may benefit from Plus offline mode."
+    ],
+    [
+      "Do I need data on the hunt?",
+      "Free hunts need data. Plus hunts download fully — perfect for the countryside, the underground, or kids without their own data plan."
+    ],
+    [
+      "Can I hide real treasure?",
+      "Sure — many users do. We don't manage physical prizes; the hunt simply ends at a GPS point you choose. Real chest, real gift, real high-five."
+    ],
+    [
+      "Is it just for kids?",
+      "Definitely not. Adult hunts (date nights, hen-dos, team-builds, pub crawls) are some of the most active categories."
+    ]
+  ],
+  "final_title": "Step outside.",
+  "final_body": "Free to download. iPhone and Android. The world is the map. Today is the day.",
+  "footer_blurb": "Real-world treasure hunts for families, teams, and curious adults. Made in the UK by Froggy Eye Ltd.",
+  "theme": "treasure",
+  "og_image_alt": "Treasure Hunter Live — GPS treasure hunt game",
+  "seo_desc": "GPS-driven treasure hunts. Browse community hunts or build your own for friends and family.",
+  "seo_title": "Treasure Hunter Live — Real adventures in real places | Froggy Eye Ltd"
+}

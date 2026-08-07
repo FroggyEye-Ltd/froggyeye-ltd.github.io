@@ -1,0 +1,236 @@
+{
+  "folder": "apexroute",
+  "name": "ApexRoute",
+  "tagline": "Driving routes built for enthusiasts.",
+  "meta_desc": "ApexRoute generates twisty, scenic, apex-hunting driving routes Google Maps would never offer. Then records every drive so you can relive it.",
+  "nav_examples": "Routes",
+  "hero_eyebrow": "iOS & Android · For drivers who chase the road",
+  "headline_pre": "Find the road that makes you",
+  "headline_accent": "feel alive.",
+  "lead": "ApexRoute generates twisty backroads, scenic detours, and proper apex-hunting drives — the routes Google Maps would never offer. Record every run, save your favourites, and chase a better drive.",
+  "meta_items": [
+    "Built for drivers",
+    "Offline maps",
+    "Free to start",
+    "No ads, no tracking"
+  ],
+  "phone_content": "        <h4>Today's drive</h4>\n        <div class=\"phone-art\"><div class=\"emoji\">🛣️</div></div>\n        <div>\n          <p class=\"phone-title\">The Snake Pass Loop</p>\n          <p class=\"phone-sub\">42 mi · 1h 12m · ★★★★☆</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>RECORDING</span><span>17.4 mi</span></div>\n        <div class=\"phone-controls\">\n          <span class=\"ic\">⏮</span>\n          <span class=\"play\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M8 5v14l11-7z\"/></svg></span>\n          <span class=\"ic\">⏭</span>\n        </div>\n        <div class=\"phone-lyric\"><b>Twisties ahead — 4.2 mi</b><br>Average lean: 22°. Top road in your county this month.</div>",
+  "chips": [
+    "🛣️ Twisties",
+    "⛰️ Mountain",
+    "🏖️ Coastal",
+    "🌳 Backroad",
+    "🌅 Scenic",
+    "🌀 Hairpins",
+    "🪨 Pass",
+    "🛤️ B-road",
+    "🎯 Apex hunt",
+    "🌙 Night run"
+  ],
+  "how_head_pre": "Phone in. Banger road out.",
+  "how_head_accent": "In about 30 seconds.",
+  "how_lead": "No more dragging Maps around hoping for the good stuff. Tell ApexRoute what you want, get a route built around it, drive.",
+  "steps": [
+    [
+      "Tell it the vibe",
+      "Distance, twistiness, scenery. ApexRoute uses your starting point and finds roads that match — not the fastest, the best."
+    ],
+    [
+      "Hit Drive",
+      "Live in-app navigation, with corner counts, gradient previews, and a heads-up display that doesn't shout at you."
+    ],
+    [
+      "Keep the memory",
+      "Every drive recorded with route, telemetry, and notes. Replay it, share it, beat your own line next time."
+    ]
+  ],
+  "feat_head_pre": "Built by drivers.",
+  "feat_head_line2": "Not by route planners.",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6\"/><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"18\"/><line x1=\"16\" y1=\"6\" x2=\"16\" y2=\"22\"/></svg>",
+      "Routes that find roads",
+      "Real-world data on twistiness, gradient and scenery — you get a drive worth waking up early for."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"23 7 16 12 23 17 23 7\"/><rect x=\"1\" y=\"5\" width=\"15\" height=\"14\" rx=\"2\" ry=\"2\"/></svg>",
+      "Drive recording",
+      "GPS, speed, lean angle, and corner-by-corner telemetry. Replay any drive on a map."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><polygon points=\"16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76\"/></svg>",
+      "Heads-up nav",
+      "Quiet, glanceable, and built for the road. No 'in 200 yards bear left for 35 yards.'"
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z\"/></svg>",
+      "Share with mates",
+      "Send a route to a friend. Convoy mode keeps you together. Argue about the line later."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>",
+      "Stays offline",
+      "Maps download once and stay yours — even in the valleys and Highlands where signal disappears."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\"/></svg>",
+      "Your library",
+      "Favourites, recents, and 'my best ever drives'. Build the personal road book you wish you had."
+    ]
+  ],
+  "ex_eyebrow": "Roads worth the detour",
+  "ex_head": "Sounds like:",
+  "ex_lead": "A taste of routes ApexRoute users have driven, recorded, and rated this season.",
+  "examples": [
+    [
+      "#FF4D2E,#7C2D12",
+      "🌀",
+      "Snake Pass Reverse",
+      "Peak District · 42 mi"
+    ],
+    [
+      "#FBBF24,#D97706",
+      "🏖️",
+      "Coastal Hairpins",
+      "Cornwall · 67 mi"
+    ],
+    [
+      "#A855F7,#5B21B6",
+      "⛰️",
+      "Buttertubs Loop",
+      "Yorkshire Dales · 58 mi"
+    ],
+    [
+      "#FF4D2E,#FBBF24",
+      "🌅",
+      "Sunset B-road",
+      "Mid Wales · 38 mi"
+    ],
+    [
+      "#22D3EE,#3B82F6",
+      "🌀",
+      "Highland Twisties",
+      "Glencoe · 84 mi"
+    ],
+    [
+      "#34D399,#059669",
+      "🌳",
+      "Forest Pass",
+      "Dean Forest · 29 mi"
+    ],
+    [
+      "#F43F5E,#9F1239",
+      "🪨",
+      "Stelvio Tribute",
+      "Lake District · 72 mi"
+    ],
+    [
+      "#0EA5E9,#0369A1",
+      "🌙",
+      "Midnight Mountain",
+      "Snowdonia · 51 mi"
+    ]
+  ],
+  "pricing_lead": "7-day free trial on Plus. Cancel anytime in your phone's subscription manager. No ads either way.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "£0",
+      "blurb": "Three new routes a month. Save them. Drive them.",
+      "items": [
+        "3 routes / month",
+        "Drive recording",
+        "Save favourites"
+      ],
+      "cta": "Download free"
+    },
+    {
+      "name": "Plus — Annual",
+      "featured": true,
+      "tag": "Best value",
+      "price": "£24.99",
+      "per": "/ year",
+      "strike": "£47.88 if billed monthly",
+      "blurb": "Unlimited routes, unlimited drives, full telemetry. The proper kit.",
+      "items": [
+        "Unlimited route generation",
+        "Full drive history",
+        "Advanced telemetry",
+        "Offline maps",
+        "Priority support"
+      ],
+      "cta": "Start 7-day free trial"
+    },
+    {
+      "name": "Plus — Monthly",
+      "price": "£3.99",
+      "per": "/ month",
+      "blurb": "Same Plus features, billed month to month.",
+      "items": [
+        "Unlimited route generation",
+        "Full drive history",
+        "Cancel anytime"
+      ],
+      "cta": "Go monthly"
+    }
+  ],
+  "why_eyebrow": "Why bother",
+  "why_head_pre": "The road is half the car.",
+  "why_head_accent": "ApexRoute makes the half worth chasing.",
+  "why_lead": "Most maps optimise for arriving. ApexRoute optimises for the drive — the corners, the rhythm, the road that makes you stop the playlist and just listen to the engine.",
+  "why_body": "Three years in, our routes have been driven across the UK, the Alps, the Dolomites, Big Sur, and the Tail of the Dragon. The algorithm gets sharper every drive.",
+  "stats": [
+    [
+      "100%",
+      "grad",
+      "Route choices controlled by you — no sponsored detours, no hidden cost."
+    ],
+    [
+      "<30s",
+      "mint",
+      "From input to a brand-new route. Faster than checking your phone at lights."
+    ],
+    [
+      "Offline",
+      "yellow",
+      "Maps download once. Your drive doesn't depend on cellular signal."
+    ]
+  ],
+  "faq": [
+    [
+      "Is this a sat-nav replacement?",
+      "For commuting, no — Maps wins on traffic. For weekend drives, yes. ApexRoute is built around the kind of road you'd take a longer way to find."
+    ],
+    [
+      "Does it work in [country]?",
+      "If your country has real road data we cover it: UK, Ireland, France, Germany, Switzerland, Italy, Spain, Austria, Netherlands, Belgium, Norway, Sweden, plus the US, Canada, Australia, and New Zealand."
+    ],
+    [
+      "Is recording my drive safe?",
+      "Recording happens on your phone. Telemetry stays private until you choose to share. You can delete any drive in one tap."
+    ],
+    [
+      "What about traffic, road closures, fuel?",
+      "Plus shows live traffic on your route plus fuel stops and rest points. We surface what matters; we don't drown you in clutter."
+    ],
+    [
+      "Can I import a route I made elsewhere?",
+      "Yes — GPX import is supported. Drive it, rate it, get your telemetry alongside it."
+    ],
+    [
+      "Is this safe to use while driving?",
+      "Heads-up navigation is voice + glanceable visuals only. We won't bury anything important behind a tap. Eyes on the road, always."
+    ],
+    [
+      "How do I cancel?",
+      "Cancel any time in your phone's subscription settings — Apple ID or Google Play. We don't pull dark patterns."
+    ]
+  ],
+  "final_title": "Drive better.",
+  "final_body": "Free to download. Free to try. iPhone and Android. Your next great road is one tap away.",
+  "footer_blurb": "Driving routes built for enthusiasts, not commuters. Made in the UK by Froggy Eye Ltd.",
+  "theme": "ember",
+  "og_image_alt": "ApexRoute — driving routes for car enthusiasts",
+  "seo_desc": "Driving routes built for enthusiasts. Generates twisty, scenic, apex-hunting drives. Records every drive.",
+  "seo_title": "ApexRoute — Driving routes for enthusiasts | Froggy Eye Ltd"
+}
