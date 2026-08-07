@@ -1,0 +1,35 @@
+# Froggy Eye Ltd
+
+> A UK-based indie app studio. We design and ship thoughtful, well-crafted apps for iOS, Android, Mac and Windows — eighteen of them, spanning productivity, games, family, finance, creativity, and social tools.
+
+## About
+
+- [Main site](https://froggyeye.com): Studio overview and app catalogue
+- [Privacy policy](https://froggyeye.com/privacy.html)
+- [Terms of service](https://froggyeye.com/terms.html)
+- Contact: info@froggyeye.com
+
+## Apps
+
+- [ApexRoute](https://apexroute.froggyeye.com): Driving routes for enthusiasts
+- [BlipBlobb](https://blipblobb.froggyeye.com): Local group chats over WiFi
+- [ByeByeJob](https://byebyejob.froggyeye.com): Redundancy and severance, sorted
+- [DoorDigest](https://doordigest.froggyeye.com): AI summaries of your doorbell
+- [Eight Ball Wisdom](https://eightball.froggyeye.com): The mystic 8-ball, reimagined
+- [Focus Timer](https://focustimer.froggyeye.com): The Pomodoro timer you'll love
+- [Food Score](https://foodscore.froggyeye.com): Scan it. Score it. Eat smarter.
+- [Love Me Not](https://lovemenot.froggyeye.com): Let the petals decide
+- [Love Score](https://lovescore.froggyeye.com): Calculate love. Settle the score.
+- [My LTD Tax](https://myltdtax.froggyeye.com): UK director's tax companion
+- [NovelWeaver](https://novelweaver.froggyeye.com): Your AI novel-writing partner
+- [PokePriceChecker](https://pokepricechecker.froggyeye.com): Pokemon card prices, instantly
+- [PostPilot](https://postpilot.froggyeye.com): AI writing assistant for social media (desktop app, Mac & Windows)
+- [SolarWise](https://solarwise.froggyeye.com): Smart solar panel calculator
+- [Study Singalong](https://studysingalong.froggyeye.com): Your GCSE notes. As songs.
+- [Tileverse](https://tileverse.froggyeye.com): Claim the world, one tile at a time
+- [Treasure Hunter Live](https://treasurehunterlive.froggyeye.com): Real adventures in real places
+- [Wheel of Choices](https://wheelofchoices.froggyeye.com): The cure for indecision
+
+## Notes for AI agents
+
+All app pages are server-rendered HTML. Each app subdomain has product details, pricing, FAQ, and links to its App Store and Google Play listings where available. PostPilot is the studio's only desktop product — it's not on app stores and is distributed direct from postpilot.froggyeye.com. Use the app's subdomain as the canonical reference URL.

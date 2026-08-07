@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#04120D" />
+<title>Telegram setup — PostPilot</title>
+<meta name="description" content="Step-by-step guide to connecting PostPilot to your own Telegram bot — for remote control, live status, and posting from your phone." />
+<link rel="icon" type="image/png" href="icon.png" />
+<link rel="apple-touch-icon" href="icon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="canonical" href="https://postpilot.froggyeye.com/telegram-setup.html" />
+<style>
+  :root {
+    --magenta: #34D399;
+    --magenta-deep: #059669;
+    --violet: #047857;
+    --mint: #A7F3D0;
+    --yellow: #FDE047;
+    --bg: #04120D;
+    --surface: #0A2218;
+    --surface-2: #103224;
+    --border: #1A4A35;
+    --text: #F5F0FF;
+    --text-2: #B8A8D1;
+    --text-3: #6B5A85;
+    --grad: linear-gradient(135deg, #34D399 0%, #047857 100%);
+    --font-display: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+    --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-mono: ui-monospace, "SF Mono", Menlo, monospace;
+    --r-sm: 8px; --r-md: 12px; --r-lg: 20px; --r-xl: 28px; --r-pill: 999px;
+    --shadow-card: 0 4px 12px rgba(0,0,0,0.4);
+    --shadow-glow: 0 0 48px rgba(52,211,153,0.35);
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--font-body); font-size: 16px; line-height: 1.6; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+  ::selection { background: var(--magenta); color: #fff; }
+  a { color: var(--magenta); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  code { font-family: var(--font-mono); font-size: 0.92em; background: var(--surface-2); border: 1px solid var(--border); padding: 1px 6px; border-radius: 5px; color: var(--mint); }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; margin: 0 0 12px; }
+  h1 { font-size: clamp(32px, 5vw, 48px); letter-spacing: -0.03em; }
+  h2 { font-size: clamp(22px, 3vw, 28px); margin-top: 40px; }
+  h3 { font-size: 18px; margin-top: 24px; font-family: var(--font-body); font-weight: 700; letter-spacing: -0.005em; }
+  p { margin: 0 0 14px; color: var(--text-2); }
+  ul, ol { color: var(--text-2); padding-left: 22px; margin: 0 0 16px; }
+  li { margin-bottom: 8px; }
+  strong { color: var(--text); }
+  .wrap { max-width: 820px; margin: 0 auto; padding: 0 24px; }
+  .studio-bar { background: linear-gradient(90deg, #FF2E7E 0%, #7C3AED 100%); color: #fff; font-size: 13px; font-weight: 600; text-align: center; padding: 8px 16px; }
+  .studio-bar a { color: #fff; }
+  nav.top { position: sticky; top: 0; z-index: 50; background: rgba(4,18,13,0.78); backdrop-filter: saturate(140%) blur(14px); -webkit-backdrop-filter: saturate(140%) blur(14px); border-bottom: 1px solid var(--border); }
+  nav.top .wrap { display: flex; align-items: center; justify-content: space-between; padding-top: 14px; padding-bottom: 14px; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .brand img { width: 32px; height: 32px; border-radius: 8px; }
+  .brand-name { font-family: var(--font-display); font-weight: 700; font-size: 17px; }
+  .crumbs { font-size: 13px; color: var(--text-3); }
+  .crumbs a { color: var(--text-3); }
+  .crumbs a:hover { color: var(--magenta); }
+  header.hero { padding: 64px 0 32px; border-bottom: 1px solid var(--border); }
+  header.hero .eyebrow { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--magenta); margin-bottom: 14px; }
+  header.hero p { font-size: 18px; color: var(--text-2); max-width: 60ch; margin-top: 4px; }
+  main.content { padding: 32px 0 80px; }
+  .step { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 24px 28px; margin-bottom: 18px; position: relative; }
+  .step-header { display: flex; align-items: center; gap: 14px; margin-bottom: 6px; }
+  .step-num { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; background: var(--grad); color: #fff; font-family: var(--font-display); font-weight: 700; font-size: 15px; flex-shrink: 0; }
+  .step h3 { margin: 0; font-size: 20px; font-family: var(--font-display); }
+  .step ol, .step ul { padding-left: 22px; margin: 12px 0 0; }
+  .step li { margin-bottom: 10px; }
+  .step li code, .step p code { font-size: 0.9em; }
+  pre { background: var(--bg); border: 1px solid var(--border); border-radius: var(--r-md); padding: 12px 14px; overflow-x: auto; font-family: var(--font-mono); font-size: 13px; line-height: 1.55; color: var(--text); margin: 12px 0; }
+  pre code { background: transparent; border: 0; padding: 0; color: inherit; }
+  .callout { background: rgba(253,224,71,0.07); border: 1px solid rgba(253,224,71,0.3); border-radius: var(--r-md); padding: 14px 16px; margin: 14px 0; }
+  .callout p { font-size: 14px; margin: 0; color: var(--text-2); }
+  .callout strong { color: var(--yellow); }
+  table.cmd-ref { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+  table.cmd-ref th, table.cmd-ref td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--border); vertical-align: top; }
+  table.cmd-ref th { font-family: var(--font-display); font-weight: 600; color: var(--text); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+  table.cmd-ref td { color: var(--text-2); }
+  table.cmd-ref td:first-child { font-family: var(--font-mono); color: var(--mint); white-space: nowrap; width: 30%; }
+  table.cmd-ref tr:last-child td { border-bottom: 0; }
+  details.faq { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-md); padding: 0; margin-bottom: 10px; overflow: hidden; }
+  details.faq[open] { border-color: var(--magenta); }
+  details.faq summary { padding: 14px 18px; cursor: pointer; font-family: var(--font-display); font-weight: 600; font-size: 15px; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+  details.faq summary::-webkit-details-marker { display: none; }
+  details.faq summary::after { content: '+'; font-size: 24px; color: var(--magenta); transition: transform 200ms ease; line-height: 1; }
+  details.faq[open] summary::after { transform: rotate(45deg); }
+  details.faq .answer { padding: 0 18px 16px; color: var(--text-2); font-size: 14px; line-height: 1.55; }
+  details.faq .answer p { margin: 0 0 8px; }
+  details.faq .answer p:last-child { margin: 0; }
+  .back-link { display: inline-block; margin-top: 28px; padding: 10px 18px; background: transparent; color: var(--magenta); border: 1px solid var(--border); border-radius: var(--r-pill); font-weight: 600; font-size: 14px; transition: border-color 150ms ease; }
+  .back-link:hover { border-color: var(--magenta); text-decoration: none; }
+  footer { border-top: 1px solid var(--border); padding: 32px 0; color: var(--text-3); font-size: 13px; text-align: center; }
+  footer a { color: var(--text-3); }
+  footer a:hover { color: var(--magenta); }
+  .toc { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-md); padding: 16px 20px; margin: 20px 0 32px; }
+  .toc-title { font-family: var(--font-display); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-3); margin-bottom: 8px; }
+  .toc ol { padding-left: 22px; margin: 0; color: var(--text-2); font-size: 14px; }
+  .toc li { margin-bottom: 4px; }
+  .toc a { color: var(--text-2); }
+  .toc a:hover { color: var(--magenta); }
+</style>
+</head>
+<body>
+<div class="studio-bar"><a href="https://froggyeye.com">← Part of <strong>Froggy Eye Ltd</strong></a></div>
+
+<nav class="top">
+  <div class="wrap">
+    <a class="brand" href="/">
+      <img src="icon.png" alt="" />
+      <span class="brand-name">PostPilot</span>
+    </a>
+    <div class="crumbs"><a href="/">PostPilot</a> &nbsp;›&nbsp; Telegram setup</div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Setup guide</span>
+    <h1>Connect PostPilot to Telegram</h1>
+    <p>About 5 minutes. You'll set up your own private Telegram bot and pair it with the desktop app — for live status, remote control, and posting from your phone.</p>
+  </div>
+</header>
+
+<main class="content">
+<div class="wrap">
+
+<div class="toc">
+  <div class="toc-title">On this page</div>
+  <ol>
+    <li><a href="#what">What the Telegram bridge does</a></li>
+    <li><a href="#bot">Step 1 — Create your bot with @BotFather</a></li>
+    <li><a href="#chat">Step 2 — Start a chat with your bot</a></li>
+    <li><a href="#pair">Step 3 — Pair it in PostPilot</a></li>
+    <li><a href="#test">Step 4 — Test &amp; tune notifications</a></li>
+    <li><a href="#commands">Command reference</a></li>
+    <li><a href="#media">Sending photos &amp; videos</a></li>
+    <li><a href="#troubleshooting">Troubleshooting</a></li>
+  </ol>
+</div>
+
+<section id="what">
+  <h2>What the Telegram bridge does</h2>
+  <p>The bridge connects PostPilot on your desktop to your own private Telegram bot. Once paired, you can — from any phone or computer with Telegram — :</p>
+  <ul>
+    <li><strong>Get live status</strong> when the agent finishes a task, hits an error, or pauses waiting for you.</li>
+    <li><strong>Compose posts remotely.</strong> Send <code>/post your message</code> from your phone, the desktop agent picks it up and posts to your enabled platforms.</li>
+    <li><strong>Update standing instructions during the day.</strong> <code>/note today's focus is the new launch</code> — every subsequent post obeys.</li>
+    <li><strong>Steer a running agent.</strong> If it's mid-task and you want it to change direction, just type the steer message.</li>
+    <li><strong>Send a photo or video</strong> to use on the next post that needs media (Instagram, Facebook, TikTok).</li>
+  </ul>
+  <div class="callout">
+    <p><strong>Private to you.</strong> The bot you create only talks to you (and PostPilot on your machine). Your bot token is stored encrypted in your OS keychain and never leaves your computer except to call Telegram's official Bot API.</p>
+  </div>
+</section>
+
+<section id="bot">
+  <div class="step">
+    <div class="step-header">
+      <span class="step-num">1</span>
+      <h3>Create your bot with @BotFather</h3>
+    </div>
+    <p>BotFather is Telegram's official bot for creating other bots. Free, takes about 2 minutes.</p>
+    <ol>
+      <li>Open Telegram. Search for <strong><a href="https://t.me/BotFather" target="_blank" rel="noreferrer">@BotFather</a></strong> and start a chat.</li>
+      <li>Send <code>/newbot</code>.</li>
+      <li>BotFather asks for a <strong>display name</strong>. Anything — e.g. <em>My PostPilot</em>.</li>
+      <li>Then it asks for a <strong>username</strong>. Must end with <code>bot</code>. e.g. <code>my_postpilot_bot</code>. If taken, try another.</li>
+      <li>BotFather replies with a message containing your <strong>HTTP API token</strong>. It looks like:
+        <pre><code>123456789:ABCdefGHIjklMNOpqrSTUvwxYZabcDEFghi</code></pre>
+      </li>
+      <li><strong>Copy this token.</strong> Treat it like a password — anyone with it can control your bot.</li>
+    </ol>
+    <div class="callout">
+      <p><strong>Lost the token?</strong> Open the chat with BotFather, send <code>/mybots</code>, pick your bot, then <em>API Token</em>. You can also regenerate it from there.</p>
+    </div>
+  </div>
+</section>
+
+<section id="chat">
+  <div class="step">
+    <div class="step-header">
+      <span class="step-num">2</span>
+      <h3>Start a chat with your bot</h3>
+    </div>
+    <p>Telegram bots can only send you messages once you've messaged them first. So:</p>
+    <ol>
+      <li>In BotFather's reply, click the <strong>t.me/&lt;your_bot_username&gt;</strong> link, or search for your bot's username in Telegram.</li>
+      <li>Open the chat and tap <strong>Start</strong> (or send any message — <code>hi</code> works).</li>
+      <li>That's it — Telegram now knows you're allowed to receive messages from this bot.</li>
+    </ol>
+  </div>
+</section>
+
+<section id="pair">
+  <div class="step">
+    <div class="step-header">
+      <span class="step-num">3</span>
+      <h3>Pair it in PostPilot</h3>
+    </div>
+    <ol>
+      <li>Open <strong>PostPilot</strong> on your desktop.</li>
+      <li>Click <strong>Settings</strong> in the sidebar, then the <strong>Telegram</strong> tab at the top.</li>
+      <li>Paste your <strong>bot token</strong> (from Step 1) into the token field.</li>
+      <li>Click <strong>Discover chat ID</strong>. PostPilot fetches your bot's recent chats and lists yours. Click your name.</li>
+      <li>Tick <strong>Enable Telegram bridge</strong>.</li>
+      <li>Click <strong>Save</strong>. The bridge starts polling for messages.</li>
+    </ol>
+    <div class="callout">
+      <p><strong>Can't see your chat after clicking Discover?</strong> Make sure you sent a message to your bot in Step 2 — Telegram only exposes chats once you've opened them.</p>
+    </div>
+  </div>
+</section>
+
+<section id="test">
+  <div class="step">
+    <div class="step-header">
+      <span class="step-num">4</span>
+      <h3>Test &amp; tune notifications</h3>
+    </div>
+    <ol>
+      <li>In the Telegram tab, click <strong>Test</strong>. Within a second or two, your bot should send a "✅ PostPilot connected" message to your Telegram. If that arrives, you're done.</li>
+      <li>Below the token/chat ID inputs there are four notification toggles:
+        <ul>
+          <li><strong>Task events</strong> — when a manual post or compose batch completes. <em>Recommended: on.</em></li>
+          <li><strong>Warm-up events</strong> — every single warm-up action. <em>Recommended: off.</em> Warm-up runs dozens of actions a day; this will buzz your phone constantly.</li>
+          <li><strong>Errors</strong> — when something goes wrong (login wall, API failure, hit iteration cap). <em>Recommended: on.</em></li>
+          <li><strong>Awaiting input</strong> — when the agent pauses and needs your help (CAPTCHA, 2FA prompt, manual sign-in). <em>Recommended: on.</em></li>
+        </ul>
+      </li>
+      <li>Click <strong>Save</strong>.</li>
+    </ol>
+  </div>
+</section>
+
+<section id="commands">
+  <h2>Command reference</h2>
+  <p>From the chat with your bot, send any of these. Plain text without a leading slash is added to the session note <em>and</em> delivered as a follow-up to the running agent (if any).</p>
+
+  <h3>State &amp; control</h3>
+  <table class="cmd-ref">
+    <thead><tr><th>Command</th><th>What it does</th></tr></thead>
+    <tbody>
+      <tr><td>/start</td><td>Show full menu with all commands.</td></tr>
+      <tr><td>/status</td><td>Current agent state: idle, running task X, warm-up queue size, last activity.</td></tr>
+      <tr><td>/stop</td><td>Abort the current task AND stop warm-up.</td></tr>
+      <tr><td>/warmup on</td><td>Enable &amp; start warm-up.</td></tr>
+      <tr><td>/warmup off</td><td>Stop warm-up immediately.</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Live instructions</h3>
+  <table class="cmd-ref">
+    <thead><tr><th>Command</th><th>What it does</th></tr></thead>
+    <tbody>
+      <tr><td>/note &lt;text&gt;</td><td>Set a persistent instruction (replaces any existing note). Applied to every future agent run.</td></tr>
+      <tr><td>/note</td><td>Show the current note.</td></tr>
+      <tr><td>/note clear</td><td>Clear the note.</td></tr>
+      <tr><td>/say &lt;text&gt;</td><td>One-off follow-up to the running agent. Doesn't touch the note.</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Post (same content to one or more platforms, 15-45s gaps)</h3>
+  <table class="cmd-ref">
+    <thead><tr><th>Command</th><th>What it does</th></tr></thead>
+    <tbody>
+      <tr><td>/post &lt;text&gt;</td><td>Post to every enabled warm-up platform.</td></tr>
+      <tr><td>/post x &lt;text&gt;</td><td>Post to X only.</td></tr>
+      <tr><td>/post x,threads &lt;text&gt;</td><td>Post to X and Threads.</td></tr>
+      <tr><td>/post tiktok &lt;text&gt;</td><td>Post to TikTok. Needs a video — see "Sending photos &amp; videos" below.</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size: 13px; color: var(--text-3);">
+    Platform aliases: <code>x</code>/<code>twitter</code>, <code>r</code>/<code>reddit</code>, <code>t</code>/<code>threads</code>, <code>ig</code>/<code>insta</code>/<code>instagram</code>, <code>fb</code>/<code>facebook</code>, <code>tt</code>/<code>tiktok</code>. Reddit is skipped by <code>/post</code> because it needs a subreddit and title — use the desktop app's compose form or <code>/postall</code> instead.
+  </p>
+
+  <h3>Postall (unique post per platform from topics, 5-15min gaps)</h3>
+  <table class="cmd-ref">
+    <thead><tr><th>Command</th><th>What it does</th></tr></thead>
+    <tbody>
+      <tr><td>/postall &lt;topics&gt;</td><td>Agent writes a unique platform-appropriate post for each enabled platform from the topics you provide.</td></tr>
+      <tr><td>/postall x,reddit ai tooling</td><td>Same but only to X and Reddit. For Reddit, the agent picks a relevant subreddit and joins it if needed.</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="media">
+  <h2>Sending photos &amp; videos</h2>
+  <p>Some platforms (Instagram, Facebook, TikTok) need media. PostPilot picks them up from Telegram automatically:</p>
+  <ul>
+    <li><strong>Send a photo</strong> to the chat (paperclip → image, or just drag-and-drop). It becomes the pending photo. The agent uses it on the next post that needs an image upload.</li>
+    <li><strong>Send a video</strong> to the chat. Becomes the pending video. Used on the next TikTok upload.</li>
+    <li>Either works while the agent is already running — the agent will pick up the new file mid-task.</li>
+  </ul>
+  <p>If the agent reaches a post that needs media and nothing is pending, it'll send you a "🟠 Agent is paused — waiting for you" message and stop. Send a photo or video to resume.</p>
+</section>
+
+<section id="troubleshooting">
+  <h2>Troubleshooting</h2>
+
+  <details class="faq">
+    <summary>The Test button says "✗ Conflict: terminated by other getUpdates request"</summary>
+    <div class="answer">
+      <p>This means another instance of PostPilot (or another app using the same bot token) is already polling your bot. Telegram only allows one consumer per bot at a time.</p>
+      <p>Fix: quit any other PostPilot windows, then restart this one. If you have stale background Electron processes (from a crash), force-quit them from Activity Monitor (Mac) or Task Manager (Windows) and try again.</p>
+    </div>
+  </details>
+
+  <details class="faq">
+    <summary>I'm not getting any messages from my bot</summary>
+    <div class="answer">
+      <p>Three things to check:</p>
+      <p>1. Did you actually click <strong>Start</strong> on your bot in Telegram? Bots can't message you until you've initiated the chat.</p>
+      <p>2. Is the bridge enabled? In Settings → Telegram, the <strong>Enable Telegram bridge</strong> checkbox must be ticked and saved.</p>
+      <p>3. Are notifications enabled for the type of event you're expecting? Warm-up events are off by default — turn them on if you want to see warm-up posts arrive.</p>
+    </div>
+  </details>
+
+  <details class="faq">
+    <summary>"Discover chat ID" returns no chats</summary>
+    <div class="answer">
+      <p>You need to have sent at least one message to your bot recently. Open your bot's chat in Telegram, tap Start (or send <code>hi</code>), then click Discover again.</p>
+      <p>Note: Telegram only exposes recent chats — usually the last 24h. If you've never messaged the bot or it's been a long time, send a fresh message.</p>
+    </div>
+  </details>
+
+  <details class="faq">
+    <summary>Can I use a group chat instead of a private chat?</summary>
+    <div class="answer">
+      <p>Yes. Add your bot to the group, send a message in the group, then click Discover — the group will appear with a negative chat ID. Pick it. Note that anyone in the group can issue commands to your bot, so use a private group you control.</p>
+    </div>
+  </details>
+
+  <details class="faq">
+    <summary>My token leaked — how do I rotate it?</summary>
+    <div class="answer">
+      <p>In Telegram, open the chat with @BotFather. Send <code>/mybots</code> → pick your bot → <strong>API Token</strong> → <strong>Revoke current token</strong>. BotFather replies with a new token. Paste it into PostPilot's Settings → Telegram, click Save. The old token immediately stops working.</p>
+    </div>
+  </details>
+
+  <details class="faq">
+    <summary>How do I disable Telegram temporarily without losing settings?</summary>
+    <div class="answer">
+      <p>Untick <strong>Enable Telegram bridge</strong> in Settings → Telegram, then click Save. The bridge stops polling. Your token and chat ID stay saved, so you can re-enable later with one tick.</p>
+    </div>
+  </details>
+
+  <details class="faq">
+    <summary>Telegram messages stopped after my Mac went to sleep</summary>
+    <div class="answer">
+      <p>PostPilot needs to be running to receive Telegram messages. When your machine sleeps, polling stops. Open PostPilot when you wake your Mac and it'll resume — any messages queued by Telegram in the meantime will arrive on the next poll.</p>
+    </div>
+  </details>
+</section>
+
+<p style="text-align: center;">
+  <a href="/" class="back-link">← Back to PostPilot</a>
+</p>
+
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    PostPilot is made by <a href="https://froggyeye.com">Froggy Eye Ltd</a>. Telegram is a trademark of Telegram FZ-LLC and is not affiliated with PostPilot.
+  </div>
+</footer>
+
+</body>
+</html>

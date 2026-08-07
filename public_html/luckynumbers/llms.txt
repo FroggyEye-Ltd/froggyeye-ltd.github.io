@@ -1,0 +1,34 @@
+# Lucky Numbers
+
+> UK Lotto & EuroMillions number picker, statistics and slip organiser. For entertainment only — 18+. From Froggy Eye Ltd, a UK indie app studio.
+
+## App information
+
+- Category: Entertainment
+- Studio: Froggy Eye Ltd ([https://froggyeye.com](https://froggyeye.com))
+- Platforms: iOS, Android
+- Price: Free, with a single one-time £4.99 "Pro" unlock (no subscription, no ads)
+- Age rating: 18+ (lottery-adjacent content; in-app age gate)
+
+## What it does
+
+- Number generators: Lucky Dip (uniform random) plus hot/cold/balanced picks from frequency statistics, with lock/exclude controls
+- Lucky Picks: four playful on-device pickers — a shake-the-phone ball machine, meaningful numbers (birthdays, names, dream symbols), a photo-entropy "lucky moment" picker, and a three-question lucky reading
+- My Slips: save, name and organise number lines per game, stored only on-device
+- Draw-day reminders via local notifications
+- Offline results checker with indicative prize tiers
+- Pro (one-time unlock): Strategy Lab — wheeling systems, coverage strategies, an honest cost & odds calculator, and a budget planner with a responsible-play nudge
+
+## Important honesty notes
+
+- The app does NOT sell lottery tickets, take wagers, or facilitate gambling
+- Nothing in the app improves the odds of winning, and the app states this prominently
+- No accounts, no analytics, no ads, no tracking; photos used by the "lucky moment" picker are processed once in memory and never stored or uploaded
+- Responsible gambling signposting throughout: BeGambleAware.org and the GamCare National Gambling Helpline 0808 8020 133
+- Not affiliated with the National Lottery, Allwyn/Camelot, or the EuroMillions operators
+
+## Links
+
+- Website: https://luckynumbers.froggyeye.com
+- Privacy policy: https://raw.githubusercontent.com/mksoft-ltd/luckynumbers/refs/heads/main/PRIVACY_POLICY.md
+- Contact: info@froggyeye.com

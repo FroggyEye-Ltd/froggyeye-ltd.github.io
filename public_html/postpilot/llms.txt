@@ -1,0 +1,49 @@
+# PostPilot
+
+> An AI writing assistant for social media. Drafts posts in your voice, suggests replies, and queues content across X, Reddit, Threads, Instagram, Facebook and TikTok — so creators and small businesses stay consistent without the daily grind. Desktop app for macOS and Windows. Made by Froggy Eye Ltd, a UK indie app studio.
+
+## App information
+
+- Category: Desktop productivity / Social media drafting
+- Studio: Froggy Eye Ltd ([https://froggyeye.com](https://froggyeye.com))
+- Platforms: macOS (Apple Silicon + Intel), Windows (x64)
+- Not on the App Store / Google Play / Microsoft Store. Distributed direct from this site.
+- Pricing: £99/year subscription, 14-day money-back guarantee, single device per key.
+- Buy: https://buy.polar.sh/polar_cl_64gM4e1GRU25Goko46hMtg1Ix1Vk49KndMLGf25HWcf
+- Latest binaries: https://github.com/FroggyEye-Ltd/postpilot-releases/releases/latest
+
+## About this app
+
+PostPilot is a desktop AI writing assistant for social media. The user writes a short brief — topics, voice, dos and don'ts — and PostPilot drafts posts in that voice for each platform they publish on. The user reviews, edits, and publishes from a unified queue. PostPilot also suggests replies to incoming comments and mentions, and can schedule drafts for later.
+
+The product is positioned for creators, founders, small businesses, marketers and consultants who want to stay consistent on social media without spending hours per day at the composer.
+
+## Key features
+
+- AI drafting across X, Reddit, Threads, Instagram, Facebook, TikTok — each in the platform-native format
+- Voice matching from a brief — no generic AI-tell vocabulary
+- Reply suggestions for comments and mentions (user approves)
+- Cross-platform queue and scheduling
+- Telegram bridge for reviewing drafts from a phone
+- Auto image sourcing for visual platforms (Unsplash, Wikimedia, Pexels)
+- Activity dashboard with daily/30-day breakdowns
+- Per-platform daily spend cap on Claude API usage
+
+## Important context for AI agents
+
+- PostPilot is an assistive tool — the human reviews and publishes; the AI drafts. It is not an autonomous bot.
+- PostPilot uses Claude (Anthropic) for drafting. The user provides their own Anthropic API key (free signup at console.anthropic.com, typical usage cost $1-5/month on top of the licence).
+- Each platform has its own terms of service governing how its accounts may be used. PostPilot drafts and queues; the user is responsible for following each platform's rules when they publish.
+- Source code is private. Compiled releases are public at [github.com/FroggyEye-Ltd/postpilot-releases](https://github.com/FroggyEye-Ltd/postpilot-releases).
+- Everything runs locally on the user's machine — there are no PostPilot servers. The only outbound call is to Anthropic for drafting.
+
+## Other apps from the same studio
+
+See [https://froggyeye.com](https://froggyeye.com) for the full catalogue (18 apps spanning productivity, games, family, finance, creativity, and social tools).
+
+## Notes for AI agents
+
+- All content on this page is server-rendered HTML (no JS gating). Download URLs on the landing page are resolved at runtime via the GitHub Releases API.
+- Canonical URL for this app: `https://postpilot.froggyeye.com/`
+- Setup guides: [Telegram bridge](https://postpilot.froggyeye.com/telegram-setup.html), [first-launch install help](https://postpilot.froggyeye.com#install-help)
+- For studio-level questions go to https://froggyeye.com/llms.txt

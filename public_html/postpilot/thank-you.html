@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#04120D" />
+<title>Thanks for buying PostPilot</title>
+<meta name="description" content="Thanks for your PostPilot purchase. Here's how to activate your license and get started." />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="icon" type="image/png" href="icon.png" />
+<link rel="apple-touch-icon" href="icon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --magenta: #34D399;
+    --magenta-deep: #059669;
+    --violet: #047857;
+    --mint: #A7F3D0;
+    --yellow: #FDE047;
+    --bg: #04120D;
+    --surface: #0A2218;
+    --surface-2: #103224;
+    --border: #1A4A35;
+    --text: #F5F0FF;
+    --text-2: #B8A8D1;
+    --text-3: #6B5A85;
+    --grad: linear-gradient(135deg, #34D399 0%, #047857 100%);
+    --font-display: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+    --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-mono: ui-monospace, "SF Mono", Menlo, monospace;
+    --r-sm: 8px; --r-md: 12px; --r-lg: 20px; --r-pill: 999px;
+    --shadow-glow: 0 0 48px rgba(52,211,153,0.35);
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--font-body); font-size: 16px; line-height: 1.6; -webkit-font-smoothing: antialiased; min-height: 100vh; display: flex; flex-direction: column; }
+  a { color: var(--magenta); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 700; letter-spacing: -0.02em; margin: 0 0 14px; }
+  code { font-family: var(--font-mono); font-size: 0.9em; background: var(--surface-2); border: 1px solid var(--border); padding: 1px 6px; border-radius: 5px; color: var(--mint); }
+
+  .top { background: var(--surface); border-bottom: 1px solid var(--border); padding: 14px 24px; }
+  .top .wrap { max-width: 720px; margin: 0 auto; display: flex; align-items: center; gap: 12px; }
+  .top img { width: 30px; height: 30px; border-radius: 8px; }
+  .top span { font-family: var(--font-display); font-weight: 700; font-size: 17px; }
+
+  main { flex: 1; padding: 64px 24px; }
+  .wrap { max-width: 720px; margin: 0 auto; }
+
+  .badge { display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; background: rgba(52,211,153,0.12); border: 1px solid rgba(52,211,153,0.4); border-radius: var(--r-pill); font-size: 13px; font-weight: 600; color: var(--magenta); margin-bottom: 24px; }
+  .badge svg { width: 14px; height: 14px; }
+
+  h1 { font-size: clamp(36px, 5vw, 52px); letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 16px; }
+  h1 .grad { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  p.lead { font-size: 18px; color: var(--text-2); margin: 0 0 32px; max-width: 56ch; }
+
+  .steps { display: flex; flex-direction: column; gap: 16px; margin-top: 32px; }
+  .step { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 24px 28px; display: flex; gap: 20px; align-items: flex-start; }
+  .step-num { width: 32px; height: 32px; border-radius: 50%; background: var(--grad); color: #fff; font-family: var(--font-display); font-weight: 700; font-size: 15px; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .step-body h3 { font-size: 18px; margin: 0 0 4px; color: var(--text); }
+  .step-body p { font-size: 14px; line-height: 1.55; color: var(--text-2); margin: 0; }
+  .step-body p + p { margin-top: 8px; }
+  .step-body strong { color: var(--text); }
+
+  .download-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+  .download-row a { display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; background: var(--bg); border: 1px solid var(--border); border-radius: var(--r-pill); color: var(--text); font-size: 13px; font-weight: 600; }
+  .download-row a:hover { border-color: var(--magenta); text-decoration: none; color: var(--magenta); }
+
+  .order-meta { background: var(--surface); border: 1px dashed var(--border); border-radius: var(--r-md); padding: 14px 18px; margin-top: 32px; font-size: 13px; color: var(--text-3); }
+  .order-meta strong { color: var(--text-2); }
+  .order-meta code { font-size: 11px; }
+
+  .help-line { margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--border); font-size: 14px; color: var(--text-3); }
+
+  footer { border-top: 1px solid var(--border); padding: 24px; color: var(--text-3); font-size: 13px; text-align: center; }
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div class="wrap">
+    <a href="/" style="display: flex; align-items: center; gap: 10px;">
+      <img src="icon.png" alt="" />
+      <span style="color: var(--text);">PostPilot</span>
+    </a>
+  </div>
+</div>
+
+<main>
+  <div class="wrap">
+    <div class="badge">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20 6L9 17l-5-5"/>
+      </svg>
+      Payment received
+    </div>
+
+    <h1>Welcome to <span class="grad">PostPilot</span>.</h1>
+    <p class="lead">Your license is on its way to your email — usually within 1-2 minutes. Here's how to get up and running:</p>
+
+    <div class="steps">
+      <div class="step">
+        <span class="step-num">1</span>
+        <div class="step-body">
+          <h3>Check your email for the license key</h3>
+          <p>Polar (our payment processor) sends a receipt + your <strong>PostPilot license key</strong> to the email you checked out with. The key looks like a long UUID string.</p>
+          <p>Can't find it? Check spam, or open the <a href="https://polar.sh/dashboard/account/orders" target="_blank" rel="noreferrer">Polar customer portal</a>.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <span class="step-num">2</span>
+        <div class="step-body">
+          <h3>Download &amp; install PostPilot</h3>
+          <p>If you haven't already:</p>
+          <div class="download-row">
+            <a id="dl-mac" href="https://github.com/FroggyEye-Ltd/postpilot-releases/releases/latest">⌘ macOS download</a>
+            <a id="dl-win" href="https://github.com/FroggyEye-Ltd/postpilot-releases/releases/latest">⊞ Windows download</a>
+          </div>
+          <p style="margin-top: 12px; font-size: 12px;">See the <a href="/#install-help">first-launch help</a> if you get a security warning on first open.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <span class="step-num">3</span>
+        <div class="step-body">
+          <h3>Activate your license in the app</h3>
+          <p>Open PostPilot → click <strong>Settings</strong> in the sidebar → <strong>License</strong> tab → paste your key → click <strong>Activate</strong>.</p>
+          <p>The green "active" pill confirms you're set. The Compose, Warm-up and Custom tabs all unlock immediately.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <span class="step-num">4</span>
+        <div class="step-body">
+          <h3>Bring your own Anthropic API key</h3>
+          <p>PostPilot uses Claude under the hood — you provide your own Anthropic API key. Sign up free at <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noreferrer">console.anthropic.com</a>, then paste into Settings → Setup.</p>
+          <p>Typical usage runs $1–5/month on top of your license.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="order-meta" id="order-meta" style="display: none;">
+      <strong>Your order:</strong> <code id="order-id"></code>
+      <span id="customer-email" style="display: none;"> · <code></code></span>
+    </div>
+
+    <div class="help-line">
+      Stuck on anything? Email <a href="mailto:info@froggyeye.com">info@froggyeye.com</a> — we usually reply within a day.
+      Need to manage your subscription? <a href="https://polar.sh/dashboard/account/subscriptions" target="_blank" rel="noreferrer">Open the Polar customer portal →</a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  PostPilot is made by <a href="https://froggyeye.com">Froggy Eye Ltd</a>. Need help? <a href="mailto:info@froggyeye.com">info@froggyeye.com</a>
+</footer>
+
+<script>
+  // Auto-resolve direct download links from GitHub Releases.
+  (async function() {
+    try {
+      const resp = await fetch(
+        'https://api.github.com/repos/FroggyEye-Ltd/postpilot-releases/releases/latest',
+        { headers: { Accept: 'application/vnd.github+json' } },
+      );
+      if (!resp.ok) return;
+      const release = await resp.json();
+      const find = (re) => {
+        const a = (release.assets || []).find((x) => re.test(x.name));
+        return a ? a.browser_download_url : null;
+      };
+      const ua = navigator.userAgent || '';
+      const isMac = /Macintosh|Mac OS X/.test(ua);
+      const isIntelMac = (() => {
+        try {
+          const canvas = document.createElement('canvas');
+          const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+          const dbg = gl && gl.getExtension && gl.getExtension('WEBGL_debug_renderer_info');
+          const renderer = dbg ? (gl.getParameter(dbg.UNMASKED_RENDERER_WEBGL) || '') : '';
+          return isMac && /Intel/i.test(String(renderer));
+        } catch (_) { return false; }
+      })();
+      const macUrl = isIntelMac
+        ? find(/^PostPilot-[\d.]+\.dmg$/)
+        : find(/^PostPilot-[\d.]+-arm64\.dmg$/);
+      const winUrl = find(/^PostPilot[._ ]Setup[._ ][\d.]+\.exe$/);
+      const macBtn = document.getElementById('dl-mac');
+      const winBtn = document.getElementById('dl-win');
+      if (macBtn && macUrl) macBtn.href = macUrl;
+      if (winBtn && winUrl) winBtn.href = winUrl;
+    } catch (_) { /* keep fallback */ }
+  })();
+
+  // Show Polar order metadata if passed as query params (helpful for support).
+  (function() {
+    const params = new URLSearchParams(window.location.search);
+    const orderId = params.get('checkout_id') || params.get('order_id');
+    const email = params.get('customer_email');
+    if (orderId) {
+      document.getElementById('order-meta').style.display = '';
+      document.getElementById('order-id').textContent = orderId;
+    }
+    if (email) {
+      const span = document.getElementById('customer-email');
+      span.style.display = '';
+      span.querySelector('code').textContent = email;
+    }
+  })();
+</script>
+
+</body>
+</html>

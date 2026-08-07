@@ -1,0 +1,68 @@
+{
+  "_doc": "Colour theme presets used by the promo CSS template. Each theme defines a palette of primary, secondary, and accent colours plus matching dark backgrounds. Apps reference a theme by name from apps.json.",
+  "magenta_violet": {
+    "primary": "#FF2E7E", "primary_deep": "#D11E63", "violet": "#7C3AED",
+    "mint": "#3DF5B0", "yellow": "#FFE14D",
+    "bg": "#0A0514", "surface": "#15091F", "surface2": "#1F1230", "border": "#2A1A3D"
+  },
+  "ember": {
+    "primary": "#FF4D2E", "primary_deep": "#B81D00", "violet": "#7C2D12",
+    "mint": "#FBBF24", "yellow": "#FDE047",
+    "bg": "#0F0805", "surface": "#1C0E08", "surface2": "#2A150E", "border": "#3D2418"
+  },
+  "ocean": {
+    "primary": "#00D4FF", "primary_deep": "#0087B3", "violet": "#3B82F6",
+    "mint": "#5EEAD4", "yellow": "#FACC15",
+    "bg": "#040B14", "surface": "#0A1726", "surface2": "#0F2336", "border": "#1B3450"
+  },
+  "purple_dawn": {
+    "primary": "#A855F7", "primary_deep": "#7E22CE", "violet": "#5B21B6",
+    "mint": "#67E8F9", "yellow": "#FDE047",
+    "bg": "#0B0518", "surface": "#160A2A", "surface2": "#23123F", "border": "#321B58"
+  },
+  "mystic": {
+    "primary": "#A78BFA", "primary_deep": "#7C3AED", "violet": "#4C1D95",
+    "mint": "#67E8F9", "yellow": "#FDE68A",
+    "bg": "#06030F", "surface": "#100823", "surface2": "#1B0F36", "border": "#2D1B52"
+  },
+  "cyan_safe": {
+    "primary": "#22D3EE", "primary_deep": "#0891B2", "violet": "#0E7490",
+    "mint": "#5EEAD4", "yellow": "#FDE047",
+    "bg": "#04101A", "surface": "#0A1F2C", "surface2": "#102D3F", "border": "#1B435C"
+  },
+  "forest": {
+    "primary": "#34D399", "primary_deep": "#059669", "violet": "#047857",
+    "mint": "#A7F3D0", "yellow": "#FDE047",
+    "bg": "#04120D", "surface": "#0A2218", "surface2": "#103224", "border": "#1A4A35"
+  },
+  "citrus": {
+    "primary": "#FACC15", "primary_deep": "#D97706", "violet": "#84CC16",
+    "mint": "#86EFAC", "yellow": "#FEF08A",
+    "bg": "#0F0A02", "surface": "#1F1604", "surface2": "#2E2008", "border": "#46300F"
+  },
+  "rose": {
+    "primary": "#FB7185", "primary_deep": "#BE123C", "violet": "#9F1239",
+    "mint": "#FDA4AF", "yellow": "#FED7AA",
+    "bg": "#100408", "surface": "#1F0810", "surface2": "#2E0F1A", "border": "#451A2B"
+  },
+  "teal_pro": {
+    "primary": "#14B8A6", "primary_deep": "#0F766E", "violet": "#0D9488",
+    "mint": "#5EEAD4", "yellow": "#FDE047",
+    "bg": "#03100E", "surface": "#072020", "surface2": "#0E2E2E", "border": "#175555"
+  },
+  "solar": {
+    "primary": "#FBBF24", "primary_deep": "#D97706", "violet": "#B45309",
+    "mint": "#FCD34D", "yellow": "#FEF3C7",
+    "bg": "#0F0A02", "surface": "#1F1606", "surface2": "#30220C", "border": "#4A3413"
+  },
+  "tile": {
+    "primary": "#0EA5E9", "primary_deep": "#0369A1", "violet": "#1D4ED8",
+    "mint": "#5EEAD4", "yellow": "#FDE047",
+    "bg": "#040A14", "surface": "#0A1626", "surface2": "#102339", "border": "#1B3957"
+  },
+  "treasure": {
+    "primary": "#F59E0B", "primary_deep": "#A16207", "violet": "#854D0E",
+    "mint": "#FCD34D", "yellow": "#FEF08A",
+    "bg": "#0E0902", "surface": "#1B1306", "surface2": "#291E0B", "border": "#3F2C11"
+  }
+}

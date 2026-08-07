@@ -1,0 +1,8 @@
+/* TEAM */
+Studio: Froggy Eye Ltd
+Site: https://froggyeye.com
+Email: info@froggyeye.com
+Location: Milton Keynes, United Kingdom
+
+/* THANKS */
+Thanks for visiting our site. Built with care.

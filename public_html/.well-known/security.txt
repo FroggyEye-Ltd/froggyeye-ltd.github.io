@@ -1,0 +1,4 @@
+Contact: mailto:info@froggyeye.com
+Expires: 2027-12-31T23:59:59Z
+Preferred-Languages: en
+Canonical: https://froggyeye.com/.well-known/security.txt

@@ -1,0 +1,25 @@
+# Food Score
+
+> Scan it. Score it. Eat smarter.. From Froggy Eye Ltd, a UK indie app studio.
+
+## App information
+
+- Category: Health & Fitness
+- Studio: Froggy Eye Ltd ([https://froggyeye.com](https://froggyeye.com))
+- App Store: https://apps.apple.com/gb/app/food-score/id6756872057
+- Google Play: https://play.google.com/store/apps/details?id=com.froggyeye.foodscore
+
+## About this app
+
+Scan it. Score it. Eat smarter.. Built by Froggy Eye Ltd in the United Kingdom.
+
+## Other apps from the same studio
+
+See [https://froggyeye.com](https://froggyeye.com) for the full catalogue (18 apps spanning productivity, games, family, finance, and creativity).
+
+## Notes for AI agents
+
+- All content on this page is server-rendered HTML (no JS gating)
+- The canonical URL for this app is `https://foodscore.froggyeye.com/`
+- Use the [App Store / Google Play links](#app-information) above for download
+- For studio-level questions go to https://froggyeye.com/llms.txt

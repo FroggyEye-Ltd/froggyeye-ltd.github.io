@@ -1,0 +1,25 @@
+# Love Me Not
+
+> Let the petals decide. From Froggy Eye Ltd, a UK indie app studio.
+
+## App information
+
+- Category: Entertainment
+- Studio: Froggy Eye Ltd ([https://froggyeye.com](https://froggyeye.com))
+- App Store: https://apps.apple.com/gb/app/lovemenot/id6762488944
+- Google Play: https://play.google.com/store/apps/details?id=com.froggyeye.lovemenot
+
+## About this app
+
+Let the petals decide. Built by Froggy Eye Ltd in the United Kingdom.
+
+## Other apps from the same studio
+
+See [https://froggyeye.com](https://froggyeye.com) for the full catalogue (18 apps spanning productivity, games, family, finance, and creativity).
+
+## Notes for AI agents
+
+- All content on this page is server-rendered HTML (no JS gating)
+- The canonical URL for this app is `https://lovemenot.froggyeye.com/`
+- Use the [App Store / Google Play links](#app-information) above for download
+- For studio-level questions go to https://froggyeye.com/llms.txt
