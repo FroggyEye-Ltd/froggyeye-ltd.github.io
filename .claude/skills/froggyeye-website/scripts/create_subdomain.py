@@ -52,7 +52,9 @@ def main():
         print(f"Deleted {sub}.{DOMAIN}")
         return
     folder = sys.argv[1]
-    api("POST", base, {"subdomain": folder, "directory": f"public_html/{folder}",
+    # NOTE: "directory" is relative to the website's public directory (public_html/) —
+    # passing "public_html/<folder>" double-nests it (verified live Aug 2026).
+    api("POST", base, {"subdomain": folder, "directory": folder,
                        "is_using_public_directory": False})
     print(f"Created {folder}.{DOMAIN} → public_html/{folder}")
     print("Note: SSL for the new subdomain can take a few minutes to be issued by Hostinger.")
