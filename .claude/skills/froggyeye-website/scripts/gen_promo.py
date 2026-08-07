@@ -242,6 +242,21 @@ def render_app(reg, content, themes):
     html = html.replace("__SUBDOMAIN__", reg["folder"])
     html = html.replace("__OG_IMAGE_ALT__",
                         content.get("og_image_alt", f'{content["name"]} — {content["tagline"]}'))
+    # Optional overrides for the template's hardcoded pricing copy (defaults kept
+    # for existing pages; one-time-purchase apps override the subscription footnote).
+    if content.get("pricing_head_accent"):
+        html = html.replace(
+            '<h2>Free to try.<br><span class="gradient-text">Plus when you\'re hooked.</span></h2>',
+            f'<h2>{content.get("pricing_head_pre", "Free to try.")}<br>'
+            f'<span class="gradient-text">{content["pricing_head_accent"]}</span></h2>')
+    if content.get("pricing_footnote"):
+        html = html.replace(
+            'Prices shown in GBP. Subscriptions billed by Apple or Google — manage in your device settings.',
+            content["pricing_footnote"])
+    if len(content["plans"]) == 2:
+        html = html.replace('</style>',
+                            '\n@media (min-width: 921px) { .pricing { grid-template-columns: repeat(2, 1fr);'
+                            ' max-width: 720px; margin-left: auto; margin-right: auto; } }\n</style>', 1)
     out = SITE_ROOT / reg["folder"] / "index.html"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(html)

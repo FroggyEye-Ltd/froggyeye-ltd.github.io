@@ -68,6 +68,23 @@
     ]
   },
   {
+    "folder": "driftsounds",
+    "name": "Drift",
+    "tagline": "Sleep sounds you mix yourself",
+    "category": "Health & Fitness",
+    "schema_category": "HealthApplication",
+    "theme": "tile",
+    "package_id": "com.froggyeye.driftsounds",
+    "apple_id": "6798006593",
+    "apple_url": null,
+    "play_url": null,
+    "card_emoji": "🌙",
+    "card_gradient": [
+      "#5EEAD4",
+      "#1D4ED8"
+    ]
+  },
+  {
     "folder": "eightball",
     "name": "Eight Ball Wisdom",
     "tagline": "The mystic 8-ball, reimagined",
@@ -116,6 +133,23 @@
     "card_gradient": [
       "#FACC15",
       "#A16207"
+    ]
+  },
+  {
+    "folder": "godlevel",
+    "name": "God Level",
+    "tagline": "How fast are your reflexes?",
+    "category": "Games",
+    "schema_category": "GameApplication",
+    "theme": "ember",
+    "package_id": "com.froggyeye.godlevel",
+    "apple_id": "6757964766",
+    "apple_url": "https://apps.apple.com/gb/app/god-level/id6757964766",
+    "play_url": null,
+    "card_emoji": "⚡",
+    "card_gradient": [
+      "#FF4D2E",
+      "#FBBF24"
     ]
   },
   {
@@ -206,6 +240,23 @@
     ]
   },
   {
+    "folder": "passportphoto",
+    "name": "Passport Photo Studio",
+    "tagline": "Passport and ID photos, checked",
+    "category": "Utilities",
+    "schema_category": "UtilitiesApplication",
+    "theme": "tile",
+    "package_id": "com.froggyeye.passportphoto",
+    "apple_id": "6798892716",
+    "apple_url": null,
+    "play_url": null,
+    "card_emoji": "🪪",
+    "card_gradient": [
+      "#0EA5E9",
+      "#1D4ED8"
+    ]
+  },
+  {
     "folder": "pokepricechecker",
     "name": "PokePriceChecker",
     "tagline": "Pokemon card prices, instantly",
@@ -244,6 +295,23 @@
       "telegram-setup.html"
     ],
     "llms_desc": "AI writing assistant for social media (desktop app, Mac & Windows)"
+  },
+  {
+    "folder": "sleepyclock",
+    "name": "Sleepy Clock",
+    "tagline": "A toddler clock with no numbers",
+    "category": "Parenting",
+    "schema_category": "LifestyleApplication",
+    "theme": "mystic",
+    "package_id": "com.froggyeye.sleepyclock",
+    "apple_id": "6798893264",
+    "apple_url": null,
+    "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.sleepyclock",
+    "card_emoji": "🌙",
+    "card_gradient": [
+      "#A78BFA",
+      "#1E1B4B"
+    ]
   },
   {
     "folder": "solarwise",

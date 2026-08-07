@@ -1,0 +1,230 @@
+{
+  "folder": "sleepyclock",
+  "name": "Sleepy Clock",
+  "tagline": "A toddler clock with no numbers on it.",
+  "meta_desc": "Sleepy Clock is a bedside clock that shows a sky instead of the time. A moon means it is still sleeping time; a sun means it is OK to get up — at the hours you choose.",
+  "nav_examples": "On screen",
+  "hero_eyebrow": "Android · A bedside clock for toddlers · Made in the UK",
+  "headline_pre": "A clock a three-year-old can",
+  "headline_accent": "read in the dark.",
+  "lead": "Sleepy Clock takes the time off the screen and puts a sky there instead. A moon and stars from bedtime, then a sun as the morning you chose arrives — and a caption underneath that changes from “Still sleeping time” to “OK to get up”. Nothing to read, nothing to tap, no digits anywhere.",
+  "meta_items": [
+    "Free to try",
+    "No ads. No account.",
+    "One payment for Pro",
+    "Made in the UK"
+  ],
+  "phone_content": "        <h4>Tonight</h4>\n        <div class=\"phone-art\"><div class=\"emoji\">🌙</div></div>\n        <div>\n          <p class=\"phone-title\">Still sleeping time</p>\n          <p class=\"phone-sub\">Night · moon and stars · no digits</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>NIGHT</span><span>NEXT: DAWN</span></div>\n        <div class=\"phone-controls\">\n          <span class=\"ic\">🌙</span>\n          <span class=\"play\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"4\"/><path d=\"M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M6.3 17.7l-1.4 1.4M19.1 4.9l-1.4 1.4\"/></svg></span>\n          <span class=\"ic\">☀️</span>\n        </div>\n        <div class=\"phone-lyric\"><b>Alarm set — a window, not a minute.</b><br>Rings somewhere inside 6:45–7:05, so nobody learns exactly when the sun is due.</div>",
+  "chips": [
+    "🌙 Still sleeping time",
+    "✨ Stars",
+    "🔵 Dawn",
+    "🟡 Early morning",
+    "🟠 OK to get up",
+    "⏰ Wake window",
+    "🛏️ Bedside mode",
+    "📅 Weekday / weekend",
+    "🎨 Phase colours",
+    "🔇 No ads"
+  ],
+  "how_head_pre": "Set the hours once.",
+  "how_head_accent": "Then just stand it on the nightstand.",
+  "how_lead": "Two minutes of setup while they are in the bath. After that the sky changes on its own, every night, without anyone touching the phone.",
+  "steps": [
+    [
+      "Set your four phases",
+      "Night, Dawn, Early Morning and Morning — you decide when each one begins. A house that starts at 6:30 and one that starts at 7:15 get the same sun-and-moon clock, set to their own hours. All four boundaries are in the free version."
+    ],
+    [
+      "Give the alarm a window",
+      "Not a minute — a window, say 6:45 to 7:05. Sleepy Clock rings at a moment drawn at random inside it, so nobody in the house learns exactly when the sun is due. It snoozes, it dismisses, and it shows over the lock screen."
+    ],
+    [
+      "Stand it by the bed",
+      "Bedside mode keeps the screen awake and drops it to about five per cent brightness, with the status bar out of the way. Readable across a dark room, and not bright enough to be a lamp."
+    ]
+  ],
+  "feat_head_pre": "A moon, a sun,",
+  "feat_head_line2": "and nothing else to learn.",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z\"/></svg>",
+      "A sky, not a time",
+      "Four phases, each with a plain-language caption. There are no digits, hands or clock faces anywhere on the clock screen — hiding the time is the product."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"4\" y1=\"21\" x2=\"4\" y2=\"14\"/><line x1=\"4\" y1=\"10\" x2=\"4\" y2=\"3\"/><line x1=\"12\" y1=\"21\" x2=\"12\" y2=\"12\"/><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"3\"/><line x1=\"20\" y1=\"21\" x2=\"20\" y2=\"16\"/><line x1=\"20\" y1=\"12\" x2=\"20\" y2=\"3\"/><line x1=\"1\" y1=\"14\" x2=\"7\" y2=\"14\"/><line x1=\"9\" y1=\"8\" x2=\"15\" y2=\"8\"/><line x1=\"17\" y1=\"16\" x2=\"23\" y2=\"16\"/></svg>",
+      "Your hours, not ours",
+      "Every phase boundary is yours to set, and the app checks the order so a morning can never start before its dawn. Free, all four."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"13\" r=\"8\"/><path d=\"M12 9v4l2 2\"/><path d=\"M5 3 2 6\"/><path d=\"m22 6-3-3\"/><path d=\"M6.38 18.7 4 21\"/><path d=\"M17.64 18.67 20 21\"/></svg>",
+      "Wake-window alarms",
+      "Give the alarm a window instead of a minute and it rings somewhere inside it. Snooze and dismiss behave exactly like a normal alarm clock."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2 4v16\"/><path d=\"M2 8h18a2 2 0 0 1 2 2v10\"/><path d=\"M2 17h20\"/><path d=\"M6 8v9\"/></svg>",
+      "Bedside mode",
+      "Screen kept awake, brightness dropped to about five per cent, full-screen and quiet. Built for a dark bedroom at three in the morning."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"1 4 1 10 7 10\"/><path d=\"M3.51 15a9 9 0 1 0 2.13-9.36L1 10\"/></svg>",
+      "Still armed after a restart",
+      "Every enabled alarm is queued seven occurrences ahead, so it keeps ringing for a week even if the phone reboots overnight. The queue rolls forward each time the app is opened."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"13.5\" cy=\"6.5\" r=\".5\" fill=\"currentColor\"/><circle cx=\"17.5\" cy=\"10.5\" r=\".5\" fill=\"currentColor\"/><circle cx=\"8.5\" cy=\"7.5\" r=\".5\" fill=\"currentColor\"/><circle cx=\"6.5\" cy=\"12.5\" r=\".5\" fill=\"currentColor\"/><path d=\"M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.93 0 1.65-.75 1.65-1.69 0-.44-.18-.83-.44-1.12-.29-.29-.44-.65-.44-1.13a1.64 1.64 0 0 1 1.67-1.67h2c3.05 0 5.56-2.5 5.56-5.55C21.96 6.01 17.46 2 12 2z\"/></svg>",
+      "Pro: schedules and colours",
+      "Unlimited alarms, separate weekday and weekend schedules, and ten colour swatches for each phase. One payment, no subscription."
+    ]
+  ],
+  "ex_eyebrow": "Inside the app",
+  "ex_head": "Everything it does:",
+  "ex_lead": "Four skies, an alarm with a window instead of a minute, and a bedside mode. That is the whole product — there is nothing else to find.",
+  "examples": [
+    [
+      "#0A1628,#1A2A4A",
+      "🌙",
+      "Night",
+      "“Still sleeping time”"
+    ],
+    [
+      "#1E3A5F,#2D5A87",
+      "🔵",
+      "Dawn",
+      "“Almost morning”"
+    ],
+    [
+      "#4A6FA5,#87CEEB",
+      "🟡",
+      "Early Morning",
+      "“Nearly time to get up”"
+    ],
+    [
+      "#87CEEB,#B0E0E6",
+      "🟠",
+      "Morning",
+      "“OK to get up”"
+    ],
+    [
+      "#1A2A4A,#0A1628",
+      "⏰",
+      "Wake window",
+      "Rings inside 6:45–7:05"
+    ],
+    [
+      "#7C3AED,#4C1D95",
+      "📅",
+      "School morning",
+      "Mon–Fri schedule · Pro"
+    ],
+    [
+      "#A78BFA,#67E8F9",
+      "🎨",
+      "Phase colours",
+      "Ten swatches each · Pro"
+    ],
+    [
+      "#1E3A5F,#06030F",
+      "🛏️",
+      "Bedside mode",
+      "Screen awake, 5% bright"
+    ]
+  ],
+  "pricing_lead": "Free to download, and the free version is the whole clock — not a demo, and the clock is never taken away. Pro is one payment. No subscription, nothing to cancel.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "£0",
+      "blurb": "The entire toddler clock, and a working alarm.",
+      "items": [
+        "All four sky phases and captions",
+        "Every phase boundary you can set",
+        "Bedside mode",
+        "One wake-window alarm",
+        "No ads"
+      ],
+      "cta": "Download free"
+    },
+    {
+      "name": "Sleepy Clock Pro",
+      "featured": true,
+      "tag": "One payment",
+      "price": "£2.99",
+      "per": "once",
+      "blurb": "Pay once. No subscription and nothing to cancel.",
+      "items": [
+        "Unlimited alarms",
+        "Separate weekday and weekend alarms",
+        "Custom phase colours — ten swatches each",
+        "Restore purchase, on every launch"
+      ],
+      "cta": "Unlock Pro"
+    }
+  ],
+  "why_eyebrow": "Why a sky",
+  "why_head_pre": "The time is the problem.",
+  "why_head_accent": "So we took it off the screen.",
+  "why_lead": "A child who cannot read a clock cannot be told to wait until 7:00. And an adult who wakes at 3am and sees “03:47” has just started doing arithmetic about how much of the night is left.",
+  "why_body": "Sleepy Clock answers the only question either of them has — is it time yet — with a shape and a colour, from across a dark room, in about a second. There are no characters, no rewards and no coins to collect, and no promise about anybody’s sleep: it shows a sky at the hours a parent chose, and it rings an alarm. For a lot of tired households, not being sold sleep training is the feature.",
+  "stats": [
+    [
+      "0",
+      "grad",
+      "Digits on the clock screen. No numbers, no hands, no clock face — that is the whole idea."
+    ],
+    [
+      "4",
+      "mint",
+      "Sky phases, and you set when each one begins. All four are in the free version."
+    ],
+    [
+      "£2.99",
+      "yellow",
+      "One payment for Pro. No subscription, no ads, nothing to cancel."
+    ]
+  ],
+  "faq": [
+    [
+      "Will my child actually understand it?",
+      "That is exactly what the free version is for. The clock itself — all four phases, every boundary you can set, and one working alarm — is free, so you can find out before you spend anything. Only extra alarms, weekday/weekend schedules and colours sit behind the payment."
+    ],
+    [
+      "Does it show the time anywhere?",
+      "Not on the clock screen. You see times in Settings, where you set the phase boundaries and the alarm windows, and that is the only place. In bedside mode the phone’s own status bar is hidden too."
+    ],
+    [
+      "Why does the alarm ring at a random time?",
+      "You give it a window rather than a minute. Because the exact minute is never the same twice, nobody learns precisely when the sun is due, so the sky stays a signal rather than a countdown. Snooze and dismiss work as they do on any alarm."
+    ],
+    [
+      "Does the phone have to stay on all night?",
+      "It is a bedside clock, so it is meant to sit plugged in on the nightstand with the app open — bedside mode keeps the screen awake at about five per cent brightness. The alarm itself is a scheduled system alarm, queued a week ahead, so it still rings if the app is closed or the phone restarts in the night."
+    ],
+    [
+      "Is Pro a subscription?",
+      "No. Sleepy Clock Pro is a one-time purchase of £2.99. Restore purchase sits in the app on every launch, so the unlock follows the store account that bought it — including on a new phone."
+    ],
+    [
+      "Are there ads, or an account to make?",
+      "No ads and no sign-up anywhere in the app. Your alarms, phase times and colours are kept on the phone. The one thing the app talks to is the store, to check whether Pro has been unlocked and to complete a purchase."
+    ],
+    [
+      "Will it help my child sleep better?",
+      "We will not claim that. Sleepy Clock shows a sky at times you chose and rings an alarm — no sleep-training promises, no behavioural claims, no reward economy. What it does is give a child who cannot read a clock a way to answer “is it morning yet” without getting up to ask."
+    ],
+    [
+      "Is there an iPhone version?",
+      "Sleepy Clock is on Google Play for Android now. The iPhone build is finished and has been submitted to Apple; this page will link to it once it is live."
+    ]
+  ],
+  "final_title": "Give them a sky.",
+  "final_body": "Free on Google Play. The whole clock, four phases and a working alarm, with no ads and no account. Pro is one payment of £2.99 when you want more.",
+  "footer_blurb": "A bedside clock that shows a sky instead of the time, so a child who cannot read a clock still knows whether it is still sleeping time. Made in the UK by Froggy Eye Ltd.",
+  "theme": "mystic",
+  "og_image_alt": "Sleepy Clock — a toddler wake-up clock showing a moon at night and a sun in the morning",
+  "seo_desc": "A toddler clock with no numbers on it. A moon means it is still sleeping time; a sun means it is OK to get up — at the hours you choose. Free, no ads.",
+  "seo_title": "Sleepy Clock — Toddler wake-up clock with no numbers | Froggy Eye Ltd",
+  "pricing_head_accent": "Pro when you're ready.",
+  "pricing_footnote": "Prices shown in GBP. Pro is a single one-time purchase billed by Google or Apple — no subscription."
+}

@@ -1,0 +1,240 @@
+{
+  "folder": "driftsounds",
+  "name": "Drift",
+  "tagline": "Sleep sounds you mix yourself.",
+  "meta_desc": "Drift layers fourteen sleep sounds at once, each with its own volume, and fades the whole mix to silence instead of cutting it off. Works offline. One payment, no subscription.",
+  "nav_examples": "Mixes",
+  "hero_eyebrow": "iPhone, iPad & Android · Built to be used in the dark",
+  "headline_pre": "Build the sound that gets",
+  "headline_accent": "you to sleep.",
+  "lead": "Most sleep apps play one track at a time. Drift plays as many as you like, together, each with its own volume — rain at 70%, a campfire underneath, a fan below that. Then the sleep timer eases the whole mix down to silence instead of cutting it off.",
+  "meta_items": [
+    "14 sounds, all offline",
+    "One payment, no subscription",
+    "No ads, no account, no tracking",
+    "Made in the UK"
+  ],
+  "phone_content": "        <h4>Tonight's mix</h4>\n        <div class=\"phone-art\"><div class=\"emoji\">🌙</div></div>\n        <div>\n          <p class=\"phone-title\">Rainy Night</p>\n          <p class=\"phone-sub\">Rain 72% · Ocean Waves 50% · Campfire 34%</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>SLEEP TIMER</span><span>45:00</span></div>\n        <div class=\"phone-controls\">\n          <span class=\"ic\">🌙</span>\n          <span class=\"play\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M8 5v14l11-7z\"/></svg></span>\n          <span class=\"ic\">＋15</span>\n        </div>\n        <div class=\"phone-lyric\"><b>Fades out over 2 minutes</b><br>3 sounds in your mix. Saved, and back in one tap tomorrow night.</div>",
+  "chips": [
+    "🌫️ White noise",
+    "🌸 Pink noise",
+    "🟤 Brown noise",
+    "🌧️ Rain",
+    "⛈️ Thunderstorm",
+    "🌊 Ocean waves",
+    "🏞️ Stream",
+    "💨 Wind",
+    "🌀 Fan",
+    "🔥 Campfire"
+  ],
+  "how_head_pre": "Three taps in the dark.",
+  "how_head_accent": "Then nothing else.",
+  "how_lead": "Drift has one main screen and everything on it is reachable one-handed, half asleep, with the lights off. There is nothing to sign into and nothing to download.",
+  "steps": [
+    [
+      "Tap the sounds you want",
+      "Every sound you switch on keeps playing alongside the others. Slide a tile to set that sound's level, then set the master volume for the room."
+    ],
+    [
+      "Set the timer",
+      "15, 30, 45, 60 or 90 minutes, or anything you like from five minutes to eight hours. Still awake at the end? Add fifteen more without sitting up."
+    ],
+    [
+      "Save it for tomorrow",
+      "Name a mix and it comes back in one tap. Drift also remembers whatever was playing when you closed the app and has it waiting, paused."
+    ]
+  ],
+  "feat_head_pre": "A sound machine you already own.",
+  "feat_head_line2": "With every dial on it.",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"21\" y1=\"5\" x2=\"14\" y2=\"5\"/><line x1=\"10\" y1=\"5\" x2=\"3\" y2=\"5\"/><line x1=\"21\" y1=\"12\" x2=\"12\" y2=\"12\"/><line x1=\"8\" y1=\"12\" x2=\"3\" y2=\"12\"/><line x1=\"21\" y1=\"19\" x2=\"16\" y2=\"19\"/><line x1=\"12\" y1=\"19\" x2=\"3\" y2=\"19\"/><line x1=\"14\" y1=\"3\" x2=\"14\" y2=\"7\"/><line x1=\"8\" y1=\"10\" x2=\"8\" y2=\"14\"/><line x1=\"16\" y1=\"17\" x2=\"16\" y2=\"21\"/></svg>",
+      "Mix, don't pick",
+      "All fourteen sounds can play at once, each on its own slider, under one master volume. Not fixed scenes — your balance, to the percent."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z\"/></svg>",
+      "Fades out, never cuts out",
+      "When the timer ends the whole mix eases down to real silence over 30 seconds, one, two or five minutes — your choice. A sound stopping dead is what wakes people up."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M19 21l-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z\"/></svg>",
+      "Mixes you keep",
+      "Save a combination, name it, rename it, delete it. Rainy Night on Sunday, Deep Focus on Monday, both one tap away."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"2\" y1=\"2\" x2=\"22\" y2=\"22\"/><path d=\"M8.5 16.4a5 5 0 0 1 7 0\"/><path d=\"M5 12.9a10 10 0 0 1 5.2-2.7\"/><path d=\"M19 12.9a10 10 0 0 0-2-1.5\"/><path d=\"M2 8.8a15 15 0 0 1 4.2-2.6\"/><path d=\"M22 8.8A15 15 0 0 0 10.7 5\"/></svg>",
+      "Works with no signal at all",
+      "Every sound ships inside the app. A plane, a basement, a tent, flight mode — Drift makes no network requests of its own, so there is nothing to buffer."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" ry=\"2\"/><path d=\"M7 11V7a5 5 0 0 1 10 0v4\"/></svg>",
+      "Collects nothing",
+      "No account, no sign-up, no analytics, no adverts, no advertising ID. Drift asks for no permissions at all — there is no dialogue to dismiss."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\" ry=\"2\"/><line x1=\"12\" y1=\"18\" x2=\"12.01\" y2=\"18\"/></svg>",
+      "Keeps playing, screen off",
+      "Lock the phone and the mix carries on, with play, pause and the timer on the lock screen. It pauses itself for a call, and when you unplug your headphones."
+    ]
+  ],
+  "ex_eyebrow": "Fourteen sounds, endless combinations",
+  "ex_head": "Mixes to build tonight:",
+  "ex_lead": "Starting points, not presets — every one of these is a few taps in the mixer, and yours to adjust from there.",
+  "examples": [
+    [
+      "#0EA5E9,#1D4ED8",
+      "🌧️",
+      "Rainy Night",
+      "Rain · Thunderstorm · Campfire"
+    ],
+    [
+      "#5EEAD4,#0369A1",
+      "🌊",
+      "Beach House",
+      "Ocean Waves · Wind"
+    ],
+    [
+      "#FDE047,#D97706",
+      "🔥",
+      "Cabin Fire",
+      "Campfire · Wind · Rain"
+    ],
+    [
+      "#1D4ED8,#0F172A",
+      "🟤",
+      "Snore Blocker",
+      "Brown Noise · Fan"
+    ],
+    [
+      "#22D3EE,#0E7490",
+      "🏞️",
+      "Deep Focus",
+      "Brown Noise · Stream"
+    ],
+    [
+      "#0EA5E9,#5EEAD4",
+      "🚂",
+      "Sleeper Train",
+      "Train Hum · Rain"
+    ],
+    [
+      "#34D399,#047857",
+      "🦗",
+      "Summer Field",
+      "Night Crickets · Wind"
+    ],
+    [
+      "#A78BFA,#1D4ED8",
+      "💗",
+      "Small Hours",
+      "Heartbeat · Pink Noise"
+    ]
+  ],
+  "pricing_lead": "Drift is free, and the free tier is a genuinely complete app — the mixer, the timer and the fade are never gated. One optional payment unlocks the rest, once, forever.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "£0",
+      "blurb": "Six sounds and the whole machine around them.",
+      "items": [
+        "White, pink, rain, ocean, wind & fan",
+        "Full mixer & per-sound volume",
+        "Sleep timer with fade-out",
+        "Background & lock screen playback",
+        "2 saved mixes"
+      ],
+      "cta": "Download free"
+    },
+    {
+      "name": "Drift Unlimited",
+      "featured": true,
+      "tag": "One payment",
+      "price": "£2.99",
+      "per": "once",
+      "blurb": "The other eight sounds and as many saved mixes as you want.",
+      "items": [
+        "All 14 sounds unlocked",
+        "Brown noise, thunderstorm, stream, campfire",
+        "Crickets, train hum, café murmur, heartbeat",
+        "Unlimited saved mixes",
+        "Restores on your other devices"
+      ],
+      "cta": "Unlock everything"
+    },
+    {
+      "name": "Subscription",
+      "price": "£0",
+      "per": "/ month, forever",
+      "blurb": "There isn't one, and there won't be. That is the point of the app.",
+      "items": [
+        "No monthly or annual plan",
+        "No adverts on either tier",
+        "No trial countdown or launch nag",
+        "Nothing to remember to cancel"
+      ],
+      "cta": "Download free"
+    }
+  ],
+  "why_eyebrow": "Why we built it",
+  "why_head_pre": "Sleep sounds went subscription.",
+  "why_head_accent": "This one didn't.",
+  "why_lead": "The big sleep apps want £40–70 a year to play you a loop of rain. Drift asks £2.99, once, and only if you want the eight sounds beyond the free six. Everything that makes it worth using is free.",
+  "why_body": "It is also built for the hour you actually use it. Drift is dark only, with a true black option for OLED screens, big targets, one main screen, and nothing that needs reading at 3am. Every one of the fourteen loops was synthesised from scratch in-house — no samples, no field recordings, nothing licensed — which is why they loop seamlessly and why the whole library fits inside the app with nothing to stream.",
+  "stats": [
+    [
+      "14",
+      "grad",
+      "Looping sounds, every one generated in-house. Play any number of them at once."
+    ],
+    [
+      "0",
+      "mint",
+      "Permissions requested, accounts required, trackers embedded, adverts shown."
+    ],
+    [
+      "£2.99",
+      "yellow",
+      "One payment for everything, or nothing at all. There is no subscription tier."
+    ]
+  ],
+  "faq": [
+    [
+      "Can it really play more than one sound at a time?",
+      "Yes — that is the whole idea. Any number of the fourteen can play together, each with its own volume slider, under a master volume. Sit rain at 70%, a campfire at 30% and a fan underneath, and save the result."
+    ],
+    [
+      "What happens when the sleep timer runs out?",
+      "The mix eases down to silence over 30 seconds, one, two or five minutes — you choose the length in Settings — and then playback stops. It never cuts off abruptly, because that is the thing that wakes people up. You can also add fifteen minutes to a running timer, or cancel it."
+    ],
+    [
+      "Which sounds are free?",
+      "Six: white noise, pink noise, rain, ocean waves, wind and fan. The full mixer, per-sound volume, the sleep timer and its fade, background playback and lock screen controls are all free too, plus two saved mixes."
+    ],
+    [
+      "Is there a subscription?",
+      "No. Drift Unlimited is a one-time £2.99 purchase that adds the other eight sounds — brown noise, thunderstorm, stream, campfire, night crickets, train hum, café murmur and heartbeat — and unlimited saved mixes. Buy it once and it restores on any device signed in to the same store account."
+    ],
+    [
+      "Does it work offline?",
+      "Completely. Every sound is generated in-house and ships inside the app, so there is nothing to stream and nothing to download. Drift works in flight mode, on a plane, or in a basement with no signal."
+    ],
+    [
+      "What data does Drift collect?",
+      "None. There is no account, no sign-up, no analytics and no tracking, and the app makes no network requests of its own. Your saved mixes and settings stay on your phone. Drift requests no runtime permissions at all, on either platform."
+    ],
+    [
+      "Does it keep playing when I lock the phone?",
+      "Yes, with play, pause and the timer available on the lock screen and from headphone buttons. It pauses on its own if a call comes in, and if you unplug your headphones it stops rather than blasting the mix out of the speaker."
+    ]
+  ],
+  "final_title": "Sleep to something you made.",
+  "final_body": "Free to download and free to keep using. iPhone, iPad and Android, phones and tablets. No account, no advert, no subscription.",
+  "footer_blurb": "Sleep sounds you mix yourself, with a timer that fades out instead of cutting off. One payment, no subscription, nothing tracked. Made in the UK by Froggy Eye Ltd.",
+  "theme": "tile",
+  "og_image_alt": "Drift — sleep sounds and white noise you mix yourself",
+  "seo_desc": "Layer fourteen sleep sounds at once, each at its own level, and let the timer fade the mix to silence. Offline, no tracking, one payment.",
+  "seo_title": "Drift — Sleep sounds & white noise you mix yourself | Froggy Eye Ltd",
+  "pricing_head_accent": "Unlimited when you're hooked.",
+  "pricing_footnote": "Prices shown in GBP. Drift Unlimited is a single one-time purchase billed by Apple or Google — no subscription."
+}

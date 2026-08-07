@@ -15,16 +15,20 @@
 - [BlipBlobb](https://blipblobb.froggyeye.com): Local group chats over WiFi
 - [ByeByeJob](https://byebyejob.froggyeye.com): Redundancy and severance, sorted
 - [DoorDigest](https://doordigest.froggyeye.com): AI summaries of your doorbell
+- [Drift](https://driftsounds.froggyeye.com): Sleep sounds you mix yourself
 - [Eight Ball Wisdom](https://eightball.froggyeye.com): The mystic 8-ball, reimagined
 - [Focus Timer](https://focustimer.froggyeye.com): The Pomodoro timer you'll love
 - [Food Score](https://foodscore.froggyeye.com): Scan it. Score it. Eat smarter.
+- [God Level](https://godlevel.froggyeye.com): How fast are your reflexes?
 - [Love Me Not](https://lovemenot.froggyeye.com): Let the petals decide
 - [Love Score](https://lovescore.froggyeye.com): Calculate love. Settle the score.
 - [Lucky Numbers](https://luckynumbers.froggyeye.com): UK Lotto & EuroMillions number picker
 - [My LTD Tax](https://myltdtax.froggyeye.com): UK director's tax companion
 - [NovelWeaver](https://novelweaver.froggyeye.com): Your AI novel-writing partner
+- [Passport Photo Studio](https://passportphoto.froggyeye.com): Passport and ID photos, checked
 - [PokePriceChecker](https://pokepricechecker.froggyeye.com): Pokemon card prices, instantly
 - [PostPilot](https://postpilot.froggyeye.com): AI writing assistant for social media (desktop app, Mac & Windows)
+- [Sleepy Clock](https://sleepyclock.froggyeye.com): A toddler clock with no numbers
 - [SolarWise](https://solarwise.froggyeye.com): Smart solar panel calculator
 - [Study Singalong](https://studysingalong.froggyeye.com): Your GCSE notes. As songs.
 - [Tileverse](https://tileverse.froggyeye.com): Claim the world, one tile at a time

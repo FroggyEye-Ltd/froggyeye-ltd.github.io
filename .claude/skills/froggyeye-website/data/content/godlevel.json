@@ -1,0 +1,227 @@
+{
+  "folder": "godlevel",
+  "name": "God Level",
+  "tagline": "Can you beat the God Level?",
+  "meta_desc": "God Level is a reaction-time game with 40 handcrafted levels. Wait for the signal, tap at the perfect moment, and climb a real-time global leaderboard. Free on the App Store.",
+  "nav_examples": "Levels",
+  "hero_eyebrow": "iPhone & iPad · Free on the App Store",
+  "headline_pre": "One signal. One tap.",
+  "headline_accent": "200 milliseconds.",
+  "lead": "God Level is a pure reaction-time game. Wait for the event, then tap the instant it lands. Too early and you fail. Too late and the moment's gone. Forty handcrafted levels take you from a forgiving one-second window down to 200ms — and a live global leaderboard tells you exactly where you stand.",
+  "meta_items": [
+    "40 levels, 4 tiers",
+    "Real-time global leaderboard",
+    "Free to play",
+    "iPhone & iPad"
+  ],
+  "phone_content": "        <h4>Level 26 · Airport Gate</h4>\n        <div class=\"phone-art\"><div class=\"emoji\">⚡</div></div>\n        <div>\n          <p class=\"phone-title\">Boarding Call</p>\n          <p class=\"phone-sub\">Expert tier · 0.49s window · 3 taps</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>WAITING…</span><span>0.49s</span></div>\n        <div class=\"phone-controls\">\n          <span class=\"ic\">⏮</span>\n          <span class=\"play\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M13 2 3 14h8l-1 8 10-12h-8l1-8z\"/></svg></span>\n          <span class=\"ic\">⏭</span>\n        </div>\n        <div class=\"phone-lyric\"><b>TAP NOW!</b><br>Miss it and the level resets. Nail it and the window gets tighter.</div>",
+  "chips": [
+    "🚦 Crosswalk",
+    "☕ Coffee shop",
+    "🍕 Pizza oven",
+    "🎬 Movie theater",
+    "✈️ Airport gate",
+    "🚑 Emergency room",
+    "🌀 Quantum realm",
+    "💥 Supernova core",
+    "🕳️ Black hole edge",
+    "🌌 The Absolute"
+  ],
+  "how_head_pre": "Wait. React. Repeat.",
+  "how_head_accent": "The whole game in three beats.",
+  "how_lead": "No tutorials to sit through, no currencies to farm. Open it, wait for the signal, and find out how fast you actually are.",
+  "steps": [
+    [
+      "Wait for the event",
+      "Every level hides its trigger behind an unpredictable wait. You never know whether it lands in one second or ten — so you can't pre-tap your way through."
+    ],
+    [
+      "Tap at the exact moment",
+      "The window opens and closes. Early is a fail. Late is a fail. Later levels want several taps inside that same shrinking window."
+    ],
+    [
+      "Climb the ranks",
+      "Clear a level and the next one tightens the screws. Your best times post to a real-time global leaderboard so you can see where you sit."
+    ]
+  ],
+  "feat_head_pre": "A reflex test,",
+  "feat_head_line2": "not a slot machine.",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"13 2 3 14 12 14 11 22 21 10 12 10 13 2\"/></svg>",
+      "40 handcrafted levels",
+      "Each one has its own scenario, signal and sound — from a crosswalk light to a supernova going off."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><polyline points=\"12 6 12 12 16 14\"/></svg>",
+      "Windows that shrink",
+      "A full second at Beginner. 600ms at Intermediate. 400ms at Expert. 200ms in the God tier. The difficulty curve is the whole game."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><line x1=\"2\" y1=\"12\" x2=\"22\" y2=\"12\"/><path d=\"M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z\"/></svg>",
+      "Real-time global leaderboard",
+      "Your best times go up against players worldwide, live. Bragging rights are settled in milliseconds."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"18\" y1=\"20\" x2=\"18\" y2=\"10\"/><line x1=\"12\" y1=\"20\" x2=\"12\" y2=\"4\"/><line x1=\"6\" y1=\"20\" x2=\"6\" y2=\"14\"/></svg>",
+      "Progress you can measure",
+      "Highest level reached, best reaction times, total time invested. Watch the numbers come down over weeks."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"6\"/><circle cx=\"12\" cy=\"12\" r=\"2\"/></svg>",
+      "Multi-tap challenges",
+      "Advanced levels ask for several taps inside one window. One reflex isn't enough any more — you need a rhythm."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z\"/></svg>",
+      "Sign in and sync",
+      "Sign in with Apple or Google to carry your progress between devices. Reset your progress or delete your account from Settings whenever you like."
+    ]
+  ],
+  "ex_eyebrow": "The road to The Absolute",
+  "ex_head": "Levels look like:",
+  "ex_lead": "A sample of the forty levels — the everyday ones you'll clear on the bus, and the cosmic ones that ruin your evening.",
+  "examples": [
+    [
+      "#FBBF24,#D97706",
+      "🚦",
+      "Crosswalk",
+      "Beginner · Walk Signal · 1.00s"
+    ],
+    [
+      "#FF4D2E,#B81D00",
+      "☕",
+      "Coffee Shop",
+      "Beginner · Order Ready · 0.92s"
+    ],
+    [
+      "#FDE047,#D97706",
+      "🎫",
+      "DMV",
+      "Intermediate · Number Called · 0.71s"
+    ],
+    [
+      "#FF4D2E,#7C2D12",
+      "🎬",
+      "Movie Theater",
+      "Intermediate · Movie Starts · 0.69s"
+    ],
+    [
+      "#F97316,#9A3412",
+      "✈️",
+      "Airport Gate",
+      "Expert · Boarding Call · 0.49s"
+    ],
+    [
+      "#EF4444,#7F1D1D",
+      "🚑",
+      "Emergency Room",
+      "Expert · Doctor Available · 0.41s"
+    ],
+    [
+      "#FBBF24,#B45309",
+      "💥",
+      "Supernova Core",
+      "God · Stellar Explosion · 0.36s"
+    ],
+    [
+      "#FDE047,#FF4D2E",
+      "🌌",
+      "The Absolute",
+      "God · Ultimate Truth · 0.20s"
+    ]
+  ],
+  "pricing_lead": "Free to download and play. One optional one-off purchase unlocks the final tier — no subscription, no energy timers, no loot boxes. The free game is ad-supported.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "£0",
+      "blurb": "Thirty levels across three tiers, and the full global leaderboard.",
+      "items": [
+        "Levels 1–30",
+        "Beginner, Intermediate and Expert tiers",
+        "Real-time global leaderboard",
+        "Progress and best-time tracking",
+        "Ad-supported"
+      ],
+      "cta": "Download free"
+    },
+    {
+      "name": "God Levels Unlock",
+      "featured": true,
+      "tag": "One-off purchase",
+      "price": "£1.99",
+      "per": "one-off",
+      "blurb": "Ten exclusive God Levels, ending at The Absolute. Buy once, keep forever.",
+      "items": [
+        "Levels 31–40 unlocked",
+        "Reaction windows down to 200ms",
+        "Quantum Realm to The Absolute",
+        "No subscription — pay once",
+        "Restores on your other devices"
+      ],
+      "cta": "Unlock God Levels"
+    }
+  ],
+  "why_eyebrow": "Why bother",
+  "why_head_pre": "Everyone thinks they're quick.",
+  "why_head_accent": "Very few people are.",
+  "why_lead": "God Level strips the genre back to one honest question: when the signal comes, how long does it take you to move? No power-ups to buy your way past it, no difficulty slider to hide behind. Just you, a window, and a number.",
+  "why_body": "The scenarios start deliberately mundane — a microwave ding, a barber calling your name, a boarding announcement — because that's where reaction time actually lives. Then the God tier throws the everyday out and drops you at the edge of a black hole with 200 milliseconds to react.",
+  "stats": [
+    [
+      "40",
+      "grad",
+      "Handcrafted levels, each with its own scenario, signal and sound."
+    ],
+    [
+      "200ms",
+      "mint",
+      "The tightest window in the game, at The Absolute — the final God Level."
+    ],
+    [
+      "4",
+      "yellow",
+      "Tiers: Beginner, Intermediate, Expert and God. Each one narrower than the last."
+    ]
+  ],
+  "faq": [
+    [
+      "How does the game actually work?",
+      "Every level hides an event behind an unpredictable wait. When the event fires, you have a fixed window to tap. Tap before it fires and you fail; miss the window and you fail. Clear it and you move up."
+    ],
+    [
+      "Is it free?",
+      "Yes — the download is free and levels 1 to 30 are free to play, with ads. The ten God Levels are behind a single one-off in-app purchase, God Levels Unlock, at £1.99. There's no subscription."
+    ],
+    [
+      "What are the God Levels?",
+      "Levels 31 to 40 — a separate tier with reaction windows as tight as 200ms, running from the Quantum Realm to The Absolute, the final level in the game."
+    ],
+    [
+      "Do I need an account?",
+      "You sign in with Apple or Google, which is what syncs your progress across devices and puts your times on the global leaderboard. You can reset your progress or delete your account entirely from Settings."
+    ],
+    [
+      "What are multi-tap challenges?",
+      "In the later levels one tap isn't enough — the window asks for several taps in a row, up to five. Same shrinking window, more to do inside it."
+    ],
+    [
+      "Can I turn the sound off?",
+      "Yes. Sound effects, background music, vibration and event notifications each have their own switch in Settings."
+    ],
+    [
+      "Is there an Android version?",
+      "Not yet. God Level is on the App Store for iPhone and iPad, and it's rated 12+ for frequent or intense contests."
+    ]
+  ],
+  "final_title": "How fast are you, really?",
+  "final_body": "Free on the App Store for iPhone and iPad. Forty levels between you and The Absolute. The path to becoming a god starts with a single tap.",
+  "footer_blurb": "A pure reaction-time game — forty levels, four tiers, one global leaderboard. Made in the UK by Froggy Eye Ltd.",
+  "theme": "ember",
+  "og_image_alt": "God Level — reaction time game with 40 levels and a global leaderboard",
+  "seo_desc": "Reaction-time game with 40 handcrafted levels, windows down to 200ms, and a real-time global leaderboard. Free on the App Store.",
+  "seo_title": "God Level — Reaction time game for iPhone & iPad | Froggy Eye Ltd",
+  "pricing_head_accent": "Unlock when you're hooked.",
+  "pricing_footnote": "Prices shown in GBP. The God Levels Unlock is a single one-time purchase billed by Apple. Free levels are ad-supported."
+}

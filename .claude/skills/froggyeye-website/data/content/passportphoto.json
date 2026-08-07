@@ -1,0 +1,233 @@
+{
+  "folder": "passportphoto",
+  "name": "Passport Photo Studio",
+  "tagline": "Passport photos, checked against the spec.",
+  "meta_desc": "Passport Photo Studio crops your passport, visa or ID photo to the exact millimetre the document asks for, then runs seven checks and tells you what it found. 30 specs, 21 countries, all free. Photos never leave your phone.",
+  "nav_examples": "Specs",
+  "hero_eyebrow": "iOS & Android · Passport, visa and ID photos",
+  "headline_pre": "Know it's right",
+  "headline_accent": "before you print.",
+  "lead": "Pick the country and the document, take the photo, and Passport Photo Studio crops it to the exact millimetre the spec asks for — then runs seven checks and shows its working. Face size, eye line, background and four more, each with a pass, a fail and a plain-English reason.",
+  "meta_items": [
+    "30 specs, 21 countries",
+    "Everything runs offline",
+    "Free to check your photo",
+    "No ads, no account, no upload"
+  ],
+  "phone_content": "        <h4>United Kingdom · Passport</h4>\n        <div class=\"phone-art\"><div class=\"emoji\">🪪</div></div>\n        <div>\n          <p class=\"phone-title\">827 × 1063 px</p>\n          <p class=\"phone-sub\">35 × 45 mm @ 600 dpi · Off-white background</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>7 / 7 PASSED</span><span>PRINT-READY</span></div>\n        <div class=\"phone-controls\">\n          <span class=\"ic\">📷</span>\n          <span class=\"play\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M8 5v14l11-7z\"/></svg></span>\n          <span class=\"ic\">🖨️</span>\n        </div>\n        <div class=\"phone-lyric\"><b>Face height 31.6 mm</b> — spec allows 29–34 mm.<br>Eye line 27.4 mm from the bottom edge. Background uniform.</div>",
+  "chips": [
+    "📘 Passport",
+    "✈️ Visa",
+    "🪪 ID card",
+    "🚗 Driving licence",
+    "👶 Child photo",
+    "📐 35 × 45 mm",
+    "🖼️ 2 × 2 inch",
+    "🌐 ICAO 9303",
+    "🗺️ Schengen",
+    "🖨️ 4×6 sheet"
+  ],
+  "how_head_pre": "Pick the spec. Take the photo.",
+  "how_head_accent": "Read the report.",
+  "how_lead": "No booth, no queue, no account. The whole thing runs on your phone, and you find out whether the photo measures up before you spend anything.",
+  "steps": [
+    [
+      "Pick the country and document",
+      "Passport, visa, ID card or driving licence — 30 document specs across 21 countries, plus ICAO Doc 9303 and Schengen generic fallbacks for everywhere else. None of them are locked."
+    ],
+    [
+      "Shoot it, or bring your own",
+      "Use the camera with a live face guide sized to the spec you picked, or import a photo you already have. The crop is calculated from your own face measurements, then resampled to the exact pixel dimensions the document wants."
+    ],
+    [
+      "Read the checks, then print",
+      "Seven pass-or-fail checks, each with the reason. Export the print-ready file, or a 4×6 inch sheet to hand to any photo counter."
+    ]
+  ],
+  "feat_head_pre": "It shows its working.",
+  "feat_head_line2": "That's the whole point.",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg>",
+      "Guided capture",
+      "A live face guide, sized to the spec you chose. Or skip it entirely and import a photo from your library — gallery import is a first-class path, not a fallback."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6.13 1L6 16a2 2 0 0 0 2 2h15\"/><path d=\"M1 6.13L16 6a2 2 0 0 1 2 2v15\"/></svg>",
+      "Cropped to the millimetre",
+      "Chin-to-crown height estimated from your own face, the eye line placed where the spec requires, then resampled to the exact pixel count — 827 × 1063 px for a UK passport, and so on for every other spec."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M22 11.08V12a10 10 0 1 1-5.93-9.14\"/><polyline points=\"22 4 12 14.01 9 11.01\"/></svg>",
+      "Seven checks, with reasons",
+      "Single face, eyes open, looking forward, face size, eye line, background uniformity, and whether the required crop fitted inside your photo. Failures come with the reason, not just a red cross."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" ry=\"2\"/><path d=\"M7 11V7a5 5 0 0 1 10 0v4\"/></svg>",
+      "Your photo stays on your phone",
+      "Face detection runs against a model bundled inside the app. No account, no server, no upload path — and no retouching, beautifying or background replacement. The photo stays the photo."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><line x1=\"2\" y1=\"12\" x2=\"22\" y2=\"12\"/><path d=\"M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z\"/></svg>",
+      "Every country is free",
+      "All 30 specs are in the free app, with the published figures behind each one: photo size, face-height band, eye line, background and output resolution. Countries are never gated."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"6 9 6 2 18 2 18 9\"/><path d=\"M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2\"/><rect x=\"6\" y=\"14\" width=\"12\" height=\"8\"/></svg>",
+      "A sheet any counter can print",
+      "The 4×6 inch sheet is tiled at 300 dpi with cutting gaps, so a high-street photo counter or your own printer can hand back a strip you just cut up. You can see the real layout before you buy."
+    ]
+  ],
+  "ex_eyebrow": "Real numbers",
+  "ex_head": "Specs already in the app:",
+  "ex_lead": "Eight of the 30 document specs, with the measurements the crop is built from. Where an authority publishes a figure the app uses it; where none is published it comes from ICAO Doc 9303 portrait geometry, and the bundled source list says which is which.",
+  "examples": [
+    [
+      "#0EA5E9,#1D4ED8",
+      "📘",
+      "United Kingdom · Passport",
+      "35 × 45 mm · 600 dpi · 827 × 1063 px"
+    ],
+    [
+      "#1D4ED8,#0369A1",
+      "📘",
+      "United States · Passport",
+      "51 × 51 mm (2 × 2 in) · 300 dpi · white"
+    ],
+    [
+      "#5EEAD4,#0891B2",
+      "🗺️",
+      "Schengen · Generic",
+      "35 × 45 mm · 600 dpi · light-grey"
+    ],
+    [
+      "#0EA5E9,#5EEAD4",
+      "📘",
+      "Canada · Passport",
+      "50 × 70 mm · 300 dpi · white"
+    ],
+    [
+      "#3B82F6,#1E3A8A",
+      "📘",
+      "India · Passport",
+      "51 × 51 mm · 300 dpi · white"
+    ],
+    [
+      "#22D3EE,#0369A1",
+      "✈️",
+      "China · Visa",
+      "33 × 48 mm · 600 dpi · white"
+    ],
+    [
+      "#FDE047,#0EA5E9",
+      "📘",
+      "United Arab Emirates · Passport",
+      "43 × 55 mm · 300 dpi · white"
+    ],
+    [
+      "#0369A1,#1D4ED8",
+      "🌐",
+      "ICAO Doc 9303 · Generic",
+      "35 × 45 mm · 600 dpi · the fallback"
+    ]
+  ],
+  "pricing_lead": "Free is a working product, not a demo: every country, the crop and the full seven-check report cost nothing, so you can see the app got your photo right before you decide. Pro is one payment — no subscription, no per-photo charge, no trial that expires.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "£0",
+      "blurb": "Check the photo. Every country. Nothing locked.",
+      "items": [
+        "All 30 specs, 21 countries",
+        "Guided capture and gallery import",
+        "Automatic crop to the exact spec",
+        "The full seven-check report",
+        "Print-sheet preview",
+        "Watermarked 600 px save"
+      ],
+      "cta": "Download free"
+    },
+    {
+      "name": "Pro — One time",
+      "featured": true,
+      "tag": "One payment",
+      "price": "£4.99",
+      "per": "once",
+      "blurb": "The print-ready file and the 4×6 inch sheet, for every photo you ever take.",
+      "items": [
+        "Full-resolution unwatermarked export",
+        "4×6 inch print sheet at 300 dpi",
+        "No watermark on gallery saves",
+        "Unlimited photos, every country",
+        "Restores on any device on the same store account",
+        "No subscription, ever"
+      ],
+      "cta": "Unlock Pro"
+    }
+  ],
+  "why_eyebrow": "Why this exists",
+  "why_head_pre": "Most photo apps hand you a crop",
+  "why_head_accent": "and wish you luck.",
+  "why_lead": "You find out it was wrong at the counter, or three weeks later when the application comes back. Measuring was always the hard part — so the app does the measuring, then tells you exactly what it measured and whether it fits.",
+  "why_body": "A high-street booth is £8–15 a visit and one guess. Passport Photo Studio measures your photo against the published spec and reports what it found — it does not certify anything, and no government body has approved it. That distinction matters, so we make it rather than hide it.",
+  "stats": [
+    [
+      "30",
+      "grad",
+      "Document specs across 21 countries, plus ICAO and Schengen fallbacks. Every one of them is in the free app."
+    ],
+    [
+      "7",
+      "mint",
+      "Compliance checks on every photo — face, eyes, pose, face size, eye line, background and framing — each with a pass, a fail and a reason."
+    ],
+    [
+      "0",
+      "yellow",
+      "Photos uploaded. Face detection runs on a bundled model; the app has no account, no server and no upload path."
+    ]
+  ],
+  "faq": [
+    [
+      "Will my photo definitely be accepted?",
+      "No app can honestly promise that, and this one doesn't. What it does is measure your photo against the published spec for the document you picked and show you seven pass-or-fail checks with the reason for each. The decision still belongs to the authority — but you go in knowing what the measurements are."
+    ],
+    [
+      "Do my photos get uploaded anywhere?",
+      "No. Face detection runs on your phone against a model bundled inside the app, and there is no account, no server and no upload path in the app's code. One thing we declare rather than gloss over: the bundled Google ML Kit face-detection SDK reports its own diagnostics to Google — a non-advertising device identifier and feature-usage data, never any part of a photograph. That is Google's collection, not ours, and both stores' privacy labels declare it."
+    ],
+    [
+      "Which countries are covered?",
+      "United Kingdom, United States, Canada, Australia, New Zealand, Ireland, Germany, France, Spain, Italy, Netherlands, Sweden, Switzerland, Japan, China, India, Singapore, United Arab Emirates, Brazil, Mexico and South Africa — 30 document specs in total, plus ICAO Doc 9303 and Schengen generic fallbacks for everywhere else."
+    ],
+    [
+      "What's free and what costs money?",
+      "Free: every country and document spec, the camera guide, gallery import, the automatic crop, the complete seven-check report, the print-sheet preview, and a watermarked save downscaled to 600 px. Pro (£4.99, once) adds the full-resolution unwatermarked export and the 4×6 inch print sheet without a watermark."
+    ],
+    [
+      "Is it a subscription?",
+      "No. Pro is a single one-time purchase through the App Store or Google Play, and it stays unlocked for as long as you own the app. Most people need a passport photo once every ten years — charging a monthly fee for that would be daft. Restore purchase is on the home screen's app bar on every launch."
+    ],
+    [
+      "Can I print at home, or do I need a shop?",
+      "Either. Pro exports the single print-ready file at the spec's exact pixel dimensions, and a 4×6 inch sheet tiled at 300 dpi with cutting gaps — the standard size any photo counter prints, and one a home photo printer handles too. Cut along the gaps and you have your set."
+    ],
+    [
+      "Does it work for a baby or a child?",
+      "Yes, and it is one of the reasons the app exists — a booth is impractical with a toddler and it usually takes a few goes, which costs nothing here. The same checks run. Bear in mind some authorities relax the expression and eyes-open rules for very young children, so read your authority's own guidance alongside the report."
+    ],
+    [
+      "Do I need an internet connection?",
+      "Not for the photo. Picking a spec, capturing, cropping, the compliance report and the export all run on the device. The only thing that needs a connection is the one-time purchase itself, which goes through the App Store or Google Play."
+    ]
+  ],
+  "final_title": "Skip the booth.",
+  "final_body": "Free to download. iPhone and Android. Every country, the crop and the full report cost nothing — check your photo before you spend anything.",
+  "footer_blurb": "Passport, visa and ID photos measured against the published spec, entirely on your phone. Made in the UK by Froggy Eye Ltd.",
+  "theme": "tile",
+  "og_image_alt": "Passport Photo Studio — passport, visa and ID photos checked against the spec",
+  "seo_desc": "Passport, visa and ID photos cropped to the exact spec and checked before you print. 30 specs, 21 countries, all free. Photos never leave your phone.",
+  "seo_title": "Passport Photo Studio — Passport & ID photos checked against the spec | Froggy Eye Ltd",
+  "pricing_head_accent": "Pro when you're ready.",
+  "pricing_footnote": "Prices shown in GBP. Pro is a single one-time purchase billed by Apple or Google — no subscription."
+}
