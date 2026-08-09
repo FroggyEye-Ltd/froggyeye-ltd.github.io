@@ -153,6 +153,24 @@
     ]
   },
   {
+    "folder": "honestsignal",
+    "name": "Honest Signal",
+    "tagline": "Bars that don't lie.",
+    "category": "Utilities",
+    "schema_category": "UtilitiesApplication",
+    "theme": "forest",
+    "package_id": "com.froggyeye.honestsignal",
+    "apple_id": "6799269422",
+    "apple_url": null,
+    "play_url": null,
+    "card_emoji": "📶",
+    "card_gradient": [
+      "#45E0A6",
+      "#0E7A57"
+    ],
+    "llms_desc": "Signal indicator that measures real connectivity - latency, jitter, packet loss and real transfer samples - scored 0-5 honest bars; the full scoring method is published on the page."
+  },
+  {
     "folder": "lovemenot",
     "name": "Love Me Not",
     "tagline": "Let the petals decide",

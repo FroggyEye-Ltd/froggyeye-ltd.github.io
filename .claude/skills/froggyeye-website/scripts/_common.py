@@ -9,7 +9,10 @@ def load_apps():
     return json.loads((SKILL_ROOT / "data" / "apps.json").read_text())
 
 def save_apps(apps):
-    (SKILL_ROOT / "data" / "apps.json").write_text(json.dumps(apps, indent=2) + "\n")
+    # ensure_ascii=False: the registry stores card_emoji as literal characters,
+    # so escaping them here would rewrite every entry on any save.
+    (SKILL_ROOT / "data" / "apps.json").write_text(
+        json.dumps(apps, indent=2, ensure_ascii=False) + "\n")
 
 def load_themes():
     return json.loads((SKILL_ROOT / "data" / "themes.json").read_text())

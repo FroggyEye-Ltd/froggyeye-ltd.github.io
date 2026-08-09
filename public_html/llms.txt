@@ -20,6 +20,7 @@
 - [Focus Timer](https://focustimer.froggyeye.com): The Pomodoro timer you'll love
 - [Food Score](https://foodscore.froggyeye.com): Scan it. Score it. Eat smarter.
 - [God Level](https://godlevel.froggyeye.com): How fast are your reflexes?
+- [Honest Signal](https://honestsignal.froggyeye.com): Signal indicator that measures real connectivity - latency, jitter, packet loss and real transfer samples - scored 0-5 honest bars; the full scoring method is published on the page.
 - [Love Me Not](https://lovemenot.froggyeye.com): Let the petals decide
 - [Love Score](https://lovescore.froggyeye.com): Calculate love. Settle the score.
 - [Lucky Numbers](https://luckynumbers.froggyeye.com): UK Lotto & EuroMillions number picker

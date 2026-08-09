@@ -253,6 +253,22 @@ def render_app(reg, content, themes):
         html = html.replace(
             'Prices shown in GBP. Subscriptions billed by Apple or Google — manage in your device settings.',
             content["pricing_footnote"])
+    # Optional extra long-form section, injected ahead of pricing, with its own
+    # nav + footer entry. Used where the page has to carry an explainer the
+    # template's fixed sections cannot hold (e.g. a published scoring method).
+    extra = content.get("extra_section")
+    if extra:
+        html = html.replace('<section id="pricing"', extra["html"] + '\n<section id="pricing"', 1)
+        html = html.replace(
+            '<li><a href="#pricing">Pricing</a></li>',
+            f'<li><a href="#{extra["id"]}">{extra["nav_label"]}</a></li>\n'
+            f'      <li><a href="#pricing">Pricing</a></li>')
+    # Optional app-specific privacy policy, listed alongside the studio ones.
+    if content.get("privacy_url"):
+        html = html.replace(
+            '<li><a href="https://froggyeye.com/terms.html">Terms of use</a></li>',
+            '<li><a href="https://froggyeye.com/terms.html">Terms of use</a></li>\n'
+            f'        <li><a href="{content["privacy_url"]}">App privacy policy</a></li>', 1)
     if len(content["plans"]) == 2:
         html = html.replace('</style>',
                             '\n@media (min-width: 921px) { .pricing { grid-template-columns: repeat(2, 1fr);'
