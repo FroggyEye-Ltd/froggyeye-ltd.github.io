@@ -14,6 +14,10 @@
     "card_gradient": [
       "#FF4D2E",
       "#7C2D12"
+    ],
+    "extra_pages": [
+      "privacy.html",
+      "terms.html"
     ]
   },
   {

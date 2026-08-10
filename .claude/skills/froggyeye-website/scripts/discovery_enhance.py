@@ -19,14 +19,18 @@ from _common import load_apps, SITE_ROOT
 
 # --------------------------------------------------------------------- per subdomain helpers
 
-def per_sub_sitemap(folder):
+def per_sub_sitemap(app):
+    folder = app["folder"]
+    extra = "".join(
+        f'\n  <url><loc>https://{folder}.froggyeye.com/{pg}</loc><priority>0.6</priority></url>'
+        for pg in app.get("extra_pages", []))
     return f'''<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://{folder}.froggyeye.com/</loc><priority>1.0</priority></url>
   <url><loc>https://{folder}.froggyeye.com/#how</loc><priority>0.7</priority></url>
   <url><loc>https://{folder}.froggyeye.com/#features</loc><priority>0.7</priority></url>
   <url><loc>https://{folder}.froggyeye.com/#pricing</loc><priority>0.8</priority></url>
-  <url><loc>https://{folder}.froggyeye.com/#faq</loc><priority>0.6</priority></url>
+  <url><loc>https://{folder}.froggyeye.com/#faq</loc><priority>0.6</priority></url>{extra}
 </urlset>
 '''
 
@@ -247,7 +251,7 @@ def patch_app(app, all_apps):
     p.write_text(text)
 
     # 4. Per-subdomain discovery files
-    (SITE_ROOT / folder / "sitemap.xml").write_text(per_sub_sitemap(folder))
+    (SITE_ROOT / folder / "sitemap.xml").write_text(per_sub_sitemap(app))
     (SITE_ROOT / folder / "robots.txt").write_text(per_sub_robots(folder))
     (SITE_ROOT / folder / "llms.txt").write_text(per_sub_llms(app))
     return True
