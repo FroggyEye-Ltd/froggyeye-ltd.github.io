@@ -137,6 +137,10 @@
     "card_gradient": [
       "#FACC15",
       "#A16207"
+    ],
+    "extra_pages": [
+      "privacy.html",
+      "terms.html"
     ]
   },
   {

@@ -5,4 +5,6 @@
   <url><loc>https://foodscore.froggyeye.com/#features</loc><priority>0.7</priority></url>
   <url><loc>https://foodscore.froggyeye.com/#pricing</loc><priority>0.8</priority></url>
   <url><loc>https://foodscore.froggyeye.com/#faq</loc><priority>0.6</priority></url>
+  <url><loc>https://foodscore.froggyeye.com/privacy.html</loc><priority>0.6</priority></url>
+  <url><loc>https://foodscore.froggyeye.com/terms.html</loc><priority>0.6</priority></url>
 </urlset>
