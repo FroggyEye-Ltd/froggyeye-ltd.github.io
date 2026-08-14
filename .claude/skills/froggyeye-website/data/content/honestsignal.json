@@ -4,12 +4,12 @@
   "tagline": "Bars that don't lie.",
   "meta_desc": "Full bars but no internet? Honest Signal measures the connection instead of the radio — latency, jitter, packet loss and a real transfer sample, scored as 0–5 honest bars. The whole scoring method is published.",
   "nav_examples": "The scale",
-  "hero_eyebrow": "iPhone & Android · No ads, no tracking, no accounts",
+  "hero_eyebrow": "Android now · iPhone coming soon · No ads, no tracking, no accounts",
   "headline_pre": "Five bars.",
   "headline_accent": "Nothing loading.",
   "lead": "Your signal icon reports how loudly the nearest mast is shouting. It says nothing about whether data is moving. Honest Signal sends real requests, times them, downloads a real sample, and scores what your connection can actually do — 0 to 5 bars that mean something.",
   "meta_items": [
-    "Launching on iOS &amp; Android",
+    "On Google Play now · iOS coming soon",
     "Measures data, not radio strength",
     "The whole scoring method is published",
     "No ads, no tracking, no accounts"

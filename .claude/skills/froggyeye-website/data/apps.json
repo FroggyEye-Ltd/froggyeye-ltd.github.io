@@ -46,7 +46,7 @@
     "theme": "teal_pro",
     "package_id": "com.froggyeye.byebyejob",
     "apple_id": "6757801661",
-    "apple_url": "https://apps.apple.com/gb/app/byebyejob/id6757801661",
+    "apple_url": "https://apps.apple.com/gb/app/byebyejob-redundancy-pay-uk/id6757801661",
     "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.byebyejob",
     "card_emoji": "⚖️",
     "card_gradient": [
@@ -81,7 +81,7 @@
     "package_id": "com.froggyeye.driftsounds",
     "apple_id": "6798006593",
     "apple_url": null,
-    "play_url": null,
+    "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.driftsounds",
     "card_emoji": "🌙",
     "card_gradient": [
       "#5EEAD4",
@@ -170,7 +170,7 @@
     "package_id": "com.froggyeye.honestsignal",
     "apple_id": "6799269422",
     "apple_url": null,
-    "play_url": null,
+    "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.honestsignal",
     "card_emoji": "📶",
     "card_gradient": [
       "#45E0A6",
@@ -222,7 +222,7 @@
     "package_id": "com.froggyeye.luckynumbers",
     "apple_id": null,
     "apple_url": null,
-    "play_url": null,
+    "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.luckynumbers",
     "card_emoji": "🍀",
     "card_gradient": [
       "#2E7D5B",
