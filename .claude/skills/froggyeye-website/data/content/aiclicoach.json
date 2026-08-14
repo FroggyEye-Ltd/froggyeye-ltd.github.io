@@ -1,0 +1,250 @@
+{
+  "folder": "aiclicoach",
+  "name": "AI CLI Coach",
+  "tagline": "Learn the terminal coding agents",
+  "meta_desc": "An independent study guide to Claude Code, Codex CLI and GitHub Copilot CLI. 57 lessons, 17 quizzes, scripted practice terminals, three cheat sheets and a 48-row comparison matrix. Works offline, no account, free to start.",
+  "nav_examples": "Topics",
+  "hero_eyebrow": "iOS &amp; Android · An independent study guide",
+  "headline_pre": "Three terminal coding agents.",
+  "headline_accent": "One place to learn them.",
+  "lead": "Claude Code, Codex CLI and GitHub Copilot CLI, taught from first install to running them unattended in CI. 57 lessons, 17 quizzes, three practice terminals and a 48-row comparison matrix &mdash; all of it on your phone, all of it offline.",
+  "meta_items": [
+    "Works fully offline",
+    "No account, no ads, no tracking",
+    "Claude Code module free forever",
+    "Not affiliated with any vendor"
+  ],
+  "phone_content": "        <style>\n          .phone-screen .t-term { background: #0B1220; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 14px; font-family: var(--font-mono, ui-monospace, SFMono-Regular, Menlo, monospace); font-size: 11.5px; line-height: 1.75; color: #C7D2E4; overflow: hidden; }\n          .phone-screen .t-term .bar { display: flex; gap: 5px; margin-bottom: 11px; }\n          .phone-screen .t-term .bar i { width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.18); display: block; }\n          .phone-screen .t-term .p { color: #5EEAD4; }\n          .phone-screen .t-term .k { color: #FDE047; }\n          .phone-screen .t-term .d { color: #7A8AA3; }\n          .phone-screen .t-badge { display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #0B1220; background: var(--mint); border-radius: 999px; padding: 3px 9px; }\n        </style>\n        <h4>Claude Code · Section 3 of 7</h4>\n        <div class=\"t-term\">\n          <div class=\"bar\"><i></i><i></i><i></i></div>\n          <div><span class=\"p\">&gt;</span> claude --permission-mode plan</div>\n          <div class=\"d\">// nothing runs here — scripted</div>\n          <div><span class=\"k\">?</span> Edit src/main.dart</div>\n          <div class=\"d\">&nbsp;&nbsp;1. Yes &nbsp; 2. Yes, and don't ask again</div>\n          <div class=\"d\">&nbsp;&nbsp;3. No, tell Claude what to do differently</div>\n        </div>\n        <div>\n          <p class=\"phone-title\">Permission modes</p>\n          <p class=\"phone-sub\">What each mode allows, and what it stops asking about</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>LESSON 12 OF 29</span><span>QUIZ AFTER 3 MORE</span></div>\n        <div class=\"phone-lyric\"><span class=\"t-badge\">Free module</span><br><b>Next:</b> allow and deny rules &mdash; then the same idea in Codex CLI and GitHub Copilot CLI, side by side.</div>",
+  "chips": [
+    "Permission modes",
+    "Sandboxing",
+    "Prompt injection",
+    "Approval prompts",
+    "MCP servers",
+    "Hooks",
+    "Slash commands",
+    "CLAUDE.md",
+    "AGENTS.md",
+    "Headless runs",
+    "CI pipelines",
+    "Context windows",
+    "Resuming sessions",
+    "Config files",
+    "Cheat sheets"
+  ],
+  "how_head_pre": "Read it. Watch it happen.",
+  "how_head_accent": "Then find out whether it stuck.",
+  "how_lead": "Three passes over every idea &mdash; the explanation, the annotated transcript, the quiz. That is the difference between having read the documentation and being able to use the tool.",
+  "steps": [
+    [
+      "Start with the free module",
+      "The complete Claude Code module is free forever: 29 lessons, 7 quizzes, a 13-step practice terminal and a 70-entry cheat sheet. No sign-in, no trial clock, nothing to cancel."
+    ],
+    [
+      "Read the lesson, then the transcript",
+      "Plain English first, then an annotated transcript of the same thing happening in a real session. Commands copy with one tap, and the pitfalls people actually hit are called out where they happen."
+    ],
+    [
+      "Rehearse, then take the quiz",
+      "Practise in a scripted terminal where nothing executes &mdash; approval prompts, sandbox refusals, a prompt-injection attempt. Then answer the section quiz, with every answer explained straight away."
+    ]
+  ],
+  "feat_head_pre": "What is inside,",
+  "feat_head_line2": "and why three sets of docs were not enough.",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 19.5A2.5 2.5 0 0 1 6.5 17H20\"/><path d=\"M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z\"/></svg>",
+      "57 lessons across 17 sections",
+      "All three tools, from first install to unattended runs in CI. 29 lessons on Claude Code, 15 on Codex CLI, 13 on GitHub Copilot CLI."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 11l3 3L22 4\"/><path d=\"M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11\"/></svg>",
+      "17 quizzes, 73 questions",
+      "One quiz per section, each answer explained the moment you give it &mdash; including why the plausible wrong answer is wrong."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"4 17 10 11 4 5\"/><line x1=\"12\" y1=\"19\" x2=\"20\" y2=\"19\"/></svg>",
+      "Practice terminals that run nothing",
+      "Three scripted terminals, 37 flows. Type or tap a command and get a real-looking response. No shell is involved, nothing executes, and the screen says so."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\"/></svg>",
+      "Three searchable cheat sheets",
+      "162 commands, flags and configuration files &mdash; 70 for Claude Code, 49 for Codex CLI, 43 for GitHub Copilot CLI. Exportable as Markdown with the unlock."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><line x1=\"9\" y1=\"3\" x2=\"9\" y2=\"21\"/><line x1=\"15\" y1=\"3\" x2=\"15\" y2=\"21\"/></svg>",
+      "A 48-row comparison matrix",
+      "The one thing no vendor will ever publish, because no vendor will compare itself with two rivals. Read the whole thing on this page, free."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>",
+      "Offline, no account, no tracking",
+      "The whole curriculum ships inside the app. The only network access anywhere is the platform store, asked whether the unlock is available and whether you own it."
+    ]
+  ],
+  "ex_eyebrow": "What the lessons cover",
+  "ex_head": "The features people discover last and misuse first:",
+  "ex_lead": "The safety model is taught first, not last. These are real sections from the curriculum, each with lessons, an annotated transcript and a quiz at the end.",
+  "examples": [
+    [
+      "#0EA5E9,#1D4ED8",
+      "🔐",
+      "Permission modes",
+      "Claude Code · Safety model"
+    ],
+    [
+      "#5EEAD4,#0369A1",
+      "📦",
+      "What a sandbox misses",
+      "All three · Safety model"
+    ],
+    [
+      "#FDE047,#A16207",
+      "🪤",
+      "Prompt injection",
+      "All three · Safety model"
+    ],
+    [
+      "#6C8CFF,#1D4ED8",
+      "🔌",
+      "MCP servers",
+      "Claude Code &amp; Codex CLI · Extensibility"
+    ],
+    [
+      "#0EA5E9,#0369A1",
+      "🪝",
+      "Hooks",
+      "Claude Code · Automation"
+    ],
+    [
+      "#5EEAD4,#0F766E",
+      "⚙️",
+      "Headless runs in CI",
+      "All three · Automation"
+    ],
+    [
+      "#FDE047,#D97706",
+      "📄",
+      "CLAUDE.md and AGENTS.md",
+      "All three · Instructions and memory"
+    ],
+    [
+      "#6C8CFF,#4C1D95",
+      "↩️",
+      "Resuming a session",
+      "All three · Session and context"
+    ]
+  ],
+  "pricing_head_pre": "Free forever.",
+  "pricing_head_accent": "Everything else is &pound;4.99, once.",
+  "pricing_lead": "The whole Claude Code module is free and stays free. One optional purchase adds the other two tools. There is no subscription anywhere in this app.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "£0",
+      "blurb": "The complete Claude Code module, with no account and no time limit.",
+      "items": [
+        "All 29 Claude Code lessons",
+        "7 quizzes, 34 questions, answers explained",
+        "13-step practice terminal",
+        "70-entry Claude Code cheat sheet",
+        "The first six rows of the matrix",
+        "No account, no ads, no tracking"
+      ],
+      "cta": "Free download"
+    },
+    {
+      "name": "Full unlock",
+      "featured": true,
+      "tag": "Pay once",
+      "price": "£4.99",
+      "per": "once",
+      "blurb": "The Codex CLI and GitHub Copilot CLI modules, the rest of the matrix, and export.",
+      "items": [
+        "Everything in the free module",
+        "The Codex CLI module &mdash; 15 lessons",
+        "The GitHub Copilot CLI module &mdash; 13 lessons",
+        "10 further quizzes and 2 more terminals",
+        "All 48 comparison rows in the app",
+        "Cheat-sheet export as Markdown",
+        "One payment. Not a subscription."
+      ],
+      "cta": "Unlock everything"
+    }
+  ],
+  "pricing_footnote": "Price shown in GBP; the app always shows your own storefront&rsquo;s price, never a hardcoded one. The unlock is a one-time purchase, not a subscription &mdash; there is nothing to cancel, and it can be restored from the paywall or from Settings at any time.",
+  "why_eyebrow": "Why this exists",
+  "why_head_pre": "You can read the documentation.",
+  "why_head_accent": "It just never asks you anything.",
+  "why_lead": "You can, and you should. But it lives in three different places, it changes weekly, none of it compares one tool with another, none of it works on a plane, and none of it asks you a question afterwards to find out whether any of it stuck. This app does those four things.",
+  "why_body": "It was written by a developer who kept re-learning the same permission flags in three different tools and wanted one place that laid them side by side. It is not a replacement for the vendor documentation and does not pretend to be: every module and cheat sheet carries the date its content was last checked, and says plainly that the vendor&rsquo;s own documentation and the tool&rsquo;s own help output win over this app.",
+  "stats": [
+    [
+      "48",
+      "grad",
+      "Rows in the comparison matrix, published in full on this page &mdash; no email, no paywall. It is the part worth citing, so it is the part left open."
+    ],
+    [
+      "0",
+      "mint",
+      "Commands the practice terminals execute. Every response is scripted, no shell is involved, and the screen tells you so while you use it."
+    ],
+    [
+      "£4.99",
+      "yellow",
+      "The one-time unlock, and the only money this app will ever ask you for. No subscription, no ads, no tracking, no account, and no upsell afterwards."
+    ]
+  ],
+  "faq": [
+    [
+      "Is this made by Anthropic, OpenAI or GitHub?",
+      "AI CLI Coach is an independent educational app from Froggy Eye Ltd. It is not affiliated with, endorsed by, or sponsored by Anthropic, OpenAI, GitHub or Microsoft. Claude Code, Codex and GitHub Copilot are the trademarks of their respective owners and are referred to here only to identify the tools this app teaches."
+    ],
+    [
+      "Does the app run these tools on my phone?",
+      "No. The practice terminals are simulations. Tap a suggestion or type a command and you get a scripted response &mdash; an approval prompt, a sandbox refusal, /init, a prompt-injection attempt. Nothing executes, no shell is involved, and the screen says so. It is the safest way to see what a dangerous flow looks like before you meet one on a real machine."
+    ],
+    [
+      "Why pay for material that is free in the vendor documentation?",
+      "Because the documentation lives in three places, changes weekly, compares nothing, works only online, and never quizzes you. If reading three sets of docs side by side already works for you, the free Claude Code module is genuinely all you need &mdash; take it and go."
+    ],
+    [
+      "What do I get without paying?",
+      "The complete Claude Code module: all 29 lessons, its 7 quizzes, its 13-step practice terminal, its 70-entry cheat sheet, and the first six rows of the comparison matrix. Free forever, with no account and no time limit."
+    ],
+    [
+      "Is the unlock a subscription?",
+      "No. It is one non-consumable in-app purchase at &pound;4.99, paid once and never renewing. It adds the Codex CLI module, the GitHub Copilot CLI module, the remaining 42 matrix rows and cheat-sheet export as Markdown. Purchases can be restored from the paywall or from Settings."
+    ],
+    [
+      "Does it work offline?",
+      "Yes, all of it. Every lesson, quiz, cheat sheet and practice terminal ships inside the app. The only network access anywhere is the platform store: the app asks it whether the unlock is available, what it costs in your currency, and whether you already own it."
+    ],
+    [
+      "What data does it collect?",
+      "None. There is no sign-in and no server, so there is nowhere for data to go. The App Privacy label says Data Not Collected and the Play Data Safety form says no data collected and no data shared."
+    ],
+    [
+      "These tools change every week. How current is this?",
+      "Content was last checked in August 2026, and every module and cheat sheet shows that date in the app rather than hiding it. Where this app and a vendor&rsquo;s own documentation disagree, the documentation wins."
+    ],
+    [
+      "How do I get help?",
+      "Email info@froggyeye.com. It reaches the developer directly, and it is the support contact for both store listings. Corrections to the curriculum are as welcome as bug reports."
+    ]
+  ],
+  "final_title": "Coming to the App Store and Google Play.",
+  "final_body": "AI CLI Coach is being prepared for both stores. The download links appear here as soon as the listings are live. Until then the 48-row comparison matrix above is free to read, and questions go to info@froggyeye.com.",
+  "footer_blurb": "An independent study guide to Claude Code, Codex CLI and GitHub Copilot CLI. Made in the UK by Froggy Eye Ltd. Not affiliated with any of the vendors whose tools it teaches.",
+  "theme": "tile",
+  "privacy_url": "https://mksoft-ltd.github.io/ai_cli_coach/privacy_policy.html",
+  "og_image_alt": "AI CLI Coach — learn Claude Code, Codex CLI and GitHub Copilot CLI",
+  "seo_title": "AI CLI Coach — learn Claude Code, Codex CLI & GitHub Copilot CLI | Froggy Eye Ltd",
+  "seo_desc": "Independent study guide to the three terminal coding agents. 57 lessons, 17 quizzes, offline practice terminals, cheat sheets and a 48-row Claude Code vs Codex CLI vs GitHub Copilot CLI comparison.",
+  "extra_section": {
+    "id": "compare",
+    "nav_label": "Compare",
+    "html": "<section id=\"compare\">\n  <div class=\"wrap\">\n    <style>\n      #compare .cmp-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; margin-top: 48px; border: 1px solid var(--border); border-radius: var(--r-xl); background: var(--surface); }\n      #compare table { width: 100%; min-width: 760px; border-collapse: collapse; font-size: 14px; }\n      #compare caption { caption-side: top; text-align: left; padding: 22px 24px 0; font-size: 13.5px; color: var(--text-3); }\n      #compare thead th { background: var(--surface-2); text-align: left; font-family: var(--font-body); font-size: 11px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-3); padding: 14px 18px; border-bottom: 1px solid var(--border); }\n      #compare thead th:first-child { color: var(--text-2); }\n      #compare tbody th, #compare tbody td { padding: 13px 18px; border-bottom: 1px solid var(--border); color: var(--text-2); vertical-align: top; text-align: left; font-weight: 400; line-height: 1.45; }\n      #compare tbody th { color: var(--text); font-weight: 600; width: 22%; }\n      #compare tr.grp th { background: var(--surface-2); font-family: var(--font-body); font-size: 11px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-3); padding: 13px 18px; }\n      #compare tr.grp th:first-child { font-size: 12px; letter-spacing: 0.12em; color: var(--text); width: 22%; }\n      #compare tbody tr:last-child th, #compare tbody tr:last-child td { border-bottom: 0; }\n      #compare .fn { display: inline-block; margin-left: 5px; font-size: 10.5px; font-weight: 700; color: var(--primary); text-decoration: none; vertical-align: super; }\n      #compare .cmp-notes { margin: 24px 0 0; padding-left: 20px; color: var(--text-3); font-size: 13.5px; }\n      #compare .cmp-notes li { margin-bottom: 9px; }\n      #compare .cmp-notes li:last-child { margin-bottom: 0; }\n      #compare .cmp-notes a { color: var(--primary); text-decoration: none; }\n      #compare .cmp-foot { display: flex; flex-wrap: wrap; gap: 10px 28px; margin: 24px 0 0; color: var(--text-3); font-size: 13px; }\n      @media (max-width: 700px) { #compare .cmp-hint { display: block; } }\n      #compare .cmp-hint { display: none; margin: 12px 0 0; color: var(--text-3); font-size: 13px; }\n    </style>\n    <div class=\"reveal\">\n      <span class=\"eyebrow\">Published in full, free</span>\n      <h2>The three tools,<br><span class=\"gradient-text\">line by line.</span></h2>\n      <p class=\"lead\">Everyone who teaches these tools teaches one of them. This is the whole 48-row comparison from inside the app &mdash; every row, not a sample &mdash; because the part worth citing should be citable. Nothing here is behind the unlock.</p>\n      <p class=\"lead\">Where a tool genuinely has no equivalent, the cell says so rather than inventing a near-match. Content current as of August 2026; where this table and a vendor&rsquo;s own documentation disagree, the documentation wins.</p>\n      <p class=\"cmp-hint\">Scroll the table sideways to see all three tools.</p>\n    </div>\n\n    <div class=\"cmp-scroll reveal\">\n      <table>\n        <caption>Claude Code, Codex CLI and GitHub Copilot CLI compared across 48 features in 7 groups.</caption>\n        <thead>\n          <tr><th scope=\"col\">Feature</th><th scope=\"col\">Claude Code</th><th scope=\"col\">Codex CLI</th><th scope=\"col\">GitHub Copilot CLI</th></tr>\n        </thead>\n        <tbody>\n          <tr class=\"grp\"><th scope=\"colgroup\">Getting started</th><th scope=\"col\">Claude Code</th><th scope=\"col\">Codex CLI</th><th scope=\"col\">GitHub Copilot CLI</th></tr>\n          <tr><th scope=\"row\">Command<a class=\"fn\" href=\"#cmp-n1\" id=\"cmp-r1\" aria-label=\"footnote 1\">1</a></th><td>claude</td><td>codex</td><td>copilot</td></tr>\n          <tr><th scope=\"row\">Install</th><td>Native installer, or npm @anthropic-ai/claude-code</td><td>npm @openai/codex, or Homebrew</td><td>npm @github/copilot</td></tr>\n          <tr><th scope=\"row\">Subscription billing</th><td>Claude Pro, Max, Team or Enterprise</td><td>ChatGPT Plus, Pro, Business or Enterprise</td><td>Copilot Pro, Pro+, Business or Enterprise</td></tr>\n          <tr><th scope=\"row\">Pay-as-you-go option</th><td>Anthropic Console API key</td><td>OpenAI platform API key</td><td>No separate key - it is the Copilot plan, metered in premium requests</td></tr>\n          <tr><th scope=\"row\">Windows</th><td>Native and WSL</td><td>WSL is the supported path</td><td>Native and WSL</td></tr>\n          <tr><th scope=\"row\">Interface</th><td>Scrolling REPL</td><td>Full-screen TUI with a persistent header</td><td>Scrolling REPL</td></tr>\n          <tr class=\"grp\"><th scope=\"colgroup\">Instructions and memory</th><th scope=\"col\">Claude Code</th><th scope=\"col\">Codex CLI</th><th scope=\"col\">GitHub Copilot CLI</th></tr>\n          <tr><th scope=\"row\">Project instructions file<a class=\"fn\" href=\"#cmp-n2\" id=\"cmp-r2\" aria-label=\"footnote 2\">2</a></th><td>CLAUDE.md</td><td>AGENTS.md</td><td>.github/copilot-instructions.md, and AGENTS.md</td></tr>\n          <tr><th scope=\"row\">Personal instructions</th><td>~/.claude/CLAUDE.md</td><td>~/.codex/AGENTS.md</td><td>No documented per-user instructions file</td></tr>\n          <tr><th scope=\"row\">Bootstrap command</th><td>/init</td><td>/init</td><td>Write the file yourself</td></tr>\n          <tr><th scope=\"row\">Add a rule mid-session</th><td># at the start of the prompt</td><td>Edit AGENTS.md</td><td>Edit the instructions file</td></tr>\n          <tr><th scope=\"row\">Path-scoped instructions</th><td>A CLAUDE.md in the subdirectory</td><td>An AGENTS.md in the subdirectory</td><td>Glob-scoped files under .github/instructions</td></tr>\n          <tr><th scope=\"row\">Imports</th><td>@path lines pull other files in</td><td>No import syntax</td><td>No import syntax</td></tr>\n          <tr class=\"grp\"><th scope=\"colgroup\">Safety model</th><th scope=\"col\">Claude Code</th><th scope=\"col\">Codex CLI</th><th scope=\"col\">GitHub Copilot CLI</th></tr>\n          <tr><th scope=\"row\">Shape of the model<a class=\"fn\" href=\"#cmp-n3\" id=\"cmp-r3\" aria-label=\"footnote 3\">3</a></th><td>Permission modes plus allow / ask / deny rules per tool</td><td>Two independent dials: approval policy and OS sandbox</td><td>Per-tool allow and deny lists, plus per-directory trust</td></tr>\n          <tr><th scope=\"row\">Read-only mode</th><td>plan mode</td><td>-s read-only</td><td>Deny the write and shell tools</td></tr>\n          <tr><th scope=\"row\">OS-level sandbox</th><td>No - permission rules, not kernel enforcement</td><td>Yes - Seatbelt on macOS, Landlock and seccomp on Linux</td><td>No - approval prompts and per-directory trust</td></tr>\n          <tr><th scope=\"row\">Network blocked by default</th><td>No</td><td>Yes, in workspace-write</td><td>No</td></tr>\n          <tr><th scope=\"row\">Pre-approve a command</th><td>allow rule, e.g. Bash(npm test:*)</td><td>Approval policy, or a profile</td><td>--allow-tool 'shell(npm test)'</td></tr>\n          <tr><th scope=\"row\">Deny a command outright</th><td>deny rule</td><td>Sandbox boundary rather than a named deny list</td><td>--deny-tool</td></tr>\n          <tr><th scope=\"row\">The dangerous escape hatch<a class=\"fn\" href=\"#cmp-n4\" id=\"cmp-r4\" aria-label=\"footnote 4\">4</a></th><td>--dangerously-skip-permissions</td><td>--yolo (no approvals, no sandbox)</td><td>--allow-all-tools</td></tr>\n          <tr class=\"grp\"><th scope=\"colgroup\">Session and context</th><th scope=\"col\">Claude Code</th><th scope=\"col\">Codex CLI</th><th scope=\"col\">GitHub Copilot CLI</th></tr>\n          <tr><th scope=\"row\">Resume a session</th><td>claude -c , claude -r , /resume</td><td>codex resume , resume --last</td><td>copilot --continue , --resume</td></tr>\n          <tr><th scope=\"row\">Clear the conversation</th><td>/clear</td><td>/new</td><td>/clear , /reset</td></tr>\n          <tr><th scope=\"row\">Summarise to reclaim context</th><td>/compact, and automatic compaction</td><td>/compact</td><td>Not documented as a user command</td></tr>\n          <tr><th scope=\"row\">See context usage</th><td>/context</td><td>/status</td><td>/usage shows premium requests rather than tokens</td></tr>\n          <tr><th scope=\"row\">Branch from an earlier message</th><td>Esc Esc</td><td>Esc Esc</td><td>Not documented</td></tr>\n          <tr><th scope=\"row\">Undo the agent's changes</th><td>/rewind, from file checkpoints</td><td>/undo</td><td>Use git</td></tr>\n          <tr><th scope=\"row\">Review the change so far</th><td>git diff, or /review for a PR</td><td>/diff and /review</td><td>git diff</td></tr>\n          <tr class=\"grp\"><th scope=\"colgroup\">Extensibility</th><th scope=\"col\">Claude Code</th><th scope=\"col\">Codex CLI</th><th scope=\"col\">GitHub Copilot CLI</th></tr>\n          <tr><th scope=\"row\">MCP servers</th><td>Yes - claude mcp add, three scopes, .mcp.json</td><td>Yes - codex mcp add, or config.toml</td><td>Yes - /mcp, or ~/.copilot/mcp-config.json</td></tr>\n          <tr><th scope=\"row\">Acts as an MCP server itself</th><td>Via the Agent SDK</td><td>Yes, built in</td><td>Not documented</td></tr>\n          <tr><th scope=\"row\">Custom slash commands</th><td>Yes - Markdown files in .claude/commands/</td><td>No</td><td>No</td></tr>\n          <tr><th scope=\"row\">Subagents</th><td>Yes - .claude/agents/, separate context windows</td><td>No</td><td>No</td></tr>\n          <tr><th scope=\"row\">Skills</th><td>Yes - progressive-disclosure SKILL.md folders</td><td>No</td><td>No</td></tr>\n          <tr><th scope=\"row\">Lifecycle hooks<a class=\"fn\" href=\"#cmp-n5\" id=\"cmp-r5\" aria-label=\"footnote 5\">5</a></th><td>Yes - nine events, can block a tool call</td><td>No - only a notify callback when a task ends</td><td>No</td></tr>\n          <tr><th scope=\"row\">Plugins and marketplaces</th><td>Yes</td><td>No</td><td>No</td></tr>\n          <tr><th scope=\"row\">Built-in issue and PR access<a class=\"fn\" href=\"#cmp-n6\" id=\"cmp-r6\" aria-label=\"footnote 6\">6</a></th><td>Via the GitHub app, or an MCP server</td><td>Via an MCP server</td><td>Yes, built in and using your sign-in</td></tr>\n          <tr class=\"grp\"><th scope=\"colgroup\">Configuration</th><th scope=\"col\">Claude Code</th><th scope=\"col\">Codex CLI</th><th scope=\"col\">GitHub Copilot CLI</th></tr>\n          <tr><th scope=\"row\">Config format</th><td>JSON, layered across four locations</td><td>One TOML file at ~/.codex/config.toml</td><td>JSON under ~/.copilot, plus flags and environment variables</td></tr>\n          <tr><th scope=\"row\">Per-project settings committed to the repo</th><td>Yes - .claude/settings.json</td><td>No - config is per user</td><td>Instructions files only</td></tr>\n          <tr><th scope=\"row\">Personal, git-ignored project settings</th><td>Yes - .claude/settings.local.json</td><td>No</td><td>No</td></tr>\n          <tr><th scope=\"row\">Named profiles</th><td>No - use --settings for a one-off</td><td>Yes - [profiles.name] in config.toml</td><td>No</td></tr>\n          <tr><th scope=\"row\">Override one setting for a run</th><td>Flags, or --settings</td><td>-c key=value</td><td>Flags and environment variables</td></tr>\n          <tr><th scope=\"row\">Reasoning effort dial</th><td>Model choice</td><td>model_reasoning_effort, and /model</td><td>Model choice</td></tr>\n          <tr><th scope=\"row\">Extra working directories</th><td>--add-dir , /add-dir , additionalDirectories</td><td>writable_roots, and --cd</td><td>--add-dir , /add-dir , /list-dirs</td></tr>\n          <tr class=\"grp\"><th scope=\"colgroup\">Automation</th><th scope=\"col\">Claude Code</th><th scope=\"col\">Codex CLI</th><th scope=\"col\">GitHub Copilot CLI</th></tr>\n          <tr><th scope=\"row\">Headless flag</th><td>claude -p</td><td>codex exec</td><td>copilot -p</td></tr>\n          <tr><th scope=\"row\">Machine-readable output</th><td>--output-format json or stream-json</td><td>--json event stream</td><td>Text output; use --no-color</td></tr>\n          <tr><th scope=\"row\">Cap the agent loop</th><td>--max-turns</td><td>Bounded by the sandbox and approval policy</td><td>No documented turn cap</td></tr>\n          <tr><th scope=\"row\">First-party CI integration</th><td>GitHub Action, via /install-github-app</td><td>Code review on GitHub, and Codex cloud</td><td>Runs in Actions; the coding agent is GitHub-native</td></tr>\n          <tr><th scope=\"row\">IDE extension</th><td>VS Code and JetBrains, connecting to the same session</td><td>VS Code</td><td>Copilot is already in the editor, as a separate surface</td></tr>\n          <tr><th scope=\"row\">SDK for building on it</th><td>Claude Agent SDK, TypeScript and Python</td><td>Exposes itself as an MCP server</td><td>No standalone SDK</td></tr>\n          <tr><th scope=\"row\">Cloud execution</th><td>GitHub Actions</td><td>Codex cloud</td><td>Copilot coding agent</td></tr>\n        </tbody>\n      </table>\n    </div>\n\n    <ol class=\"cmp-notes reveal\">\n      <li id=\"cmp-n1\">GitHub also ships an older, unrelated gh copilot extension that only suggests shell commands. <a href=\"#cmp-r1\" aria-label=\"back to row\">&#8617;</a></li>\n      <li id=\"cmp-n2\">AGENTS.md is an open convention, so it is the file to write if your team uses more than one agent. <a href=\"#cmp-r2\" aria-label=\"back to row\">&#8617;</a></li>\n      <li id=\"cmp-n3\">This is the biggest genuine difference between the three, not a matter of spelling. <a href=\"#cmp-r3\" aria-label=\"back to row\">&#8617;</a></li>\n      <li id=\"cmp-n4\">All three mean the same thing in practice: containers only. <a href=\"#cmp-r4\" aria-label=\"back to row\">&#8617;</a></li>\n      <li id=\"cmp-n5\">Where an agent has no hooks, a git pre-commit hook gives a stronger guarantee anyway. <a href=\"#cmp-r5\" aria-label=\"back to row\">&#8617;</a></li>\n      <li id=\"cmp-n6\">This is Copilot CLI's clearest advantage: nothing to configure. <a href=\"#cmp-r6\" aria-label=\"back to row\">&#8617;</a></li>\n    </ol>\n\n    <p class=\"cmp-foot reveal\">\n      <span>48 rows &middot; 7 groups</span>\n      <span>Content current as of August 2026</span>\n      <span>Nominative references only &mdash; no vendor logos or brand assets</span>\n    </p>\n  </div>\n</section>\n\n<section id=\"support\" style=\"background: var(--surface);\">\n  <div class=\"wrap\">\n    <style>\n      #support .sup-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 48px; }\n      @media (max-width: 900px) { #support .sup-grid { grid-template-columns: 1fr; } }\n      #support .s-card { background: var(--bg); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 28px; }\n      #support .s-card h3 { font-family: var(--font-body); font-size: 17px; font-weight: 700; letter-spacing: 0; margin: 0 0 14px; }\n      #support .s-card p { margin: 0 0 12px; color: var(--text-2); font-size: 14.5px; }\n      #support .s-card p:last-child { margin-bottom: 0; }\n      #support .s-mail { font-family: var(--font-display); font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; word-break: break-word; }\n      #support .s-mail:hover { text-decoration: underline; }\n      #support dl { margin: 0; }\n      #support dt { font-size: 11px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-3); margin-top: 16px; }\n      #support dt:first-child { margin-top: 0; }\n      #support dd { margin: 4px 0 0; color: var(--text-2); font-size: 14.5px; }\n    </style>\n    <div class=\"reveal\">\n      <span class=\"eyebrow\">Support &amp; independence</span>\n      <h2>Who made this,<br><span class=\"gradient-text\">and how to reach them.</span></h2>\n      <p class=\"lead\">One address, answered by the developer who wrote the app. There is no ticket queue and no chatbot in front of it.</p>\n    </div>\n    <div class=\"sup-grid\">\n      <div class=\"s-card reveal\">\n        <h3>Support</h3>\n        <p>Questions, bug reports, refund queries, anything factually wrong in a lesson:</p>\n        <p><a class=\"s-mail\" href=\"mailto:info@froggyeye.com\">info@froggyeye.com</a></p>\n        <p>This is the support contact for both store listings. A correction to the curriculum is as welcome as a bug report &mdash; these tools change weekly and the app says so.</p>\n        <dl>\n          <dt>Publisher</dt>\n          <dd>Froggy Eye Ltd, a company registered in England and Wales.</dd>\n          <dt>Restoring a purchase</dt>\n          <dd>The unlock restores from the paywall or from Settings, on any device signed in to the same store account.</dd>\n          <dt>Privacy</dt>\n          <dd><a href=\"https://mksoft-ltd.github.io/ai_cli_coach/privacy_policy.html\">The app&rsquo;s privacy policy</a> &mdash; no account, no server, no tracking, nothing collected.</dd>\n        </dl>\n      </div>\n      <div class=\"s-card reveal\">\n        <h3>Not affiliated with anyone</h3>\n        <p>AI CLI Coach is an independent educational app from Froggy Eye Ltd. It is not affiliated with, endorsed by, or sponsored by Anthropic, OpenAI, GitHub or Microsoft. Claude Code, Codex and GitHub Copilot are the trademarks of their respective owners and are referred to here only to identify the tools this app teaches.</p>\n        <p>In practice that means: no vendor logos or brand assets anywhere in the app or on this page, no claim of official status, endorsement, partnership or certification, and no suggestion that this app replaces the vendor documentation. It does not &mdash; every module carries the date its content was last checked and states that the vendor&rsquo;s own documentation and the tool&rsquo;s own help output win.</p>\n        <p>The same wording appears in the app&rsquo;s onboarding, its settings and its about screen.</p>\n      </div>\n    </div>\n  </div>\n</section>"
+  }
+}

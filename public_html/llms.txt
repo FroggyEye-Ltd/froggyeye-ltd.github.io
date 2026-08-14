@@ -11,6 +11,7 @@
 
 ## Apps
 
+- [AI CLI Coach](https://aiclicoach.froggyeye.com): Independent study guide to the three terminal coding agents - Claude Code, Codex CLI and GitHub Copilot CLI. 57 lessons, 17 quizzes, offline scripted practice terminals, three cheat sheets (162 entries) and a 48-row feature comparison matrix published in full on the page. Not affiliated with Anthropic, OpenAI, GitHub or Microsoft.
 - [ApexRoute](https://apexroute.froggyeye.com): Driving routes for enthusiasts
 - [BlipBlobb](https://blipblobb.froggyeye.com): Local group chats over WiFi
 - [ByeByeJob](https://byebyejob.froggyeye.com): Redundancy and severance, sorted

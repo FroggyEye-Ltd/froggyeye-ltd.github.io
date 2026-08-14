@@ -1,5 +1,23 @@
 [
   {
+    "folder": "aiclicoach",
+    "name": "AI CLI Coach",
+    "tagline": "Learn the terminal coding agents",
+    "category": "Developer Tools · Education",
+    "schema_category": "EducationalApplication",
+    "theme": "tile",
+    "package_id": "com.froggyeye.aiclicoach",
+    "apple_id": "6801330248",
+    "apple_url": null,
+    "play_url": null,
+    "card_emoji": "⌨️",
+    "card_gradient": [
+      "#6C8CFF",
+      "#1D4ED8"
+    ],
+    "llms_desc": "Independent study guide to the three terminal coding agents - Claude Code, Codex CLI and GitHub Copilot CLI. 57 lessons, 17 quizzes, offline scripted practice terminals, three cheat sheets (162 entries) and a 48-row feature comparison matrix published in full on the page. Not affiliated with Anthropic, OpenAI, GitHub or Microsoft."
+  },
+  {
     "folder": "apexroute",
     "name": "ApexRoute",
     "tagline": "Driving routes for enthusiasts",
