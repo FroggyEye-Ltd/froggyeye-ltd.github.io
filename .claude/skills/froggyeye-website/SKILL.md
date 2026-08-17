@@ -121,7 +121,28 @@ first so the deploy commit is just the version stamp.
 Legacy fallback (manual): `python3 scripts/build_zip.py` → `~/Desktop/froggyeye-website.zip`
 → Hostinger File Manager → public_html → Upload → Extract.
 
-### 8. Sanity check
+### 8. Publish a road guide (ApexRoute SEO articles)
+
+```
+1. Write data/guides/<slug>.json   (copy an existing one as the schema)
+2. Add "guides/<slug>.html" to apexroute's extra_pages in data/apps.json
+3. python3 scripts/gen_guides.py                       # articles + listing
+4. python3 scripts/discovery_enhance.py && python3 scripts/seo_enhance.py
+5. python3 scripts/deploy.py
+```
+
+Articles live at `apexroute.froggyeye.com/guides/<slug>.html` with a listing at
+`/guides/`. Content is **structured** (paragraphs, lists, road cards) rather than raw HTML,
+so every article gets identical markup; the only inline markup allowed in a string is
+`[text](url)` and `**bold**`. `extra_pages` is what carries a guide into both sitemaps —
+`gen_guides.py` prints a warning if a rendered article is missing from it.
+
+House rules for guide copy: real road numbers and place names only, honest
+characterisations, and **no invented specifics** — no named businesses, opening times, or
+current closure claims. The ApexRoute mention at the foot of each article may only name
+roads that are genuinely in `assets/road_packs/roads.json` in the app repo.
+
+### 9. Sanity check
 
 ```
 python3 scripts/sanity.py
@@ -179,6 +200,7 @@ The CSS template is `templates/promo_template.css` — it uses placeholders (`__
 - `SKILL.md` — this file
 - `data/apps.json` — app registry (canonical source of truth)
 - `data/content/<folder>.json` — per-app page copy for template-rendered apps
+- `data/guides/<slug>.json` — ApexRoute road-guide articles (structured content, no raw HTML)
 - `data/themes.json` — colour theme presets
 - `templates/promo_template.html` — full per-app page HTML structure
 - `templates/promo_template.css` — themed CSS for promo pages
@@ -186,6 +208,7 @@ The CSS template is `templates/promo_template.css` — it uses placeholders (`__
 - `scripts/fetch_store_assets.py` — pull feature.png + screenshot1.png from Play Store listings
 - `scripts/refresh_store_urls.py` — refresh App Store + Play Store URLs in apps.json
 - `scripts/postprocess.py` — inject screenshots / feature banner / store URLs / studio bar into rendered pages
+- `scripts/gen_guides.py` — render the ApexRoute road guides (listing + one page per article)
 - `scripts/regen_main_index.py` — render the main `public_html/index.html`
 - `scripts/seo_enhance.py` — refresh main-domain JSON-LD, canonical, sitemap.xml, robots.txt, llms.txt
 - `scripts/discovery_enhance.py` — comprehensive search/AI discovery: FAQPage + BreadcrumbList JSON-LD, per-subdomain sitemap/robots/llms files, og:image dimensions, dns-prefetch hints, internal cross-link "More apps" section, humans.txt + security.txt
