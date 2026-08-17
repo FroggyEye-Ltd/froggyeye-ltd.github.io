@@ -2,19 +2,19 @@
   "folder": "apexroute",
   "name": "ApexRoute",
   "tagline": "Driving routes built for enthusiasts.",
-  "meta_desc": "ApexRoute generates twisty, scenic, apex-hunting driving routes Google Maps would never offer. Then records every drive so you can relive it.",
-  "nav_examples": "Routes",
+  "meta_desc": "ApexRoute builds twisty, scenic driving routes from a distance and a twistiness — plus a road book of 50 famous roads, drive recording, and shared route links. iPhone and Android.",
+  "nav_examples": "Famous roads",
   "hero_eyebrow": "iOS & Android · For drivers who chase the road",
   "headline_pre": "Find the road that makes you",
   "headline_accent": "feel alive.",
-  "lead": "ApexRoute generates twisty backroads, scenic detours, and proper apex-hunting drives — the routes Google Maps would never offer. Record every run, save your favourites, and chase a better drive.",
+  "lead": "Tell ApexRoute how far you want to go and how twisty you want it, and it builds the drive — backroads, passes and coast roads instead of the fastest way there. Then it records the run so you can keep it.",
   "meta_items": [
-    "Built for drivers",
-    "Offline maps",
+    "50 famous roads",
     "Free to start",
+    "No account needed",
     "No ads, no tracking"
   ],
-  "phone_content": "        <h4>Today's drive</h4>\n        <div class=\"phone-art\"><div class=\"emoji\">🛣️</div></div>\n        <div>\n          <p class=\"phone-title\">The Snake Pass Loop</p>\n          <p class=\"phone-sub\">42 mi · 1h 12m · ★★★★☆</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>RECORDING</span><span>17.4 mi</span></div>\n        <div class=\"phone-controls\">\n          <span class=\"ic\">⏮</span>\n          <span class=\"play\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M8 5v14l11-7z\"/></svg></span>\n          <span class=\"ic\">⏭</span>\n        </div>\n        <div class=\"phone-lyric\"><b>Twisties ahead — 4.2 mi</b><br>Average lean: 22°. Top road in your county this month.</div>",
+  "phone_content": "        <h4>Generate Route</h4>\n        <div class=\"phone-art\"><div class=\"emoji\">🛣️</div></div>\n        <div>\n          <p class=\"phone-title\">Macclesfield → Buxton</p>\n          <p class=\"phone-sub\">16 mi · Twistiness: Medium</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>RECORDING</span><span>17.4 mi</span></div>\n        <div class=\"phone-controls\">\n          <span class=\"ic\">⏮</span>\n          <span class=\"play\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M8 5v14l11-7z\"/></svg></span>\n          <span class=\"ic\">⏭</span>\n        </div>\n        <div class=\"phone-lyric\"><b>Cat and Fiddle · A537</b><br>One of 50 roads in the road book. Open it and ApexRoute sets it up as a route.</div>",
   "chips": [
     "🛣️ Twisties",
     "⛰️ Mountain",
@@ -29,208 +29,205 @@
   ],
   "how_head_pre": "Phone in. Banger road out.",
   "how_head_accent": "In about 30 seconds.",
-  "how_lead": "No more dragging Maps around hoping for the good stuff. Tell ApexRoute what you want, get a route built around it, drive.",
+  "how_lead": "No more dragging Maps around hoping for the good stuff. Set the shape of the drive you want, take it to your maps app, and keep what you drove.",
   "steps": [
     [
-      "Tell it the vibe",
-      "Distance, twistiness, scenery. ApexRoute uses your starting point and finds roads that match — not the fastest, the best."
+      "Set the road, not the destination",
+      "Distance and twistiness, start and finish — your location, a typed address, or a point you pick on the map. Leave the finish blank for a loop. Avoid motorways and tolls if you'd rather."
     ],
     [
-      "Hit Drive",
-      "Live in-app navigation, with corner counts, gradient previews, and a heads-up display that doesn't shout at you."
+      "Drive it in Google Maps or Apple Maps",
+      "ApexRoute hands the finished route to the maps app you already use for turn-by-turn. It doesn't try to be a sat-nav — it decides where you're going, and lets Maps do the talking."
     ],
     [
-      "Keep the memory",
-      "Every drive recorded with route, telemetry, and notes. Replay it, share it, beat your own line next time."
+      "Record it and keep it",
+      "The recorder tracks the drive from your phone's GPS. On iPhone it shows on the Lock Screen and Dynamic Island as you go; on Android it's a notification. Rate it, pin a memory marker, send it to a mate as a link."
     ]
   ],
   "feat_head_pre": "Built by drivers.",
   "feat_head_line2": "Not by route planners.",
   "features": [
     [
-      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6\"/><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"18\"/><line x1=\"16\" y1=\"6\" x2=\"16\" y2=\"22\"/></svg>",
-      "Routes that find roads",
-      "Real-world data on twistiness, gradient and scenery — you get a drive worth waking up early for."
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 19.5A2.5 2.5 0 0 1 6.5 17H20\"/><path d=\"M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z\"/></svg>",
+      "A road book of 50",
+      "Five packs — UK &amp; Ireland, the Alps, Europe, North America and Around the World. Open a road and ApexRoute sets it up as a route you can generate. Five are open to everyone, one in each pack."
     ],
     [
-      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"23 7 16 12 23 17 23 7\"/><rect x=\"1\" y=\"5\" width=\"15\" height=\"14\" rx=\"2\" ry=\"2\"/></svg>",
-      "Drive recording",
-      "GPS, speed, lean angle, and corner-by-corner telemetry. Replay any drive on a map."
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"/><circle cx=\"12\" cy=\"10\" r=\"3\"/></svg>",
+      "Start anywhere, finish anywhere",
+      "Plan from where you're standing, from an address you type, or from a point you drop on the map. Set a finish for an A-to-B, or leave it off and get a loop back to the start."
     ],
     [
-      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><polygon points=\"16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76\"/></svg>",
-      "Heads-up nav",
-      "Quiet, glanceable, and built for the road. No 'in 200 yards bear left for 35 yards.'"
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 20c4-1 5-5 8-8s6-4 8-8\"/><circle cx=\"4\" cy=\"20\" r=\"1.6\"/><circle cx=\"20\" cy=\"4\" r=\"1.6\"/></svg>",
+      "Twisty on purpose",
+      "Distance and a twistiness setting shape the route. Switch on Scenic Route and it steers the waypoints toward viewpoints and scenic roads instead of whatever is quickest. Free, and off until you ask."
     ],
     [
-      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z\"/></svg>",
-      "Share with mates",
-      "Send a route to a friend. Convoy mode keeps you together. Argue about the line later."
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/></svg>",
+      "Record the drive",
+      "GPS trace, speed, distance, duration and elevation, saved on your phone. Rate a road for twistiness, scenery and surface, and pin memory markers with a note or a photo where something happened."
     ],
     [
-      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>",
-      "Stays offline",
-      "Maps download once and stay yours — even in the valleys and Highlands where signal disappears."
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"18\" y1=\"20\" x2=\"18\" y2=\"10\"/><line x1=\"12\" y1=\"20\" x2=\"12\" y2=\"4\"/><line x1=\"6\" y1=\"20\" x2=\"6\" y2=\"14\"/></svg>",
+      "Time behind the wheel",
+      "Lifetime totals — distance, hours, drives — are free. Personal records and month-by-month and year-by-year breakdowns come with Pro. Counted from drives you actually recorded."
     ],
     [
-      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\"/></svg>",
-      "Your library",
-      "Favourites, recents, and 'my best ever drives'. Build the personal road book you wish you had."
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"/><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"/></svg>",
+      "Send a route as a link",
+      "The link carries the route itself — no account, no server, nothing stored at our end. Whoever you send it to sees the drive whether or not they have the app. Free in both directions."
     ]
   ],
-  "ex_eyebrow": "Roads worth the detour",
-  "ex_head": "Sounds like:",
-  "ex_lead": "A taste of routes ApexRoute users have driven, recorded, and rated this season.",
+  "ex_eyebrow": "The road book",
+  "ex_head": "Fifty roads worth the detour:",
+  "ex_lead": "Real roads, grouped into five packs. The Cat and Fiddle, Furka Pass, Sa Calobra, Tail of the Dragon and the Great Ocean Road are open to everyone — one in each pack. The other forty-five come with Pro.",
   "examples": [
     [
       "#FF4D2E,#7C2D12",
       "🌀",
-      "Snake Pass Reverse",
-      "Peak District · 42 mi"
+      "Cat and Fiddle",
+      "Cheshire / Derbyshire · 19 km"
     ],
     [
       "#FBBF24,#D97706",
-      "🏖️",
-      "Coastal Hairpins",
-      "Cornwall · 67 mi"
+      "🪨",
+      "Passo dello Stelvio",
+      "South Tyrol / Lombardy · 49 km"
     ],
     [
       "#A855F7,#5B21B6",
       "⛰️",
-      "Buttertubs Loop",
-      "Yorkshire Dales · 58 mi"
+      "Transfăgărășan",
+      "Făgăraș Mountains · 90 km"
     ],
     [
       "#FF4D2E,#FBBF24",
-      "🌅",
-      "Sunset B-road",
-      "Mid Wales · 38 mi"
+      "🌀",
+      "Tail of the Dragon",
+      "Tennessee / North Carolina · 18 km"
     ],
     [
       "#22D3EE,#3B82F6",
-      "🌀",
-      "Highland Twisties",
-      "Glencoe · 84 mi"
+      "🏖️",
+      "Great Ocean Road",
+      "Victoria, Australia · 240 km"
     ],
     [
       "#34D399,#059669",
-      "🌳",
-      "Forest Pass",
-      "Dean Forest · 29 mi"
+      "🌅",
+      "Bealach na Bà",
+      "Wester Ross, Scotland · 18 km"
     ],
     [
       "#F43F5E,#9F1239",
       "🪨",
-      "Stelvio Tribute",
-      "Lake District · 72 mi"
+      "Furka Pass",
+      "Uri / Valais · 17 km"
     ],
     [
       "#0EA5E9,#0369A1",
       "🌙",
-      "Midnight Mountain",
-      "Snowdonia · 51 mi"
+      "Hakone Turnpike",
+      "Kanagawa, Japan · 14 km"
     ]
   ],
-  "pricing_lead": "7-day free trial on Plus. Cancel anytime in your phone's subscription manager. No ads either way.",
+  "pricing_head_pre": "Free to start.",
+  "pricing_head_accent": "Pro when you want the rest.",
+  "pricing_lead": "The App Store and Google Play show the current price in your own currency, and ApexRoute reads it live from them — so there is nothing here to go out of date. Monthly, annual and one-off lifetime options.",
   "plans": [
     {
       "name": "Free",
-      "price": "£0",
-      "blurb": "Three new routes a month. Save them. Drive them.",
+      "price": "Free",
+      "blurb": "Enough to find a good road this weekend, without an account.",
       "items": [
-        "3 routes / month",
-        "Drive recording",
-        "Save favourites"
+        "3 new routes a day",
+        "3 saved routes",
+        "Drive recording up to 30 minutes",
+        "Lifetime distance, time and drive totals",
+        "5 of the 50 famous roads",
+        "Send and open shared route links"
       ],
       "cta": "Download free"
     },
     {
-      "name": "Plus — Annual",
+      "name": "Pro",
       "featured": true,
-      "tag": "Best value",
-      "price": "£24.99",
-      "per": "/ year",
-      "strike": "£47.88 if billed monthly",
-      "blurb": "Unlimited routes, unlimited drives, full telemetry. The proper kit.",
+      "tag": "Everything unlocked",
+      "price": "Unlimited",
+      "blurb": "For the drives that don't fit inside the free limits.",
       "items": [
-        "Unlimited route generation",
-        "Full drive history",
-        "Advanced telemetry",
-        "Offline maps",
-        "Priority support"
+        "Unlimited routes and saved routes",
+        "Recording with no time limit",
+        "All 50 roads in the road book",
+        "GPX import and export",
+        "Personal records, monthly and yearly stats",
+        "Up to 20 via points, and 1-second GPS sampling"
       ],
-      "cta": "Start 7-day free trial"
-    },
-    {
-      "name": "Plus — Monthly",
-      "price": "£3.99",
-      "per": "/ month",
-      "blurb": "Same Plus features, billed month to month.",
-      "items": [
-        "Unlimited route generation",
-        "Full drive history",
-        "Cancel anytime"
-      ],
-      "cta": "Go monthly"
+      "cta": "See Pro in the store"
     }
   ],
+  "pricing_footnote": "No ads on either tier. Cancel a subscription any time in your Apple ID or Google Play subscription settings.",
   "why_eyebrow": "Why bother",
   "why_head_pre": "The road is half the car.",
-  "why_head_accent": "ApexRoute makes the half worth chasing.",
-  "why_lead": "Most maps optimise for arriving. ApexRoute optimises for the drive — the corners, the rhythm, the road that makes you stop the playlist and just listen to the engine.",
-  "why_body": "Three years in, our routes have been driven across the UK, the Alps, the Dolomites, Big Sur, and the Tail of the Dragon. The algorithm gets sharper every drive.",
+  "why_head_accent": "ApexRoute optimises for the half you remember.",
+  "why_lead": "Every other map is trying to get you there. Ask one for a good drive and it has no idea what you mean — so you end up scrolling satellite view looking for squiggles. ApexRoute asks for a distance and a twistiness instead, and builds the drive around them.",
+  "why_body": "Routes come from a routing engine set to favour bends and gradient over speed, and Scenic Route pulls in viewpoints and scenic roads from OpenStreetMap to bias the waypoints. The road book is hand-picked rather than generated — fifty roads that earned their reputation, with the notes to explain why. Nothing needs an account, nothing is tracked, and there are no ads on either tier.",
   "stats": [
     [
-      "100%",
+      "50",
       "grad",
-      "Route choices controlled by you — no sponsored detours, no hidden cost."
+      "Famous roads in five packs, hand-picked and annotated — five of them open to everyone."
     ],
     [
-      "<30s",
+      "0",
       "mint",
-      "From input to a brand-new route. Faster than checking your phone at lights."
+      "Accounts, ads and trackers. Drives and routes stay on your phone unless you share one."
     ],
     [
-      "Offline",
+      "1 link",
       "yellow",
-      "Maps download once. Your drive doesn't depend on cellular signal."
+      "A shared route travels inside its own link. There is no server holding it and nothing to look up."
     ]
   ],
   "faq": [
     [
-      "Is this a sat-nav replacement?",
-      "For commuting, no — Maps wins on traffic. For weekend drives, yes. ApexRoute is built around the kind of road you'd take a longer way to find."
+      "Does ApexRoute navigate me, or do I still need Maps?",
+      "You still use Maps. ApexRoute is the part that decides where you're going — it works out a route worth driving, then hands it to Google Maps, or Apple Maps on iPhone, for turn-by-turn. It doesn't try to replace your sat-nav."
     ],
     [
-      "Does it work in [country]?",
-      "If your country has real road data we cover it: UK, Ireland, France, Germany, Switzerland, Italy, Spain, Austria, Netherlands, Belgium, Norway, Sweden, plus the US, Canada, Australia, and New Zealand."
+      "Does it work where I live?",
+      "Route generation isn't limited by country — you give it a start point and it plans from there. The road book is a curated set of fifty roads across five packs, so those specific roads are UK &amp; Ireland, the Alps, wider Europe, North America and a round-the-world pack."
     ],
     [
-      "Is recording my drive safe?",
-      "Recording happens on your phone. Telemetry stays private until you choose to share. You can delete any drive in one tap."
+      "Does it work without a signal?",
+      "Partly, and it's worth being straight about it. Generating a route and drawing the map both need a connection — there are no offline maps. Recording a drive doesn't: the trace comes from your phone's GPS and is written to the phone, so a run through a valley with no bars still records."
     ],
     [
-      "What about traffic, road closures, fuel?",
-      "Plus shows live traffic on your route plus fuel stops and rest points. We surface what matters; we don't drown you in clutter."
+      "What does drive recording actually capture?",
+      "The GPS trace, plus speed, distance, duration and elevation gained and lost. You can rate a drive for twistiness, scenery and road quality, and drop memory markers with a note or a photo. It doesn't measure lean angle or corner-by-corner telemetry."
+    ],
+    [
+      "Someone sent me an ApexRoute link — what is it?",
+      "A shared route. The whole route is encoded inside the link, so opening it in a browser shows you the drive, its distance and its shape even without the app. With ApexRoute installed the link opens straight in it, where you can save it to your library."
     ],
     [
       "Can I import a route I made elsewhere?",
-      "Yes — GPX import is supported. Drive it, rate it, get your telemetry alongside it."
+      "Yes — GPX import and export are both there, and both are Pro. Import a GPX and it lands in your library; export any route to take it somewhere else."
     ],
     [
-      "Is this safe to use while driving?",
-      "Heads-up navigation is voice + glanceable visuals only. We won't bury anything important behind a tap. Eyes on the road, always."
+      "What happens on my Lock Screen while I'm driving?",
+      "On iPhone (iOS 16.2 and up) a Live Activity shows the drive's elapsed time, distance and speed on the Lock Screen and in the Dynamic Island. On Android it's a notification that the drive is still recording, if you've allowed notifications."
     ],
     [
-      "How do I cancel?",
-      "Cancel any time in your phone's subscription settings — Apple ID or Google Play. We don't pull dark patterns."
+      "Do I need an account? Are you tracking me?",
+      "No account, no sign-in, no analytics and no ads. Your routes, drives and photos live on your phone. The only thing that leaves it is a route you deliberately share, or the addresses and coordinates needed to plan a route in the first place."
     ]
   ],
   "final_title": "Drive better.",
-  "final_body": "Free to download. Free to try. iPhone and Android. Your next great road is one tap away.",
+  "final_body": "Free to download, no account, no ads. iPhone and Android. Your next great road is one tap away.",
   "footer_blurb": "Driving routes built for enthusiasts, not commuters. Made in the UK by Froggy Eye Ltd.",
   "theme": "ember",
   "og_image_alt": "ApexRoute — driving routes for car enthusiasts",
-  "seo_desc": "Driving routes built for enthusiasts. Generates twisty, scenic, apex-hunting drives. Records every drive.",
+  "seo_desc": "Driving routes built for enthusiasts. Builds twisty, scenic drives from a distance and a twistiness, with a road book of 50 famous roads and drive recording.",
   "seo_title": "ApexRoute — Driving routes for enthusiasts | Froggy Eye Ltd"
 }

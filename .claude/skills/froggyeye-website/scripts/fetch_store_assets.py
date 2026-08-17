@@ -35,7 +35,12 @@ def extract(html):
 def to_full(url, target_w):
     base = url.split("=", 1)[0]
     if "-pc" in url and "-pd" in url:
-        return f"{base}=w{target_w}-h{int(target_w*500/1024)}-pc0xffffff-pd"
+        # Feature graphics are 3:2 (SKILL.md constraint 5). Play's own feature
+        # graphic is 1024x500, and asking Google for that ratio back returns a
+        # 2.048 image at half the resolution the 720px banner needs to stay
+        # sharp on retina. Asking for 3:2 makes Google pad it onto the wider
+        # canvas, which is where the 2048x1365 assets on the site came from.
+        return f"{base}=w{target_w}-h{int(target_w * 2 / 3)}-pc0xffffff-pd"
     return f"{base}=w{target_w}"
 
 def download(url, dest):
@@ -58,7 +63,7 @@ def process(app):
     print(f"  feature: {'Y' if feature else 'N'}  screenshots: {len(shots)}")
     for old in out_dir.glob("screenshot*.png"): old.unlink()
     if (out_dir / "feature.png").exists(): (out_dir / "feature.png").unlink()
-    if feature and download(to_full(feature, 1024), out_dir / "feature.png"):
+    if feature and download(to_full(feature, 2048), out_dir / "feature.png"):
         print(f"  saved feature")
     for i, s in enumerate(shots[:6], 1):
         if download(to_full(s, 720), out_dir / f"screenshot{i}.png"):

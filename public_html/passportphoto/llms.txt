@@ -7,7 +7,7 @@
 - Category: Utilities
 - Studio: Froggy Eye Ltd ([https://froggyeye.com](https://froggyeye.com))
 - App Store: Not yet listed.
-- Google Play: Not yet listed.
+- Google Play: https://play.google.com/store/apps/details?id=com.froggyeye.passportphoto
 
 ## About this app
 
