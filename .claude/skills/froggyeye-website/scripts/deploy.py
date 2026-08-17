@@ -25,7 +25,9 @@ API = "https://developers.hostinger.com/api/hosting/v1"
 DOMAIN = "froggyeye.com"
 GH_REPO = "FroggyEye-Ltd/froggyeye-ltd.github.io"
 DOCROOT = "domains/froggyeye.com/public_html"
-# Server-side files never touched/deleted by the sync:
+# Server-side files never touched/deleted by the sync. The real list lives in
+# deploy_remote.sh; apexroute/ opts its .well-known and .htaccess back in there,
+# because the app-association files and the /r/ rewrite have to deploy.
 EXCLUDES = [".well-known", ".htaccess", "error_log", "cgi-bin", "*.log"]
 
 TOKEN = os.environ.get("HOSTINGER_API_TOKEN")

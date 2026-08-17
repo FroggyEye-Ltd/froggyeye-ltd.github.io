@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.froggyeye.apexroute",
+      "sha256_cert_fingerprints": [
+        "70:68:C3:01:50:5B:96:D0:35:D7:E9:07:E2:30:13:71:45:3A:7D:7A:53:D4:6F:A5:53:17:19:61:4C:AD:04:DC",
+        "66:2F:1A:D2:B2:9F:34:39:18:83:A9:6A:F9:6E:D1:56:D8:03:A4:24:08:4F:97:64:7F:EC:47:E5:D6:11:79:01"
+      ]
+    }
+  }
+]

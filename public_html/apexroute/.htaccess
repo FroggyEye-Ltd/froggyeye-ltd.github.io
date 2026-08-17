@@ -1,0 +1,23 @@
+# apexroute.froggyeye.com — shared route links and app association files.
+#
+# Two jobs:
+#   1. Serve /.well-known/apple-app-site-association as application/json. The
+#      file has no extension by Apple's requirement, so nothing else would.
+#   2. Resolve /r/<token> to the decoder page. There is no backend — the token
+#      IS the route — so the page reads the token from location.pathname and
+#      decodes it client-side.
+
+<Files "apple-app-site-association">
+  ForceType application/json
+</Files>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # /r/<token>, /r/ and /r all land on the decoder page, which renders either a
+  # route or its "this link isn't valid" state. A 404 here would be a worse
+  # answer than the page's own one. Anything deeper than a single segment is
+  # not a link this site issues, so it stays a 404.
+  RewriteRule ^r/?$ route.html [L]
+  RewriteRule ^r/[^/]*/?$ route.html [L]
+</IfModule>

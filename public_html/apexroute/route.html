@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#0F0805" />
+<title>Shared route — ApexRoute</title>
+<meta name="description" content="Someone shared a driving route with you. The link carries the route itself — open it in ApexRoute, or see the shape here." />
+<meta name="robots" content="noindex, follow" />
+<meta property="og:title" content="A shared drive — ApexRoute" />
+<meta property="og:description" content="Someone shared a driving route with you. Open it in ApexRoute to see it on the map and save it." />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Froggy Eye Ltd" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:image" content="https://apexroute.froggyeye.com/feature.png" />
+<meta property="og:image:width" content="2048" />
+<meta property="og:image:height" content="1365" />
+<meta property="og:image:alt" content="ApexRoute — driving routes for car enthusiasts" />
+<link rel="icon" type="image/png" href="/icon.png" />
+<link rel="apple-touch-icon" href="/icon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --magenta: #FF4D2E;
+    --magenta-deep: #B81D00;
+    --violet: #7C2D12;
+    --mint: #FBBF24;
+    --yellow: #FDE047;
+    --bg: #0F0805;
+    --surface: #1C0E08;
+    --surface-2: #2A150E;
+    --border: #3D2418;
+    --text: #F5F0FF;
+    --text-2: #B8A8D1;
+    --text-3: #6B5A85;
+    --grad: linear-gradient(135deg, #FF4D2E 0%, #7C2D12 100%);
+    --font-display: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+    --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+    --r-sm: 8px; --r-md: 12px; --r-lg: 20px; --r-xl: 28px; --r-pill: 999px;
+    --shadow-card: 0 4px 12px rgba(0,0,0,0.4);
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--font-body); font-size: 16px; line-height: 1.55; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; overflow-x: hidden; display: flex; flex-direction: column; min-height: 100vh; }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; text-decoration: none; }
+  ::selection { background: var(--magenta); color: #fff; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 24px; width: 100%; }
+
+  .studio-bar { background: linear-gradient(90deg, #FF2E7E 0%, #7C3AED 100%); color: #fff; font-size: 13px; font-weight: 600; letter-spacing: 0.04em; text-align: center; padding: 8px 16px; }
+  .studio-bar a { color: #fff; display: inline-flex; align-items: center; gap: 8px; }
+  .studio-bar a:hover { text-decoration: underline; }
+  .studio-bar .arrow { display: inline-block; transition: transform 150ms ease; }
+  .studio-bar a:hover .arrow { transform: translateX(-4px); }
+
+  nav.top { border-bottom: 1px solid var(--border); background: rgba(15,8,5,0.72); backdrop-filter: saturate(140%) blur(14px); -webkit-backdrop-filter: saturate(140%) blur(14px); }
+  nav.top .wrap { display: flex; align-items: center; justify-content: space-between; padding-top: 14px; padding-bottom: 14px; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .brand img { width: 36px; height: 36px; border-radius: 10px; box-shadow: 0 6px 18px rgba(0,0,0,0.4); }
+  .brand-name { font-family: var(--font-display); font-weight: 700; font-size: 18px; letter-spacing: -0.01em; }
+  nav.top .nav-cta { color: var(--text-2); font-weight: 500; font-size: 14px; }
+  nav.top .nav-cta:hover { color: var(--text); }
+
+  main { flex: 1 0 auto; padding: 48px 0 72px; }
+  @media (max-width: 720px) { main { padding: 32px 0 56px; } }
+
+  .eyebrow { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--magenta); margin-bottom: 14px; }
+  h1 { font-family: var(--font-display); font-weight: 700; letter-spacing: -0.03em; line-height: 1.08; margin: 0 0 14px; font-size: clamp(30px, 5.5vw, 52px); overflow-wrap: anywhere; }
+  p { margin: 0 0 16px; color: var(--text-2); }
+  .lead { font-size: clamp(16px, 2vw, 19px); max-width: 56ch; }
+
+  .stats { display: flex; flex-wrap: wrap; gap: 12px; margin: 24px 0 28px; padding: 0; list-style: none; }
+  .stat { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-md); padding: 12px 18px; min-width: 116px; }
+  .stat .k { display: block; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-3); margin-bottom: 4px; }
+  .stat .v { font-family: var(--font-display); font-weight: 700; font-size: 22px; letter-spacing: -0.01em; }
+
+  .map-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 18px; box-shadow: var(--shadow-card); }
+  .map-card .plot { width: 100%; height: clamp(260px, 46vw, 420px); display: block; touch-action: none; }
+  .map-note { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; align-items: center; margin: 14px 2px 0; font-size: 13px; color: var(--text-3); }
+  .map-note a { color: var(--text-2); text-decoration: underline; text-underline-offset: 3px; }
+  .map-note a:hover { color: var(--magenta); }
+  .legend { display: inline-flex; align-items: center; gap: 14px; }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .legend i { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+
+  .cta { margin-top: 36px; }
+  .cta h2 { font-family: var(--font-display); font-size: clamp(20px, 3vw, 26px); font-weight: 700; letter-spacing: -0.02em; margin: 0 0 10px; }
+  .btn-primary { display: inline-flex; align-items: center; gap: 10px; background: var(--grad); color: #fff; font-family: var(--font-display); font-weight: 700; font-size: 17px; padding: 15px 28px; border-radius: var(--r-pill); box-shadow: 0 16px 48px rgba(255,77,46,0.35); transition: transform 150ms ease; }
+  .btn-primary:hover { transform: translateY(-2px); }
+  .hint { font-size: 13px; color: var(--text-3); margin: 14px 0 0; max-width: 52ch; }
+
+  .stores { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 24px; }
+  .store { display: inline-flex; align-items: center; gap: 12px; padding: 12px 20px; background: #000; border: 1px solid var(--border); border-radius: 14px; color: #fff; transition: transform 150ms ease, border-color 200ms ease; min-width: 180px; }
+  .store:hover { transform: translateY(-2px); border-color: var(--magenta); }
+  .store svg { width: 28px; height: 28px; flex-shrink: 0; }
+  .store .small { font-size: 11px; color: #c4c4cc; line-height: 1; margin-bottom: 4px; letter-spacing: 0.04em; }
+  .store .big { font-family: var(--font-display); font-size: 19px; font-weight: 700; line-height: 1; letter-spacing: -0.01em; }
+
+  .bad { max-width: 60ch; }
+  .bad .glyph { font-size: 44px; line-height: 1; margin-bottom: 18px; }
+  .bad ul { color: var(--text-2); padding-left: 20px; margin: 0 0 20px; }
+  .bad li { margin-bottom: 6px; }
+
+  footer { flex-shrink: 0; border-top: 1px solid var(--border); background: var(--surface); padding: 28px 0; }
+  footer .wrap { display: flex; flex-wrap: wrap; gap: 10px 24px; justify-content: space-between; align-items: center; color: var(--text-3); font-size: 13px; }
+  footer a:hover { color: var(--text-2); }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+
+<div class="studio-bar"><a href="https://froggyeye.com"><span class="arrow">←</span><span>Part of <strong>Froggy Eye Ltd</strong> · See all our apps</span></a></div>
+
+<nav class="top">
+  <div class="wrap">
+    <a class="brand" href="/">
+      <img src="/icon.png" alt="ApexRoute" width="36" height="36" />
+      <span class="brand-name">ApexRoute</span>
+    </a>
+    <a class="nav-cta" href="/">About ApexRoute →</a>
+  </div>
+</nav>
+
+<main>
+  <div class="wrap">
+
+    <!-- Shown while the token is decoding, and if scripting is off. -->
+    <section id="pending">
+      <span class="eyebrow">Shared route</span>
+      <h1>Opening a shared drive…</h1>
+      <noscript><p class="lead">This page needs JavaScript to read the route out of the link — the route travels inside the link itself, so there is nothing for us to look up without it. Open the link in ApexRoute instead, or turn JavaScript on.</p></noscript>
+    </section>
+
+    <!-- A route decoded cleanly. -->
+    <section id="ok" hidden>
+      <span class="eyebrow">Someone shared a drive with you</span>
+      <h1 id="routeName"></h1>
+      <ul class="stats">
+        <li class="stat"><span class="k">Distance</span><span class="v" id="statDistance"></span></li>
+        <li class="stat"><span class="k">Driving time</span><span class="v" id="statDuration"></span></li>
+        <li class="stat"><span class="k">Shape</span><span class="v" id="statPoints"></span></li>
+      </ul>
+
+      <div class="map-card">
+        <svg class="plot" id="plot" role="img" aria-labelledby="plotTitle"><title id="plotTitle">The shape of the shared route</title></svg>
+        <div class="map-note">
+          <span class="legend"><span><i style="background:#FDE047"></i> Start</span><span><i style="background:#FF4D2E"></i> Finish</span></span>
+          <span id="mapLinks"></span>
+        </div>
+      </div>
+
+      <div class="cta">
+        <h2>Drive it yourself</h2>
+        <p class="lead" id="ctaLead">ApexRoute opens this route on a real map, turn by turn, and can save it to your library.</p>
+        <a class="btn-primary" id="openBtn" href="/">Open in ApexRoute</a>
+        <p class="hint" id="openHint"></p>
+        <div class="stores" id="storeRow"></div>
+      </div>
+    </section>
+
+    <!-- Anything that is not a valid v1 link. -->
+    <section id="bad" hidden>
+      <div class="bad">
+        <div class="glyph" aria-hidden="true">🛣️</div>
+        <span class="eyebrow">Shared route</span>
+        <h1>This link isn’t valid.</h1>
+        <p class="lead">A shared ApexRoute link carries the whole route inside it, so it only works in one piece. This one didn’t survive the trip.</p>
+        <ul>
+          <li>Chat apps and email sometimes cut long links in half — the part after the last <code>/</code> has to be complete.</li>
+          <li>Copying it by hand drops characters. Try copying the whole thing again, or ask the sender to re-share.</li>
+          <li>Links from a much newer version of ApexRoute may not be readable here yet.</li>
+        </ul>
+        <p class="lead">Nothing is lost at our end — there is no route stored on a server to look up. The sender can just send it again.</p>
+        <div class="stores" id="storeRowBad"></div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="year">2026</span> Froggy Eye Ltd · Registered in England &amp; Wales</span>
+    <span><a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a> · <a href="mailto:info@froggyeye.com">info@froggyeye.com</a></span>
+  </div>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  var APPLE_URL = 'https://apps.apple.com/gb/app/apexroute/id6760571266';
+  var PLAY_URL  = 'https://play.google.com/store/apps/details?id=com.froggyeye.apexroute';
+  var PACKAGE   = 'com.froggyeye.apexroute';
+
+  /* ------------------------------------------------------------------ *
+   * Wire format v1 — a port of lib/features/route_share/domain/
+   * route_link_codec.dart. Every bound below is that file's bound; they
+   * are not defensive guesses. If the two ever disagree, a link the app
+   * accepts would render here as broken (or worse, the reverse), so any
+   * change there has to land here too.
+   * ------------------------------------------------------------------ */
+  var MAX_TOKEN_CHARS = 4096;   // maxDecodableTokenChars
+  var MAX_NAME_BYTES  = 80;     // maxNameBytes
+  var MAX_POINTS      = 500;    // maxPoints
+  var MAX_DISTANCE_M  = 40000000;
+  var MAX_DURATION_S  = 30 * 24 * 3600;
+  var COORD_SCALE     = 100000; // 1e-5 degrees
+
+  var B64_ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_';
+
+  function base64UrlToBytes(token) {
+    // The app strips padding before it puts the token in a path, so we put it
+    // back. atob is a good deal more forgiving than Dart's base64 decoder, and
+    // every place it is more forgiving is a place a corrupt link would render
+    // here as a route the app itself refuses — so the two strict checks Dart
+    // makes and atob does not are made here by hand:
+    //
+    //   * a length one past a multiple of 4 is not base64 at all;
+    //   * the final character of a padded group carries bits that belong to no
+    //     byte, and they must be zero. A truncated or mutated token lands on a
+    //     non-zero one about fifteen times in sixteen, which is exactly the
+    //     case this catches.
+    if (!/^[A-Za-z0-9_-]+$/.test(token)) return null;
+    var pad = (4 - token.length % 4) % 4;
+    if (pad === 3) return null;
+    if (pad > 0) {
+      var tail = B64_ALPHABET.indexOf(token.charAt(token.length - 1));
+      if ((tail & (pad === 2 ? 0x0F : 0x03)) !== 0) return null;
+    }
+    var binary;
+    try {
+      binary = atob(token.replace(/-/g, '+').replace(/_/g, '/') + '===='.slice(0, pad));
+    } catch (e) {
+      return null;
+    }
+    var out = new Uint8Array(binary.length);
+    for (var i = 0; i < binary.length; i++) out[i] = binary.charCodeAt(i) & 0xFF;
+    return out;
+  }
+
+  // A cursor that returns null rather than throwing, like the Dart _ByteReader.
+  // Varints accumulate by multiplication, not <<, because JavaScript's shift
+  // operators are 32-bit and this format's shift reaches 56.
+  function Reader(bytes, offset) { this.b = bytes; this.o = offset; }
+  Reader.prototype.remaining = function () { return this.b.length - this.o; };
+  Reader.prototype.varint = function () {
+    var result = 0, scale = 1;
+    for (var read = 0; read < 9; read++) {
+      if (this.o >= this.b.length) return null;
+      var byte = this.b[this.o++];
+      result += (byte & 0x7F) * scale;
+      if ((byte & 0x80) === 0) return result;
+      scale *= 128;
+    }
+    return null;
+  };
+  Reader.prototype.zigzag = function () {
+    var raw = this.varint();
+    if (raw === null) return null;
+    return raw % 2 === 0 ? raw / 2 : -(raw + 1) / 2;
+  };
+  Reader.prototype.take = function (count) {
+    if (count < 0 || count > this.remaining()) return null;
+    var out = this.b.subarray(this.o, this.o + count);
+    this.o += count;
+    return out;
+  };
+
+  function onEarth(lat, lng) {
+    return isFinite(lat) && isFinite(lng) && Math.abs(lat) <= 90 && Math.abs(lng) <= 180;
+  }
+
+  function decode(token) {
+    if (!token || token.length > MAX_TOKEN_CHARS) return null;
+
+    var bytes = base64UrlToBytes(token);
+    if (bytes === null || bytes.length < 3) return null;
+    if (bytes[0] !== 1) return null;
+
+    var sum = 0;
+    for (var i = 2; i < bytes.length; i++) sum = (sum + bytes[i]) & 0xFF;
+    if (sum !== bytes[1]) return null;
+
+    var r = new Reader(bytes, 2);
+
+    var nameLength = r.varint();
+    if (nameLength === null || nameLength > MAX_NAME_BYTES) return null;
+    var nameBytes = r.take(nameLength);
+    if (nameBytes === null) return null;
+    var name;
+    try {
+      // fatal: true matches utf8.decode's strictness. A name that is not valid
+      // UTF-8 is a corrupt link, not a name with an odd character in it.
+      name = new TextDecoder('utf-8', { fatal: true }).decode(nameBytes);
+    } catch (e) {
+      return null;
+    }
+
+    var distance = r.varint();
+    if (distance === null || distance > MAX_DISTANCE_M) return null;
+
+    var seconds = r.varint();
+    if (seconds === null || seconds > MAX_DURATION_S) return null;
+
+    var count = r.varint();
+    if (count === null || count < 2 || count > MAX_POINTS) return null;
+    // Two bytes per point is the floor, so this is what stops "500 points" in a
+    // 12-byte payload from allocating anything.
+    if (count * 2 > r.remaining()) return null;
+
+    var lat = r.zigzag();
+    var lng = r.zigzag();
+    if (lat === null || lng === null) return null;
+
+    var points = [];
+    for (var p = 0; p < count; p++) {
+      if (p > 0) {
+        var dLat = r.zigzag();
+        var dLng = r.zigzag();
+        if (dLat === null || dLng === null) return null;
+        lat += dLat;
+        lng += dLng;
+      }
+      var latitude = lat / COORD_SCALE, longitude = lng / COORD_SCALE;
+      if (!onEarth(latitude, longitude)) return null;
+      points.push({ lat: latitude, lng: longitude });
+    }
+
+    // Trailing bytes mean the payload is not what it says it is.
+    if (r.remaining() !== 0) return null;
+
+    var trimmed = name.trim();
+    return {
+      name: trimmed === '' ? 'Shared route' : trimmed,
+      distanceMeters: distance,
+      seconds: seconds,
+      points: points
+    };
+  }
+
+  /* ---------------- formatting, mirroring FormatUtils ---------------- */
+
+  function formatDistance(meters) {
+    if (meters < 1000) return Math.trunc(meters) + ' m';
+    return (meters / 1000).toFixed(1) + ' km';
+  }
+
+  function formatDuration(totalSeconds) {
+    var hours = Math.floor(totalSeconds / 3600);
+    var minutes = Math.floor(totalSeconds / 60);
+    if (hours > 0) return hours + 'h ' + (minutes % 60) + 'm';
+    if (minutes > 0) return minutes + 'm ' + (totalSeconds % 60) + 's';
+    return totalSeconds + 's';
+  }
+
+  /* ---------------------------- drawing ------------------------------ */
+
+  var SVG_NS = 'http://www.w3.org/2000/svg';
+
+  function el(name, attrs) {
+    var node = document.createElementNS(SVG_NS, name);
+    for (var key in attrs) node.setAttribute(key, attrs[key]);
+    return node;
+  }
+
+  // Equirectangular, with a cosine correction at the route's own latitude —
+  // the same approximation the app uses for distances. Over one drive the
+  // distortion is invisible, and it needs no projection library and no tiles.
+  function drawRoute(svg, points) {
+    var minLat = Infinity, maxLat = -Infinity, minLng = Infinity, maxLng = -Infinity;
+    points.forEach(function (p) {
+      if (p.lat < minLat) minLat = p.lat;
+      if (p.lat > maxLat) maxLat = p.lat;
+      if (p.lng < minLng) minLng = p.lng;
+      if (p.lng > maxLng) maxLng = p.lng;
+    });
+
+    var k = Math.cos((minLat + maxLat) / 2 * Math.PI / 180);
+    if (!isFinite(k) || k < 0.01) k = 0.01;
+
+    var project = function (p) { return [(p.lng - minLng) * k, maxLat - p.lat]; };
+    var xy = points.map(project);
+
+    var width = (maxLng - minLng) * k;
+    var height = maxLat - minLat;
+    var span = Math.max(width, height);
+    // A route that doubles back on itself exactly, or one drawn between two
+    // points a metre apart, has a zero span in one axis. Give it something to
+    // be drawn inside rather than dividing by it.
+    if (!(span > 0)) span = 1e-4;
+    var pad = span * 0.08;
+
+    var viewX = minLng !== maxLng ? 0 : -span / 2;
+    var viewY = minLat !== maxLat ? 0 : -span / 2;
+    var viewW = width > 0 ? width : span;
+    var viewH = height > 0 ? height : span;
+
+    svg.setAttribute('viewBox',
+      (viewX - pad) + ' ' + (viewY - pad) + ' ' + (viewW + pad * 2) + ' ' + (viewH + pad * 2));
+    svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+
+    var defs = el('defs', {});
+    var grad = el('linearGradient', { id: 'routeGrad', x1: '0', y1: '0', x2: '1', y2: '1' });
+    grad.appendChild(el('stop', { offset: '0', 'stop-color': '#FDE047' }));
+    grad.appendChild(el('stop', { offset: '1', 'stop-color': '#FF4D2E' }));
+    defs.appendChild(grad);
+    svg.appendChild(defs);
+
+    var d = xy.map(function (pt, i) {
+      return (i === 0 ? 'M' : 'L') + pt[0].toFixed(7) + ' ' + pt[1].toFixed(7);
+    }).join(' ');
+
+    // Two strokes: a wide dark casing so the line stays readable where it
+    // crosses itself, then the route on top. Both non-scaling, so the width is
+    // in screen pixels no matter how the viewBox is scaled.
+    svg.appendChild(el('path', {
+      d: d, fill: 'none', stroke: '#0F0805', 'stroke-width': '9',
+      'stroke-linecap': 'round', 'stroke-linejoin': 'round',
+      'vector-effect': 'non-scaling-stroke'
+    }));
+    svg.appendChild(el('path', {
+      d: d, fill: 'none', stroke: 'url(#routeGrad)', 'stroke-width': '5',
+      'stroke-linecap': 'round', 'stroke-linejoin': 'round',
+      'vector-effect': 'non-scaling-stroke'
+    }));
+
+    var marker = function (pt, colour) {
+      svg.appendChild(el('circle', {
+        cx: pt[0], cy: pt[1], r: span * 0.028,
+        fill: colour, stroke: '#0F0805', 'stroke-width': '2',
+        'vector-effect': 'non-scaling-stroke'
+      }));
+    };
+    marker(xy[0], '#FDE047');
+    marker(xy[xy.length - 1], '#FF4D2E');
+  }
+
+  /* ------------------------------ page ------------------------------- */
+
+  var APPLE_BADGE =
+    '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 12.04c-.03-2.94 2.4-4.36 2.51-4.43-1.37-2-3.5-2.27-4.26-2.3-1.81-.18-3.54 1.07-4.46 1.07-.94 0-2.35-1.05-3.86-1.02-1.99.03-3.82 1.16-4.85 2.93-2.07 3.59-.53 8.9 1.49 11.81.99 1.43 2.16 3.03 3.7 2.97 1.49-.06 2.05-.96 3.85-.96 1.79 0 2.31.96 3.88.93 1.6-.03 2.62-1.45 3.6-2.89 1.13-1.66 1.6-3.27 1.62-3.36-.04-.02-3.11-1.2-3.14-4.74zM14.55 4.07c.82-1 1.37-2.39 1.22-3.77-1.18.05-2.62.79-3.46 1.78-.76.88-1.42 2.29-1.24 3.65 1.32.1 2.66-.67 3.48-1.66z"/></svg>' +
+    '<div><div class="small">Download on the</div><div class="big">App Store</div></div>';
+  var PLAY_BADGE =
+    '<svg viewBox="0 0 24 24"><defs><linearGradient id="gp1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00D8FF"/><stop offset="1" stop-color="#0085FF"/></linearGradient><linearGradient id="gp2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFD200"/><stop offset="1" stop-color="#FF8A00"/></linearGradient><linearGradient id="gp3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF3A44"/><stop offset="1" stop-color="#C31162"/></linearGradient><linearGradient id="gp4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00F076"/><stop offset="1" stop-color="#00A852"/></linearGradient></defs><path fill="url(#gp1)" d="M3.5 2.2v19.6c0 .5.6.8 1 .4l9.7-9.8L4.5 1.7c-.4-.3-1 0-1 .5z"/><path fill="url(#gp2)" d="M17.6 9.7l-3.4-2-2.4 2.5 2.4 2.5 3.4-2c.7-.4.7-1.4 0-1.8z"/><path fill="url(#gp3)" d="M14.2 14.7l-9.7 5.7c-.4.3-.9 0-1-.4l9.3-9.3 1.4 4z"/><path fill="url(#gp4)" d="M14.2 9.3l-9.7-5.7c-.4-.3-.9 0-1 .4L4 5l8.8 6.8 1.4-2.5z"/></svg>' +
+    '<div><div class="small">GET IT ON</div><div class="big">Google Play</div></div>';
+
+  function fillStores(node) {
+    if (!node) return;
+    // Static markup only — no decoded value ever reaches innerHTML.
+    node.innerHTML =
+      '<a class="store" href="' + APPLE_URL + '" rel="noopener" aria-label="Download ApexRoute on the App Store">' + APPLE_BADGE + '</a>' +
+      '<a class="store" href="' + PLAY_URL + '" rel="noopener" aria-label="Get ApexRoute on Google Play">' + PLAY_BADGE + '</a>';
+  }
+
+  function show(id) {
+    ['pending', 'ok', 'bad'].forEach(function (section) {
+      document.getElementById(section).hidden = section !== id;
+    });
+  }
+
+  function tokenFromPath() {
+    // Same shape the app enforces: exactly /r/<token>, nothing deeper.
+    var match = /^\/r\/([^/]+)\/?$/.exec(window.location.pathname);
+    if (!match) return null;
+    try {
+      return decodeURIComponent(match[1]);
+    } catch (e) {
+      return match[1];
+    }
+  }
+
+  function platform() {
+    var ua = navigator.userAgent || '';
+    if (/Android/i.test(ua)) return 'android';
+    if (/iPad|iPhone|iPod/.test(ua)) return 'ios';
+    if (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1) return 'ios';
+    return 'other';
+  }
+
+  function wireOpenButton(token) {
+    var button = document.getElementById('openBtn');
+    var hint = document.getElementById('openHint');
+    var installed = 'Already have ApexRoute? Opening this link straight from the message you received in — Messages, WhatsApp, Mail — hands it to the app.';
+
+    switch (platform()) {
+      case 'android':
+        // An explicit VIEW intent at this package. It reaches the app whether or
+        // not Android has finished verifying the domain, and falls back to the
+        // Play listing when the app is not installed.
+        button.textContent = 'Open in ApexRoute';
+        button.setAttribute('href',
+          'intent://apexroute.froggyeye.com/r/' + encodeURIComponent(token) +
+          '#Intent;scheme=https;package=' + PACKAGE +
+          ';S.browser_fallback_url=' + encodeURIComponent(PLAY_URL) + ';end');
+        hint.textContent = 'Not installed yet? The button takes you to Google Play, and the link still works once you are back.';
+        break;
+      case 'ios':
+        // iOS deliberately does not follow a universal link to the page's own
+        // domain, so there is no honest "open the app" button here — only the
+        // App Store, and the truth about where the link does open the app.
+        button.textContent = 'Get ApexRoute';
+        button.setAttribute('href', APPLE_URL);
+        hint.textContent = installed;
+        break;
+      default:
+        button.textContent = 'Get ApexRoute';
+        button.setAttribute('href', '/#get');
+        hint.textContent = 'ApexRoute is an iPhone and Android app — open this link on your phone and it opens in the app.';
+    }
+  }
+
+  function render(route, token) {
+    document.getElementById('routeName').textContent = route.name;
+    document.getElementById('statDistance').textContent = formatDistance(route.distanceMeters);
+    document.getElementById('statDuration').textContent = formatDuration(route.seconds);
+    document.getElementById('statPoints').textContent = route.points.length + ' pts';
+
+    drawRoute(document.getElementById('plot'), route.points);
+
+    var start = route.points[0];
+    var links = document.getElementById('mapLinks');
+    var osm = document.createElement('a');
+    osm.href = 'https://www.openstreetmap.org/?mlat=' + start.lat.toFixed(5) +
+               '&mlon=' + start.lng.toFixed(5) + '#map=12/' +
+               start.lat.toFixed(5) + '/' + start.lng.toFixed(5);
+    osm.rel = 'noopener nofollow';
+    osm.textContent = 'Where it starts (OpenStreetMap) ↗';
+    links.appendChild(osm);
+
+    // textContent, not innerHTML — the name arrives from the link, which is to
+    // say from anyone.
+    document.title = route.name + ' — shared on ApexRoute';
+
+    wireOpenButton(token);
+    fillStores(document.getElementById('storeRow'));
+    show('ok');
+  }
+
+  function fail() {
+    fillStores(document.getElementById('storeRowBad'));
+    show('bad');
+  }
+
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // One guard around the whole thing. Decoding already answers every bad input
+  // with null rather than an exception, but a link that reached an unexpected
+  // browser bug should still land on the invalid state, never on a blank page.
+  try {
+    var token = tokenFromPath();
+    var route = token === null ? null : decode(token);
+    if (route) render(route, token); else fail();
+  } catch (e) {
+    try { fail(); } catch (ignored) { show('bad'); }
+  }
+})();
+</script>
+
+</body>
+</html>
