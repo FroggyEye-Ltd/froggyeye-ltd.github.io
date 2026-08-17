@@ -303,7 +303,7 @@ def head(title, desc, url, extra=""):
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="theme-color" content="#0F0805" />
-<title>{htmllib.escape(title)}</title>
+<title>{htmllib.escape(title, quote=False)}</title>
 <meta name="description" content="{htmllib.escape(desc, quote=True)}" />
 <meta name="robots" content="index, follow" />
 <link rel="canonical" href="{url}" />
