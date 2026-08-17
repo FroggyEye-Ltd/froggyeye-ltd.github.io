@@ -35,7 +35,12 @@
     ],
     "extra_pages": [
       "privacy.html",
-      "terms.html"
+      "terms.html",
+      "guides/",
+      "guides/best-driving-roads-wales.html",
+      "guides/best-motorcycle-roads-peak-district.html",
+      "guides/evo-triangle-honest-guide.html",
+      "guides/plan-a-loop-driving-route.html"
     ]
   },
   {

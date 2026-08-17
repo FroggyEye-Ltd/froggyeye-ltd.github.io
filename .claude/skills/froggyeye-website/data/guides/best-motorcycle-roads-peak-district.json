@@ -1,0 +1,178 @@
+{
+  "slug": "best-motorcycle-roads-peak-district",
+  "order": 2,
+  "title": "Best motorcycle roads in the Peak District",
+  "seo_title": "Best motorcycle roads in the Peak District: an honest rider's guide | ApexRoute",
+  "eyebrow": "Peak District · Route guide",
+  "description": "The Peak District's best motorcycle roads — the A537 Cat and Fiddle, A54, A53, Snake Pass, Holme Moss and Winnats — with honest notes on surface, enforcement and traffic, plus two loops.",
+  "summary": "The Peak District is the most rider-dense national park in England, and for good reason: two cities sit on its doorstep and almost every road out of them bends. Here's what each one is actually like.",
+  "card_blurb": "The Cat and Fiddle, the A54, Snake Pass, Holme Moss and Winnats — what each is like to ride, and two loops that link them.",
+  "published": "2026-08-17",
+  "published_label": "17 August 2026",
+  "reading_minutes": 9,
+  "sections": [
+    {
+      "h2": "",
+      "blocks": [
+        {
+          "p": "The Peak District's appeal to riders is geography. It is a lump of high ground wedged between Manchester, Sheffield, Derby and Stoke, which means several million people are within an hour of it, and the roads that cross it were built to get over moorland rather than around it. Very little of it is straight."
+        },
+        {
+          "p": "That popularity is also the honest caveat running through this whole guide. These are not quiet roads. They are well known, well ridden, well policed and, in a few cases, heavily enforced. What follows is what each is actually like — not what it was like twenty years ago."
+        }
+      ]
+    },
+    {
+      "h2": "The roads",
+      "blocks": [
+        {
+          "road": {
+            "name": "A537 — the Cat and Fiddle",
+            "meta": "Macclesfield ↔ Buxton · roughly 12 miles",
+            "text": [
+              "The most famous road in the Peak, named after the pub near its summit, and the one every rider has an opinion about. It climbs east out of Macclesfield onto open moor in a long sequence of well-sighted bends, with big views south over the hills once you are above the treeline.",
+              "It is also a road with a long and genuinely bad collision record, and it is now covered by average-speed cameras along its most notorious stretch. That has changed the character of riding it: the pace is set for you, and the enjoyment has to come from the flow and the scenery rather than the numbers. Plenty of riders still rate it highly on exactly those terms.",
+              "Ridden as a rhythm road at a sane speed, it remains excellent. Ridden as a challenge, it will cost you a licence at best."
+            ]
+          }
+        },
+        {
+          "road": {
+            "name": "A54 — Congleton to Buxton",
+            "meta": "Congleton ↔ Buxton · roughly 15 miles",
+            "text": [
+              "The A537's quieter neighbour, and the choice of a lot of locals who have had enough of the Cat and Fiddle. It crosses the same moorland a few miles south with more elevation change, more variety in the corner radii, and a fraction of the attention.",
+              "The surface is more mixed than the A537's and there are some genuinely tight sections dropping into the valleys at either end. It rewards reading the road rather than committing early."
+            ]
+          }
+        },
+        {
+          "road": {
+            "name": "A53 — Leek to Buxton",
+            "meta": "Leek ↔ Buxton · roughly 12 miles",
+            "text": [
+              "Runs north-east past the Roaches — the gritstone edge that gives this side of the Peak its silhouette. Open, fast-flowing and scenic, with more sweepers than hairpins.",
+              "It is the best of the three western crossings for simply covering ground pleasantly, and it links the A537 and A54 into loops without repeating either."
+            ]
+          }
+        },
+        {
+          "road": {
+            "name": "A57 — Snake Pass",
+            "meta": "Glossop ↔ Ladybower · roughly 14 miles",
+            "text": [
+              "Another Thomas Telford road, and the classic east–west crossing. It runs from Glossop up through forestry and out onto high moor before dropping to the Ladybower reservoir in a series of long, flowing sweepers. On the right morning it is the best road in the national park.",
+              "Two honest caveats. It is a genuine commuter and freight route on weekdays, so you will share it. And it is the most closure-prone road in the Peak — snow in winter, and a hillside that has a habit of moving. Check it is open before you build a day around it, because the diversion is very long."
+            ]
+          }
+        },
+        {
+          "road": {
+            "name": "A6024 — Holme Moss",
+            "meta": "Holmfirth ↔ Woodhead · roughly 8 miles",
+            "text": [
+              "A big, bare, exposed climb to one of the highest road summits in the area, with a long view from the top and a descent on the southern side that opens out beautifully.",
+              "Share it graciously. Holme Moss is a landmark climb for cyclists and you will meet them in numbers, often three abreast on the way up. There is usually plenty of room and plenty of sightline — but not always at the same time."
+            ]
+          }
+        },
+        {
+          "road": {
+            "name": "Winnats Pass",
+            "meta": "Castleton, westbound · about a mile and a half",
+            "text": [
+              "A steep, narrow limestone cleft climbing west out of Castleton between two enormous grass slopes. It is spectacular and it is short, and it is included here to tell you not to hurry it.",
+              "It is a walking honeypot, the gradient is severe, the road is properly narrow, and it is regularly full of pedestrians, coaches and parked cars. Ride it once for the sight of it, at walking pace, then go and enjoy yourself somewhere with sightlines."
+            ]
+          }
+        },
+        {
+          "road": {
+            "name": "A5012 — Via Gellia",
+            "meta": "Cromford ↔ Newhaven · roughly 8 miles",
+            "text": [
+              "A narrow, twisting, tree-covered valley road on the limestone side of the Peak — completely different in character from the moorland crossings, and a nice change of pace.",
+              "The tree cover is the problem as well as the charm: it stays damp long after everything else has dried, and there is often debris and moss at the edges. Treat it as a technical road in permanently uncertain grip."
+            ]
+          }
+        },
+        {
+          "road": {
+            "name": "A621, A623 and A6 — the eastern and central links",
+            "meta": "Baslow, Chapel-en-le-Frith, Bakewell, Matlock",
+            "text": [
+              "Useful rather than famous, and better than their reputations. The A621 climbs from Baslow onto Big Moor toward Sheffield with a fine open middle section. The A623 crosses west from Baslow toward Chapel-en-le-Frith. The A6 down the Wye and Derwent valleys from Buxton to Matlock is scenic and slow.",
+              "These are the roads that turn a list of highlights into an actual route, which is most of the job."
+            ]
+          }
+        },
+        {
+          "road": {
+            "name": "A628 — Woodhead Pass",
+            "meta": "Tintwistle ↔ Barnsley · a warning, not a recommendation",
+            "text": [
+              "It looks perfect on a map and it crosses genuinely wild country. It is also the main heavy freight route between Manchester and South Yorkshire.",
+              "Ride it if you need to get across. Do not plan a day around it."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "h2": "Loop one: the western moors",
+      "blocks": [
+        {
+          "p": "Around 45 miles, closes cleanly, and hits two moorland crossings without repeating a yard. Ideal for a half day or a summer evening."
+        },
+        {
+          "ol": [
+            "**Macclesfield** east on the **A537** over the Cat and Fiddle to Buxton.",
+            "**A54** west out of Buxton, back across the moors to Congleton.",
+            "**A523** north from Congleton through Bosley to Macclesfield."
+          ]
+        },
+        {
+          "p": "Want it longer? Swap the middle leg for the **A53** south-west from Buxton to Leek, then the **A523** north from Leek, which adds the Roaches and about 12 miles."
+        }
+      ]
+    },
+    {
+      "h2": "Loop two: the northern circuit",
+      "blocks": [
+        {
+          "p": "Around 40 miles of the best of the northern Peak, taking in Snake Pass, the Hope valley and Winnats. Check the Snake is open first."
+        },
+        {
+          "ol": [
+            "**Glossop** east on the **A57** over Snake Pass to the Ladybower reservoir.",
+            "South on the **A6013** to Bamford, then west on the **A6187** through Hathersage and the Hope valley to Castleton.",
+            "Up **Winnats Pass** out of Castleton — slowly — to join the **A623**.",
+            "**A623** west to Chapel-en-le-Frith, then **A624** north through Hayfield back to Glossop."
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Riding the Peak honestly",
+      "blocks": [
+        {
+          "p": "A few things that catch people out, none of which are unique to bikes but all of which matter more on two wheels."
+        },
+        {
+          "ul": [
+            "**There is no run-off.** Drystone walls sit right at the edge of most of these roads. A wide line has consequences that the same line on a hedged A-road would not.",
+            "**Grit and gravel wash onto bends.** After rain, and all through the winter salting season, the outside of a moorland corner is the least trustworthy part of it.",
+            "**Livestock roam on the unfenced sections.** Sheep on the A537, A53 and A6024 are routine, not remarkable.",
+            "**Weekend afternoons are busy and watched.** These roads are well known to riders and to the police, in about equal measure. Early is better for both reasons.",
+            "**The weather up top is not the weather at the bottom.** A 400-metre climb onto exposed moor changes the temperature, the visibility and the grip.",
+            "**Snake Pass closes.** Not occasionally — regularly. Have a plan B before you set off rather than at the barrier."
+          ]
+        },
+        {
+          "p": "None of that is a reason not to go. It is a reason the Peak rewards riders who read roads over riders who attack them, which is also why the good ones keep coming back."
+        }
+      ]
+    }
+  ],
+  "cta_note": "Two of these are in ApexRoute's Famous Roads packs: the Cat and Fiddle and Snake Pass are both in the UK & Ireland pack, with the average-speed cameras and the closure record written into their notes rather than glossed over. The Cat and Fiddle is one of the five roads open to everyone. Open either in the app and it will set the road up as a route you can build a loop around."
+}

@@ -1,0 +1,153 @@
+{
+  "slug": "plan-a-loop-driving-route",
+  "order": 4,
+  "title": "How to plan a twisty driving route that ends where it started",
+  "seo_title": "How to plan a twisty loop driving route that ends where it started | ApexRoute",
+  "eyebrow": "How to · Route planning",
+  "description": "A practical method for planning a circular driving route: pick an anchor road, budget time rather than miles, never repeat tarmac, and use via points to force the shape. Plus how to let an app do it.",
+  "summary": "Every mapping app in the world is built to answer \"how do I get there?\". Almost none of them can answer \"where should I go for three hours, and can I finish at my own front door?\" — which is the question drivers actually have.",
+  "card_blurb": "Anchor roads, time budgets, never repeating tarmac, and using via points to force a circuit — the method, then the shortcut.",
+  "published": "2026-08-17",
+  "published_label": "17 August 2026",
+  "reading_minutes": 8,
+  "sections": [
+    {
+      "h2": "Why a loop is harder to plan than a journey",
+      "blocks": [
+        {
+          "p": "Ask any navigation app to take you from A to B and it will do an excellent job. Ask it to take you from A back to A and it will, quite reasonably, tell you that you have already arrived. The whole apparatus is built around minimising the gap between two different points, and a circular drive has no gap to minimise."
+        },
+        {
+          "p": "So drivers end up doing it by hand: scrolling a map looking for squiggles, dropping waypoints, checking the estimate, moving them again. It works, but it takes longer than the drive deserves and it is easy to end up with a route that looks like a loop and drives like an out-and-back."
+        },
+        {
+          "p": "The good news is that planning a loop is a solved problem once you stop thinking in destinations. Here is the method."
+        }
+      ]
+    },
+    {
+      "h2": "1. Start from a road, not a place",
+      "blocks": [
+        {
+          "p": "This is the single biggest shift. Do not begin with \"let's drive to the coast\". Begin with one road you actually want to drive, and treat everything else as the connective tissue that gets you to it and home again."
+        },
+        {
+          "p": "That anchor might be a pass, a moorland crossing, or a valley road someone recommended — [the A4069 over the Black Mountain](/guides/best-driving-roads-wales.html), [the A54 across the Peak](/guides/best-motorcycle-roads-peak-district.html), whatever is within reach. Once you have it, the loop almost designs itself: you need a way out to one end of it and a different way home from the other."
+        }
+      ]
+    },
+    {
+      "h2": "2. Budget time, not miles",
+      "blocks": [
+        {
+          "p": "The commonest planning mistake is using motorway intuitions on B-roads. A hundred miles of moorland single carriageway with villages, junctions, sheep and things you will want to stop and look at is not a ninety-minute drive. Depending on the roads, an overall average in the twenties of miles per hour is realistic, and on mountain roads it can be lower."
+        },
+        {
+          "p": "Work backwards from the time you actually have. Three hours of driving on genuinely twisty roads is somewhere around 60 to 90 miles for most people, and that is before stops. Routes that overrun turn the last hour into a slog on main roads in the dark, which is the opposite of the point."
+        }
+      ]
+    },
+    {
+      "h2": "3. Never drive the same tarmac twice",
+      "blocks": [
+        {
+          "p": "The defining quality of a good loop is that every mile is new. The simplest way to guarantee it is a geographic rule of thumb: **go out on the high ground and come back along the valley**, or out on one side of a ridge and back on the other."
+        },
+        {
+          "p": "Uplands help here, because ridges and valleys naturally give you two parallel routes that never touch. It is why the Peak District, mid Wales and the Dales are so good for circuits and why flat, radial road networks around a single town are so bad at them."
+        },
+        {
+          "ul": [
+            "Out over the tops, back down the valley.",
+            "Out on the west side of the reservoir, back on the east.",
+            "Out on the small road, back on the trunk road — if you are short of time, this is a feature, not a compromise."
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "4. Put the best bit a third of the way in",
+      "blocks": [
+        {
+          "p": "This one is preference rather than law, but it holds up. Very early in a drive the tyres and brakes are cold, you are still settling in, and you have not adjusted to the conditions. Very late, you are tired and the light is going."
+        },
+        {
+          "p": "Roughly a third of the way in is the sweet spot: warmed up, fresh, and with the confidence-building miles already behind you. Build the loop so your anchor road lands there, and keep the easy, fast road for the run home."
+        }
+      ]
+    },
+    {
+      "h2": "5. Force the shape with via points",
+      "blocks": [
+        {
+          "p": "If you are plotting manually, a circular route needs somewhere between two and four intermediate points to hold its shape. Fewer than two and any router will collapse the loop into an out-and-back along the quickest road. More than four or five and you are no longer planning a route, you are drawing one."
+        },
+        {
+          "p": "The useful trick is to place via points at the **far corners** of the shape you want rather than along the roads you want. Pin the furthest point west and the furthest point north, and the router will find its own way between them — often via roads you would not have thought to choose."
+        }
+      ]
+    },
+    {
+      "h2": "6. The unglamorous checks",
+      "blocks": [
+        {
+          "ul": [
+            "**Fuel.** Rural filling stations keep rural hours. Fill up before the empty bit rather than counting on the far side of it.",
+            "**Daylight.** Work out when the light goes and subtract an hour. Twisty unlit roads in the dark are a different and much less enjoyable drive.",
+            "**Weather and altitude.** A clear valley tells you nothing about a summit four hundred metres higher. High passes are the first roads to close and the last to reopen.",
+            "**Closures.** Some roads shut predictably — for snow, for landslips, for events. If a single road is load-bearing for your whole loop, check it, and have an alternative that does not add fifty miles.",
+            "**Surface.** Single track with passing places is slower than the map implies, and a wide car makes it slower still."
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "7. Record it, then improve it",
+      "blocks": [
+        {
+          "p": "The first version of any loop is a hypothesis. Some of it will be better than you hoped and some of it will be a dull twenty minutes you would cut next time. That knowledge is worth keeping, and almost nobody does."
+        },
+        {
+          "p": "Note what worked while it is fresh — which direction the good road was better in, where you would start earlier, which section to replace. A loop you have refined twice is worth more than a new one you have never driven."
+        }
+      ]
+    },
+    {
+      "h2": "Letting an app do it",
+      "blocks": [
+        {
+          "p": "This is the part ApexRoute was built for, so here is exactly what it does and does not do."
+        },
+        {
+          "p": "You set a start — your current location, an address you type, or a point you drop on the map. Then you **leave the finish empty**, and that is what makes it a loop: with no finish set, the route is generated to come back to where it began. Set a finish and it becomes an A-to-B instead; clear it again and the loop comes back."
+        },
+        {
+          "p": "The two controls that shape it are distance and twistiness, which is the time-budget and never-repeat-tarmac thinking above turned into two sliders. You can add via points to force the shape by hand, and you can tell it to avoid motorways and toll roads. There is a Scenic Route option that biases the waypoints toward viewpoints and scenic roads rather than whatever is quickest — it is free, and it is off until you switch it on."
+        },
+        {
+          "p": "What it does not do is navigate you. Once the route exists, ApexRoute hands it to Google Maps, or Apple Maps on an iPhone, for the actual turn-by-turn — it decides where you are going and lets the app you already use do the talking. It records the drive from your phone's GPS as you go, so you can rate the road afterwards and keep the version worth repeating."
+        },
+        {
+          "p": "The free tier gives you three generated routes a day and three saved ones, which is enough to plan a weekend. There is a road book of fifty well-known roads built in, so you can start from an anchor road as described above rather than from a blank map — several of the roads in [the Wales guide](/guides/best-driving-roads-wales.html), [the Peak District guide](/guides/best-motorcycle-roads-peak-district.html) and [the Evo Triangle guide](/guides/evo-triangle-honest-guide.html) are in it."
+        }
+      ]
+    },
+    {
+      "h2": "The short version",
+      "blocks": [
+        {
+          "ol": [
+            "Pick one road you want to drive. That is the anchor.",
+            "Decide how long you have, and convert it to miles at a pessimistic average.",
+            "Plan out on the high ground and back down the valley, so no mile repeats.",
+            "Put the anchor road about a third of the way in.",
+            "Use two to four via points at the corners of the shape, not along the roads.",
+            "Check fuel, light and closures before you leave.",
+            "Record it, and fix the dull bit next time."
+          ]
+        }
+      ]
+    }
+  ],
+  "cta_note": "ApexRoute turns that method into two sliders and a blank finish field: set a start, leave the finish empty, choose a distance and a twistiness, and it generates a loop back to where you began — avoiding motorways and tolls if you ask, and biasing toward scenic roads if you switch it on. The fifty roads in the Famous Roads packs give you anchors to build around."
+}

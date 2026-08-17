@@ -1,0 +1,171 @@
+{
+  "slug": "best-driving-roads-wales",
+  "order": 1,
+  "title": "The best driving roads in Wales — and how to link them into one loop",
+  "seo_title": "The best driving roads in Wales, linked into one loop | ApexRoute",
+  "eyebrow": "Wales · Route guide",
+  "description": "The Welsh roads worth a detour — the A4069 Black Mountain Pass, the A542 Horseshoe Pass, the A543 over Denbigh Moors, the Llanberis Pass — and two loops that string them together and end where you started.",
+  "summary": "Wales packs more good road into its size than anywhere else in Britain. The trick isn't finding one — it's linking four or five into a day that ends back at the car park instead of 90 miles from it.",
+  "card_blurb": "The A4069, the Horseshoe Pass, Denbigh Moors and the Llanberis Pass — plus two loops that join them up properly.",
+  "published": "2026-08-17",
+  "published_label": "17 August 2026",
+  "reading_minutes": 9,
+  "sections": [
+    {
+      "h2": "",
+      "blocks": [
+        {
+          "p": "Wales is unusually generous to drivers. It has mountains without the alpine traffic, moorland roads that run for miles without a junction, and a road network that was mostly laid out to get sheep and slate from one valley to the next rather than to move commuters quickly. The result is a lot of tarmac that bends because the land bends."
+        },
+        {
+          "p": "What follows is the roads themselves, honestly described, and then the part most guides skip: how to join them into a loop. A great road you drive out and back on is a road you've driven twice. A great road in the middle of a circuit is a day out."
+        }
+      ]
+    },
+    {
+      "h2": "The roads",
+      "blocks": [
+        {
+          "road": {
+            "name": "A4069 — the Black Mountain Pass",
+            "meta": "Brynamman ↔ Llangadog, Carmarthenshire · roughly 12 miles",
+            "text": [
+              "The one people mean when they say \"that Welsh road off the telly\". It climbs out of Brynamman onto the western edge of the Brecon Beacons — Bannau Brycheiniog — and spends the next several miles on open, unfenced moor with almost nothing to interrupt the view.",
+              "What makes it good is not that it's difficult. It's wide, well surfaced and mostly visible a long way ahead, so the corners can be read rather than guessed. The northern descent toward Llangadog tightens noticeably and is the more interesting half in that direction.",
+              "The unfenced part is the catch. Sheep treat the road as pasture with a hard surface, and they do not look before stepping out. Cattle grids mark where the open sections start and stop, and they are a useful warning."
+            ]
+          }
+        },
+        {
+          "road": {
+            "name": "A542 — the Horseshoe Pass",
+            "meta": "Llangollen ↔ Ruthin, Denbighshire · roughly 10 miles",
+            "text": [
+              "A steady climb north out of Llangollen that swings around the head of a valley in the long, obvious curve that gives it the name. It is one of the most photographed roads in Wales and, on a clear weekend, one of the busiest — this is a destination road, not a secret.",
+              "Drive it early or midweek and it is excellent: consistent gradient, well-sighted bends, and a summit that genuinely feels like a summit. Drive it at two on a Sunday afternoon in August and you will spend it behind a caravan."
+            ]
+          }
+        },
+        {
+          "road": {
+            "name": "A543 — Denbigh Moors",
+            "meta": "Bylchau ↔ Pentrefoelas, Denbighshire · roughly 12 miles",
+            "text": [
+              "A fast, open moorland crossing with sightlines measured in fields rather than metres. It forms the long side of what car magazines nicknamed the Evo Triangle, and it is the reason the area got a reputation at all.",
+              "Be aware that part of the A543 is covered by average-speed cameras. That is not a footnote — it is the defining feature of driving there now, and worth knowing before you arrive expecting the road's old reputation."
+            ]
+          }
+        },
+        {
+          "road": {
+            "name": "A4086 — the Llanberis Pass",
+            "meta": "Llanberis ↔ Pen-y-Pass ↔ Capel Curig, Eryri · roughly 12 miles",
+            "text": [
+              "The most dramatic tarmac in Wales, running through a boulder-strewn glacial pass under the highest ground in the country. The road climbs to Pen-y-Pass between rock walls that make it feel far narrower than it is.",
+              "Set your expectations correctly: this is a sightseeing road, not a driving road. It is heavily used by walkers heading for Yr Wyddfa, parking is contested, and the traffic reflects that. Go for what it looks like, not for how quickly you can cross it."
+            ]
+          }
+        },
+        {
+          "road": {
+            "name": "A498 and A4085 — the Beddgelert roads",
+            "meta": "Pen-y-Gwryd ↔ Beddgelert ↔ Caernarfon · roughly 25 miles combined",
+            "text": [
+              "If the Llanberis Pass is the postcard, these two are the drive. The A498 drops south-west from Pen-y-Gwryd past Llyn Gwynant in a series of genuinely good linked bends, and the A4085 carries on north-west from Beddgelert with more rhythm and far fewer people.",
+              "Together they are the reason to come to Eryri with a car rather than boots."
+            ]
+          }
+        },
+        {
+          "road": {
+            "name": "A44 and A470 — the mid-Wales crossings",
+            "meta": "Aberystwyth ↔ Llangurig, and Cardiff ↔ Llandudno · long",
+            "text": [
+              "The A470 is the full length of the country, and it is not uniformly interesting — plenty of it is simply a road. The stretches worth planning around are the Brecon Beacons section in the south and the run between Blaenau Ffestiniog and Betws-y-Coed in the north.",
+              "The A44 east of Aberystwyth is the underrated one: an old drovers' route over high, empty ground with long flowing curves and very little to slow you down outside the villages."
+            ]
+          }
+        },
+        {
+          "road": {
+            "name": "Bwlch y Groes and the Gospel Pass",
+            "meta": "Minor roads · single track in places",
+            "text": [
+              "Two that come with conditions. Bwlch y Groes, between Llanuwchllyn and Dinas Mawddwy, is usually named among the steepest surfaced climbs in Wales. The Gospel Pass, from Hay-on-Wye over to Llanthony, is usually named the highest.",
+              "Both are narrow, both are single track in stretches with passing places, and neither rewards pace. Take them as spectacle at low speed, and be ready to reverse for whoever is coming the other way. In a wide car they are work rather than fun."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "h2": "Loop one: the Denbighshire circuit",
+      "blocks": [
+        {
+          "p": "This is the tidiest loop in Wales — roughly 85 to 95 miles depending on how you cut it, comfortably a half day with stops, and it closes properly without repeating a single mile."
+        },
+        {
+          "ol": [
+            "Start in **Llangollen** and take the **A542** north over the Horseshoe Pass to Ruthin.",
+            "**A525** west from Ruthin to Denbigh.",
+            "**A543** south-west out of Denbigh, across the moors, all the way to Pentrefoelas.",
+            "Turn back east and pick up the **B4501** south to Cerrigydrudion — the narrower, rougher, more entertaining side of the triangle.",
+            "**A5** east through Corwen and back to Llangollen."
+          ]
+        },
+        {
+          "p": "The shape is what makes it work. You get the Horseshoe Pass while the tyres are cold and the traffic is light, the open moor in the middle, and Telford's A5 — fast, well engineered, and easy — as the run home when concentration is fading. Reverse it if you'd rather finish on the pass."
+        },
+        {
+          "note": "**One honest warning.** The A543 and B4501 are the Evo Triangle, and their reputation now attracts both enthusiasts and enforcement. Average-speed cameras cover part of the route. Plan this loop for the road, not the numbers."
+        }
+      ]
+    },
+    {
+      "h2": "Loop two: the big North Wales day",
+      "blocks": [
+        {
+          "p": "If you have a full day and want Eryri in it, extend the same idea westward. Roughly 150 to 170 miles, and you should budget far more time than the mileage suggests."
+        },
+        {
+          "ol": [
+            "Llangollen → **A542** Horseshoe Pass → Ruthin → **A525** → Denbigh.",
+            "**A543** across Denbigh Moors to Pentrefoelas.",
+            "**A5** west through Betws-y-Coed and up the Ogwen valley to Capel Curig.",
+            "**A4086** through the Llanberis Pass, then back south-east on the **A498** past Llyn Gwynant to Beddgelert.",
+            "**A470** east and south through Blaenau Ffestiniog, then **A5** east through Cerrigydrudion and Corwen to Llangollen."
+          ]
+        },
+        {
+          "p": "The average speed on a day like this is lower than anyone expects. Between the pass traffic, the villages and the fact that you will want to stop, plan on a good deal less than 30 mph overall and you will not be disappointed."
+        }
+      ]
+    },
+    {
+      "h2": "If you're starting from the south",
+      "blocks": [
+        {
+          "p": "The southern equivalent is built around the A4069. From Llandovery, run the **A40** west and drop south on the **A4069** over the Black Mountain to Brynamman. Come back north-east on the **A4067** up the Swansea valley toward Sennybridge, then the **A40** west to close the loop — around 60 miles with the best of the western Beacons in the middle."
+        },
+        {
+          "p": "Stretch it by adding the **A470** north from Brecon or the **A479** and **A438** around Crickhowell, both of which are pleasant, well-surfaced and much quieter than the honeypots further north."
+        }
+      ]
+    },
+    {
+      "h2": "Practical things worth knowing",
+      "blocks": [
+        {
+          "ul": [
+            "**Sheep are not a joke.** On unfenced moorland they lie on the warm tarmac and stand up into the road. Cattle grids tell you when you have entered and left open grazing.",
+            "**Fuel gets sparse.** Filling up before a moorland crossing rather than after it is the whole trick, especially on a Sunday evening.",
+            "**Weather changes with altitude, fast.** A clear valley means nothing about a summit 400 metres higher. Mountain roads in Wales can close in winter and the high minor passes are the first to go.",
+            "**Single track means single track.** Passing places are for passing, not parking, and the vehicle facing downhill usually gives way.",
+            "**Sunday afternoons are the worst time** for every road in this article. Early mornings are the best, by a distance."
+          ]
+        }
+      ]
+    }
+  ],
+  "cta_note": "Two of the roads here are in ApexRoute's Famous Roads packs — the A4069 Black Mountain Pass and the Evo Triangle both sit in the UK & Ireland pack, with the notes and the approximate lengths built in. Open one in the app and it sets the road up as a route you can generate, so you can build a loop like the ones above around it rather than plotting waypoints by hand."
+}
