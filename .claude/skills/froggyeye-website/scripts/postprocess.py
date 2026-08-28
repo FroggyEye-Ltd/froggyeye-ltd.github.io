@@ -79,14 +79,22 @@ def patch(app):
     apple = app.get("apple_url")
     play  = app.get("play_url")
 
+    def _strip_na(block):
+        # Idempotency: drop any data-na/onclick left by a previous run so a button
+        # whose store URL has since gone live is properly revealed, and repeated
+        # runs never duplicate attributes.
+        block = block.replace(' data-na="appstore" onclick="return false;"', '')
+        block = block.replace(' data-na="playstore" onclick="return false;"', '')
+        return block
+
     def patch_apple_btn(match):
-        block = match.group(0)
+        block = _strip_na(match.group(0))
         if apple:
             return block.replace('href="#"', f'href="{apple}" target="_blank" rel="noopener"', 1)
         return block.replace('href="#"', 'href="#" data-na="appstore" onclick="return false;"', 1)
 
     def patch_play_btn(match):
-        block = match.group(0)
+        block = _strip_na(match.group(0))
         if play:
             return block.replace('href="#"', f'href="{play}" target="_blank" rel="noopener"', 1)
         return block.replace('href="#"', 'href="#" data-na="playstore" onclick="return false;"', 1)
