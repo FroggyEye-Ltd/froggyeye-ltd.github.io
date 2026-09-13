@@ -169,6 +169,15 @@
 </ul>
 <p>Background location permission is optional. If you do not grant it, everything except uninterrupted background drive recording continues to work. You can revoke any location permission at any time in your device settings, and ApexRoute will stop collecting location immediately.</p>
 <p>Recorded tracks are stored locally as described in section 2. We do not receive them.</p>
+<h3 id="convoy">3.1 Convoy (beta)</h3>
+<p>If you start or join a <strong>convoy</strong>, your position is shared with the other members of that convoy while you are recording a drive, so you can see each other on the map. This is optional, per drive, and only happens after you tap Start or Join. Specifically:</p>
+<ul>
+  <li>Your position, heading and speed are sent every few seconds <strong>only while a recording is running</strong>. Stop the recording, or tap Leave, and sharing stops.</li>
+  <li>Every message is <strong>encrypted on your phone</strong> with a key derived from the convoy code. Only people who hold the code can read it. The relay that forwards the messages — Supabase Realtime, hosted in the EU — sees only ciphertext and the technical details of a connection (such as your IP address). It does not receive the code.</li>
+  <li><strong>Nothing is stored.</strong> Messages are forwarded and discarded; there is no history, no account, and no profile. The name you type is sent, encrypted, to the convoy and kept on your own phone.</li>
+  <li>A visible indicator shows whenever you are sharing, and the host can end the convoy for everyone.</li>
+</ul>
+<p>Convoy invites (<code>apexroute.froggyeye.com/c/</code>) carry the code and the route after the <code>#</code> in the link, which your browser does not send to our website.</p>
 
 <h2 id="third-parties">4. Third-party services that receive data</h2>
 <p>To draw a map and calculate a driving route, ApexRoute has to ask mapping providers about the area you are in. When it does, coordinates for that request leave your device and go to the provider named below. These requests carry location and the technical details any internet request carries (such as your IP address). They do not carry your name, an account, an advertising identifier, or the contents of your library — we have no such identifiers to send.</p>
@@ -200,13 +209,18 @@
     <td>Turning coordinates into place names and back</td>
   </tr>
   <tr>
+    <td>Supabase Realtime (EU) — convoy beta only</td>
+    <td>Encrypted position messages, readable only by convoy members; connection metadata (IP address)</td>
+    <td>Relaying positions between members of a convoy you chose to join. Not stored.</td>
+  </tr>
+  <tr>
     <td>Apple App Store / Google Play billing</td>
     <td>Purchase and subscription information</td>
     <td>Processing purchases and restoring entitlements</td>
   </tr>
 </table>
 </div>
-<p>These providers process that data under their own privacy policies: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google</a>, <a href="https://www.tomtom.com/privacy/" target="_blank" rel="noopener">TomTom</a>, <a href="https://osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener">OpenStreetMap Foundation</a>, <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple</a>. We do not receive a copy of these requests.</p>
+<p>These providers process that data under their own privacy policies: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google</a>, <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Supabase</a>, <a href="https://www.tomtom.com/privacy/" target="_blank" rel="noopener">TomTom</a>, <a href="https://osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener">OpenStreetMap Foundation</a>, <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple</a>. We do not receive a copy of these requests.</p>
 <p>If you tap a route to open it in Apple Maps or Google Maps, or share a route or drive using your device's share sheet, you are handing that content to the app or person you chose. What happens to it then is governed by that app or service.</p>
 
 <h2 id="media">5. Camera, photos and microphone</h2>
@@ -227,6 +241,7 @@
 </ul>
 
 <h2 id="retention">8. Retention and deletion</h2>
+<p>Convoy position messages are never stored by us or by the relay, so there is nothing to retain or delete after a drive.</p>
 <p>Because your data lives on your device, you control how long it is kept. Delete an individual route, drive or memory inside the app, or delete everything at once by uninstalling ApexRoute — uninstalling removes the app's local database and its encryption key. There is no server-side copy for us to delete, and no request you need to send us.</p>
 <div class="callout">
   <p><strong>Note:</strong> if your device backups include app data, a copy may persist in your iCloud or Google backup after uninstalling. Clear it through your device's backup settings.</p>

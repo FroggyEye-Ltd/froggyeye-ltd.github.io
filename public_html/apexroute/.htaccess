@@ -20,4 +20,8 @@
   # not a link this site issues, so it stays a 404.
   RewriteRule ^r/?$ route.html [L]
   RewriteRule ^r/[^/]*/?$ route.html [L]
+
+  # /c/ is the convoy invite page. The code and route travel in the URL
+  # fragment, which never reaches the server, so the path is always bare.
+  RewriteRule ^c/?$ convoy.html [L]
 </IfModule>
