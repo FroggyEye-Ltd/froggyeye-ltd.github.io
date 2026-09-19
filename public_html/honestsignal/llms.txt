@@ -6,7 +6,7 @@
 
 - Category: Utilities
 - Studio: Froggy Eye Ltd ([https://froggyeye.com](https://froggyeye.com))
-- App Store: Not yet listed.
+- App Store: https://apps.apple.com/gb/app/honest-signal-network-quality/id6799269422
 - Google Play: https://play.google.com/store/apps/details?id=com.froggyeye.honestsignal
 
 ## About this app

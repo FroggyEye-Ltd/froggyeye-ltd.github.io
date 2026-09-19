@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Pull feature.png + screenshot1..N.png for every app from the Play Store listing."""
-import re, subprocess, sys
+import re, shutil, subprocess, sys
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
 from _common import load_apps, SITE_ROOT, UA, parse_only_arg
 
@@ -61,13 +61,27 @@ def process(app):
         return
     feature, shots = extract(html)
     print(f"  feature: {'Y' if feature else 'N'}  screenshots: {len(shots)}")
-    for old in out_dir.glob("screenshot*.png"): old.unlink()
-    if (out_dir / "feature.png").exists(): (out_dir / "feature.png").unlink()
-    if feature and download(to_full(feature, 2048), out_dir / "feature.png"):
-        print(f"  saved feature")
-    for i, s in enumerate(shots[:6], 1):
-        if download(to_full(s, 720), out_dir / f"screenshot{i}.png"):
+    # Stage downloads first. Play no longer exposes a feature graphic on every
+    # listing, so clearing the old assets up front destroyed good ones.
+    tmp = out_dir / "_fetch_tmp"
+    shutil.rmtree(tmp, ignore_errors=True)
+    tmp.mkdir()
+    got_feature = bool(feature) and download(to_full(feature, 2048), tmp / "feature.png")
+    got_shots = [i for i, s in enumerate(shots[:6], 1)
+                 if download(to_full(s, 720), tmp / f"screenshot{i}.png")]
+    if got_feature:
+        shutil.move(str(tmp / "feature.png"), str(out_dir / "feature.png"))
+        print("  saved feature")
+    else:
+        print("  · no feature graphic fetched, keeping existing")
+    if got_shots:
+        for old in out_dir.glob("screenshot*.png"): old.unlink()
+        for i in got_shots:
+            shutil.move(str(tmp / f"screenshot{i}.png"), str(out_dir / f"screenshot{i}.png"))
             print(f"  saved screenshot {i}")
+    else:
+        print("  · no screenshots fetched, keeping existing")
+    shutil.rmtree(tmp, ignore_errors=True)
 
 if __name__ == "__main__":
     apps = load_apps()

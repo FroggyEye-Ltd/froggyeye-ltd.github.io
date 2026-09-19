@@ -6,7 +6,7 @@
 
 - Category: Driving
 - Studio: Froggy Eye Ltd ([https://froggyeye.com](https://froggyeye.com))
-- App Store: https://apps.apple.com/gb/app/apexroute/id6760571266
+- App Store: https://apps.apple.com/gb/app/apexroute-curvy-roads/id6760571266
 - Google Play: https://play.google.com/store/apps/details?id=com.froggyeye.apexroute
 
 ## About this app
