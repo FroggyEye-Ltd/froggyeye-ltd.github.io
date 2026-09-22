@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex">
+<title>Check a Cellgrade report</title>
+<meta name="description" content="Check that a Cellgrade Battery Report has not been altered since it was issued. Nothing is uploaded: the check happens in your browser.">
+<style>
+  :root {
+    color-scheme: light dark;
+    --paper: #ffffff;
+    --page: #f4f6f9;
+    --rule: #e3e7ec;
+    --band: #eaeef3;
+    --ink: #0e1620;
+    --ink-2: #4a5768;
+    --ink-3: #62707f;
+    --ok: #0e7a46;
+    --warn: #8a5a00;
+    --bad: #b3241f;
+    --grade-a: #0e7a46;
+    --grade-b: #4f7a12;
+    --grade-c: #8a5a00;
+    --grade-d: #a8400b;
+    --grade-e: #b3241f;
+    --grade-unknown: #62707f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --page: #0b1016;
+      --rule: #22303c;
+      --band: #16202a;
+      --paper: #101922;
+      --ink: #e7eef5;
+      --ink-2: #a8b6c4;
+      --ink-3: #8797a6;
+      --ok: #43d98c;
+      --warn: #e5b34a;
+      --bad: #ff7b74;
+      --grade-a: #43d98c;
+      --grade-b: #9bd94a;
+      --grade-c: #e5b34a;
+      --grade-d: #f59156;
+      --grade-e: #ff7b74;
+      --grade-unknown: #8797a6;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--page);
+    color: var(--ink);
+    font: 400 16px/1.45 -apple-system, BlinkMacSystemFont, "IBM Plex Sans",
+      "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 640px; margin: 0 auto; padding: 24px 16px 64px; }
+  header { margin-bottom: 24px; }
+  h1 { font-size: 22px; line-height: 1.25; margin: 0 0 4px; }
+  .kicker {
+    font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--ink-2); margin: 0 0 6px;
+  }
+  .lede { color: var(--ink-2); margin: 0; }
+  .card {
+    background: var(--paper); border: 1px solid var(--rule);
+    border-radius: 10px; padding: 16px; margin: 16px 0;
+  }
+  .verdict { border-left: 4px solid var(--ink-3); }
+  .verdict.ok { border-left-color: var(--ok); }
+  .verdict.warn { border-left-color: var(--warn); }
+  .verdict.bad { border-left-color: var(--bad); }
+  .verdict h2 { font-size: 19px; margin: 0 0 6px; }
+  .verdict p { margin: 0 0 8px; color: var(--ink-2); }
+  .verdict p:last-child { margin-bottom: 0; }
+  .meta { font-size: 13px; color: var(--ink-3); }
+  h3 {
+    font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--ink-2); margin: 24px 0 8px;
+  }
+  dl { margin: 0; }
+  .row {
+    display: flex; gap: 12px; padding: 7px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .row:last-child { border-bottom: 0; }
+  .row dt { flex: 0 0 42%; color: var(--ink-2); font-size: 14px; margin: 0; }
+  .row dd { flex: 1; margin: 0; font-size: 14px; }
+  .mono {
+    font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo,
+      Consolas, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+  .grade { display: flex; align-items: center; gap: 12px; padding: 10px 0;
+    border-bottom: 1px solid var(--rule); }
+  .grade:last-child { border-bottom: 0; }
+  .badge {
+    width: 32px; height: 32px; flex: 0 0 32px; border-radius: 6px;
+    display: grid; place-items: center; font-weight: 600; font-size: 15px;
+    border: 1px solid currentColor;
+  }
+  .grade .name { flex: 1; font-weight: 600; font-size: 15px; }
+  .grade .word { color: var(--ink-2); font-size: 14px; }
+  form { display: flex; gap: 8px; flex-wrap: wrap; }
+  input[type="text"] {
+    flex: 1 1 220px; min-width: 0; padding: 12px; font-size: 16px;
+    border: 1px solid var(--rule); border-radius: 8px;
+    background: var(--page); color: var(--ink);
+    font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo,
+      Consolas, monospace;
+  }
+  button {
+    padding: 12px 18px; font-size: 16px; font-weight: 600; cursor: pointer;
+    border: 1px solid var(--ink); border-radius: 8px;
+    background: var(--ink); color: var(--paper);
+  }
+  footer {
+    margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--rule);
+    color: var(--ink-3); font-size: 13px;
+  }
+  footer p { margin: 0 0 8px; }
+  .store-links { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0 0; }
+  .store-links a {
+    flex: 1 1 140px; text-align: center; padding: 12px 16px;
+    border: 1px solid var(--rule); border-radius: 8px;
+    text-decoration: none; font-weight: 600; font-size: 15px;
+    background: var(--page);
+  }
+  a { color: inherit; }
+  .hidden { display: none; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="kicker">Cellgrade</p>
+    <h1>Check a battery report</h1>
+    <p class="lede">
+      A Cellgrade Battery Report carries its own signature. This page checks
+      it in your browser. Nothing is uploaded and nothing is stored here.
+    </p>
+  </header>
+
+  <section id="result" class="card verdict" aria-live="polite">
+    <h2 id="verdict-title">Scan the QR code on the report</h2>
+    <p id="verdict-body">
+      Opening the link in the report's QR code brings the whole report here
+      and checks it. Without it there is nothing on this page to check.
+    </p>
+    <p id="verdict-meta" class="meta hidden"></p>
+  </section>
+
+  <section id="report" class="hidden">
+    <h3>The report</h3>
+    <div class="card"><dl id="report-fields"></dl></div>
+    <h3 id="grades-heading" class="hidden">Grades</h3>
+    <div class="card hidden" id="grades-card"><div id="grades"></div></div>
+    <h3 id="measurements-heading" class="hidden">Measurements</h3>
+    <div class="card hidden" id="measurements-card">
+      <dl id="measurements"></dl>
+    </div>
+    <h3 id="analysis-heading" class="hidden">Analysis</h3>
+    <div class="card hidden" id="analysis-card"><dl id="analysis"></dl></div>
+  </section>
+
+  <section id="get-app">
+    <h3>Checking a car yourself?</h3>
+    <div class="card">
+      <p style="margin:0">
+        Cellgrade reads a car's batteries through an OBD adapter and grades
+        each one from A to E, with the three measurements behind the grade.
+        That much is free, on both phones.
+      </p>
+      <p class="store-links">
+        <a id="app-store-link" rel="noopener noreferrer">iPhone</a>
+        <a id="play-link" rel="noopener noreferrer">Android</a>
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h3>Have only the code?</h3>
+    <div class="card">
+      <form id="code-form">
+        <label for="code-input" class="hidden">Verification code</label>
+        <input id="code-input" type="text" inputmode="latin"
+               autocapitalize="characters" autocomplete="off"
+               spellcheck="false" placeholder="CG-XXXX-XXXX-XXXX-XXXX">
+        <button type="submit">Check code</button>
+      </form>
+      <p id="code-answer" class="meta" style="margin-top:12px">
+        The code is the report's own fingerprint. It proves a report has not
+        been edited when you hold both, and on its own it is sixteen
+        characters anyone can type. Scan the QR code on the document and the
+        whole report is checked at once.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p id="engine" class="meta"></p>
+    <p>
+      A Cellgrade Battery Report is a record of a measurement. It is not an
+      inspection, a warranty, a guarantee of future performance, or a
+      valuation, and it is not endorsed by or connected to any vehicle
+      manufacturer.
+    </p>
+    <p>Cellgrade &middot; Froggy Eye Ltd &middot; froggyeye.com</p>
+  </footer>
+</main>
+
+<script>
+"use strict";
+
+/* ------------------------------------------------------------------ keys
+ * The public halves Cellgrade signs with. `cg-dev-1` is the published
+ * development key: its private half is in the app's repository on purpose,
+ * so anything it signed is a demonstration and never evidence. The
+ * production key is added here and in lib/domain/certificate/
+ * certificate_keys.dart at the same time, and old keys stay so the
+ * certificates they signed keep checking out.
+ */
+/* ----------------------------------------------------------- store links
+ * Where the two listings live. Held here, at the top, so the addresses are
+ * changed in one place when the listings go live; the anchors take their
+ * href from this object rather than carrying one in the markup, which keeps
+ * every address in the page in one readable list.
+ *
+ * Both are placeholders until the listings are published: the App Store id
+ * and the Play package are the records that exist today, and the metadata
+ * stage confirms them before this page is deployed.
+ */
+var STORE_LINKS = {
+  appStore: "https://apps.apple.com/gb/app/id6814212925",
+  play: "https://play.google.com/store/apps/details?id=com.froggyeye.cellgrade"
+};
+
+var KEYS = {
+  "cg-dev-1": {
+    key: "2O_i8ZJs5gyjui1DFDxDPYBFm3jAGHQVRIJFb8qiXk8",
+    label: "development signature",
+    development: true
+  },
+  "cg-1": {
+    key: "EvZJun_k4k6t5hEMgJYnhA_NolUXLVUpfE8oQA_TfIc",
+    label: "Cellgrade",
+    development: false
+  }
+};
+
+var SCHEMA = 1;
+var ENVELOPE_PREFIX = "c1.";
+var CODE_PREFIX = "code=";
+
+/* The most a fragment may hold before it is decoded at all.
+ *
+ * `CertificateLink.maxFragmentCharacters` in the app, and the same number
+ * for the same reason: it is the byte capacity of a version 29 QR code at
+ * level L, which is the largest the printed block can be and still be
+ * scannable, so a link longer than this was pasted rather than scanned and
+ * is not a certificate. Without it the gzip stream behind `c1.` inflates
+ * with no ceiling — 68 KB of base64url measured at 50 MB on the way to
+ * JSON.parse, which takes the tab with it. Audit L1. */
+var MAX_FRAGMENT_CHARACTERS = 1628;
+
+/* And a ceiling on what comes out of the decompressor.
+ *
+ * The fragment cap bounds the *input*, which gzip still expands by about a
+ * thousand to one, so it alone leaves roughly 1.6 MB. A real certificate is
+ * a few kilobytes of JSON; a quarter of a megabyte is far above anything
+ * this format produces and far below anything that hurts a browser. The
+ * read stops at the cap rather than discovering the size afterwards. */
+var MAX_ENVELOPE_BYTES = 256 * 1024;
+var MONTHS = ["January", "February", "March", "April", "May", "June", "July",
+  "August", "September", "October", "November", "December"];
+
+/* ------------------------------------------------------- canonical JSON
+ * The same rules as CanonicalJson in the app: keys sorted at every depth,
+ * no whitespace, integers only. The digest is taken over these bytes, so a
+ * disagreement here is a disagreement about the whole document.
+ */
+function canonical(value) {
+  if (value === null) return "null";
+  if (typeof value === "boolean") return value ? "true" : "false";
+  if (typeof value === "number") {
+    if (!Number.isInteger(value)) throw new Error("non-integer number");
+    return String(value);
+  }
+  if (typeof value === "string") return canonicalString(value);
+  if (Array.isArray(value)) return "[" + value.map(canonical).join(",") + "]";
+  if (typeof value === "object") {
+    var keys = Object.keys(value).sort();
+    var parts = [];
+    for (var i = 0; i < keys.length; i++) {
+      parts.push(canonicalString(keys[i]) + ":" + canonical(value[keys[i]]));
+    }
+    return "{" + parts.join(",") + "}";
+  }
+  throw new Error("uncanonicalisable value");
+}
+
+function canonicalString(s) {
+  var out = '"';
+  for (var i = 0; i < s.length; i++) {
+    var u = s.charCodeAt(i);
+    if (u === 0x22) out += '\\"';
+    else if (u === 0x5c) out += "\\\\";
+    else if (u === 0x08) out += "\\b";
+    else if (u === 0x0c) out += "\\f";
+    else if (u === 0x0a) out += "\\n";
+    else if (u === 0x0d) out += "\\r";
+    else if (u === 0x09) out += "\\t";
+    else if (u < 0x20) out += "\\u" + u.toString(16).padStart(4, "0");
+    else out += s[i];
+  }
+  return out + '"';
+}
+
+/* ------------------------------------------------------------- decoding */
+function base64UrlToBytes(value) {
+  var padded = value.replace(/-/g, "+").replace(/_/g, "/");
+  while (padded.length % 4 !== 0) padded += "=";
+  var binary = atob(padded);
+  var bytes = new Uint8Array(binary.length);
+  for (var i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+  return bytes;
+}
+
+/* Inflates `bytes`, and stops at MAX_ENVELOPE_BYTES.
+ *
+ * Read chunk by chunk rather than through `new Response(stream)
+ * .arrayBuffer()`, which reads to the end whatever the end turns out to be:
+ * a bound that is checked after the buffer exists is not a bound. Passing
+ * the cap cancels the reader, which tears down the decompressor, and
+ * throws — and every caller here treats a throw as "not a certificate". */
+async function gunzip(bytes) {
+  var stream = new Response(bytes).body
+    .pipeThrough(new DecompressionStream("gzip"));
+  var reader = stream.getReader();
+  var chunks = [];
+  var total = 0;
+  try {
+    for (;;) {
+      var step = await reader.read();
+      if (step.done) break;
+      total += step.value.length;
+      if (total > MAX_ENVELOPE_BYTES) {
+        throw new Error("envelope too large");
+      }
+      chunks.push(step.value);
+    }
+  } finally {
+    reader.cancel();
+  }
+  var out = new Uint8Array(total);
+  var at = 0;
+  for (var i = 0; i < chunks.length; i++) {
+    out.set(chunks[i], at);
+    at += chunks[i].length;
+  }
+  return new TextDecoder().decode(out);
+}
+
+async function sha256Hex(bytes) {
+  var digest = await crypto.subtle.digest("SHA-256", bytes);
+  return Array.from(new Uint8Array(digest))
+    .map(function (b) { return b.toString(16).padStart(2, "0"); })
+    .join("");
+}
+
+function codeFromDigest(hex) {
+  var head = hex.slice(0, 16).toUpperCase();
+  return "CG-" + head.slice(0, 4) + "-" + head.slice(4, 8) + "-" +
+    head.slice(8, 12) + "-" + head.slice(12, 16);
+}
+
+/* --------------------------------------------------------------- verify */
+async function verify(envelope) {
+  var payload = envelope.p;
+  var signature = envelope.s;
+  if (!payload || !signature) return { outcome: "unreadable" };
+
+  var bytes = new TextEncoder().encode(canonical(payload));
+  var digest = await sha256Hex(bytes);
+  var code = codeFromDigest(digest);
+
+  if (payload.schema !== SCHEMA) {
+    return { outcome: "unreadable", payload: payload, code: code };
+  }
+  if (signature.alg !== "Ed25519") {
+    return { outcome: "unreadable", payload: payload, code: code };
+  }
+
+  var known = KEYS[signature.kid];
+  if (!known) {
+    return {
+      outcome: "unknownKey", payload: payload, code: code,
+      signature: signature
+    };
+  }
+
+  var input = new TextEncoder().encode(
+    "cellgrade.certificate.v1\n" + signature.kid + "\n" + digest + "\n" +
+    signature.iat
+  );
+  var sigBytes = base64UrlToBytes(signature.sig);
+  if (sigBytes.length !== 64) {
+    return { outcome: "unreadable", payload: payload, code: code };
+  }
+
+  var key;
+  try {
+    key = await crypto.subtle.importKey(
+      "raw", base64UrlToBytes(known.key), { name: "Ed25519" }, false,
+      ["verify"]
+    );
+  } catch (e) {
+    // Ed25519 is not in every browser's WebCrypto yet. Saying so is the
+    // only honest answer: the alternative is shipping a signature library
+    // in a page whose whole point is that it can be trusted on sight.
+    return {
+      outcome: "cannotVerify", payload: payload, code: code,
+      signature: signature
+    };
+  }
+
+  var ok = await crypto.subtle.verify("Ed25519", key, sigBytes, input);
+  return {
+    outcome: ok ? (known.development ? "development" : "valid")
+                : "notVerified",
+    payload: payload, code: code, signature: signature, key: known
+  };
+}
+
+/* ------------------------------------------------------------- the words
+ * These sentences are the same ones VerifyCopy prints inside the app, so a
+ * reader who checks a report in both places is told the same thing twice,
+ * not two different things.
+ */
+var COPY = {
+  valid: {
+    tone: "ok",
+    title: "Signature valid.",
+    body: function (r) {
+      return "Issued " + longDate(r.payload.measuredAt) + " by Cellgrade " +
+        (r.payload.app || "") + ". Every figure below is exactly what was " +
+        "signed.";
+    }
+  },
+  development: {
+    tone: "warn",
+    title: "Development signature.",
+    body: function () {
+      return "This was signed with Cellgrade's published development key, " +
+        "whose private half is public. It shows what a report looks like. " +
+        "It is not evidence of a measurement.";
+    }
+  },
+  notVerified: {
+    tone: "bad",
+    title: "This code did not verify.",
+    body: function () {
+      return "The figures do not match the signature. Either something was " +
+        "changed after the report was issued, or this code did not come " +
+        "from a Cellgrade report.";
+    }
+  },
+  unknownKey: {
+    tone: "warn",
+    title: "Signed with a key this page does not know.",
+    body: function (r) {
+      return 'The report names signing key "' + r.signature.kid + '", ' +
+        "which this page does not carry. Try again later: a key is " +
+        "published here when it comes into use.";
+    }
+  },
+  unreadable: {
+    tone: "bad",
+    title: "That is not a Cellgrade report.",
+    body: function () {
+      return "Scan the QR code on the report itself. A photograph of the " +
+        "page, a shortened link or a partial scan will not decode.";
+    }
+  },
+  codeOnly: {
+    tone: "warn",
+    title: "A code on its own cannot be checked.",
+    body: function () {
+      return "The code is the report's own fingerprint, so it only proves " +
+        "something next to the report it came from. Scan the QR code on " +
+        "the document and the whole report is checked at once.";
+    }
+  },
+  cannotVerify: {
+    tone: "warn",
+    title: "This browser cannot check the signature.",
+    body: function () {
+      return "The report decoded and is shown below, but this browser has " +
+        "no Ed25519 support, so nothing here proves it is genuine. Open " +
+        "this link in an up-to-date Safari, Chrome, Edge or Firefox, or " +
+        "check it in the Cellgrade app.";
+    }
+  }
+};
+
+/* -------------------------------------------------------------- display */
+function longDate(stamp) {
+  // Read straight off the stamp: it carries the clock on the phone that
+  // took the measurement, and converting it to the reader's timezone would
+  // print a date the paper does not have.
+  if (typeof stamp !== "string" || stamp.length < 10) return "on the date shown";
+  var year = Number(stamp.slice(0, 4));
+  var month = Number(stamp.slice(5, 7));
+  var day = Number(stamp.slice(8, 10));
+  if (!year || !month || !day) return "on the date shown";
+  return day + " " + MONTHS[month - 1] + " " + year;
+}
+
+function timeOf(stamp) {
+  if (typeof stamp !== "string" || stamp.length < 16) return "";
+  return stamp.slice(11, 16);
+}
+
+function integer(n) {
+  return typeof n === "number" ? n.toLocaleString("en-GB") : "";
+}
+
+function text(value) {
+  return typeof value === "string" ? value : "";
+}
+
+function row(list, label, value, mono) {
+  if (!value) return;
+  var div = document.createElement("div");
+  div.className = "row";
+  var dt = document.createElement("dt");
+  dt.textContent = label;
+  var dd = document.createElement("dd");
+  dd.textContent = value;
+  if (mono) dd.className = "mono";
+  div.appendChild(dt);
+  div.appendChild(dd);
+  list.appendChild(div);
+}
+
+var GRADE_COLOURS = {
+  A: "var(--grade-a)", B: "var(--grade-b)", C: "var(--grade-c)",
+  D: "var(--grade-d)", E: "var(--grade-e)"
+};
+
+function renderReport(payload, code) {
+  document.getElementById("report").classList.remove("hidden");
+
+  var fields = document.getElementById("report-fields");
+  fields.textContent = "";
+  row(fields, "Verification code", code, true);
+  row(fields, "Vehicle", text(payload.vehicle));
+  row(fields, "VIN", text(payload.vin), true);
+  var miles = integer(payload.odometerMiles);
+  if (miles) {
+    row(fields, "Odometer",
+      miles + " miles " + text(payload.odometerProvenance));
+  }
+  var when = longDate(payload.measuredAt);
+  var at = timeOf(payload.measuredAt);
+  row(fields, "Measured", when + (at ? " at " + at : ""));
+  row(fields, "Adapter", text(payload.adapter));
+  row(fields, "Protocol", text(payload.protocol));
+  var ambient = parseFloat(payload.ambientC);
+  if (!isNaN(ambient)) row(fields, "Ambient", Math.round(ambient) + " °C");
+  row(fields, "Test type", text(payload.testType));
+  if (typeof payload.stepsTotal === "number") {
+    var steps = payload.stepsCompleted + " of " + payload.stepsTotal;
+    if (payload.failedStepNote) steps += ". " + payload.failedStepNote;
+    row(fields, "Steps completed", steps);
+  }
+
+  var grades = payload.grades || [];
+  var notReadable = payload.notReadable || [];
+  if (grades.length || notReadable.length) {
+    document.getElementById("grades-heading").classList.remove("hidden");
+    document.getElementById("grades-card").classList.remove("hidden");
+    var box = document.getElementById("grades");
+    box.textContent = "";
+    grades.forEach(function (g) {
+      box.appendChild(gradeRow(text(g.label), text(g.letter), text(g.word)));
+    });
+    notReadable.forEach(function (n) {
+      box.appendChild(gradeRow(text(n.label), "–", text(n.value)));
+    });
+  }
+
+  fillRows("measurements", payload.measurements || []);
+  fillRows("analysis", payload.analysis || []);
+}
+
+function gradeRow(label, letter, word) {
+  var div = document.createElement("div");
+  div.className = "grade";
+  var badge = document.createElement("span");
+  badge.className = "badge";
+  badge.style.color = GRADE_COLOURS[letter] || "var(--grade-unknown)";
+  badge.textContent = letter;
+  var name = document.createElement("span");
+  name.className = "name";
+  name.textContent = label;
+  var w = document.createElement("span");
+  w.className = "word";
+  w.textContent = word;
+  div.appendChild(badge);
+  div.appendChild(name);
+  div.appendChild(w);
+  return div;
+}
+
+function fillRows(id, rows) {
+  if (!rows.length) return;
+  document.getElementById(id + "-heading").classList.remove("hidden");
+  document.getElementById(id + "-card").classList.remove("hidden");
+  var list = document.getElementById(id);
+  list.textContent = "";
+  rows.forEach(function (r) { row(list, text(r.label), text(r.value)); });
+}
+
+function showVerdict(result) {
+  var copy = COPY[result.outcome] || COPY.unreadable;
+  var box = document.getElementById("result");
+  box.className = "card verdict " + copy.tone;
+  document.getElementById("verdict-title").textContent = copy.title;
+  document.getElementById("verdict-body").textContent = copy.body(result);
+  var meta = document.getElementById("verdict-meta");
+  if (result.code) {
+    meta.textContent = "Code " + result.code +
+      (result.key ? ". Checked against key " + result.signature.kid + "." : "");
+    meta.classList.remove("hidden");
+  } else {
+    meta.classList.add("hidden");
+  }
+}
+
+/* ----------------------------------------------------------------- boot */
+function normaliseCode(raw) {
+  var value = raw.toUpperCase().replace(/[^0-9A-Z]/g, "");
+  if (value.indexOf("CG") === 0) value = value.slice(2);
+  value = value.replace(/[^0-9A-F]/g, "").slice(0, 16);
+  if (!value) return "CG";
+  var out = "CG";
+  for (var i = 0; i < value.length; i += 4) out += "-" + value.slice(i, i + 4);
+  return out;
+}
+
+function looksLikeCode(code) {
+  return /^CG(-[0-9A-F]{4}){4}$/.test(code);
+}
+
+/* The code `raw` IS, or null where it is something else.
+ *
+ * Strict on purpose, and not the same thing as normaliseCode. That one keeps
+ * the field readable while somebody types into it, so it throws away whatever
+ * it cannot use; running it over a half-scanned verify link would sift
+ * sixteen hex characters out of the base64 and announce a code that was never
+ * there. */
+function parseCode(raw) {
+  var cleaned = raw.trim().toUpperCase().replace(/[\s-]/g, "");
+  var body = cleaned.indexOf("CG") === 0 ? cleaned.slice(2) : cleaned;
+  return /^[0-9A-F]{16}$/.test(body) ? normaliseCode(body) : null;
+}
+
+async function readFragment() {
+  var fragment = (location.hash || "").replace(/^#/, "").trim();
+  if (!fragment) return;
+
+  /* Longer than any code could carry, so it was pasted rather than
+   * scanned, and nothing that big is a certificate. Checked here, before
+   * the base64 decode and the inflate, because after either is too late. */
+  if (fragment.length > MAX_FRAGMENT_CHARACTERS) {
+    showVerdict({ outcome: "unreadable" });
+    return;
+  }
+
+  if (fragment.indexOf(CODE_PREFIX) === 0) {
+    var code = parseCode(fragment.slice(CODE_PREFIX.length));
+    if (code) document.getElementById("code-input").value = code;
+    showVerdict({ outcome: code ? "codeOnly" : "unreadable", code: code });
+    return;
+  }
+
+  if (fragment.indexOf(ENVELOPE_PREFIX) !== 0) {
+    showVerdict({ outcome: "unreadable" });
+    return;
+  }
+
+  var envelope;
+  try {
+    var zipped = base64UrlToBytes(fragment.slice(ENVELOPE_PREFIX.length));
+    envelope = JSON.parse(await gunzip(zipped));
+  } catch (e) {
+    showVerdict({ outcome: "unreadable" });
+    return;
+  }
+
+  var result;
+  try {
+    result = await verify(envelope);
+  } catch (e) {
+    result = { outcome: "unreadable" };
+  }
+  showVerdict(result);
+  if (result.payload) {
+    renderReport(result.payload, result.code);
+    document.getElementById("code-input").value = result.code;
+  }
+}
+
+document.getElementById("code-form").addEventListener("submit", function (e) {
+  e.preventDefault();
+  var input = document.getElementById("code-input");
+  var code = parseCode(input.value);
+  if (code) input.value = code;
+  showVerdict({
+    outcome: code ? "codeOnly" : "unreadable",
+    code: code
+  });
+});
+
+document.getElementById("code-input").addEventListener("input", function (e) {
+  e.target.value = normaliseCode(e.target.value);
+});
+
+/* ------------------------------------------------------------ key file
+ * A rotation should be a static file change, not an app release and not an
+ * edit to this page. `keys.json` sits beside this file and may ADD keys to
+ * the set embedded above.
+ *
+ * Three rules, and each one is load-bearing.
+ *
+ * It may only add. A key id this page already carries is never replaced by
+ * the file, so nothing served beside the page can quietly change what
+ * "cg-dev-1" or a published production key means.
+ *
+ * It may not add a development key. Those are the keys whose private half
+ * is public; one arriving from a file would be a key anybody can sign with,
+ * wearing a label that says it was checked.
+ *
+ * It is never waited on for long, and never required. The page is opened
+ * from a QR code in a car park, from a saved file, and from a phone with no
+ * signal. The fetch is same-origin, carries nothing, and every failure
+ * leaves the embedded set exactly as it was.
+ *
+ * The trust this adds is the trust the page already has: whoever can write
+ * keys.json can write index.html.
+ */
+var KEYS_URL = "keys.json";
+var KEYS_TIMEOUT_MS = 2500;
+
+async function loadPublishedKeys() {
+  try {
+    var controller = new AbortController();
+    var timer = setTimeout(function () { controller.abort(); }, KEYS_TIMEOUT_MS);
+    var response = await fetch(KEYS_URL, {
+      signal: controller.signal,
+      cache: "no-cache",
+      credentials: "omit"
+    });
+    clearTimeout(timer);
+    if (!response.ok) return;
+    var published = (await response.json() || {}).keys;
+    if (!published || typeof published !== "object") return;
+    Object.keys(published).forEach(function (id) {
+      if (Object.prototype.hasOwnProperty.call(KEYS, id)) return;
+      var entry = published[id];
+      if (!entry || typeof entry.key !== "string") return;
+      if (entry.development !== false) return;
+      KEYS[id] = {
+        key: entry.key,
+        label: typeof entry.label === "string" ? entry.label : "Cellgrade",
+        development: false
+      };
+    });
+  } catch (e) {
+    /* Offline, no file, bad JSON, or the timeout. The embedded set stands,
+     * which is the whole reason it is embedded. */
+  }
+}
+
+function fillStoreLinks() {
+  var pairs = [
+    ["app-store-link", STORE_LINKS.appStore],
+    ["play-link", STORE_LINKS.play]
+  ];
+  for (var i = 0; i < pairs.length; i++) {
+    var node = document.getElementById(pairs[i][0]);
+    if (!node) continue;
+    // An address that has not been filled in leaves no dead link behind.
+    if (!pairs[i][1]) { node.parentNode.removeChild(node); continue; }
+    node.setAttribute("href", pairs[i][1]);
+  }
+}
+
+(function () {
+  fillStoreLinks();
+  var supported = typeof DecompressionStream === "function" &&
+    typeof crypto !== "undefined" && crypto.subtle;
+  var footer = document.getElementById("engine");
+  footer.textContent = supported
+    ? "Checked in your browser. Nothing on this page is uploaded or stored."
+    : "This browser is too old to decode a report. Open the link in an " +
+      "up-to-date browser, or check it in the Cellgrade app.";
+  if (supported) {
+    // The keys first, so a report signed with a rotated key is checked
+    // against it rather than reported as unknown and then silently fixed.
+    loadPublishedKeys().then(readFragment);
+  } else {
+    showVerdict({ outcome: "cannotVerify", payload: null });
+  }
+  window.addEventListener("hashchange", function () {
+    if (supported) readFragment();
+  });
+})();
+</script>
+</body>
+</html>
