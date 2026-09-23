@@ -129,6 +129,7 @@
     background: var(--page);
   }
   a { color: inherit; }
+  footer a { text-decoration: underline; }
   .hidden { display: none; }
 </style>
 </head>
@@ -206,6 +207,21 @@
       inspection, a warranty, a guarantee of future performance, or a
       valuation, and it is not endorsed by or connected to any vehicle
       manufacturer.
+    </p>
+    <p>
+      Battery readings change with temperature, state of charge and how
+      recently the car was driven. A reading taken on a different day will
+      differ.
+    </p>
+    <!-- The same four sentences the document itself prints. The reader of
+         this page is usually the buyer rather than the customer, so this is
+         the only place they are ever told. test/web/verify_page_test.dart
+         pins them against LegalCopy.certificateNotice. -->
+    <p>
+      Anyone who relies on this report does so at their own risk. Froggy Eye
+      Ltd is not a party to any sale and accepts no liability for any loss
+      arising from reliance on it. The full terms are at
+      <a href="/cellgrade/terms">froggyeye.com/cellgrade/terms</a>.
     </p>
     <p>Cellgrade &middot; Froggy Eye Ltd &middot; froggyeye.com</p>
   </footer>
