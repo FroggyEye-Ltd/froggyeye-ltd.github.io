@@ -303,6 +303,9 @@
     "card_gradient": [
       "#0EA5E9",
       "#1D4ED8"
+    ],
+    "extra_pages": [
+      "privacy.html"
     ]
   },
   {
