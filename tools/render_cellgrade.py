@@ -106,6 +106,7 @@ def convert(md_text):
     toc = []
     i = 0
     in_list = False
+    in_comment = False   # <!-- drafting notes --> in the Markdown are never published
 
     def flush_callout():
         if callout:
@@ -120,6 +121,10 @@ def convert(md_text):
 
     while i < len(lines):
         line = lines[i]
+        if in_comment or line.lstrip().startswith("<!--"):
+            in_comment = "-->" not in line
+            i += 1
+            continue
         if line.startswith("# "):
             title = line[2:].strip()
         elif line.startswith("> "):

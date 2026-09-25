@@ -95,9 +95,9 @@
     <span class="eyebrow">Legal</span>
     <h1>Cellgrade Privacy Policy</h1>
     <p class="lead">How Cellgrade handles data. There is no account, no advertising and no analytics, and what the app reads from your car stays on your phone unless you choose to send it.</p>
-    <p class="meta"><strong>Effective date:</strong> 22 September 2026<br />
+    <p class="meta"><strong>Effective date:</strong> 24 September 2026<br />
 <strong>Controller:</strong> Froggy Eye Ltd, England and Wales · <a href="mailto:info@froggyeye.com">info@froggyeye.com</a></p>
-    <p class="meta">Last updated: 22 September 2026</p>
+    <p class="meta">Last updated: 24 September 2026</p>
   </div>
 </header>
 
@@ -105,7 +105,7 @@
 <div class="wrap">
 
 <div class="callout">
-<p><strong>In plain words.</strong> Cellgrade has no account, no advertising and no analytics. What it reads from your car stays on your phone unless you choose to send a scan or share a report. We never see your car's identification number unless you choose to include it in a scan.</p>
+<p><strong>In plain words.</strong> Cellgrade has no account, no advertising, no analytics and no tracking. What it reads from your car stays on your phone, with three exceptions, each of which you start yourself: when you buy a battery report, the app sends the report's grades and figures to our signing service (without the car's identification number); when you choose to send a scan of your car, we keep that scan until you take it back; and the app downloads the list of supported cars, which sends nothing about you. If a scan earns a reward, the app also collects the reward code for you. The first eleven characters of your car's identification number are in any scan you send. The full number is only included if you switch that on.</p>
 </div>
 
 <div class="toc">
@@ -116,41 +116,78 @@
     <li><a href="#s3">3. What we do not do</a></li>
     <li><a href="#s4">4. Permissions</a></li>
     <li><a href="#s5">5. Legal basis and retention</a></li>
-    <li><a href="#s6">6. Your rights</a></li>
+    <li><a href="#s6">6. Your rights, and how to delete a scan</a></li>
     <li><a href="#s7">7. Children</a></li>
     <li><a href="#s8">8. Changes</a></li>
   </ol>
 </div>
 
 <h2 id="s1">1. What the app stores on your phone</h2>
-<p>The app keeps, on your device only: readings from your vehicle, the history of those readings, grades, insights, alerts, any certificates you have bought, your settings, and your purchase entitlements. You can delete readings and history in the app, and deleting the app deletes everything it stored.</p>
+<p>The app keeps, on your device: readings from your vehicle, the history of those readings, grades, insights, alerts, the certificates you have bought and their signatures, the receipts for scans you sent, a log of the conversation with your adapter, your settings, and your purchase entitlements. You can delete readings and history in the app. Deleting the app deletes everything it stored.</p>
+<p><strong>Your phone's own backup.</strong> Some of this is included in your phone's backup, which is yours and which we never see: Apple's iCloud or computer backup on iPhone, and your Google account's backup or a transfer to a new phone on Android. On both, the app's backup holds your certificate credits and the store's proofs of those purchases, the certificates you have bought, each car's reading history, the receipts for scans you sent, any reward code you have not yet redeemed, your reminders and your settings. <strong>On iPhone only</strong>, the backup also holds any scan still waiting to be sent (which contains the full identification number if you switched that on for it) and the signatures of the certificates you have bought. On Android those two files are left out. The log of the conversation with your adapter, and the logged drives, charges and parks the app uses for grades, are never included on either. Cellgrade Pro is never restored from a backup; it comes back from the App Store or Google Play. Apple and Google hold backups under their own privacy terms, and a backup is not deleted when you delete the app.</p>
 <h2 id="s2">2. What leaves your phone, and when</h2>
-<p>Nothing leaves your phone unless one of the following happens, each of which you start yourself.</p>
-<p><strong>2.1 Buying Pro or a certificate.</strong> The purchase is made through Apple's App Store or Google Play under their privacy terms. We receive from the store only a proof that a purchase was made. We do not receive your name, email address or payment details.</p>
-<p><strong>2.2 Signing a certificate.</strong> To sign a report, the app sends to our signing service (run on Cloudflare) a cryptographic digest of the report, the time, a plausibility summary (a handful of yes/no flags about the reading), and the store's proof of purchase. The service does not receive the vehicle identification number, the readings, or anything that identifies you. It records the digest and the purchase identifier so that each credit signs one report, and it returns a signature.</p>
-<p><strong>2.3 Sharing a report.</strong> The certificate's QR code and PDF contain the whole report, including any vehicle identification number you chose to include. Sharing them is your choice and is not a transfer to us. Anyone who scans the QR code verifies it in their own browser; the verification page sends nothing to us.</p>
-<p><strong>2.4 Sending a scan.</strong> If you use Add my car or Report a problem, the app shows you exactly what will be sent before you send it, field by field, and that list is generated from the file rather than written beside it. By default the vehicle identification number is masked to its first eleven characters (make, model, plant and model year). You can change what is sent.</p>
-<p>The file includes what kind of adapter you used — its make and the firmware version string it reports, such as "ELM327 v2.2" — because a reading can only be judged against the hardware that took it. It does not include any identifier for your adapter or your phone: no Bluetooth address, no device name you chose, no install identifier, no advertising identifier. It does not include your odometer reading, your location, or anything from any other app.</p>
-<p>A scan can only be sent from a real adapter reading a real car. A reading produced by the app's built-in demonstration adapter cannot be sent at all.</p>
-<p>What you send is stored by us to build and improve vehicle data maps, and may be published in a data map under an open licence in a form that does not identify you. You can see your contributions and withdraw them in Settings.</p>
-<p><strong>2.5 Support email.</strong> If you email us, we hold that email to answer it.</p>
+<p>Our server is a small service we run on Cloudflare (sections 2.2, 2.4, 2.5 and 2.6). Apart from the app stores (section 2.1), it is the only place the app sends anything. Nothing is sent while the app is closed. While it is open, three things can happen without a tap: a scan you already chose to send that could not go at the time is sent again (2.4), an owed reward code is collected (2.5), and the list of supported cars is refreshed (2.6).</p>
+<p><strong>2.1 The app stores.</strong> When the app opens, it asks Apple's App Store or Google Play which products are for sale, at what price, and whether you already own Cellgrade Pro. Purchases are made through the store under the store's own privacy terms. We do not receive your name, email address or payment details from the store.</p>
+<p><strong>2.2 Signing a battery report ("certificate").</strong> When you buy a certificate, the app sends our signing service:</p>
+<ul>
+<li>a cryptographic digest (a one-way fingerprint) of the report;</li>
+<li>the grades on the report, and its measurement and analysis lines as label-and-value pairs (for example "Lowest cell, 3.61 V");</li>
+<li>when the measurement was taken, the ambient temperature on the report, the app version, and how many of the test's steps were completed;</li>
+<li>the store's proof of purchase: which product you bought and the store's own evidence of the transaction (on iPhone, Apple's signed transaction; on Android, the Google Play purchase token, which our service checks with Google).</li>
+</ul>
+<p>It does <strong>not</strong> send the vehicle identification number, the car's make or model, the odometer reading, the adapter, or anything that identifies you or your phone.</p>
+<p>A report made from the app's <strong>simulated adapter</strong> can also be bought and signed, but only after you confirm it. Whether the reading was simulated is written inside the report itself, so it is covered by the digest and the signature. It is not sent to us as a separate field. The signed report says "DEMONSTRATION READING — not a vehicle record" on the document, the PDF and the verification page, and it contains no data from your car or any other real vehicle, only the simulated adapter's example readings.</p>
+<p>The service uses the figures only to refuse to sign a report that is impossible (for example a battery at 400% health), and does not store them. It <strong>does</strong> store, for five years, the store's transaction identifier (on Google Play, the order number, or a one-way hash of the purchase token if there is no order number), the digests of the reports signed with that purchase and the signatures issued. That record stops one purchase being used for more reports than were paid for, and lets a report that lost its signature be signed again with the same date.</p>
+<p><strong>2.3 Sharing a report.</strong> A certificate's QR code and PDF contain the whole report, including the vehicle identification number if you chose to include it. Sharing them is your choice and is not a transfer to us. Anyone who scans the QR code checks it in their own browser. The verification page sends nothing to us.</p>
+<p><strong>2.4 Sending a scan ("Add my car").</strong> If you choose to send a scan, the app first shows you, field by field, exactly what the file contains. The list is generated from the file itself. The file contains:</p>
+<ul>
+<li><strong>Your car:</strong> its name, model year and engine as the app identified them, which batteries it has, and its vehicle identification number (VIN). By default the VIN is cut to its first eleven characters (manufacturer, model, body, model year and plant) and the last six are masked everywhere in the file, including in the raw replies and in the log. If you switch on "include the full number", all seventeen characters are sent.</li>
+<li><strong>What you typed</strong>, if anything, in three optional boxes: what the car's own displays say about the battery, the <strong>mileage</strong> as you read it off the dashboard, and what you think Cellgrade got wrong.</li>
+<li><strong>Your adapter:</strong> the name it advertises, the identity and firmware string it reports (for example "ELM327 v2.2"), the protocol, whether it is Bluetooth or Wi-Fi, and the voltage it measures at the port.</li>
+<li><strong>The scan:</strong> which identifiers the app asked the car's modules for and the raw replies they gave, which of the app's vehicle data maps were tried and what came back, and whether each battery reading passed the app's checks.</li>
+<li><strong>The adapter log:</strong> a timestamped record of every command the app sent to the adapter and every reply, for the current session.</li>
+<li><strong>Whether the readings came from a car</strong> or from the app's simulated adapter. Scans from the simulated adapter are refused, both by the app and by our server.</li>
+</ul>
+<p>The app does not ask the car for its odometer, and the file contains no Bluetooth address, no device name you chose, no phone or install identifier, no advertising identifier, no location and nothing from any other app. The raw module replies are whatever the car's modules answered to the identifiers asked, so they may contain other technical data the car reports about itself.</p>
+<p>The request also names which store your phone uses (App Store or Google Play), so that a reward code, if the scan earns one, is for the right store. If the scan cannot be sent at the time, for example because there is no signal, the exact file you reviewed is kept on the phone and sent automatically the next time the app opens or comes back to the screen with a connection. Until then you can delete it without sending it: in Settings, Help, "Scans waiting to send" (shown only while a scan is waiting), or on the last step of Add my car, tap "Discard this scan". It is deleted from your phone and not sent. Deleting the app also deletes it.</p>
+<p>What you send is used to build and improve vehicle data maps. It may be published as part of a data map, under an open licence, in a form that does not include your vehicle identification number or anything you typed.</p>
+<p>What we keep, and for how long, is in section 5.</p>
+<p><strong>"Report a problem"</strong> does not use our server. It opens an email to <a href="mailto:info@froggyeye.com">info@froggyeye.com</a> in your own mail app, with the report written into the body and no attachment: what you typed (what went wrong, what the dashboard says, the mileage), the car's name, its identification number with the last six characters removed, the app version, whether the readings came from a real adapter or the simulator, the adapter's name and firmware, the result of the app's checks, the data maps tried, and the last 12 lines of adapter traffic (each cut to 90 characters, identification number removed). You see all of it before you send, and nothing goes anywhere unless you press send. We hold what you email as a support email (section 2.7).</p>
+<p><strong>2.5 Collecting a reward code.</strong> If a scan you sent earns the Cellgrade Pro reward while we have no code left to give, the reward is recorded as owed. While it is owed, the app asks our server for it when the app opens and each time it comes back to the screen, sending the scan's identifier, the claim token our server gave your phone with the reward, and which store your phone uses. The claim token is derived from the scan's identifier with the same server-only secret key, and our server does not store it; only your phone keeps a copy. It stops once a code arrives or you own Pro.</p>
+<p><strong>2.6 The list of supported cars.</strong> The app downloads the current list if its copy is more than a day old, when a screen that shows whether your car is supported needs it (Home, the Cellgrade Pro sheet and the list of cars), or when you pull to refresh the list. The request carries nothing about you, your car or your phone. After you send a scan, the app also asks for the entry for that car model. That request names the model, which our server already has from the scan.</p>
+<p><strong>2.7 Support email.</strong> If you email us, we keep that email to answer it.</p>
+<p><strong>2.8 What every request reveals.</strong> Like any internet request, each request to our server reaches Cloudflare with your phone's IP address. Cloudflare keeps short-lived request logs for us, with the time, the address requested and the result, for no more than seven days. They do not contain what you sent. Our server keeps IP addresses in memory for a short time to limit how often one address can call it, and does not write them to storage, with one exception described in section 5 (reward codes).</p>
 <h2 id="s3">3. What we do not do</h2>
-<p>We do not use analytics, crash reporting, advertising identifiers, tracking, fingerprinting, or third-party SDKs that collect data. We do not sell data. We do not link any scan to a person.</p>
+<p>We do not use analytics, crash reporting, advertising identifiers, tracking, fingerprinting, or third-party SDKs that collect data. We do not sell data or share it with anyone for their own use. We have no account system, and we do not try to find out who sent a scan.</p>
 <h2 id="s4">4. Permissions</h2>
 <ul>
-<li><strong>Bluetooth</strong>: to talk to the OBD adapter. Used only while the app is open.</li>
-<li><strong>Camera</strong>: only when you choose to scan a certificate's QR code. No images are stored.</li>
-<li><strong>Notifications</strong>: only if you turn on reminders or battery alerts. They are generated on the phone.</li>
+<li><strong>Bluetooth</strong>: to talk to the OBD adapter, only while the app is open.</li>
+<li><strong>Location (Android 11 and earlier only)</strong>: those versions of Android require it before an app can search for Bluetooth devices. Cellgrade never reads your location. It is not requested on Android 12 or later, or on iPhone.</li>
+<li><strong>Local network (iPhone)</strong>: to reach a Wi-Fi adapter.</li>
+<li><strong>Camera</strong>: only when you choose to scan a certificate's QR code. Frames are decoded on the phone and no image is kept or sent.</li>
+<li><strong>Notifications</strong>: only if you turn on battery alerts or the 12-month re-test reminder. They are created on the phone.</li>
 </ul>
 <h2 id="s5">5. Legal basis and retention</h2>
-<p>Contributed scans and signing records are processed on the basis of your consent (you start each one) and our legitimate interest in maintaining accurate vehicle data maps and preventing certificate fraud. Signing records are kept for as long as certificates need to be verifiable. Support emails are kept for two years.</p>
-<p><strong>Contributed scans are kept until you withdraw them</strong>, except data already incorporated into a published map. Withdrawing deletes the scan itself — the readings, the adapter conversation and your typed answers — and it does not delete the receipt we signed for it. We keep that receipt, marked withdrawn, and it holds the first eleven characters of the identification number, which car model the scan was for, and a record that a free Cellgrade Pro grant was issued. We keep it for three reasons: the receipt is the only thing that proves a withdrawal was authorised, since we hold no account; a scan you send again is then recognised as the same scan rather than counted twice; and the reward you earned is not taken back when you take the data back. None of it identifies you, and we do not keep the address you sent from — where we have to count how many places a grant has been handed to, we keep a shortened one-way hash of the address and never the address itself.</p>
-<h2 id="s6">6. Your rights</h2>
-<p>Under UK GDPR you can ask what we hold, ask for it to be corrected or deleted, object to processing, and complain to the Information Commissioner's Office (<a href="https://ico.org.uk" target="_blank" rel="noopener">ico.org.uk</a>). Because we hold no account and cannot link a scan to you, the app's own Withdraw control is usually the only way to remove a contribution. Contact <a href="mailto:info@froggyeye.com">info@froggyeye.com</a> for anything else.</p>
+<p>We process the data in section 2 because you ask us to (signing a report you bought, keeping a scan you chose to send), and for our legitimate interests in keeping accurate vehicle data maps, preventing certificate fraud and preventing abuse of the free Pro reward. When you redeem a reward code, Apple or Google handle the redemption under their own privacy terms; we are not told who redeemed it.</p>
+<ul>
+<li><strong>Signing records</strong> (section 2.2): kept for five years, then deleted automatically.</li>
+<li><strong>Scans you sent</strong> (section 2.4): kept <strong>until you withdraw them</strong>. Data already included in a published map cannot be recalled.</li>
+<li><strong>Receipts for scans:</strong> for each scan we keep a receipt: an identifier for the scan (a one-way hash of its contents), the first eleven characters of the VIN, which car model and data map it was for, when it arrived, whether it was accepted, and whether it earned the free Cellgrade Pro reward. The reward is a one-time App Store offer code or Google Play promo code that you redeem with the store yourself. The app does not unlock anything itself, and the store does not tell us who redeemed a code. We keep a record of which code was allocated to which scan, so that one scan collects one code at most. The receipt of a scan that earned a reward, whether the code has been sent or is still owed, also holds keyed hashes of the IP addresses the reward was sent to, three per scan at most: an HMAC-SHA-256 under a secret key that only our server holds, shortened to 32 characters. Without that key a hash cannot be turned back into an IP address. It is kept only for the rules that let a lost reply be sent again without one code being handed out without limit. No other record of a reward holds anything about your IP address. We still treat these hashes as personal data.</li>
+<li><strong>Withdrawing</strong> deletes the scan itself: the readings, the adapter log and anything you typed. We keep the receipt and the code allocation, marked withdrawn. The receipt is the only proof that a withdrawal was authorised when there is no account, it lets us recognise the same scan if it is sent again, and a code you were given is not taken back when you take the data back. We keep receipts for as long as the vehicle data maps are maintained.</li>
+<li><strong>Request logs</strong> (section 2.8): no more than seven days.</li>
+<li><strong>Support emails:</strong> two years.</li>
+</ul>
+<p><strong>Who processes it for us.</strong> Cloudflare, Inc. runs our server and stores what it keeps, and may process it outside the UK under the safeguards in its data processing terms. Apple and Google process purchases under their own privacy policies. When our server checks an Android purchase it sends Google the purchase token.</p>
+<h2 id="s6">6. Your rights, and how to delete a scan</h2>
+<p>Under UK GDPR you can ask what we hold about you, ask for it to be corrected or deleted, object to processing, and complain to the Information Commissioner's Office (<a href="https://ico.org.uk" target="_blank" rel="noopener">ico.org.uk</a>).</p>
+<ul>
+<li><strong>To delete a scan:</strong> in the app, go to Settings, Your contributions, and tap "Take this scan back" on it. The app sends the scan's receipt to our server, which deletes the scan straight away. If the app cannot reach the server, or you no longer have the phone, email <a href="mailto:info@froggyeye.com">info@froggyeye.com</a> with the scan's reference (shown against each scan in Your contributions). If the app cannot reach the server, it offers to write that email for you. Because we hold no account, the reference is how we find a scan. We cannot search by name or email.</li>
+<li><strong>For anything else</strong>, contact <a href="mailto:info@froggyeye.com">info@froggyeye.com</a>.</li>
+</ul>
 <h2 id="s7">7. Children</h2>
 <p>The app is not directed at children under 16.</p>
 <h2 id="s8">8. Changes</h2>
-<p>We may update this policy. The effective date shows the current version.</p>
+<p>We may update this policy. The effective date at the top shows the current version, and the app tells you when it changes.</p>
 
 <div class="related">
   <a class="back-link" href="../">← Back to Cellgrade</a>
