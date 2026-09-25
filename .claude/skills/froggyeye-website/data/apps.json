@@ -78,6 +78,32 @@
     ]
   },
   {
+    "folder": "cellgrade",
+    "name": "Cellgrade",
+    "tagline": "Battery grades via OBD adapter",
+    "category": "Utilities",
+    "schema_category": "UtilitiesApplication",
+    "theme": "forest",
+    "package_id": "com.froggyeye.cellgrade",
+    "apple_id": "6814212925",
+    "apple_url": null,
+    "play_url": null,
+    "card_emoji": "🔋",
+    "card_gradient": [
+      "#34D399",
+      "#065F46"
+    ],
+    "user_authored": true,
+    "url": "https://froggyeye.com/cellgrade/",
+    "_note": "Served as a path under the main domain (froggyeye.com/cellgrade/), not a subdomain — the store listings and legal URLs use that path, so `url` overrides the subdomain default. Pages are rendered by tools/render_cellgrade.py from the cellgrade repo's docs/legal — do not regenerate from the promo template. Store listings not live yet (submitted Sep 2026); run refresh_store_urls.py once live.",
+    "extra_pages": [
+      "privacy/",
+      "terms/",
+      "verify/"
+    ],
+    "llms_desc": "Car battery health app: reads what the car's own battery systems report through an OBD adapter and, on supported cars (today the Audi MLB-evo 48 V mild-hybrid system), grades the battery A to E with reasons. Free demo, no account, no ads, no analytics."
+  },
+  {
     "folder": "doordigest",
     "name": "DoorDigest",
     "tagline": "AI summaries of your doorbell",

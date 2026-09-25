@@ -15,6 +15,7 @@
 - [ApexRoute](https://apexroute.froggyeye.com): Driving routes for enthusiasts
 - [BlipBlobb](https://blipblobb.froggyeye.com): Local group chats over WiFi
 - [ByeByeJob](https://byebyejob.froggyeye.com): Redundancy and severance, sorted
+- [Cellgrade](https://froggyeye.com/cellgrade): Car battery health app: reads what the car's own battery systems report through an OBD adapter and, on supported cars (today the Audi MLB-evo 48 V mild-hybrid system), grades the battery A to E with reasons. Free demo, no account, no ads, no analytics.
 - [DoorDigest](https://doordigest.froggyeye.com): AI summaries of your doorbell
 - [Drift](https://driftsounds.froggyeye.com): Sleep sounds you mix yourself
 - [Eight Ball Wisdom](https://eightball.froggyeye.com): The mystic 8-ball, reimagined

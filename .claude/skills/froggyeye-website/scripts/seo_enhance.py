@@ -7,7 +7,7 @@
 import json, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _common import load_apps, SITE_ROOT, SKILL_ROOT
+from _common import load_apps, app_url, SITE_ROOT, SKILL_ROOT
 
 def _content(app):
     p = SKILL_ROOT / "data" / "content" / f"{app['folder']}.json"
@@ -48,8 +48,8 @@ def app_jsonld(app):
         "description": seo_desc(app),
         "applicationCategory": app["schema_category"],
         "operatingSystem": ", ".join(operating) if operating else "iOS, Android",
-        "url": f"https://{folder}.froggyeye.com",
-        "image": f"https://{folder}.froggyeye.com/icon.png",
+        "url": app_url(app).rstrip("/"),
+        "image": app_url(app) + "icon.png",
         "offers": {"@type": "Offer", "price": "0", "priceCurrency": "GBP"},
         "publisher": PUBLISHER,
         **({"sameAs": sameAs} if sameAs else {})
@@ -103,7 +103,7 @@ def patch_main(apps):
                "url": "https://froggyeye.com", "logo": "https://froggyeye.com/icons/logo.png",
                "description": "A UK-based indie app studio creating thoughtful iOS and Android apps.",
                "address": PUBLISHER["address"], "email": "info@froggyeye.com",
-               "sameAs": [f"https://{a['folder']}.froggyeye.com" for a in apps]}
+               "sameAs": [app_url(a).rstrip("/") for a in apps]}
         site = {"@context": "https://schema.org", "@type": "WebSite",
                 "url": "https://froggyeye.com", "name": "Froggy Eye Ltd",
                 "publisher": {"@id": "https://froggyeye.com/#org"}}
@@ -111,7 +111,7 @@ def patch_main(apps):
                  "itemListElement": [
                      {"@type": "ListItem", "position": i+1,
                       "item": {"@type": "MobileApplication", "name": a["name"],
-                               "url": f"https://{a['folder']}.froggyeye.com",
+                               "url": app_url(a).rstrip("/"),
                                "applicationCategory": a["schema_category"],
                                "operatingSystem": "iOS, Android"}}
                      for i, a in enumerate(apps)]}
@@ -152,9 +152,9 @@ def write_sitemap(apps):
     for a in apps:
         if a.get("subdomain_live") is False:
             continue
-        urls.append((f"https://{a['folder']}.froggyeye.com/", today, "0.9"))
+        urls.append((app_url(a), today, "0.9"))
         for pg in a.get("extra_pages", []):
-            urls.append((f"https://{a['folder']}.froggyeye.com/{pg}", today, "0.6"))
+            urls.append((app_url(a) + pg, today, "0.6"))
     body = "\n".join(
         f'  <url>\n    <loc>{u}</loc>\n    <lastmod>{d}</lastmod>\n    <priority>{p}</priority>\n  </url>'
         for u, d, p in urls)
@@ -172,7 +172,7 @@ def write_llms_txt(apps):
              "- Contact: info@froggyeye.com", "",
              "## Apps", ""]
     for a in apps:
-        lines.append(f"- [{a['name']}](https://{a['folder']}.froggyeye.com): {a.get('llms_desc') or a['tagline']}")
+        lines.append(f"- [{a['name']}]({app_url(a).rstrip('/')}): {a.get('llms_desc') or a['tagline']}")
     lines += ["", "## Notes for AI agents", "",
               "All app pages are server-rendered HTML. Each app subdomain has product details, pricing, FAQ, and links to its App Store and Google Play listings where available. PostPilot is the studio's only desktop product — it's not on app stores and is distributed direct from postpilot.froggyeye.com. Use the app's subdomain as the canonical reference URL.", ""]
     (SITE_ROOT / "llms.txt").write_text("\n".join(lines))

@@ -92,6 +92,18 @@
   .link-card:hover { border-color: var(--primary); text-decoration: none; transform: translateY(-2px); }
   .link-card h2 { font-size: 18px; margin: 0 0 6px; }
   .link-card p { margin: 0; font-size: 14px; }
+  .compat { margin-top: 44px; }
+  .compat .eyebrow { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--primary); margin-bottom: 10px; }
+  .compat h2 { margin-top: 0; }
+  .compat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; margin-top: 18px; }
+  .compat-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 20px 22px; }
+  .compat-card.graded { background: rgba(52,211,153,0.07); border-color: rgba(52,211,153,0.35); }
+  .compat-card h3 { font-size: 17px; margin: 0 0 8px; }
+  .compat-card p { font-size: 14px; }
+  .compat-card p:last-child { margin: 0; }
+  .compat-card ul { font-size: 14px; margin: 0 0 12px; }
+  .compat-card li { margin-bottom: 4px; }
+  .compat-note { margin-top: 14px; font-size: 13px; color: var(--text-3); }
 </style>
 </head>
 <body>
@@ -122,6 +134,35 @@
 
 <main class="content">
 <div class="wrap">
+  <section class="compat" id="cars" aria-labelledby="cars-heading">
+    <span class="eyebrow">Compatibility</span>
+    <h2 id="cars-heading">Which cars get a grade today</h2>
+    <p>Cellgrade only puts a letter on a battery when it has confirmed how that car's data decodes, checked against readings from a real car. That list is short and honest, and it grows as owners send scans.</p>
+    <div class="compat-grid">
+      <div class="compat-card graded">
+        <h3>Graded today</h3>
+        <p><strong>Audi 48-volt mild hybrids on the MLB-evo platform</strong> that use the same battery module as the 2020 Audi RS6 (C8) the app was verified on. Both the 48-volt mild-hybrid battery and the 12-volt battery are graded.</p>
+        <p>Audi fits that module to its V6 and V8 48-volt mild hybrids on MLB-evo — the A6, A7, A8, Q7 and Q8 families and their S and RS versions, 2018 on. Cellgrade has confirmed its readings on the RS6 only; when you connect, it checks the car's battery module and tells you whether your car can be graded. Four-cylinder Audis badged "MHEV" have no 48-volt battery module and are not graded.</p>
+      </div>
+      <div class="compat-card">
+        <h3>Every other car</h3>
+        <p>Cellgrade can still connect, identify the car, show the 12-volt battery's voltage (a reading, not a grade) and read the fault codes its modules report. Where it only has an unconfirmed map for a battery, it shows the readings and says plainly that they are not graded.</p>
+      </div>
+      <div class="compat-card">
+        <h3>Not graded yet — help add your car</h3>
+        <p>No electric car is graded today. These are the cars the app is asking owners for scans of, under <strong>Add my car</strong>:</p>
+        <ul>
+          <li>Hyundai Ioniq 5, Ioniq Electric and Kona Electric</li>
+          <li>Kia EV6 and Niro EV</li>
+          <li>MG4 Electric and MG ZS EV</li>
+          <li>Nissan Leaf</li>
+        </ul>
+        <p>You see every field before a scan is sent, and the car's identification number is shortened by default. Once a model's data is confirmed against a real car, it becomes graded for everyone.</p>
+      </div>
+    </div>
+    <p class="compat-note">Cellgrade is not affiliated with or endorsed by any vehicle manufacturer. Vehicle names are used only to identify cars.</p>
+  </section>
+
   <div class="links">
     <a class="link-card" href="verify/">
       <h2>Check a report</h2>

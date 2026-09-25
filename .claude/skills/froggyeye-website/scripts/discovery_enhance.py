@@ -15,7 +15,7 @@ def esc(s): return _esc(s, quote=False)
 import json, re, sys, random
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _common import load_apps, SITE_ROOT
+from _common import load_apps, app_url, SITE_ROOT
 
 # --------------------------------------------------------------------- per subdomain helpers
 
@@ -183,7 +183,7 @@ def render_more_apps(this_app, all_apps):
     cards = []
     for a in chosen:
         g0, g1 = a["card_gradient"]
-        cards.append(f'''      <a href="https://{a["folder"]}.froggyeye.com" class="more-card">
+        cards.append(f'''      <a href="{app_url(a).rstrip("/")}" class="more-card">
         <div class="more-card-art" style="background: linear-gradient(135deg, {g0}, {g1});">{a["card_emoji"]}</div>
         <div>
           <div class="more-card-title">{esc(a["name"])}</div>

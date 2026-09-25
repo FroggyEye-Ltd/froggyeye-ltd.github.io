@@ -43,6 +43,9 @@ The single source of truth for per-app metadata is `data/apps.json` in this skil
 - `user_authored` (optional, true) — page was hand-built, NOT template-rendered. Scripts never
   regenerate/patch these pages or overwrite their per-sub llms.txt/sitemap/robots
   (currently: studysingalong, luckynumbers, postpilot)
+- `url` (optional) — canonical page URL when the app is served as a path under the main
+  domain instead of a subdomain (currently: cellgrade → `https://froggyeye.com/cellgrade/`).
+  Scripts build every link from `_common.app_url()`, which falls back to `<folder>.froggyeye.com`
 - `extra_pages` (optional) — extra HTML pages under the subdomain to list in the main sitemap
 - `llms_desc` (optional) — richer description for the root llms.txt line
 

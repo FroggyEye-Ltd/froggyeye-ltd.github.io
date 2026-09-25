@@ -6,7 +6,7 @@ from html import escape as _esc
 def esc(s): return _esc(s, quote=False)
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _common import load_apps, SITE_ROOT
+from _common import load_apps, app_url, SITE_ROOT
 
 CSS = """
   :root {
@@ -126,7 +126,7 @@ CSS = """
 def render_card(a):
     g0, g1 = a["card_gradient"]
     icon = f'icons/{a["folder"]}.png'
-    return f'''      <a class="app-card reveal" href="https://{a["folder"]}.froggyeye.com">
+    return f'''      <a class="app-card reveal" href="{app_url(a).rstrip("/")}">
         <div class="app-card-art" style="background: linear-gradient(135deg, {g0}, {g1});">
           <img src="{icon}" alt="{esc(a["name"])}">
         </div>

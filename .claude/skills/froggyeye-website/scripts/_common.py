@@ -14,6 +14,12 @@ def save_apps(apps):
     (SKILL_ROOT / "data" / "apps.json").write_text(
         json.dumps(apps, indent=2, ensure_ascii=False) + "\n")
 
+def app_url(app):
+    """Canonical public URL of an app's page, with trailing slash.
+    Defaults to the <folder>.froggyeye.com subdomain; an app served as a path
+    under the main domain instead (no subdomain) sets `url` in the registry."""
+    return app.get("url") or f"https://{app['folder']}.froggyeye.com/"
+
 def load_themes():
     return json.loads((SKILL_ROOT / "data" / "themes.json").read_text())
 
