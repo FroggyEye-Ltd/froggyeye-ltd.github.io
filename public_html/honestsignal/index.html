@@ -287,7 +287,7 @@ a.store[data-na]{display:none !important;}
       "name": "Is this a speed test?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No, and it is deliberately not one. A speed test answers \u201chow fast is this right now, if I spend 200 MB finding out\u201d, and you run it occasionally. Honest Signal answers \u201cis this connection working\u201d continuously, for a few kilobytes a cycle, and puts the answer where you can see it without opening anything."
+        "text": "No, and it is deliberately not one. A speed test answers \u201chow fast is this right now, if I spend 200 MB finding out\u201d, and you run it occasionally. Honest Signal answers \u201cis this connection working\u201d at the chosen interval, using small latency probes and less frequent transfer samples. Android can update in the background; iOS pauses when the app is closed."
       }
     },
     {
@@ -295,7 +295,7 @@ a.store[data-na]{display:none !important;}
       "name": "How much data does it use?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A four-probe latency cycle costs about 2.8 KB. The 120 KB transfer sample runs at most every 90 seconds with the app open and at most every 10 minutes in the Android background. The daily budget defaults to 25 MB, is adjustable from 5 to 250 MB on every tier, and is a hard stop: when it is spent the transfer sample pauses until local midnight while the cheap probes keep going."
+        "text": "A four-probe latency cycle uses about 2.8 KB, and a transfer sample downloads about 120 KB. The check interval is user-controlled: faster checks use more data and battery. The daily budget limits transfer samples; at its threshold, transfer sampling pauses while latency probes continue. Android can keep checking in the background, while iOS pauses when the app is closed."
       }
     },
     {
@@ -335,7 +335,7 @@ a.store[data-na]{display:none !important;}
       "name": "Will it drain my battery?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The work is a handful of small HTTPS requests on an interval you control \u2014 five minutes by default in the Android background, and the background loop pauses entirely while the app is on screen so the same reading is never paid for twice. There is no location, no wake-lock-heavy processing and no continuous radio use."
+        "text": "Network checks use battery and data. You control the check interval; shorter intervals make more requests and use more of both. Android can keep checking in the background when enabled. On iOS, measurement pauses when the app is closed."
       }
     },
     {
@@ -436,7 +436,7 @@ a.store[data-na]{display:none !important;}
     <span class="chip" data-c="5">Status-bar indicator</span>
     <span class="chip" data-c="1">Floating bubble</span>
     <span class="chip" data-c="2">Wi-Fi &amp; mobile</span>
-    <span class="chip" data-c="3">Hard data budget</span>
+    <span class="chip" data-c="3">Transfer sample budget</span>
     <span class="chip" data-c="4">24-hour history</span>
     <span class="chip" data-c="5">Captive portals</span>
     <span class="chip" data-c="1">No ads</span>
@@ -448,7 +448,7 @@ a.store[data-na]{display:none !important;}
     <span class="chip" data-c="5">Status-bar indicator</span>
     <span class="chip" data-c="1">Floating bubble</span>
     <span class="chip" data-c="2">Wi-Fi &amp; mobile</span>
-    <span class="chip" data-c="3">Hard data budget</span>
+    <span class="chip" data-c="3">Transfer sample budget</span>
     <span class="chip" data-c="4">24-hour history</span>
     <span class="chip" data-c="5">Captive portals</span>
     <span class="chip" data-c="1">No ads</span>
@@ -502,8 +502,8 @@ a.store[data-na]{display:none !important;}
       </div>
       <div class="feature reveal">
         <div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.2 15.9A10 10 0 1 1 8 2.8"/><path d="M22 12A10 10 0 0 0 12 2v10z"/></svg></div>
-        <h3>A hard daily data budget</h3>
-        <p>25 MB a day by default, adjustable from 5 to 250 MB on the free tier too. The counter is on the home screen, and when the budget is spent the transfer sample pauses while the cheap probes carry on.</p>
+        <h3>A daily transfer sample budget</h3>
+        <p>The budget limits transfer samples, and you can adjust it on the free tier too. When the threshold is reached, transfer sampling pauses while latency probes continue.</p>
       </div>
       <div class="feature reveal">
         <div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v4"/><path d="M12 18v4"/><path d="M4.9 4.9l2.9 2.9"/><path d="M16.2 16.2l2.9 2.9"/><path d="M2 12h4"/><path d="M18 12h4"/></svg></div>
@@ -704,8 +704,8 @@ a.store[data-na]{display:none !important;}
 
       <div class="m-card span2 reveal">
         <h3>What all of this costs you</h3>
-        <p>A latency probe is about 700 bytes of headers, so a full four-probe cycle costs roughly <b>2.8&nbsp;KB</b>. The transfer sample costs about <b>120&nbsp;KB</b> and runs on a far slower clock &mdash; at most every 90 seconds with the app open, at most every 10 minutes in the background on Android. The daily budget defaults to <b>25&nbsp;MB</b> and is adjustable between 5&nbsp;MB and 250&nbsp;MB on every tier, free included.</p>
-        <p>The budget is a hard stop rather than a guideline, and its counter sits on the home screen instead of being buried in settings. When it is spent the latency probes keep running &mdash; you still get a reading &mdash; and only the 120&nbsp;KB transfer sample pauses until local midnight. This is deliberately not a speed test: a speed test answers &ldquo;how fast is this right now, if I spend 200&nbsp;MB finding out&rdquo;. Honest Signal answers &ldquo;is this connection working&rdquo;, all day, for almost nothing.</p>
+        <p>A latency probe is about 700 bytes of headers, so a full four-probe cycle costs roughly <b>2.8&nbsp;KB</b>. A transfer sample downloads about <b>120&nbsp;KB</b> and runs less often than the latency probes. The daily budget defaults to <b>25&nbsp;MB</b> and is adjustable between 5&nbsp;MB and 250&nbsp;MB on every tier, free included.</p>
+        <p>The budget applies to transfer samples, and its counter is visible on the home screen. At the threshold, transfer sampling pauses while latency probes continue. You control the check interval: faster checks use more data and battery. Android can keep checking in the background; iOS pauses when the app is closed. Honest Signal answers whether the connection is working, without running a full speed test each time.</p>
       </div>
     </div>
   </div>
@@ -794,11 +794,11 @@ a.store[data-na]{display:none !important;}
       </details>
       <details class="reveal">
         <summary>Is this a speed test?</summary>
-        <div class="answer"><p>No, and it is deliberately not one. A speed test answers “how fast is this right now, if I spend 200 MB finding out”, and you run it occasionally. Honest Signal answers “is this connection working” continuously, for a few kilobytes a cycle, and puts the answer where you can see it without opening anything.</p></div>
+        <div class="answer"><p>No, and it is deliberately not one. A speed test answers “how fast is this right now, if I spend 200 MB finding out”, and you run it occasionally. Honest Signal answers “is this connection working” at the chosen interval, using small latency probes and less frequent transfer samples. Android can update in the background; iOS pauses when the app is closed.</p></div>
       </details>
       <details class="reveal">
         <summary>How much data does it use?</summary>
-        <div class="answer"><p>A four-probe latency cycle costs about 2.8 KB. The 120 KB transfer sample runs at most every 90 seconds with the app open and at most every 10 minutes in the Android background. The daily budget defaults to 25 MB, is adjustable from 5 to 250 MB on every tier, and is a hard stop: when it is spent the transfer sample pauses until local midnight while the cheap probes keep going.</p></div>
+        <div class="answer"><p>A four-probe latency cycle uses about 2.8 KB, and a transfer sample downloads about 120 KB. The check interval is user-controlled: faster checks use more data and battery. The daily budget limits transfer samples; at its threshold, transfer sampling pauses while latency probes continue. Android can keep checking in the background, while iOS pauses when the app is closed.</p></div>
       </details>
       <details class="reveal">
         <summary>Does the status-bar indicator work on iPhone?</summary>
@@ -818,7 +818,7 @@ a.store[data-na]{display:none !important;}
       </details>
       <details class="reveal">
         <summary>Will it drain my battery?</summary>
-        <div class="answer"><p>The work is a handful of small HTTPS requests on an interval you control — five minutes by default in the Android background, and the background loop pauses entirely while the app is on screen so the same reading is never paid for twice. There is no location, no wake-lock-heavy processing and no continuous radio use.</p></div>
+        <div class="answer"><p>Network checks use battery and data. You control the check interval; shorter intervals make more requests and use more of both. Android can keep checking in the background when enabled. On iOS, measurement pauses when the app is closed.</p></div>
       </details>
       <details class="reveal">
         <summary>Is Pro a subscription?</summary>
