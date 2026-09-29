@@ -64,5 +64,10 @@
     "primary": "#F59E0B", "primary_deep": "#A16207", "violet": "#854D0E",
     "mint": "#FCD34D", "yellow": "#FEF08A",
     "bg": "#0E0902", "surface": "#1B1306", "surface2": "#291E0B", "border": "#3F2C11"
+  },
+  "toner": {
+    "primary": "#FF7A3D", "primary_deep": "#B53C0A", "violet": "#E4602A",
+    "mint": "#FF9A66", "yellow": "#FFDBCC",
+    "bg": "#0B0C0E", "surface": "#16181B", "surface2": "#22252A", "border": "#3A3D43"
   }
 }

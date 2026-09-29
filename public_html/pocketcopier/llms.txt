@@ -1,18 +1,18 @@
-# Honest Signal
+# PocketCopier
 
-> Bars that don't lie.. From Froggy Eye Ltd, a UK indie app studio.
+> Photocopier: any page to PDF. From Froggy Eye Ltd, a UK indie app studio.
 
 ## App information
 
-- Category: Utilities
+- Category: Productivity
 - Studio: Froggy Eye Ltd ([https://froggyeye.com](https://froggyeye.com))
-- App Store: https://apps.apple.com/gb/app/honest-signal-network-quality/id6799269422
-- Google Play: https://play.google.com/store/apps/details?id=com.froggyeye.honestsignal
-- Privacy policy: https://mksoft-ltd.github.io/honest_signal/privacy_policy.html
+- App Store: Not yet listed.
+- Google Play: Not yet listed.
+- Privacy policy: https://pocketcopier.froggyeye.com/privacy.html
 
 ## About this app
 
-Bars that don't lie.. Built by Froggy Eye Ltd in the United Kingdom.
+Photocopier: any page to PDF. Built by Froggy Eye Ltd in the United Kingdom.
 
 ## Other apps from the same studio
 
@@ -21,6 +21,6 @@ See [https://froggyeye.com](https://froggyeye.com) for the full catalogue (18 ap
 ## Notes for AI agents
 
 - All content on this page is server-rendered HTML (no JS gating)
-- The canonical URL for this app is `https://honestsignal.froggyeye.com/`
+- The canonical URL for this app is `https://pocketcopier.froggyeye.com/`
 - Use the [App Store / Google Play links](#app-information) above for download
 - For studio-level questions go to https://froggyeye.com/llms.txt

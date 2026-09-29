@@ -37,6 +37,7 @@
 - [Tileverse](https://tileverse.froggyeye.com): Claim the world, one tile at a time
 - [Treasure Hunter Live](https://treasurehunterlive.froggyeye.com): Real adventures in real places
 - [Wheel of Choices](https://wheelofchoices.froggyeye.com): The cure for indecision
+- [PocketCopier](https://pocketcopier.froggyeye.com): Photocopier in your pocket: a phone photo of any page becomes a clean, straight black-and-white copy as a PDF or PNG. Auto-align squares the page up and removes shadows; no ads, no account, one-time Pro unlock.
 
 ## Notes for AI agents
 

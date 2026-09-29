@@ -1,0 +1,241 @@
+{
+  "folder": "pocketcopier",
+  "name": "PocketCopier",
+  "tagline": "Photocopier: any page to PDF",
+  "meta_desc": "PocketCopier turns a phone photo of any page into a clean, straight black-and-white copy as a PDF or PNG. Auto-align squares the page up and removes shadows. No ads, no account, pages processed on your phone. Free, with a one-time Pro unlock.",
+  "nav_examples": "Good for",
+  "hero_eyebrow": "For iPhone and Android · No ads, no account",
+  "headline_pre": "Crooked photo in.",
+  "headline_accent": "Clean copy out.",
+  "lead": "No scanner to hand and no printer nearby? Point your phone at a letter, form, receipt or contract and PocketCopier gives you what a copy machine would: the page found, straightened, shadows removed, black text on white paper, ready to send as a PDF.",
+  "meta_items": [
+    "Auto-align straightens the page",
+    "Shadows removed, paper turned white",
+    "Multi-page PDF or PNG",
+    "No ads, no account, one-time Pro"
+  ],
+  "phone_content": "        <h4>Page 1 of 3</h4>\n        <div class=\"phone-art\"><div class=\"emoji\" style=\"font-size:0; line-height:0;\"><svg width=\"128\" height=\"128\" viewBox=\"0 0 128 128\" fill=\"none\" aria-hidden=\"true\"><rect x=\"30\" y=\"18\" width=\"62\" height=\"88\" rx=\"5\" fill=\"#FFFFFF\" fill-opacity=\"0.35\" transform=\"rotate(-13 61 62)\"/><rect x=\"38\" y=\"24\" width=\"62\" height=\"88\" rx=\"5\" fill=\"#FFFFFF\"/><rect x=\"48\" y=\"34\" width=\"24\" height=\"6\" rx=\"3\" fill=\"#16181B\"/><rect x=\"48\" y=\"48\" width=\"42\" height=\"4\" rx=\"2\" fill=\"#16181B\"/><rect x=\"48\" y=\"57\" width=\"42\" height=\"4\" rx=\"2\" fill=\"#16181B\"/><rect x=\"48\" y=\"66\" width=\"34\" height=\"4\" rx=\"2\" fill=\"#16181B\"/><rect x=\"48\" y=\"79\" width=\"42\" height=\"4\" rx=\"2\" fill=\"#16181B\"/><rect x=\"48\" y=\"88\" width=\"42\" height=\"4\" rx=\"2\" fill=\"#16181B\"/><rect x=\"48\" y=\"97\" width=\"26\" height=\"4\" rx=\"2\" fill=\"#16181B\"/></svg></div></div>\n        <div>\n          <p class=\"phone-title\">Lease agreement</p>\n          <p class=\"phone-sub\">3 pages &middot; Photocopy</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>AUTO-ALIGNED</span><span>A4 &middot; PDF</span></div>\n        <div class=\"phone-controls\">\n          <span class=\"ic\">&#8635;</span>\n          <span class=\"play\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7\"/><polyline points=\"16 6 12 2 8 6\"/><line x1=\"12\" y1=\"2\" x2=\"12\" y2=\"15\"/></svg></span>\n          <span class=\"ic\">&#9707;</span>\n        </div>\n        <div class=\"phone-lyric\"><b>Photocopy</b> &nbsp;&middot;&nbsp; Before<br>Shadows removed, paper turned white, text kept crisp. Shot at an angle on the desk; squared up by Auto-align.</div>",
+  "chips": [
+    "Photocopy",
+    "Auto-align",
+    "Shadow removal",
+    "Multi-page PDF",
+    "A4 or US Letter",
+    "PNG export",
+    "Grayscale",
+    "Magic colour",
+    "Import from Photos",
+    "Adjust corners",
+    "No ads",
+    "No account"
+  ],
+  "how_head_pre": "Snap the page, check the copy,",
+  "how_head_accent": "share the PDF.",
+  "how_lead": "PocketCopier uses the document camera built into your phone to find the edges of the page, then does the part a scanner app usually leaves to you: it squares the page up, removes the shadows and turns grey paper white.",
+  "steps": [
+    [
+      "Snap it, or import it",
+      "Point the camera at the page, or pick a photo you already took from your gallery. Scan several pages in one go, or add more later. An angled shot on a busy desk is fine."
+    ],
+    [
+      "Auto-align does the straightening",
+      "The page is found, squared up and cleaned: shadows removed, paper turned white, text kept crisp. When the edges are unclear the page is flagged for you to check rather than cropped wrongly, and Adjust corners lets you drag each corner into place yourself."
+    ],
+    [
+      "Export as PDF or PNG",
+      "Reorder, rotate, retake or delete pages, then export one multi-page PDF on A4 or US Letter, or fit the sheet to the page. Or save each page as a PNG to your gallery. A copy leaves through your phone's share menu, when you decide."
+    ]
+  ],
+  "feat_head_pre": "A photocopier,",
+  "feat_head_line2": "in your pocket.",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 7V4h3\"/><path d=\"M20 7V4h-3\"/><path d=\"M4 17v3h3\"/><path d=\"M20 17v3h-3\"/><rect x=\"8\" y=\"7\" width=\"8\" height=\"10\" rx=\"1\"/></svg>",
+      "Crooked photo, straight copy",
+      "Auto-align finds the edges of the page and squares it up, even when you shot it at an angle. Every page keeps a before and after view, so you can see exactly what it did."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 3a9 9 0 0 1 0 18z\" fill=\"currentColor\"/></svg>",
+      "Photocopy mode removes shadows",
+      "Built to do what a copy machine does: grey paper becomes white, shadows disappear, and the text stays crisp black. Grayscale and Original are there when you want them instead."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"/><polyline points=\"14 2 14 8 20 8\"/><line x1=\"8\" y1=\"13\" x2=\"16\" y2=\"13\"/><line x1=\"8\" y1=\"17\" x2=\"16\" y2=\"17\"/></svg>",
+      "Every page in one PDF",
+      "Scan a whole contract in one go, reorder or rotate the pages, then export a single PDF on A4 or US Letter. Or fit the sheet to the page when the original is an odd size."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><circle cx=\"8.5\" cy=\"8.5\" r=\"1.5\"/><polyline points=\"21 15 16 10 5 21\"/></svg>",
+      "PNG when you need an image",
+      "Save any page to your gallery as a PNG, or share it straight from the app. Pro adds a ZIP of every page at once for the days you need the whole document as images."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 2v14a2 2 0 0 0 2 2h14\"/><path d=\"M18 22V8a2 2 0 0 0-2-2H2\"/></svg>",
+      "Fine-tune any corner",
+      "When the edges are unclear the page is flagged for you to check rather than cropped wrongly. Open Adjust corners, drag each corner into place and apply. The original photo is kept."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\"/><line x1=\"12\" y1=\"18\" x2=\"12.01\" y2=\"18\"/></svg>",
+      "Your copies stay on your phone",
+      "No account and no sign-in. Pages are processed on your phone and your documents are kept in the app. A copy goes somewhere else only when you share it or save it to your gallery."
+    ]
+  ],
+  "ex_eyebrow": "Good for",
+  "ex_head": "The pages people actually need copies of.",
+  "ex_lead": "PocketCopier is for the days a form, a landlord or a teacher needs a copy today. These are the pages it tends to be.",
+  "examples": [
+    [
+      "#FF7A3D,#B53C0A",
+      "🏠",
+      "Leases and rental applications",
+      "Sign it, copy it, send it"
+    ],
+    [
+      "#2B2F35,#0B0C0E",
+      "🧾",
+      "Receipts for your tax return",
+      "A clean copy for the folder"
+    ],
+    [
+      "#FF9A66,#E4602A",
+      "✉️",
+      "Signed letters",
+      "Keep a copy of what you sent"
+    ],
+    [
+      "#2B2F35,#0B0C0E",
+      "📋",
+      "Application forms",
+      "Filled in by hand, sent as PDF"
+    ],
+    [
+      "#FF7A3D,#B53C0A",
+      "📑",
+      "Contracts",
+      "Every page in one file"
+    ],
+    [
+      "#2B2F35,#0B0C0E",
+      "📝",
+      "Meeting notes",
+      "Straight from the notepad"
+    ],
+    [
+      "#FF9A66,#E4602A",
+      "📐",
+      "Worksheets",
+      "White paper, black ink"
+    ],
+    [
+      "#2B2F35,#0B0C0E",
+      "🎒",
+      "Homework",
+      "Shot at the kitchen table"
+    ]
+  ],
+  "pricing_head_pre": "Free to use.",
+  "pricing_head_accent": "Pro is £9.99, once.",
+  "pricing_lead": "Free keeps unlimited documents, PDF and PNG export and no watermark. Pro is a one-time purchase that removes the page limits and adds Magic colour and ZIP export. No subscription.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "£0",
+      "blurb": "Everything you need for the occasional copy.",
+      "items": [
+        "Unlimited documents",
+        "Up to 5 pages per document",
+        "5 pages a day",
+        "Photocopy, Grayscale and Original",
+        "PDF and PNG export, no watermark",
+        "No ads, no account"
+      ],
+      "cta": "Free download"
+    },
+    {
+      "name": "Pro — one time",
+      "featured": true,
+      "tag": "Pay once",
+      "price": "£9.99",
+      "per": "once",
+      "blurb": "Removes the page limits and adds the extras.",
+      "items": [
+        "Everything in Free",
+        "Unlimited pages per document",
+        "Unlimited pages per day",
+        "Magic colour: white paper, ink colours kept",
+        "ZIP export of every page",
+        "One payment. No subscription."
+      ],
+      "cta": "Unlock Pro"
+    }
+  ],
+  "pricing_footnote": "Price shown in GBP; the app shows your own storefront's price. Pro is a one-time purchase, not a subscription. There is nothing to cancel.",
+  "why_eyebrow": "Why this exists",
+  "why_head_pre": "Scanner apps give you a photo.",
+  "why_head_accent": "A copier gives you a copy.",
+  "why_lead": "Most scanner apps hand back a slightly tidied photograph: the desk shadow still across it, the paper grey, the page a little askew. Then they ask for a subscription. A copy machine never did any of that.",
+  "why_body": "PocketCopier was built to give back what the machine at the office gives back: a square, sharp, black-on-white page, as a PDF you can send. Auto-align does the straightening, Photocopy mode does the cleaning, and the whole thing runs on your phone with no account and no ads. Pro is one payment, because there is nothing recurring to pay for.",
+  "stats": [
+    [
+      "5",
+      "grad",
+      "Free pages a day, on unlimited documents, with PDF and PNG export and no watermark."
+    ],
+    [
+      "£9.99",
+      "mint",
+      "One-time Pro unlock: unlimited pages, Magic colour and ZIP export. No subscription."
+    ],
+    [
+      "0",
+      "yellow",
+      "Ads, accounts and sign-ins. Pages are processed on your phone and your documents are kept in the app."
+    ]
+  ],
+  "faq": [
+    [
+      "Is it a scanner app?",
+      "It works as a document scanner and a PDF scanner, but what you get back is a proper photocopy: the page squared up, the shadows gone, grey paper turned white. If you only want the photo tidied, the Original and Grayscale filters do that."
+    ],
+    [
+      "What if the page is shot at an angle?",
+      "That is the normal case. Auto-align finds the edges of the page and straightens it, even on a busy desk. Every page keeps a Before view, so you can see the original photo next to the copy."
+    ],
+    [
+      "What if Auto-align gets the edges wrong?",
+      "When the edges are unclear the page is flagged for you to check rather than cropped wrongly. Open Adjust corners, drag each corner into place and apply. The original photo is kept, so nothing is lost."
+    ],
+    [
+      "Can I scan more than one page into a PDF?",
+      "Yes. Scan several pages in one go or add more later, reorder, rotate, retake or delete them, then export one PDF on A4 or US Letter, or fit the sheet to the page. Free documents hold up to 5 pages; Pro removes the limit."
+    ],
+    [
+      "Can I use a photo I already took?",
+      "Yes. Import it from your gallery and PocketCopier straightens and cleans it the same way as a fresh capture."
+    ],
+    [
+      "Where do my documents go?",
+      "They are kept in the app on your phone, and pages are processed on your phone. A copy goes anywhere else only when you share it through your phone's share menu or save a PNG to your gallery. There is no account and no sign-in. On Android, the Google document-scanner component built into the app sends Google limited diagnostic information, never your documents; the privacy policy explains this."
+    ],
+    [
+      "What does Free include, and what does Pro add?",
+      "Free: unlimited documents, PDF and PNG export, no watermark, up to 5 pages per document and 5 pages a day. Pro is a one-time £9.99 purchase that removes both page limits and adds Magic colour and ZIP export. No subscription."
+    ],
+    [
+      "What is Magic colour?",
+      "A Pro filter for pages where the colour matters. It turns the paper white while keeping the colours of the ink, so a highlighted worksheet or a form signed in blue comes out clean without going black and white."
+    ],
+    [
+      "Is Pro a subscription?",
+      "No. Pro is one payment. It restores on a new phone through Restore purchase in Settings, and the price shown in the app comes from your own storefront."
+    ]
+  ],
+  "final_title": "Copy it now. Send it now.",
+  "final_body": "PocketCopier is free to download, with a one-time £9.99 Pro unlock. No ads, no account, no subscription, and your copies stay on your phone.",
+  "footer_blurb": "A photocopier in your pocket. Any page in, a clean, straight black-and-white copy out, as a PDF or PNG. Made in the UK.",
+  "theme": "toner",
+  "privacy_url": "https://pocketcopier.froggyeye.com/privacy.html",
+  "og_image_alt": "PocketCopier — crooked photo in, clean copy out. Straightened, shadow-free, as PDF or PNG.",
+  "seo_title": "PocketCopier — Photocopy any page to PDF with your phone | Froggy Eye Ltd",
+  "seo_desc": "Turn a phone photo of any page into a clean, straight black-and-white photocopy as a PDF or PNG. Auto-align squares the page up and removes shadows. No ads, no account, one-time Pro unlock."
+}

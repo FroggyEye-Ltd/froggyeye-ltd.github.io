@@ -8,6 +8,7 @@
 - Studio: Froggy Eye Ltd ([https://froggyeye.com](https://froggyeye.com))
 - App Store: Not yet listed.
 - Google Play: https://play.google.com/store/apps/details?id=com.froggyeye.aiclicoach
+- Privacy policy: https://mksoft-ltd.github.io/ai_cli_coach/privacy_policy.html
 
 ## About this app
 

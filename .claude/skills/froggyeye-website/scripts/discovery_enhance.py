@@ -55,6 +55,13 @@ Sitemap: https://{folder}.froggyeye.com/sitemap.xml
 Sitemap: https://froggyeye.com/sitemap.xml
 '''
 
+def _privacy_line(folder):
+    """Apps that host their own policy (content privacy_url) list it, so the
+    hand-added line on passportphoto is never regenerated away."""
+    p = Path(__file__).resolve().parent.parent / "data" / "content" / f"{folder}.json"
+    url = json.loads(p.read_text()).get("privacy_url") if p.exists() else None
+    return f"\n- Privacy policy: {url}" if url else ""
+
 def per_sub_llms(app):
     folder = app["folder"]
     apple = app.get("apple_url") or "Not yet listed."
@@ -68,7 +75,7 @@ def per_sub_llms(app):
 - Category: {app["category"]}
 - Studio: Froggy Eye Ltd ([https://froggyeye.com](https://froggyeye.com))
 - App Store: {apple}
-- Google Play: {play}
+- Google Play: {play}{_privacy_line(folder)}
 
 ## About this app
 

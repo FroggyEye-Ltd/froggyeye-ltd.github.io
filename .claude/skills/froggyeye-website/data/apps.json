@@ -477,5 +477,26 @@
       "#7C3AED",
       "#4C1D95"
     ]
+  },
+  {
+    "folder": "pocketcopier",
+    "name": "PocketCopier",
+    "tagline": "Photocopier: any page to PDF",
+    "category": "Productivity",
+    "schema_category": "ProductivityApplication",
+    "theme": "toner",
+    "package_id": "com.froggyeye.pocketcopier",
+    "apple_id": "6817127013",
+    "apple_url": null,
+    "play_url": null,
+    "card_emoji": "📄",
+    "card_gradient": [
+      "#FF7A3D",
+      "#B53C0A"
+    ],
+    "extra_pages": [
+      "privacy.html"
+    ],
+    "llms_desc": "Photocopier in your pocket: a phone photo of any page becomes a clean, straight black-and-white copy as a PDF or PNG. Auto-align squares the page up and removes shadows; no ads, no account, one-time Pro unlock."
   }
 ]
