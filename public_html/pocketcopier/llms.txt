@@ -6,8 +6,8 @@
 
 - Category: Productivity
 - Studio: Froggy Eye Ltd ([https://froggyeye.com](https://froggyeye.com))
-- App Store: Not yet listed.
-- Google Play: Not yet listed.
+- App Store: https://apps.apple.com/gb/app/pocketcopier/id6817127013
+- Google Play: https://play.google.com/store/apps/details?id=com.froggyeye.pocketcopier
 - Privacy policy: https://pocketcopier.froggyeye.com/privacy.html
 
 ## About this app

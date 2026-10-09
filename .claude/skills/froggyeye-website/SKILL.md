@@ -5,7 +5,7 @@ description: Manage the Froggy Eye Ltd website at froggyeye.com — the studio m
 
 # Froggy Eye Ltd website skill
 
-This skill manages the Froggy Eye Ltd website (`froggyeye.com`) — a UK indie app studio site with one main page plus 18 per-app promotional subdomains, all hosted on Hostinger.
+This skill manages the Froggy Eye Ltd website (`froggyeye.com`) — a UK indie app studio site with one main page plus a per-app promotional subdomain for every app in `data/apps.json`, all hosted on Hostinger.
 
 ## Site map at a glance
 
@@ -22,14 +22,14 @@ public_html/
 ├── sitemap.xml                 # Generated; lists main + all subdomains
 ├── robots.txt                  # Allows GPTBot/ClaudeBot/PerplexityBot etc.
 ├── llms.txt                    # AI-agent discovery file
-└── <app>/                      # One folder per app subdomain (18 of them)
+└── <app>/                      # One folder per app subdomain
     ├── index.html              # Promo page (studysingalong design language)
     ├── icon.png                # App icon
     ├── feature.png             # Play Store feature graphic, 2048×1365 (3:2)
     └── screenshot1.png         # First Play Store phone screenshot, full-bleed in mockup
 ```
 
-The 18 subdomains map to subfolders under `public_html/`. They are served by Hostinger as `<folder>.froggyeye.com`. Apple App Store and Google Play URLs are populated via real listings; subdomains for apps that aren't on a particular store hide that download button via `[data-na]` CSS.
+The subdomains map to subfolders under `public_html/`. They are served by Hostinger as `<folder>.froggyeye.com`. Apple App Store and Google Play URLs are populated via real listings; subdomains for apps that aren't on a particular store hide that download button via `[data-na]` CSS.
 
 ## App registry
 
@@ -44,7 +44,7 @@ The single source of truth for per-app metadata is `data/apps.json` in this skil
   regenerate/patch these pages or overwrite their per-sub llms.txt/sitemap/robots
   (currently: studysingalong, luckynumbers, postpilot)
 - `url` (optional) — canonical page URL when the app is served as a path under the main
-  domain instead of a subdomain (currently: cellgrade → `https://froggyeye.com/cellgrade/`).
+  domain instead of a subdomain (none at present; Cellgrade used this until it was delisted in Oct 2026).
   Scripts build every link from `_common.app_url()`, which falls back to `<folder>.froggyeye.com`
 - `extra_pages` (optional) — extra HTML pages under the subdomain to list in the main sitemap
 - `llms_desc` (optional) — richer description for the root llms.txt line

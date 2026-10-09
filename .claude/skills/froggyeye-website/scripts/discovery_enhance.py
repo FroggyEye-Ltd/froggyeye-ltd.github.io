@@ -249,8 +249,11 @@ def patch_app(app, all_apps):
         text = text.replace('</head>', "\n".join(additions) + "\n</head>", 1)
 
     # 3. More apps section + CSS
-    if 'class="more-apps"' not in text:
-        css, section = render_more_apps(app, all_apps)
+    css, section = render_more_apps(app, all_apps)
+    if 'class="more-apps"' in text:
+        # Re-render in place so apps removed from the registry drop out of every page
+        text = re.sub(r'\n?<section class="more-apps">.*?</section>\n', section, text, count=1, flags=re.S)
+    else:
         text = text.replace('</style>', css + '</style>', 1)
         # Insert before <footer
         text = re.sub(r'(<footer\b)', section + r'\1', text, count=1)

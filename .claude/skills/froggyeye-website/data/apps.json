@@ -7,7 +7,7 @@
     "schema_category": "EducationalApplication",
     "theme": "tile",
     "package_id": "com.froggyeye.aiclicoach",
-    "apple_id": "6801330248",
+    "apple_id": null,
     "apple_url": null,
     "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.aiclicoach",
     "card_emoji": "⌨️",
@@ -78,49 +78,6 @@
     ]
   },
   {
-    "folder": "cellgrade",
-    "name": "Cellgrade",
-    "tagline": "Battery grades via OBD adapter",
-    "category": "Utilities",
-    "schema_category": "UtilitiesApplication",
-    "theme": "forest",
-    "package_id": "com.froggyeye.cellgrade",
-    "apple_id": "6814212925",
-    "apple_url": null,
-    "play_url": null,
-    "card_emoji": "🔋",
-    "card_gradient": [
-      "#34D399",
-      "#065F46"
-    ],
-    "user_authored": true,
-    "url": "https://froggyeye.com/cellgrade/",
-    "_note": "Served as a path under the main domain (froggyeye.com/cellgrade/), not a subdomain — the store listings and legal URLs use that path, so `url` overrides the subdomain default. Pages are rendered by tools/render_cellgrade.py from the cellgrade repo's docs/legal — do not regenerate from the promo template. Store listings not live yet (submitted Sep 2026); run refresh_store_urls.py once live.",
-    "extra_pages": [
-      "privacy/",
-      "terms/",
-      "verify/"
-    ],
-    "llms_desc": "Car battery health app: reads what the car's own battery systems report through an OBD adapter and, on supported cars (today the Audi MLB-evo 48 V mild-hybrid system), grades the battery A to E with reasons. Free demo, no account, no ads, no analytics."
-  },
-  {
-    "folder": "doordigest",
-    "name": "DoorDigest",
-    "tagline": "AI summaries of your doorbell",
-    "category": "Home & Security",
-    "schema_category": "UtilitiesApplication",
-    "theme": "purple_dawn",
-    "package_id": "com.froggyeye.doordigest",
-    "apple_id": "6761689563",
-    "apple_url": "https://apps.apple.com/gb/app/door-digest/id6761689563",
-    "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.doordigest",
-    "card_emoji": "🚪",
-    "card_gradient": [
-      "#A855F7",
-      "#5B21B6"
-    ]
-  },
-  {
     "folder": "driftsounds",
     "name": "Drift",
     "tagline": "Sleep sounds you mix yourself",
@@ -162,8 +119,8 @@
     "schema_category": "ProductivityApplication",
     "theme": "forest",
     "package_id": "com.froggyeye.focustimer",
-    "apple_id": null,
-    "apple_url": null,
+    "apple_id": "6756663699",
+    "apple_url": "https://apps.apple.com/gb/app/ifocustimer/id6756663699",
     "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.focustimer",
     "card_emoji": "⏳",
     "card_gradient": [
@@ -269,8 +226,8 @@
     "schema_category": "EntertainmentApplication",
     "theme": "forest",
     "package_id": "com.froggyeye.luckynumbers",
-    "apple_id": null,
-    "apple_url": null,
+    "apple_id": "6797467810",
+    "apple_url": "https://apps.apple.com/gb/app/lucky-winning-numbers/id6797467810",
     "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.luckynumbers",
     "card_emoji": "🍀",
     "card_gradient": [
@@ -278,7 +235,7 @@
       "#123C2B"
     ],
     "user_authored": true,
-    "_note": "Page generated outside the promo template (ship pipeline) — do not regenerate. Store URLs pending review (submitted Aug 2026); run refresh_store_urls.py once live."
+    "_note": "Page generated outside the promo template (ship pipeline) — do not regenerate. Store URLs patched by hand (user_authored); Apple listing is titled \"Lucky Winning Numbers\"."
   },
   {
     "folder": "myltdtax",
@@ -322,7 +279,7 @@
     "schema_category": "UtilitiesApplication",
     "theme": "tile",
     "package_id": "com.froggyeye.passportphoto",
-    "apple_id": "6798892716",
+    "apple_id": null,
     "apple_url": null,
     "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.passportphoto",
     "card_emoji": "🪪",
@@ -382,7 +339,7 @@
     "schema_category": "LifestyleApplication",
     "theme": "mystic",
     "package_id": "com.froggyeye.sleepyclock",
-    "apple_id": "6798893264",
+    "apple_id": null,
     "apple_url": null,
     "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.sleepyclock",
     "card_emoji": "🌙",
@@ -487,8 +444,8 @@
     "theme": "toner",
     "package_id": "com.froggyeye.pocketcopier",
     "apple_id": "6817127013",
-    "apple_url": null,
-    "play_url": null,
+    "apple_url": "https://apps.apple.com/gb/app/pocketcopier/id6817127013",
+    "play_url": "https://play.google.com/store/apps/details?id=com.froggyeye.pocketcopier",
     "card_emoji": "📄",
     "card_gradient": [
       "#FF7A3D",

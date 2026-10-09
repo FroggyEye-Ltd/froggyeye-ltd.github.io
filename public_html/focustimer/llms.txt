@@ -6,7 +6,7 @@
 
 - Category: Productivity
 - Studio: Froggy Eye Ltd ([https://froggyeye.com](https://froggyeye.com))
-- App Store: Not yet listed.
+- App Store: https://apps.apple.com/gb/app/ifocustimer/id6756663699
 - Google Play: https://play.google.com/store/apps/details?id=com.froggyeye.focustimer
 
 ## About this app
