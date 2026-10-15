@@ -69,5 +69,10 @@
     "primary": "#FF7A3D", "primary_deep": "#B53C0A", "violet": "#E4602A",
     "mint": "#FF9A66", "yellow": "#FFDBCC",
     "bg": "#0B0C0E", "surface": "#16181B", "surface2": "#22252A", "border": "#3A3D43"
+  },
+  "slate": {
+    "primary": "#8DB4C8", "primary_deep": "#4F7C92", "violet": "#5B8A9E",
+    "mint": "#C3CDD3", "yellow": "#EEF2F4",
+    "bg": "#0F1C22", "surface": "#15252C", "surface2": "#1D313A", "border": "#2E434C"
   }
 }

@@ -36,6 +36,7 @@
 - [Treasure Hunter Live](https://treasurehunterlive.froggyeye.com): Real adventures in real places
 - [Wheel of Choices](https://wheelofchoices.froggyeye.com): The cure for indecision
 - [PocketCopier](https://pocketcopier.froggyeye.com): Photocopier in your pocket: a phone photo of any page becomes a clean, straight black-and-white copy as a PDF or PNG. Auto-align squares the page up and removes shadows; no ads, no account, one-time Pro unlock.
+- [Sides: The News, Every Angle](https://sides.froggyeye.com): Once-a-day news digest that puts the top 5-10 stories side by side: real headline quotes from about 29 English-language outlets grouped by political lean (left, centre, right, from AllSides and Ad Fontes Media ratings) and by region (Western and Eastern outlets, state media labelled). Blindspots, shared facts, contested claims; every point links to its source. Analysis generated automatically by an AI model from headlines and short summaries. Free with a non-personalised banner, one-time ad-free purchase.
 
 ## Notes for AI agents
 

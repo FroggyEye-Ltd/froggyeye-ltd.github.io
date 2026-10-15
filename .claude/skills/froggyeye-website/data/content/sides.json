@@ -1,0 +1,240 @@
+{
+  "folder": "sides",
+  "name": "Sides: The News, Every Angle",
+  "tagline": "Today's top stories, side by side",
+  "meta_desc": "Sides puts the day's top news stories side by side, so you can compare how left, centre and right outlets, and Western and Eastern outlets, cover the same events. Real headline quotes, blindspots, shared facts and contested claims, with every point linked to its source. Free with a small banner; one purchase removes ads.",
+  "nav_examples": "What you see",
+  "hero_eyebrow": "For iPhone, iPad and Android · Once a day · No account",
+  "headline_pre": "The same stories.",
+  "headline_accent": "Every angle.",
+  "lead": "Each morning Sides gathers headlines and short summaries from about 29 English-language outlets and groups the top stories into one daily digest. For each story you see how left, centre and right outlets word it, how Western and Eastern outlets frame it, what they agree on and what each side leaves out. Every point links to the headline it came from.",
+  "meta_items": [
+    "Real headline quotes, grouped by lean",
+    "West and East on the same story",
+    "Blindspots and contested claims",
+    "Free with a small banner; ad-free once"
+  ],
+  "phone_content": "        <h4>Today's digest</h4>\n        <div class=\"phone-art\"><div class=\"emoji\" style=\"font-size:0; line-height:0;\"><svg width=\"128\" height=\"128\" viewBox=\"0 0 128 128\" fill=\"none\" aria-hidden=\"true\"><polygon points=\"64,20 102,42 64,64 26,42\" fill=\"#C3CDD3\"/><polygon points=\"26,46 62,67 62,110 26,89\" fill=\"#8F63D2\"/><polygon points=\"102,46 66,67 66,110 102,89\" fill=\"#E8914A\"/></svg></div></div>\n        <div>\n          <p class=\"phone-title\">Story 1 of 8</p>\n          <p class=\"phone-sub\">Covered by 12 outlets &middot; Left, centre, right</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>POLITICAL LEAN</span><span>WEST / EAST</span></div>\n        <div class=\"phone-lyric\"><b>Headline wording</b><br>Real quotes from each outlet's own headline, grouped by lean and labelled by outlet. Tap a source to read the original.</div>",
+  "chips": [
+    "Headline wording",
+    "Left, centre, right",
+    "West and East",
+    "Blindspots",
+    "Coverage bars",
+    "Shared facts",
+    "Contested claims",
+    "What each side leaves out",
+    "Opinion kept apart",
+    "Every point sourced",
+    "Reads offline",
+    "No account"
+  ],
+  "how_head_pre": "Once a day, the top stories,",
+  "how_head_accent": "read side by side.",
+  "how_lead": "Sides is a reading tool, not a feed. One digest a day, built from headlines and short summaries, with the analysis checked against its sources before it is published.",
+  "steps": [
+    [
+      "The morning digest arrives",
+      "Each morning Sides reads headlines and short summaries from about 29 outlets and groups them into the day's top stories, usually 5 to 10. Each story is covered by at least three different outlets. The app downloads one file a day and keeps it, so the latest digest opens instantly and stays readable offline."
+    ],
+    [
+      "Open a story and switch sides",
+      "The Political lean view shows real quotes from left, centre and right outlets, labelled by outlet. The West / East view does the same for Western and Eastern outlets and lists East–West contradictions when the day's coverage has them. Coverage bars show who covered the story, and a blindspot label marks a story that only one side covered."
+    ],
+    [
+      "Read the original",
+      "Below the comparison sit what all sources agree on, what each side leaves out, contested claims, and opinion pieces kept apart from the reporting. Tap any source to read the original article on the outlet's own website. Sides shows headlines and short summaries only, never full articles."
+    ]
+  ],
+  "feat_head_pre": "Built to compare coverage,",
+  "feat_head_line2": "not to tell you what to think.",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"5\" width=\"8\" height=\"14\" rx=\"1.5\"/><rect x=\"13\" y=\"5\" width=\"8\" height=\"14\" rx=\"1.5\"/><line x1=\"6\" y1=\"9\" x2=\"8\" y2=\"9\"/><line x1=\"16\" y1=\"9\" x2=\"18\" y2=\"9\"/><line x1=\"6\" y1=\"13\" x2=\"8\" y2=\"13\"/><line x1=\"16\" y1=\"13\" x2=\"18\" y2=\"13\"/></svg>",
+      "Headline wording, side by side",
+      "Real quotes from each outlet's own headline or summary, grouped by political lean and labelled by outlet. You read the words they chose, not a paraphrase."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><line x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\"/><path d=\"M12 3a14 14 0 0 1 0 18\"/><path d=\"M12 3a14 14 0 0 0 0 18\"/></svg>",
+      "West and East",
+      "Alongside UK, US and European outlets, Sides reads outlets based in the Middle East, India, China, Japan and South Korea, plus The Moscow Times. The West / East view compares how each group frames a story. State-controlled outlets carry a visible state media label and are included for comparison, not endorsed."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/><line x1=\"4\" y1=\"4\" x2=\"20\" y2=\"20\"/></svg>",
+      "Blindspots",
+      "A story covered only by left-leaning outlets, or only by Western outlets, is marked as such. Coverage bars show which outlets, and which sides, covered each story."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 11l3 3L22 4\"/><path d=\"M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11\"/></svg>",
+      "Shared facts and contested claims",
+      "For each story: what all sources agree on, what each side leaves out, which claims are contested, and opinion pieces kept apart from the reporting."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"/><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"/></svg>",
+      "Every point links to its source",
+      "Tap a source chip to read the original on the outlet's own site. Before publication each point is checked automatically against the headlines and summaries it cites, and points that cannot be traced to a source are left out."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><line x1=\"12\" y1=\"4\" x2=\"12\" y2=\"20\"/><line x1=\"5\" y1=\"9\" x2=\"9\" y2=\"9\"/><line x1=\"15\" y1=\"9\" x2=\"19\" y2=\"9\"/></svg>",
+      "Phone and tablet, light and dark",
+      "On larger tablets the sides appear in columns. Light and dark themes follow your device, and text scales with your device's text size up to 200%. No account and no sign-in."
+    ]
+  ],
+  "ex_eyebrow": "What you see",
+  "ex_head": "One story, told many ways.",
+  "ex_lead": "Each story in the digest carries the same set of views. These are the parts, in the order they appear on the page.",
+  "examples": [
+    [
+      "#34505C,#1D313A",
+      "<svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#EEF2F4\" stroke-width=\"2\" stroke-linecap=\"round\"><line x1=\"4\" y1=\"7\" x2=\"20\" y2=\"7\"/><line x1=\"4\" y1=\"12\" x2=\"16\" y2=\"12\"/><line x1=\"4\" y1=\"17\" x2=\"12\" y2=\"17\"/></svg>",
+      "Today's digest",
+      "The top 5 to 10 stories and who covered each"
+    ],
+    [
+      "#2E434C,#15252C",
+      "<svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#EEF2F4\" stroke-width=\"2\" stroke-linecap=\"round\"><rect x=\"3\" y=\"6\" width=\"5\" height=\"12\" rx=\"1\"/><rect x=\"9.5\" y=\"6\" width=\"5\" height=\"12\" rx=\"1\"/><rect x=\"16\" y=\"6\" width=\"5\" height=\"12\" rx=\"1\"/></svg>",
+      "Political lean",
+      "Left, centre and right headline quotes"
+    ],
+    [
+      "#34505C,#1D313A",
+      "<svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#EEF2F4\" stroke-width=\"2\" stroke-linecap=\"round\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><line x1=\"12\" y1=\"3\" x2=\"12\" y2=\"21\"/></svg>",
+      "West / East",
+      "How Western and Eastern outlets frame it"
+    ],
+    [
+      "#2E434C,#15252C",
+      "<svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#EEF2F4\" stroke-width=\"2\" stroke-linecap=\"round\"><rect x=\"3\" y=\"10\" width=\"18\" height=\"4\" rx=\"2\"/><rect x=\"3\" y=\"10\" width=\"7\" height=\"4\" rx=\"2\" fill=\"#EEF2F4\"/></svg>",
+      "Coverage bars",
+      "Which outlets and which sides covered it"
+    ],
+    [
+      "#34505C,#1D313A",
+      "<svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#EEF2F4\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12z\"/><line x1=\"4\" y1=\"4\" x2=\"20\" y2=\"20\"/></svg>",
+      "Blindspot label",
+      "A story only one side covered"
+    ],
+    [
+      "#2E434C,#15252C",
+      "<svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#EEF2F4\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M5 12l4 4L19 6\"/></svg>",
+      "What all sources agree on",
+      "The shared facts across the coverage"
+    ],
+    [
+      "#34505C,#1D313A",
+      "<svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#EEF2F4\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M12 3v10\"/><path d=\"M8 7l4-4 4 4\"/><path d=\"M4 17h16\"/><path d=\"M6 21h12\"/></svg>",
+      "Leaves out and contested",
+      "What each side omits, and claims in dispute"
+    ],
+    [
+      "#2E434C,#15252C",
+      "<svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#EEF2F4\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"/><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"/></svg>",
+      "Sources",
+      "Tap to read the original on the outlet's site"
+    ]
+  ],
+  "pricing_head_pre": "Free to read.",
+  "pricing_head_accent": "Ad-free is £2.99, once.",
+  "pricing_lead": "Sides is free and shows a small banner ad at the bottom of the screen. Ads never appear inside the sourced coverage, and ad requests are non-personalised. One in-app purchase removes the banner for good. There is no subscription.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "£0",
+      "blurb": "The whole digest, every day, with a small banner.",
+      "items": [
+        "The full daily digest",
+        "Political lean and West / East views",
+        "Blindspots, shared facts, contested claims",
+        "Every point linked to its source",
+        "Reads offline, phone and tablet",
+        "Small non-personalised banner at the bottom"
+      ],
+      "cta": "Free download"
+    },
+    {
+      "name": "Ad-free — one time",
+      "featured": true,
+      "tag": "Pay once",
+      "price": "£2.99",
+      "per": "once",
+      "blurb": "The same app, with the banner removed for good.",
+      "items": [
+        "Everything in Free",
+        "Banner ads removed permanently",
+        "Nothing else changes: no features are held back",
+        "Restores on a new device from Settings",
+        "One payment. No subscription."
+      ],
+      "cta": "Remove ads"
+    }
+  ],
+  "pricing_footnote": "Price shown in GBP; the app shows your own storefront's price. The ad-free unlock is a one-time purchase, not a subscription. There is nothing to cancel.",
+  "why_eyebrow": "How it works, and its limits",
+  "why_head_pre": "Generated automatically.",
+  "why_head_accent": "Checked against its sources.",
+  "why_lead": "The comparison is generated automatically by an AI model from headlines and short summaries, once a day. No human editor writes or reviews it. Before publication, each point is checked automatically against the headlines and summaries it cites, and points that cannot be traced to a source are left out.",
+  "why_body": "Political-lean labels come from published media-bias ratings by AllSides and Ad Fontes Media. Outlets outside the UK/US left–right scale, including state media, appear in the West / East comparison only. Sides does not rate the accuracy of any outlet or story. Settings › Outlets and ratings lists each outlet with its lean, region, ownership and rating source.",
+  "stats": [
+    [
+      "29",
+      "grad",
+      "English-language outlets read each morning, across left, centre and right, and Western and Eastern countries."
+    ],
+    [
+      "5–10",
+      "mint",
+      "Top stories a day, each covered by at least three outlets. One download a day; readable offline afterwards."
+    ],
+    [
+      "£2.99",
+      "yellow",
+      "One-time purchase that removes the banner ads for good. No subscription, no account, no sign-in."
+    ]
+  ],
+  "faq": [
+    [
+      "Where do the stories come from?",
+      "From the public headline feeds of about 29 English-language news outlets based in the UK, US, Europe, the Middle East, India, China, Japan and South Korea, plus The Moscow Times. Sides reads headlines and short summaries only, never full articles. Settings › Outlets and ratings in the app lists each outlet it reads, with its lean, region, ownership and rating source."
+    ],
+    [
+      "Who decides which outlet is left, centre or right?",
+      "Sides does not. Political-lean labels come from published media-bias ratings by AllSides and Ad Fontes Media, and the rating source is shown per outlet in the app. Outlets outside the UK/US left–right scale appear in the West / East comparison only."
+    ],
+    [
+      "Is the analysis written by people?",
+      "No. The comparison is generated automatically by an AI model from headlines and short summaries, once a day. Before publication each point is checked automatically against the headlines and summaries it cites, and points that cannot be traced to a source are left out. Sides does not rate the accuracy of any outlet or story."
+    ],
+    [
+      "Why are state-controlled outlets included?",
+      "So their framing can be compared with everyone else's. Outlets such as CGTN carry a visible state media label and are shown in the West / East view for comparison, not endorsed. RT, Sputnik and Press TV are not read."
+    ],
+    [
+      "What is a blindspot?",
+      "A story that only one side covered: only left-leaning outlets, for example, or only Western outlets. Sides marks these with a label on the story so you can see what the other side did not report that day."
+    ],
+    [
+      "What happens when West and East do not contradict each other?",
+      "The app says so. East–West contradictions are listed only when the day's coverage contains them; when it does not, the view reads \"none found\" rather than inventing a disagreement."
+    ],
+    [
+      "Does it work offline?",
+      "Yes. The app downloads one digest file a day and keeps it, so the latest digest opens instantly and stays readable without a connection. Opening an original article needs a connection, because it opens on the outlet's own website."
+    ],
+    [
+      "What does the ad-free purchase change?",
+      "Only the banner. Sides is free with a small non-personalised banner ad at the bottom of the screen, never inside the coverage. The one-time £2.99 purchase removes it for good. No features are held back, there is no subscription, and Restore purchases is in Settings."
+    ],
+    [
+      "Do I need an account?",
+      "No. There is no account and no sign-in. Sides does not use analytics. The ad banner is served by Google AdMob with non-personalised requests; the privacy policy explains what that involves."
+    ]
+  ],
+  "final_title": "Read today's stories, side by side.",
+  "final_body": "Sides is free to download, with a one-time £2.99 ad-free purchase. No account, no subscription, and every point links to its source.",
+  "footer_blurb": "A once-a-day digest that shows how left, centre and right outlets, and Western and Eastern outlets, cover the same top stories. Every point linked to its source. Made in the UK.",
+  "theme": "slate",
+  "privacy_url": "https://mksoft-ltd.github.io/sides/privacy_policy.html",
+  "og_image_alt": "Sides: The News, Every Angle. Today's top stories side by side, with political lean and West / East coverage bars.",
+  "seo_title": "Sides: The News, Every Angle — Compare left, right, West and East headlines | Froggy Eye Ltd",
+  "seo_desc": "Once a day, the top news stories side by side: real headline quotes from left, centre and right outlets, and from Western and Eastern outlets. Blindspots, shared facts, contested claims, every point linked to its source. Free with a small banner; one purchase removes ads."
+}
