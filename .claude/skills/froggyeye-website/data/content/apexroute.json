@@ -229,5 +229,10 @@
   "theme": "ember",
   "og_image_alt": "ApexRoute — driving routes for car enthusiasts",
   "seo_desc": "Driving routes built for enthusiasts. Builds twisty, scenic drives from a distance and a twistiness, with a road book of 50 famous roads and drive recording.",
-  "seo_title": "ApexRoute — Driving routes for enthusiasts | Froggy Eye Ltd"
+  "seo_title": "ApexRoute — Driving routes for enthusiasts | Froggy Eye Ltd",
+  "press": {
+    "quote": "ApexRoute finds roads worth driving.",
+    "source": "MakeUseOf, October 2026",
+    "url": "https://www.makeuseof.com/google-maps-optimizes-for-speed/"
+  }
 }

@@ -20,6 +20,7 @@ After rendering, run postprocess.py to inject screenshots, the feature banner
 and real store URLs.
 """
 import json, sys
+from html import escape as html_escape
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -263,6 +264,21 @@ def render_app(reg, content, themes):
             '<li><a href="#pricing">Pricing</a></li>',
             f'<li><a href="#{extra["id"]}">{extra["nav_label"]}</a></li>\n'
             f'      <li><a href="#pricing">Pricing</a></li>')
+    # Optional attributed press quote under the hero meta row. Text only, no
+    # outlet logo (their trademark), and only a verbatim line from the piece.
+    press = content.get("press")
+    if press:
+        q = html_escape(press["quote"])
+        src = html_escape(press["source"])
+        html = html.replace(
+            f'<div class="meta">{render_meta(content["meta_items"])}</div>',
+            f'<div class="meta">{render_meta(content["meta_items"])}</div>\n'
+            f'      <p class="press-quote">&ldquo;{q}&rdquo; &mdash; '
+            f'<a href="{press["url"]}" rel="noopener" target="_blank">{src}</a></p>', 1)
+        html = html.replace('</style>',
+                            '\n.press-quote { margin-top: 18px; font-size: 15px; color: var(--text-2); }'
+                            '\n.press-quote a { color: inherit; text-decoration: underline;'
+                            ' text-underline-offset: 3px; }\n</style>', 1)
     # Optional app-specific privacy policy, listed alongside the studio ones.
     if content.get("privacy_url"):
         html = html.replace(
