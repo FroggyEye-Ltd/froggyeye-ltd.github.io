@@ -2,14 +2,14 @@
   "folder": "apexroute",
   "name": "ApexRoute",
   "tagline": "Driving routes built for enthusiasts.",
-  "meta_desc": "ApexRoute builds twisty, scenic driving routes from a distance and a twistiness — plus a road book of 50 famous roads, drive recording, and shared route links. iPhone and Android.",
+  "meta_desc": "ApexRoute builds twisty, scenic driving routes from a distance and a twistiness — plus a road book of 60 famous roads, drive recording, and shared route links. iPhone and Android.",
   "nav_examples": "Famous roads",
   "hero_eyebrow": "iOS & Android · For drivers who chase the road",
   "headline_pre": "Find the road that makes you",
   "headline_accent": "feel alive.",
   "lead": "Tell ApexRoute how far you want to go and how twisty you want it, and it builds the drive — backroads, passes and coast roads instead of the fastest way there. Then it records the run so you can keep it.",
   "meta_items": [
-    "50 famous roads",
+    "60 famous roads",
     "Free to start",
     "No account needed",
     "No ads, no tracking"
@@ -49,8 +49,8 @@
   "features": [
     [
       "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 19.5A2.5 2.5 0 0 1 6.5 17H20\"/><path d=\"M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z\"/></svg>",
-      "A road book of 50",
-      "Five packs — UK &amp; Ireland, the Alps, Europe, North America and Around the World. Open a road and ApexRoute sets it up as a route you can generate. Five are open to everyone, one in each pack."
+      "A road book of 60",
+      "Six packs — UK &amp; Ireland, the Alps, Europe, North America, Around the World and Winter Sun. Open a road and ApexRoute sets it up as a route you can generate. Six are open to everyone, one in each pack."
     ],
     [
       "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"/><circle cx=\"12\" cy=\"10\" r=\"3\"/></svg>",
@@ -79,8 +79,8 @@
     ]
   ],
   "ex_eyebrow": "The road book",
-  "ex_head": "Fifty roads worth the detour:",
-  "ex_lead": "Real roads, grouped into five packs. The Cat and Fiddle, Furka Pass, Sa Calobra, Tail of the Dragon and the Great Ocean Road are open to everyone — one in each pack. The other forty-five come with Pro.",
+  "ex_head": "Sixty roads worth the detour:",
+  "ex_lead": "Real roads, grouped into six packs. The Cat and Fiddle, Furka Pass, Sa Calobra, Tail of the Dragon, the Great Ocean Road and Tenerife's Masca road are open to everyone — one in each pack. The other fifty-four come with Pro.",
   "examples": [
     [
       "#FF4D2E,#7C2D12",
@@ -144,7 +144,7 @@
         "3 saved routes",
         "Drive recording up to 30 minutes",
         "Lifetime distance, time and drive totals",
-        "5 of the 50 famous roads",
+        "6 of the 60 famous roads",
         "Send and open shared route links"
       ],
       "cta": "Download free"
@@ -156,9 +156,9 @@
       "price": "Unlimited",
       "blurb": "For the drives that don't fit inside the free limits.",
       "items": [
-        "Unlimited routes and saved routes",
+        "Unlimited routes (fair use applies) and saved routes",
         "Recording with no time limit",
-        "All 50 roads in the road book",
+        "All 60 roads in the road book",
         "GPX import and export",
         "Personal records, monthly and yearly stats",
         "Up to 20 via points, and 1-second GPS sampling"
@@ -171,12 +171,12 @@
   "why_head_pre": "The road is half the car.",
   "why_head_accent": "ApexRoute optimises for the half you remember.",
   "why_lead": "Every other map is trying to get you there. Ask one for a good drive and it has no idea what you mean — so you end up scrolling satellite view looking for squiggles. ApexRoute asks for a distance and a twistiness instead, and builds the drive around them.",
-  "why_body": "Routes come from a routing engine set to favour bends and gradient over speed, and Scenic Route pulls in viewpoints and scenic roads from OpenStreetMap to bias the waypoints. The road book is hand-picked rather than generated — fifty roads that earned their reputation, with the notes to explain why. Nothing needs an account, nothing is tracked, and there are no ads on either tier.",
+  "why_body": "Routes come from a routing engine set to favour bends and gradient over speed, and Scenic Route pulls in viewpoints and scenic roads from OpenStreetMap to bias the waypoints. The road book is hand-picked rather than generated — sixty roads that earned their reputation, with the notes to explain why. Nothing needs an account, nothing is tracked, and there are no ads on either tier.",
   "stats": [
     [
-      "50",
+      "60",
       "grad",
-      "Famous roads in five packs, hand-picked and annotated — five of them open to everyone."
+      "Famous roads in six packs, hand-picked and annotated — six of them open to everyone."
     ],
     [
       "0",
@@ -196,7 +196,7 @@
     ],
     [
       "Does it work where I live?",
-      "Route generation isn't limited by country — you give it a start point and it plans from there. The road book is a curated set of fifty roads across five packs, so those specific roads are UK &amp; Ireland, the Alps, wider Europe, North America and a round-the-world pack."
+      "Route generation isn't limited by country — you give it a start point and it plans from there. The road book is a curated set of sixty roads across six packs, so those specific roads are UK &amp; Ireland, the Alps, wider Europe, North America, a round-the-world pack and Winter Sun."
     ],
     [
       "Does it work without a signal?",
@@ -228,7 +228,7 @@
   "footer_blurb": "Driving routes built for enthusiasts, not commuters. Made in the UK by Froggy Eye Ltd.",
   "theme": "ember",
   "og_image_alt": "ApexRoute — driving routes for car enthusiasts",
-  "seo_desc": "Driving routes built for enthusiasts. Builds twisty, scenic drives from a distance and a twistiness, with a road book of 50 famous roads and drive recording.",
+  "seo_desc": "Driving routes built for enthusiasts. Builds twisty, scenic drives from a distance and a twistiness, with a road book of 60 famous roads and drive recording.",
   "seo_title": "ApexRoute — Driving routes for enthusiasts | Froggy Eye Ltd",
   "press": {
     "quote": "ApexRoute finds roads worth driving.",

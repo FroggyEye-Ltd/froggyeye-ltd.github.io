@@ -128,7 +128,7 @@
           "p": "What it does not do is navigate you. Once the route exists, ApexRoute hands it to Google Maps, or Apple Maps on an iPhone, for the actual turn-by-turn — it decides where you are going and lets the app you already use do the talking. It records the drive from your phone's GPS as you go, so you can rate the road afterwards and keep the version worth repeating."
         },
         {
-          "p": "The free tier gives you three generated routes a day and three saved ones, which is enough to plan a weekend. There is a road book of fifty well-known roads built in, so you can start from an anchor road as described above rather than from a blank map — several of the roads in [the Wales guide](/guides/best-driving-roads-wales.html), [the Peak District guide](/guides/best-motorcycle-roads-peak-district.html) and [the Evo Triangle guide](/guides/evo-triangle-honest-guide.html) are in it."
+          "p": "The free tier gives you three generated routes a day and three saved ones, which is enough to plan a weekend. There is a road book of sixty well-known roads built in, so you can start from an anchor road as described above rather than from a blank map — several of the roads in [the Wales guide](/guides/best-driving-roads-wales.html), [the Peak District guide](/guides/best-motorcycle-roads-peak-district.html) and [the Evo Triangle guide](/guides/evo-triangle-honest-guide.html) are in it."
         }
       ]
     },
@@ -149,5 +149,5 @@
       ]
     }
   ],
-  "cta_note": "ApexRoute turns that method into two sliders and a blank finish field: set a start, leave the finish empty, choose a distance and a twistiness, and it generates a loop back to where you began — avoiding motorways and tolls if you ask, and biasing toward scenic roads if you switch it on. The fifty roads in the Famous Roads packs give you anchors to build around."
+  "cta_note": "ApexRoute turns that method into two sliders and a blank finish field: set a start, leave the finish empty, choose a distance and a twistiness, and it generates a loop back to where you began — avoiding motorways and tolls if you ask, and biasing toward scenic roads if you switch it on. The sixty roads in the Famous Roads packs give you anchors to build around."
 }
