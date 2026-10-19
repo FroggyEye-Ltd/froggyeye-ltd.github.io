@@ -1,0 +1,226 @@
+{
+  "slug": "best-driving-roads-scotland",
+  "order": 5,
+  "title": "The best driving and motorcycle roads in Scotland — honestly described",
+  "seo_title": "Best driving and motorcycle roads in Scotland | ApexRoute",
+  "eyebrow": "Scotland · Route guide",
+  "description": "The Scottish roads worth the drive — the Bealach na Bà, the A82 through Glencoe, the A87 to Skye, Glenshee, the Lecht, the Duke's Pass and Cairn o' Mount — with the single-track etiquette and the summer traffic spelled out.",
+  "summary": "Scotland has the most dramatic tarmac in Britain and some of the slowest. The roads below are the ones worth building a day around, described as they actually are: which are fast and open, which are single track, and which are famous for reasons that have nothing to do with driving.",
+  "card_blurb": "Bealach na Bà, Glencoe, Glen Shiel, Glenshee, the Lecht, the Duke's Pass and Cairn o' Mount — plus three loops and the single-track rules nobody explains.",
+  "published": "2026-10-19",
+  "published_label": "19 October 2026",
+  "reading_minutes": 11,
+  "sections": [
+    {
+      "h2": "",
+      "blocks": [
+        {
+          "p": "Scotland is a big country with very few roads in it, and the ones it has were mostly built to connect a glen to the next glen rather than to get anyone anywhere quickly. That is why they bend. It is also why so many of them are single track, why fuel is a planning decision rather than an afterthought, and why the weather on a summit can have nothing to do with the weather at the bottom."
+        },
+        {
+          "p": "What follows is the roads that reward a car or a bike, honestly described, and then the part that matters more here than anywhere else in Britain: how single-track roads actually work, what the North Coast 500 has done to the north-west in summer, and how to join a few of these into a loop rather than an out-and-back."
+        }
+      ]
+    },
+    {
+      "h2": "The roads",
+      "blocks": [
+        {
+          "road": {
+            "name": "Bealach na Bà — the Applecross Pass",
+            "meta": "Tornapress ↔ Applecross, Wester Ross · roughly 11 miles · single track throughout",
+            "text": [
+              "The most famous driving road in Scotland, and the one with the biggest gap between its reputation and the experience. It climbs from sea level at the head of Loch Kishorn to a summit a little over 620 metres through a glacial headwall, finishing in a stack of tight hairpins with gradients that reach roughly one in five. The view back down the corrie from the top is the best from any road in Britain.",
+              "Now the honest part. It is single track with passing places for its entire length. The signs at the bottom warn that it is not advised for learner drivers, very large vehicles or caravans, and they are not being cautious — the hairpins are tight enough that a long vehicle cannot make them without reversing, and there is nowhere to turn round once committed. Motorhomes do attempt it every summer and the result is a queue that goes nowhere.",
+              "Driven early on a weekday it is extraordinary. Driven mid-afternoon in August it is a slow procession with a lot of reversing. Either way this is a spectacle to be taken at low speed, not a road to be driven quickly, and in cloud the top is simply a wet grey wall."
+            ]
+          }
+        },
+        {
+          "road": {
+            "name": "The Applecross coast road",
+            "meta": "Applecross ↔ Shieldaig, Wester Ross · roughly 25 miles · single track",
+            "text": [
+              "The other way in and out of Applecross, and the better half of the day. An unclassified single-track road that follows the coast north and then east around the peninsula, with Raasay and the Skye hills across the water for most of it and almost no gradient to speak of.",
+              "It is slower than the mileage suggests because you will stop, and because it is single track with blind crests. But it turns the Bealach from an out-and-back into a proper circuit, and it is the stretch most people remember afterwards."
+            ]
+          }
+        },
+        {
+          "road": {
+            "name": "A82 — Rannoch Moor and Glen Coe",
+            "meta": "Tyndrum ↔ Fort William, Argyll and Lochaber · roughly 45 miles",
+            "text": [
+              "A proper two-lane trunk road across one of the emptiest places in Britain, then down through the most photographed glen in the country. The climb out of Tyndrum onto Rannoch Moor is fast and open with sightlines in miles; the descent into Glen Coe under Buachaille Etive Mòr and the Three Sisters is the postcard.",
+              "Set expectations: this is the main road to Fort William and the west, so it carries lorries, coaches and everyone's holiday. Safe overtaking opportunities are fewer than the long straights suggest, and the lay-bys in the glen fill with people photographing it. It is a scenery road first and a driving road second — but as scenery roads go it has no equal.",
+              "Further south the A82 along Loch Lomond between Tarbet and Crianlarich is narrow, slow and hemmed in by rock and water. Budget for it rather than enjoying it."
+            ]
+          }
+        },
+        {
+          "road": {
+            "name": "A87 — Glen Shiel to Skye",
+            "meta": "Invergarry ↔ Kyle of Lochalsh and the Skye Bridge · roughly 40 miles to the bridge",
+            "text": [
+              "The best fast road in the Highlands. From Invergarry it runs along Loch Garry and Loch Cluanie, climbs gently onto the watershed and then drops through Glen Shiel under the Five Sisters of Kintail in a long sequence of wide, well-sighted, flowing bends. The road is well engineered, the surface is good, and the mountains stay in frame the whole way.",
+              "The Skye Bridge is toll-free and the road continues as the A87 to Portree. Be clear about what you are joining, though: Skye in summer is one of the busiest places in Scotland, parking at the well-known spots is contested, and much of the island beyond the main road is single track with heavy traffic. The bridge is the start of the queue, not the end of it. Spring and autumn are a different island."
+            ]
+          }
+        },
+        {
+          "road": {
+            "name": "A93 — Glenshee and the Cairnwell Pass",
+            "meta": "Blairgowrie ↔ Braemar, Perthshire and Aberdeenshire · roughly 35 miles",
+            "text": [
+              "The summit at the Cairnwell, around 670 metres, is the highest point on any main road in Britain. From Spittal of Glenshee the road climbs past the old Devil's Elbow — a double hairpin that was bypassed decades ago and can still be seen beside the modern alignment — onto open moor with the ski centre at the top, then runs down Glen Clunie to Braemar.",
+              "It is wide, well surfaced and open, with the kind of long sightlines that make it fast without feeling frantic. Snow gates at either end close it when the weather demands, and in winter it carries ski traffic. Beyond Braemar the A93 along the Dee to Ballater is quieter, more wooded and more rhythmic — the underrated half."
+            ]
+          }
+        },
+        {
+          "road": {
+            "name": "A939 — the Lecht",
+            "meta": "Cock Bridge ↔ Tomintoul, Aberdeenshire and Moray · roughly 10 miles for the pass",
+            "text": [
+              "The steep one. From Cock Bridge the A939 climbs almost immediately at gradients signed around one in five to a summit near 640 metres beside the Lecht ski centre, then rolls across high moorland to Tomintoul. It is one of the roads most often first to close in Britain when snow arrives, which tells you most of what you need to know about its exposure.",
+              "It is two-way but not generous, and the climb is a test of a car's gearing rather than its chassis. Approach it from Ballater and the A939 over Gairnshiel to Cock Bridge is a good warm-up: narrow, undulating and empty."
+            ]
+          }
+        },
+        {
+          "road": {
+            "name": "A821 — the Duke's Pass",
+            "meta": "Aberfoyle ↔ Loch Achray, the Trossachs · roughly 7 miles",
+            "text": [
+              "Short, wooded and relentless. The Duke's Pass climbs out of Aberfoyle through forest in a continuous sequence of tight bends and gradient changes, crests, and drops to Loch Achray on the far side. There is barely a straight on it, and the trees mean you read it corner by corner rather than from a distance.",
+              "It is low-speed but technically absorbing, and it is a proper driving road rather than a view. The catch is traffic: it is the way to Loch Katrine and the Trossachs' visitor spots, so weekends are busy and cyclists use it heavily. Early morning, midweek, it is one of the best short roads in the country."
+            ]
+          }
+        },
+        {
+          "road": {
+            "name": "B974 — Cairn o' Mount",
+            "meta": "Fettercairn ↔ Banchory via Strachan, Aberdeenshire · roughly 15 miles",
+            "text": [
+              "An old military road over the eastern Grampians that nobody outside the north-east seems to know about. From Fettercairn it climbs steeply to a summit around 455 metres, with a tight hairpin on the way up and a view from the cairn that takes in the whole Howe of the Mearns to the sea. The descent north runs through Glen Dye and its forest to Strachan.",
+              "It is a B-road and feels like one: narrow in places, with a surface that varies and a few crests that arrive quickly. Snow gates mark both ends and it closes regularly in winter. In good weather it is quiet, satisfying and over too soon."
+            ]
+          }
+        },
+        {
+          "road": {
+            "name": "The North Coast 500: A836, A838 and A894",
+            "meta": "Bettyhill ↔ Durness, then Durness ↔ Kylesku, Sutherland · roughly 35 and 40 miles",
+            "text": [
+              "The NC500 is a marketing route rather than a road, and much of its 500 miles is ordinary. The section worth singling out is the far north-west: the A836 west from Bettyhill through Tongue, round Loch Eriboll on the A838 to Durness, then south on the A838 and A894 past Loch Assynt to the Kylesku Bridge. It alternates between single track and newer two-lane stretches across some of the emptiest moorland in Europe, with the Sutherland hills standing on their own in the middle of it.",
+              "The B869 loop through Drumbeg, west of the A894, is the extreme version — single track, extremely steep in places, and best treated as a slow scenic detour rather than a road to make time on.",
+              "The honest note is that the route's popularity is now its defining feature. Summer brings a steady stream of motorhomes and hire cars onto roads that were never built for them, and the single-track etiquette below is routinely ignored by people who have never met it before. Go in May, June or September if you can."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "h2": "Single-track roads: how they actually work",
+      "blocks": [
+        {
+          "p": "Most of the roads in this article are single track for at least part of their length, and the north-west is mostly single track. The rules are simple and the traffic flows well when everyone follows them; it stops entirely when they do not."
+        },
+        {
+          "ul": [
+            "**Passing places are for passing, not parking.** Pull into one on your side, or stop opposite one on the other side, to let an oncoming vehicle through. Never stop in one to take a photograph.",
+            "**Let faster traffic past.** If someone is behind you, pull into the next passing place and wave them on. Locals use these roads to get to work, and a convoy behind a sightseer is the single biggest source of friction on the NC500.",
+            "**Look far ahead.** You can often see the next vehicle a quarter of a mile away. Decide early who stops where, and you will rarely have to reverse.",
+            "**Uphill usually has priority** on steep sections, because it is harder to restart. On the Bealach, the vehicle that can reach a passing place more easily gives way, whichever way it is going.",
+            "**Wave.** It is how the whole thing stays civil.",
+            "**A wide car makes everything slower.** Single track that is relaxed in a hatchback is work in a large SUV. Motorcycles have it easiest of all."
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Loop one: the Applecross circuit",
+      "blocks": [
+        {
+          "p": "The tidiest loop in the north-west, and the right way to do the Bealach. Roughly 55 miles, but allow at least half a day — the average speed is low and you will stop constantly."
+        },
+        {
+          "ol": [
+            "Start at **Lochcarron** and take the **A896** west to Kishorn and Tornapress.",
+            "Turn onto the **Bealach na Bà** and climb to the summit, then descend to Applecross.",
+            "Take the **coast road** north and east around the peninsula to Shieldaig.",
+            "**A896** back south through Glen Shieldaig and over to Kishorn and Lochcarron."
+          ]
+        },
+        {
+          "p": "Do it this way round so you climb the hairpin headwall rather than descend it — the view opens in front of you and the gradients are easier on the brakes. Early morning is the whole trick; the Bealach by nine is a different road from the Bealach at two."
+        }
+      ]
+    },
+    {
+      "h2": "Loop two: the Trossachs",
+      "blocks": [
+        {
+          "p": "A short loop that is almost all good road, roughly 30 miles, and within an hour of Glasgow and Stirling. It is the best half-morning in the central belt."
+        },
+        {
+          "ol": [
+            "Start in **Callander** and take the **A84** north to Kilmahog.",
+            "Turn onto the **A821** west along Loch Venachar and Loch Achray.",
+            "Climb the **Duke's Pass** south over to Aberfoyle.",
+            "**A81** east toward Port of Menteith, then **A873** through Thornhill to the **A84** and back north into Callander."
+          ]
+        },
+        {
+          "p": "Reverse it if you want to end on the pass rather than start on it. Either way, go before the car parks fill."
+        }
+      ]
+    },
+    {
+      "h2": "Loop three: Cairn o' Mount and the Slug Road",
+      "blocks": [
+        {
+          "p": "The north-east loop that locals know and visitors miss. Roughly 50 miles, two hours of driving, and quieter than anything in the west."
+        },
+        {
+          "ol": [
+            "Start in **Banchory** and take the **B974** south through Strachan and Glen Dye, over Cairn o' Mount to Fettercairn.",
+            "**B966** and local roads east to Laurencekirk, then the **A90** north toward Stonehaven.",
+            "From Stonehaven take the **A957** — the Slug Road — north-west over the hill and back down to the Dee near Crathes, then the **A93** west into Banchory."
+          ]
+        },
+        {
+          "p": "The Slug Road is a good B-road in everything but name: fast, open, undulating and almost always empty. It is the ideal run home after the hairpin on the way up Cairn o' Mount."
+        }
+      ]
+    },
+    {
+      "h2": "If you have a whole day in the west",
+      "blocks": [
+        {
+          "p": "The A82 and A87 are not loop roads — they are the spine of a tour. The classic way to link them is from Fort William: take the **A830** west to Mallaig, cross by ferry to Armadale on Skye, run north on the **A851** and **A87** to the Skye Bridge, then come back east through Glen Shiel on the **A87** to Invergarry and south on the **A82** to Fort William. Roughly 180 miles plus the crossing, which should be booked well ahead in summer."
+        },
+        {
+          "p": "It puts the best fast road in the Highlands in the second half of the day, when you are warmed up and the light is coming round to the west. Budget far more time than the mileage implies — see [the guide to planning a loop](/guides/plan-a-loop-driving-route.html) for why a Highland average speed is so much lower than anyone expects."
+        }
+      ]
+    },
+    {
+      "h2": "Practical things worth knowing",
+      "blocks": [
+        {
+          "ul": [
+            "**Weather changes with altitude, fast.** A dry glen tells you nothing about a 600-metre summit. Cloud on the Bealach or the Cairnwell removes the view entirely, and the high roads can see snow from October to May.",
+            "**Snow gates mean what they say.** The A93, A939 and B974 all have them, and a closed gate is closed. Have an alternative that does not add eighty miles.",
+            "**Fuel is scarce in the north-west.** Filling stations are far apart and keep their own hours, especially on Sundays. Fill up before the empty bit, every time.",
+            "**Deer and sheep use the road.** Deer are worst at dawn and dusk and do not look. Sheep lie on the warm tarmac and stand up into it. Cattle grids tell you when you have entered open grazing.",
+            "**Phone signal is patchy to absent** in much of the Highlands. Download maps before you leave the last town, and do not rely on being able to call for help at a summit.",
+            "**Midges are a June to September problem** on still, damp evenings on the west coast. Motorcyclists and anyone planning to stop for long should bring repellent.",
+            "**Summer is the busiest and not the best.** May, June and September give long days, lighter traffic and, with luck, the clearest air. Bank holiday weekends are the worst time for every road in this article."
+          ]
+        }
+      ]
+    }
+  ],
+  "cta_note": "Two of the roads here are in ApexRoute's Famous Roads packs — the Bealach na Bà and the North Coast 500 stretch from Bettyhill to Durness both sit in the UK & Ireland pack, with the notes and approximate lengths built in. Open one in the app and it sets the road up as a route you can generate, so you can build the Applecross circuit or a longer Sutherland day around it rather than plotting waypoints by hand."
+}
