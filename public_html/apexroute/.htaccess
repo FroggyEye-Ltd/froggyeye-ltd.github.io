@@ -24,4 +24,9 @@
   # /c/ is the convoy invite page. The code and route travel in the URL
   # fragment, which never reaches the server, so the path is always bare.
   RewriteRule ^c/?$ convoy.html [L]
+
+  # /home/roads is the App Store In-App Event deep link (Winter Sun, Dec 2026):
+  # with the app installed iOS opens Explore > Famous Roads via the AASA path;
+  # in a browser there is no page for it, so send people to the landing page.
+  RewriteRule ^home/roads(/.*)?$ / [R=302,L]
 </IfModule>
