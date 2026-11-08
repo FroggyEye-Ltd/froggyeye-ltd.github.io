@@ -69,8 +69,8 @@
     ],
     [
       "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2 2M16.4 16.4l2 2M5.6 18.4l2-2M16.4 7.6l2-2\"/></svg>",
-      "Premium empire flags",
-      "Plus unlocks custom flag designs, empire colours, and territorial banners. Look the part."
+      "Photos and links on your tiles",
+      "Add a photo to a tile you hold for 5 credits, or a web link for 10. Everyone who taps the tile sees them."
     ],
     [
       "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><polygon points=\"16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76\"/></svg>",
@@ -131,48 +131,48 @@
       "All UK isles"
     ]
   ],
-  "pricing_lead": "Free to play, with real strategy. Plus is for serious players who want bigger empires and faster growth.",
+  "pricing_lead": "No subscription. Your first credit is free, then buy a credit pack only when you want more tiles, photos or links.",
   "plans": [
     {
       "name": "Free",
-      "price": "£0",
-      "blurb": "Up to 100 tiles. Full strategy. The whole world to play on.",
+      "price": "1 credit",
+      "per": "on sign-up",
+      "blurb": "Download, sign in and claim your first tile on us.",
       "items": [
-        "Up to 100 tiles",
-        "Standard tile generation",
-        "Empire flags (basic)",
-        "Daily quests"
+        "1 free credit when you create your account",
+        "The whole world map and the leaderboard",
+        "Tiles last a year, then renew for credits",
+        "No ads, no tracking"
       ],
       "cta": "Download free"
     },
     {
-      "name": "Plus — Annual",
+      "name": "Credit packs",
       "featured": true,
-      "tag": "For empire builders",
-      "price": "£14.99",
-      "per": "/ year",
-      "strike": "£35.88 if billed monthly",
-      "blurb": "Bigger empires, faster claiming, exclusive flags, leaderboard recognition.",
+      "tag": "One-off purchases",
+      "price": "1 · 5 · 20 · 50",
+      "per": "credits",
+      "blurb": "Buy a pack through the App Store or Google Play and spend the credits whenever you like.",
       "items": [
-        "Up to 5,000 tiles",
-        "Faster tile generation",
-        "Premium empire flags & themes",
-        "Exclusive leaderboard recognition",
-        "Priority server support"
+        "Packs of 1, 5, 20 or 50 credits",
+        "One-off purchases, nothing recurring",
+        "Prices shown in the app in your local currency",
+        "Added to your account once the store confirms the purchase"
       ],
-      "cta": "Start 7-day free trial"
+      "cta": "Get credits in the app"
     },
     {
-      "name": "Plus — Monthly",
-      "price": "£2.99",
-      "per": "/ month",
-      "blurb": "Same Plus features, billed monthly.",
+      "name": "What a credit buys",
+      "price": "1 credit",
+      "per": "per tile",
+      "blurb": "Everything in Tileverse is priced in credits.",
       "items": [
-        "5,000 tiles",
-        "All Plus features",
-        "Cancel anytime"
+        "Claim a tile: 1 credit",
+        "Add a photo to a tile: 5 credits",
+        "Add a web link to a tile: 10 credits",
+        "Renew a tile for another year: 1 credit, 5 more with a photo, 10 more with a link"
       ],
-      "cta": "Go monthly"
+      "cta": "See it in the app"
     }
   ],
   "why_eyebrow": "Why a world game",
@@ -216,7 +216,7 @@
     ],
     [
       "How does pricing work?",
-      "Free to play with up to 100 tiles. Plus removes the limit (up to 5,000) and unlocks premium customisation."
+      "Tileverse is free to download and your first credit is free. After that you buy credit packs of 1, 5, 20 or 50 as one-off in-app purchases. Claiming a tile costs 1 credit, adding a photo to a tile costs 5 and adding a web link costs 10. There is no subscription."
     ],
     [
       "Can I lose tiles I've claimed?",
@@ -235,5 +235,8 @@
   "seo_desc": "Claim digital tiles on a real-world map. Multiplayer strategy. Build a virtual empire.",
   "seo_title": "Tileverse — Claim the world, one tile at a time | Froggy Eye Ltd",
   "privacy_url": "https://tileverse.froggyeye.com/privacy.html",
-  "terms_url": "https://tileverse.froggyeye.com/terms.html"
+  "terms_url": "https://tileverse.froggyeye.com/terms.html",
+  "pricing_head_pre": "Free to start.",
+  "pricing_head_accent": "Credits when you want more.",
+  "pricing_footnote": "Credit packs are one-off in-app purchases billed by Apple or Google. Prices are shown in the app in your local currency. There is no subscription."
 }
