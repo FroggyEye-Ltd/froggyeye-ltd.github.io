@@ -285,6 +285,14 @@ def render_app(reg, content, themes):
             '<li><a href="https://froggyeye.com/terms.html">Terms of use</a></li>',
             '<li><a href="https://froggyeye.com/terms.html">Terms of use</a></li>\n'
             f'        <li><a href="{content["privacy_url"]}">App privacy policy</a></li>', 1)
+    # Optional app-specific terms, listed after the app privacy policy (or the studio terms).
+    if content.get("terms_url"):
+        anchor = (f'<li><a href="{content["privacy_url"]}">App privacy policy</a></li>'
+                  if content.get("privacy_url")
+                  else '<li><a href="https://froggyeye.com/terms.html">Terms of use</a></li>')
+        html = html.replace(
+            anchor,
+            anchor + f'\n        <li><a href="{content["terms_url"]}">App terms of service</a></li>', 1)
     if len(content["plans"]) == 2:
         html = html.replace('</style>',
                             '\n@media (min-width: 921px) { .pricing { grid-template-columns: repeat(2, 1fr);'

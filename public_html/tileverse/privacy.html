@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#040A14" />
+<title>Privacy Policy — Tileverse</title>
+<meta name="description" content="How Tileverse handles your data: the account details from your Google or Apple sign-in, the content you post on tiles and your purchases, stored with Google Firebase. No location tracking, and we never sell your data." />
+<meta name="robots" content="index, follow" />
+<link rel="icon" type="image/png" href="icon.png" />
+<link rel="apple-touch-icon" href="icon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="canonical" href="https://tileverse.froggyeye.com/privacy.html" />
+<meta property="og:title" content="Privacy Policy — Tileverse" />
+<meta property="og:description" content="How Tileverse handles your data: the account details from your Google or Apple sign-in, the content you post on tiles and your purchases, stored with Google Firebase. No location tracking, and we never sell your data." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tileverse.froggyeye.com/privacy.html" />
+<style>
+  :root {
+    --primary: #0EA5E9;
+    --primary-deep: #0369A1;
+    --violet: #1D4ED8;
+    --mint: #5EEAD4;
+    --yellow: #FDE047;
+    --bg: #040A14;
+    --surface: #0A1626;
+    --surface-2: #102339;
+    --border: #1B3957;
+    --text: #F5F0FF;
+    --text-2: #B8A8D1;
+    --text-3: #6B5A85;
+    --grad: linear-gradient(135deg, #0EA5E9 0%, #1D4ED8 100%);
+    --font-display: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+    --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+    --r-sm: 8px; --r-md: 12px; --r-lg: 20px; --r-pill: 999px;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--font-body); font-size: 16px; line-height: 1.65; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+  ::selection { background: var(--primary); color: #fff; }
+  a { color: var(--primary); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; margin: 0 0 12px; }
+  h1 { font-size: clamp(32px, 5vw, 46px); letter-spacing: -0.03em; }
+  h2 { font-size: clamp(21px, 3vw, 26px); margin-top: 44px; }
+  h3 { font-size: 17px; margin-top: 26px; font-family: var(--font-body); font-weight: 700; letter-spacing: -0.005em; }
+  p { margin: 0 0 14px; color: var(--text-2); }
+  ul, ol { color: var(--text-2); padding-left: 22px; margin: 0 0 16px; }
+  li { margin-bottom: 8px; }
+  strong { color: var(--text); }
+  .wrap { max-width: 820px; margin: 0 auto; padding: 0 24px; }
+  .studio-bar { background: linear-gradient(90deg, #FF2E7E 0%, #7C3AED 100%); color: #fff; font-size: 13px; font-weight: 600; text-align: center; padding: 8px 16px; }
+  .studio-bar a { color: #fff; }
+  nav.top { position: sticky; top: 0; z-index: 50; background: rgba(4,10,20,0.8); backdrop-filter: saturate(140%) blur(14px); -webkit-backdrop-filter: saturate(140%) blur(14px); border-bottom: 1px solid var(--border); }
+  nav.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 14px; padding-bottom: 14px; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .brand img { width: 32px; height: 32px; border-radius: 8px; }
+  .brand-name { font-family: var(--font-display); font-weight: 700; font-size: 17px; color: var(--text); }
+  .crumbs { font-size: 13px; color: var(--text-3); }
+  .crumbs a { color: var(--text-3); }
+  .crumbs a:hover { color: var(--primary); }
+  header.hero { padding: 60px 0 30px; border-bottom: 1px solid var(--border); }
+  header.hero .eyebrow { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--primary); margin-bottom: 14px; }
+  header.hero p.lead { font-size: 18px; color: var(--text-2); max-width: 62ch; margin-top: 4px; }
+  .meta { margin-top: 18px; font-size: 13px; color: var(--text-3); }
+  main.content { padding: 30px 0 70px; }
+  .toc { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-md); padding: 16px 20px; margin: 24px 0 34px; }
+  .toc-title { font-family: var(--font-display); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-3); margin-bottom: 8px; }
+  .toc ol { padding-left: 22px; margin: 0; font-size: 14px; }
+  .toc li { margin-bottom: 4px; }
+  .toc a { color: var(--text-2); }
+  .toc a:hover { color: var(--primary); }
+  .callout { background: rgba(253,224,71,0.06); border: 1px solid rgba(253,224,71,0.28); border-radius: var(--r-md); padding: 14px 16px; margin: 16px 0; }
+  .callout p { font-size: 14px; margin: 0; color: var(--text-2); }
+  .callout strong { color: var(--yellow); }
+  table.data { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+  table.data th, table.data td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--border); vertical-align: top; }
+  table.data th { font-family: var(--font-display); font-weight: 600; color: var(--text); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+  table.data td { color: var(--text-2); }
+  table.data tr:last-child td { border-bottom: 0; }
+  .table-scroll { overflow-x: auto; }
+  .back-link { display: inline-block; margin-top: 30px; padding: 10px 18px; color: var(--primary); border: 1px solid var(--border); border-radius: var(--r-pill); font-weight: 600; font-size: 14px; transition: border-color 150ms ease; }
+  .back-link:hover { border-color: var(--primary); text-decoration: none; }
+  footer { border-top: 1px solid var(--border); padding: 32px 0; color: var(--text-3); font-size: 13px; text-align: center; }
+  footer a { color: var(--text-3); }
+  footer a:hover { color: var(--primary); }
+</style>
+</head>
+<body>
+<div class="studio-bar"><a href="https://froggyeye.com">← Part of <strong>Froggy Eye Ltd</strong></a></div>
+
+<nav class="top">
+  <div class="wrap">
+    <a class="brand" href="/">
+      <img src="icon.png" alt="" />
+      <span class="brand-name">Tileverse</span>
+    </a>
+    <div class="crumbs"><a href="/">Tileverse</a> &nbsp;›&nbsp; Privacy</div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Legal</span>
+    <h1>Privacy Policy</h1>
+    <p class="lead">Froggy Eye Ltd ("we", "our" or "us") operates the Tileverse mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose and safeguard your information when you use our App.</p>
+    <p class="meta">Last updated: February 2026 &nbsp;·&nbsp; Froggy Eye Ltd, United Kingdom</p>
+  </div>
+</header>
+
+<main class="content">
+<div class="wrap">
+
+<p>By using Tileverse, you agree to the collection and use of information in accordance with this Privacy Policy.</p>
+
+<div class="toc">
+  <div class="toc-title">On this page</div>
+  <ol>
+    <li><a href="#collect">Information we collect</a></li>
+    <li><a href="#use">How we use your information</a></li>
+    <li><a href="#share">How we share your information</a></li>
+    <li><a href="#storage">Data storage and security</a></li>
+    <li><a href="#rights">Your rights and choices</a></li>
+    <li><a href="#children">Children's privacy</a></li>
+    <li><a href="#international">International users</a></li>
+    <li><a href="#links">Third-party links</a></li>
+    <li><a href="#changes">Changes to this Privacy Policy</a></li>
+    <li><a href="#contact">Contact us</a></li>
+    <li><a href="#controller">Data controller</a></li>
+  </ol>
+</div>
+
+<h2 id="collect">1. Information we collect</h2>
+
+<h3 id="provide">1.1 Information you provide</h3>
+<p><strong>Account information</strong></p>
+<ul>
+  <li>Email address (from Google or Apple Sign-In)</li>
+  <li>Display name (chosen by you)</li>
+  <li>Profile information from your sign-in provider</li>
+</ul>
+<p><strong>User content</strong></p>
+<ul>
+  <li>Messages you post on tiles</li>
+  <li>Images you upload to tiles</li>
+  <li>Web links you add to tiles</li>
+</ul>
+<p><strong>Transaction information</strong></p>
+<ul>
+  <li>Purchase history for in-app credit purchases</li>
+  <li>Transaction identifiers</li>
+</ul>
+
+<h3 id="automatic">1.2 Information collected automatically</h3>
+<p><strong>Device information</strong></p>
+<ul>
+  <li>Device type and model</li>
+  <li>Operating system and version</li>
+  <li>App version</li>
+  <li>Unique device identifiers</li>
+</ul>
+<p><strong>Usage information</strong></p>
+<ul>
+  <li>Tiles you claim and interact with</li>
+  <li>App features you use</li>
+  <li>Time and date of activities</li>
+  <li>Crash logs and performance data</li>
+</ul>
+
+<h3 id="location">1.3 Location information</h3>
+<p>Tileverse displays a map interface, but we do not track or store your real-time location. Tile claims are based on map coordinates you select, not your physical location.</p>
+
+<h2 id="use">2. How we use your information</h2>
+<p>We use the information we collect to:</p>
+<ul>
+  <li><strong>Provide the Service:</strong> create and manage your account, process tile claims, and display your content</li>
+  <li><strong>Process transactions:</strong> handle credit purchases and deliver purchased items</li>
+  <li><strong>Communicate:</strong> send service-related notices, respond to inquiries, and provide customer support</li>
+  <li><strong>Improve the App:</strong> analyse usage patterns, fix bugs, and develop new features</li>
+  <li><strong>Ensure safety:</strong> detect and prevent fraud, abuse, and violations of our Terms of Service</li>
+  <li><strong>Legal compliance:</strong> comply with applicable laws and respond to legal requests</li>
+</ul>
+
+<h2 id="share">3. How we share your information</h2>
+
+<h3 id="public">3.1 Public information</h3>
+<p>The following information is visible to other Tileverse users:</p>
+<ul>
+  <li>Your display name</li>
+  <li>Tiles you have claimed</li>
+  <li>Messages and images on your tiles</li>
+  <li>Web links on your tiles</li>
+</ul>
+
+<h3 id="providers">3.2 Service providers</h3>
+<p>We share information with third-party service providers who perform services on our behalf:</p>
+<div class="table-scroll">
+<table class="data">
+  <tr>
+    <th>Service</th>
+    <th>Provider</th>
+    <th>Purpose</th>
+    <th>Data shared</th>
+  </tr>
+  <tr>
+    <td>Authentication</td>
+    <td>Firebase Auth (Google)</td>
+    <td>User sign-in</td>
+    <td>Email, OAuth tokens</td>
+  </tr>
+  <tr>
+    <td>Database</td>
+    <td>Cloud Firestore (Google)</td>
+    <td>Data storage</td>
+    <td>User profiles, tile data</td>
+  </tr>
+  <tr>
+    <td>File storage</td>
+    <td>Cloud Storage (Google)</td>
+    <td>Image hosting</td>
+    <td>Uploaded photos</td>
+  </tr>
+  <tr>
+    <td>Payments</td>
+    <td>App Store / Google Play</td>
+    <td>In-app purchases</td>
+    <td>Transaction data</td>
+  </tr>
+</table>
+</div>
+
+<h3 id="legal">3.3 Legal requirements</h3>
+<p>We may disclose your information if required to do so by law or in response to valid requests by public authorities (e.g. a court or government agency).</p>
+
+<h3 id="transfers">3.4 Business transfers</h3>
+<p>If we are involved in a merger, acquisition, or sale of assets, your information may be transferred as part of that transaction.</p>
+
+<h3 id="no-sale">3.5 We do not sell your data</h3>
+<p>We do not sell, rent, or trade your personal information to third parties for marketing purposes.</p>
+
+<h2 id="storage">4. Data storage and security</h2>
+
+<h3 id="where">4.1 Where we store your data</h3>
+<p>Your data is stored using Google Firebase services in secure data centres. Data may be processed in the United States or other countries where Google operates data centres.</p>
+
+<h3 id="security">4.2 Security measures</h3>
+<p>We implement appropriate technical and organisational measures to protect your data, including:</p>
+<ul>
+  <li>Encryption of data in transit (HTTPS/TLS)</li>
+  <li>Encryption of data at rest by our cloud provider (Google Firebase)</li>
+  <li>Industry-standard authentication using Firebase Authentication, with support for Sign in with Apple, Sign in with Google, and email + password</li>
+  <li>Server-side validation of all sensitive operations (tile claims, in-app purchase receipts, account deletion)</li>
+  <li>App attestation via Firebase App Check to block requests from clients other than legitimate builds of the Tileverse app</li>
+  <li>Regular security assessments</li>
+</ul>
+
+<h3 id="retention">4.3 Data retention</h3>
+<ul>
+  <li><strong>Account data:</strong> retained while your account is active</li>
+  <li><strong>User content:</strong> retained until you delete it or delete your account</li>
+  <li><strong>Transaction records:</strong> retained as required for legal and tax purposes</li>
+  <li><strong>Deleted accounts:</strong> personal data deleted within 30 days of an account deletion request</li>
+</ul>
+
+<h2 id="rights">5. Your rights and choices</h2>
+
+<h3 id="access">5.1 Access and portability</h3>
+<p>You can access your personal data through the App. To request a copy of your data, contact us at <a href="mailto:info@froggyeye.com">info@froggyeye.com</a>.</p>
+
+<h3 id="correction">5.2 Correction</h3>
+<p>You can update your display name and profile information within the App.</p>
+
+<h3 id="deletion">5.3 Deletion</h3>
+<p>You can delete your account and all associated data from <strong>Profile › Account › Delete Account</strong> in the App. Account deletion is permanent and cannot be undone.</p>
+
+<h3 id="removal">5.4 Content removal</h3>
+<p>You can remove messages, images, and links from your tiles at any time through the tile editing feature.</p>
+
+<h3 id="withdraw">5.5 Withdraw consent</h3>
+<p>You can withdraw consent for data processing by deleting your account. Note that this will terminate your access to the App.</p>
+
+<h2 id="children">6. Children's privacy</h2>
+<p>Tileverse is not intended for children under the age of 13 (or the applicable age of digital consent in your jurisdiction).</p>
+<p>We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us at <a href="mailto:info@froggyeye.com">info@froggyeye.com</a>. We will take steps to delete such information.</p>
+
+<h2 id="international">7. International users</h2>
+
+<h3 id="gdpr">7.1 European users (GDPR)</h3>
+<p>If you are in the European Economic Area (EEA), you have additional rights under the General Data Protection Regulation (GDPR):</p>
+<ul>
+  <li><strong>Right to access:</strong> request a copy of your personal data</li>
+  <li><strong>Right to rectification:</strong> request correction of inaccurate data</li>
+  <li><strong>Right to erasure:</strong> request deletion of your data ("right to be forgotten")</li>
+  <li><strong>Right to restriction:</strong> request limitation of processing</li>
+  <li><strong>Right to data portability:</strong> receive your data in a structured format</li>
+  <li><strong>Right to object:</strong> object to processing based on legitimate interests</li>
+  <li><strong>Right to withdraw consent:</strong> withdraw consent at any time</li>
+</ul>
+<p><strong>Legal basis for processing:</strong></p>
+<ul>
+  <li>Contract performance (providing the service)</li>
+  <li>Legitimate interests (improving the service, preventing fraud)</li>
+  <li>Consent (where applicable)</li>
+</ul>
+<p>To exercise your GDPR rights, contact us at <a href="mailto:info@froggyeye.com">info@froggyeye.com</a>.</p>
+
+<h3 id="ccpa">7.2 California users (CCPA)</h3>
+<p>California residents have the right to:</p>
+<ul>
+  <li>Know what personal information we collect</li>
+  <li>Request deletion of personal information</li>
+  <li>Opt out of the sale of personal information (we do not sell your data)</li>
+  <li>Non-discrimination for exercising privacy rights</li>
+</ul>
+
+<h2 id="links">8. Third-party links</h2>
+<p>Tiles may contain links to external websites. We are not responsible for the privacy practices of external websites. We encourage you to read the privacy policies of any external sites you visit.</p>
+
+<h2 id="changes">9. Changes to this Privacy Policy</h2>
+<p>We may update this Privacy Policy from time to time. We will notify you of significant changes by:</p>
+<ul>
+  <li>Posting the new Privacy Policy in the App</li>
+  <li>Updating the "Last updated" date</li>
+  <li>Sending an email notification for material changes</li>
+</ul>
+<p>Your continued use of the App after changes constitutes acceptance of the updated Privacy Policy.</p>
+
+<h2 id="contact">10. Contact us</h2>
+<p>If you have questions about this Privacy Policy or wish to exercise your privacy rights, please contact us:</p>
+<p>
+  <strong>Email:</strong> <a href="mailto:info@froggyeye.com">info@froggyeye.com</a><br />
+  <strong>Subject line:</strong> Privacy Inquiry
+</p>
+<p>We will respond to your request within 30 days.</p>
+
+<h2 id="controller">11. Data controller</h2>
+<p>Froggy Eye Ltd is the data controller responsible for your personal information.</p>
+<p>
+  <strong>Froggy Eye Ltd</strong><br />
+  United Kingdom<br />
+  Email: <a href="mailto:info@froggyeye.com">info@froggyeye.com</a>
+</p>
+<p><em>This Privacy Policy is effective as of February 2026.</em></p>
+
+<a class="back-link" href="/">← Back to Tileverse</a>
+
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    Tileverse is made by <a href="https://froggyeye.com">Froggy Eye Ltd</a>. &nbsp;·&nbsp;
+    <a href="terms.html">Terms of Service</a> &nbsp;·&nbsp;
+    <a href="mailto:info@froggyeye.com">Contact</a><br />
+    Map data © OpenStreetMap contributors.
+  </div>
+</footer>
+
+</body>
+</html>

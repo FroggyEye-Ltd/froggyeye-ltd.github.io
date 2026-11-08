@@ -233,5 +233,7 @@
   "theme": "tile",
   "og_image_alt": "Tileverse — real-world map strategy game",
   "seo_desc": "Claim digital tiles on a real-world map. Multiplayer strategy. Build a virtual empire.",
-  "seo_title": "Tileverse — Claim the world, one tile at a time | Froggy Eye Ltd"
+  "seo_title": "Tileverse — Claim the world, one tile at a time | Froggy Eye Ltd",
+  "privacy_url": "https://tileverse.froggyeye.com/privacy.html",
+  "terms_url": "https://tileverse.froggyeye.com/terms.html"
 }
