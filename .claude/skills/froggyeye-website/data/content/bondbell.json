@@ -1,0 +1,269 @@
+{
+  "folder": "bondbell",
+  "name": "Bondbell",
+  "tagline": "Bond Prize Checker",
+  "meta_desc": "Bondbell is an independent Premium Bond prize checker for iPhone, iPad and Android. Save your bond numbers once and check each draw on your own device. No login, no account, and your numbers stay on your phone.",
+  "nav_examples": "Good for",
+  "hero_eyebrow": "For iPhone, iPad and Android · No login, no account",
+  "headline_pre": "Check your Premium Bonds.",
+  "headline_accent": "No login.",
+  "lead": "Bondbell is an independent app for checking UK Premium Bond numbers against the monthly prize lists. Save your bond ranges once. When you tap Check, it downloads NS&amp;I's public list to your phone and compares it with your numbers there. Your bond numbers are never sent anywhere.",
+  "meta_items": [
+    "No login and no account",
+    "Bond numbers stay on your device",
+    "Unclaimed prizes search",
+    "Free, with a one-time Pro purchase"
+  ],
+  "phone_content": "        <h4>Check a draw</h4>\n        <div class=\"phone-art\"><div class=\"emoji\" style=\"font-size:0; line-height:0;\"><svg width=\"128\" height=\"128\" viewBox=\"0 0 128 128\" fill=\"none\" aria-hidden=\"true\"><path d=\"M64 26c-17 0-28 13-28 32v18l-9 14h74l-9-14V58c0-19-11-32-28-32z\" fill=\"#E2B85C\"/><rect x=\"58\" y=\"16\" width=\"12\" height=\"12\" rx=\"6\" fill=\"#E2B85C\"/><circle cx=\"64\" cy=\"98\" r=\"9\" fill=\"#9A6B12\"/></svg></div></div>\n        <div>\n          <p class=\"phone-title\">Latest draw</p>\n          <p class=\"phone-sub\">Checked on this phone &middot; No login</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>YOUR BONDS</span><span>ON DEVICE</span></div>\n        <div class=\"phone-lyric\"><b>Tap Check</b><br>Bondbell downloads the public list to your phone and compares it with your saved numbers there.</div>",
+  "chips": [
+    "No login",
+    "No account",
+    "Ranges or single numbers",
+    "Old paper certificates",
+    "Family bonds",
+    "Checked on your device",
+    "Unclaimed prizes search",
+    "Results-day reminder",
+    "Sample mode",
+    "No ads",
+    "No tracking",
+    "iPhone, iPad and Android"
+  ],
+  "how_head_pre": "Save your numbers once,",
+  "how_head_accent": "then tap Check.",
+  "how_lead": "There is nothing to sign up for. Bondbell keeps your bond numbers on your device and only goes online when you ask it to, to fetch the public lists NS&amp;I publishes.",
+  "steps": [
+    [
+      "Add your bonds",
+      "Open My bonds, add a holder, then enter the bonds as ranges or single numbers, from a statement or from old paper certificates. Spaces are fine. If a number cannot be read, Bondbell explains why in plain English."
+    ],
+    [
+      "Tap Check",
+      "Bondbell shows the size of the list before anything downloads. It then downloads the list straight from nsandi.com, compares it with your numbers on the device, keeps only the matches and deletes the download. You can cancel at any time."
+    ],
+    [
+      "Read the result",
+      "The result lists any prizes by holder, or says plainly that none of your bonds is on that month's list. Every result reminds you to confirm with NS&amp;I, and when prizes are listed it explains how to claim them."
+    ]
+  ],
+  "feat_head_pre": "A plain, private way",
+  "feat_head_line2": "to check your bonds.",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\"/><line x1=\"12\" y1=\"18\" x2=\"12.01\" y2=\"18\"/></svg>",
+      "No login, no account",
+      "There is nothing to register and no password to remember. Your bond numbers are saved on your device and the comparison happens there."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"/><polyline points=\"14 2 14 8 20 8\"/><line x1=\"8\" y1=\"13\" x2=\"16\" y2=\"13\"/><line x1=\"8\" y1=\"17\" x2=\"13\" y2=\"17\"/></svg>",
+      "Ranges, single numbers, old certificates",
+      "Add bonds as ranges or one at a time. Old paper certificates work too, and a holder can have as many ranges as you like."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"11\" cy=\"11\" r=\"7\"/><line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\"/></svg>",
+      "Unclaimed prizes search",
+      "Search NS&amp;I's list of prizes that were never claimed, which goes back to 1957. The list shows the value of each unclaimed prize, and claims are made through NS&amp;I."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9\"/><path d=\"M13.73 21a2 2 0 0 1-3.46 0\"/></svg>",
+      "Results-day reminder",
+      "Turn on an optional reminder at 9am UK time on the day new results are expected. It tells you the new list should be available. It does not tell you whether you have a prize."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 3h6\"/><path d=\"M10 3v6l-5 9a2 2 0 0 0 1.8 3h10.4a2 2 0 0 0 1.8-3l-5-9V3\"/></svg>",
+      "Try it with sample numbers",
+      "Sample mode runs a complete check with made-up numbers, so you can see how it works before adding your own. Sample data is clearly labelled and kept apart from your real bonds."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>",
+      "No ads, no tracking",
+      "No advertising, no analytics and no server of ours in the middle. Purchases are handled by the App Store or Google Play. You can delete your bonds and results from Settings at any time."
+    ]
+  ],
+  "ex_eyebrow": "Good for",
+  "ex_head": "The bonds people actually need to check.",
+  "ex_lead": "Bondbell is for anyone who would rather not log in each month, and for families sorting out bonds that have sat in a drawer for years.",
+  "examples": [
+    [
+      "#1F5C45,#123A2B",
+      "📄",
+      "Bonds on a statement",
+      "Enter each range once"
+    ],
+    [
+      "#103224,#0A2218",
+      "📜",
+      "Old paper certificates",
+      "Single numbers and short ranges"
+    ],
+    [
+      "#059669,#047857",
+      "👪",
+      "A parent's or grandparent's bonds",
+      "Keep each holder separate"
+    ],
+    [
+      "#103224,#0A2218",
+      "🔎",
+      "A relative's old bonds",
+      "Search the unclaimed list"
+    ],
+    [
+      "#1F5C45,#123A2B",
+      "🔔",
+      "Results day",
+      "One reminder a month, if you want it"
+    ],
+    [
+      "#103224,#0A2218",
+      "🗓️",
+      "A month you missed",
+      "Earlier draws with Pro"
+    ],
+    [
+      "#059669,#047857",
+      "📒",
+      "Your record of checks",
+      "History with Pro"
+    ],
+    [
+      "#103224,#0A2218",
+      "🧪",
+      "Having a look first",
+      "Sample mode, nothing to enter"
+    ]
+  ],
+  "pricing_head_pre": "Free to use.",
+  "pricing_head_accent": "Pro is one purchase.",
+  "pricing_lead": "Checking the latest draw, single-number unclaimed searches, reminders and sample mode are all free. Pro is a one-time purchase for people with more than one holder or who want to look further back. There is no subscription.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "Free",
+      "blurb": "Everything you need to check your own bonds each month.",
+      "items": [
+        "One holder, with as many ranges as you like",
+        "Check the latest draw",
+        "Unclaimed search, one number at a time",
+        "Results-day reminder",
+        "Sample mode",
+        "No ads, no account"
+      ],
+      "cta": "Get the app"
+    },
+    {
+      "name": "Bondbell Pro",
+      "featured": true,
+      "tag": "Pay once",
+      "price": "One-time",
+      "blurb": "For families and for looking further back.",
+      "items": [
+        "Everything in Free",
+        "Unlimited holders",
+        "Earlier draws: any month NS&amp;I currently publishes, usually about six",
+        "Unclaimed search for all your saved bonds at once",
+        "History of every draw you have checked",
+        "One payment. No subscription."
+      ],
+      "cta": "Get the app"
+    }
+  ],
+  "pricing_footnote": "The app shows the Pro price for your own storefront before you buy. Pro is a one-time purchase, not a subscription, and there is nothing to cancel. An optional tip jar is also available; tips are a thank-you only and unlock nothing.",
+  "why_eyebrow": "Why this exists",
+  "why_head_pre": "Your bond numbers",
+  "why_head_accent": "stay with you.",
+  "why_lead": "Checking a drawer of old certificates, or a parent's bonds as well as your own, should not need an account or a password.",
+  "why_body": "Bondbell does one job. It keeps your bond numbers on your device, fetches the public lists NS&amp;I publishes when you tap Check, and tells you plainly what it found. It is an independent app, not affiliated with NS&amp;I, so every result asks you to confirm with NS&amp;I before relying on it.",
+  "stats": [
+    [
+      "0",
+      "grad",
+      "Logins, accounts, ads and trackers. Your bond numbers are saved on your device and are never sent anywhere."
+    ],
+    [
+      "1957",
+      "mint",
+      "How far back NS&amp;I's list of unclaimed prizes goes. Search it by bond number."
+    ],
+    [
+      "9am",
+      "yellow",
+      "UK time on results day: the optional reminder that the new list should be available. It does not tell you whether you have a prize."
+    ]
+  ],
+  "faq": [
+    [
+      "Is Bondbell connected to NS&amp;I?",
+      "Bondbell is an independent app and is not affiliated with, endorsed by or connected to NS&amp;I (National Savings and Investments). Premium Bonds is a registered trademark of the Director of Savings. Results come from the public lists NS&amp;I publishes; always confirm a prize with NS&amp;I before relying on it."
+    ],
+    [
+      "How do I add my bonds?",
+      "Open My bonds, add a holder, then add each block of bonds as a range (first and last number) or as a single number. You will find the numbers on a statement or on old paper certificates. Spaces and separators are fine."
+    ],
+    [
+      "What does a bond number look like?",
+      "Two letters followed by six digits, usually with up to three digits in front, in the pattern 123AB456789 (a made-up example). The oldest bonds have no digits in front. The letters I, O and U are not used, so Bondbell will ask whether you meant 1 or 0. A range has to stay within one series: the same leading digits and letters."
+    ],
+    [
+      "Why does Bondbell say my number cannot be read?",
+      "The most common reason is that a holder's number has been typed instead of a bond number. The message says what is wrong, such as too many digits or a letter that is never used."
+    ],
+    [
+      "Does Bondbell check automatically?",
+      "No. A check runs only when you tap Check. The optional reminder tells you when a new list should be available; you then open the app and check when it suits you."
+    ],
+    [
+      "What does the reminder tell me?",
+      "Only that new results are expected that day, at 9am UK time. It is one notification a month and it does not know or say whether you have a prize. Turn it on or off on the Check tab or in Settings. Bondbell asks for notification permission only when you turn it on."
+    ],
+    [
+      "How do I check an earlier month?",
+      "The latest draw is free. With Pro you can check any of the months NS&amp;I currently publishes, usually about six."
+    ],
+    [
+      "How do I search for unclaimed prizes?",
+      "Open the Unclaimed tab and enter a bond number. Bondbell searches NS&amp;I's list of prizes that were never claimed and shows the value of any match. With Pro you can search all your saved bonds at once. Claims are made through NS&amp;I."
+    ],
+    [
+      "A prize is listed. What do I do now?",
+      "Confirm it with NS&amp;I. The result screen explains how prizes are normally paid and links to NS&amp;I's own contact page and prize checker. Bondbell cannot pay, claim or confirm a prize."
+    ],
+    [
+      "Where are my bond numbers kept?",
+      "On your device. They are not sent to us or to NS&amp;I. When you check, your device connects directly to nsandi.com to download the public list, and the comparison happens on the device. The privacy policy has the full detail."
+    ],
+    [
+      "How do I delete my data?",
+      "Delete a single holder or range in My bonds, or use Delete all my data in Settings. Uninstalling the app also removes it."
+    ],
+    [
+      "What does Pro add, and is it a subscription?",
+      "Pro is a one-time purchase, not a subscription. It adds unlimited holders, earlier draws, an unclaimed search across all your saved bonds, and history. The app shows the price for your storefront before you buy."
+    ],
+    [
+      "I bought Pro. How do I get it back on a new device?",
+      "Use Restore purchases on the Pro screen or in Settings, signed in to the same App Store or Google Play account you bought it with."
+    ],
+    [
+      "What is the tip jar?",
+      "An optional way to say thank you. Tips unlock nothing and are never needed to use the app."
+    ],
+    [
+      "How do I get help?",
+      "Email info@froggyeye.com and tell us which device you use and what happened. Please do not send your bond numbers; we never need them."
+    ]
+  ],
+  "final_title": "Save your numbers once. Check when you like.",
+  "final_body": "Bondbell is free to download, with a one-time Pro purchase. No login, no account, no ads, and your bond numbers stay on your phone.",
+  "footer_blurb": "An independent Premium Bond prize checker. Not affiliated with NS&amp;I. Your bond numbers stay on your device. Made in the UK.",
+  "theme": "forest",
+  "privacy_url": "https://mksoft-ltd.github.io/bondbell/privacy_policy.html",
+  "extra_section": {
+    "id": "support",
+    "nav_label": "Support",
+    "html": "<section id=\"support\">\n  <div class=\"wrap\">\n    <style>\n      #support .sup-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 48px; }\n      #support .span2 { grid-column: 1 / -1; }\n      @media (max-width: 900px) { #support .sup-grid { grid-template-columns: 1fr; } }\n      #support .s-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 28px; }\n      #support .s-card h3 { font-family: var(--font-body); font-size: 17px; font-weight: 700; letter-spacing: 0; margin: 0 0 12px; }\n      #support .s-card p { color: var(--text-2); font-size: 15px; }\n      #support .s-card > p:last-child { margin-bottom: 0; }\n      #support .s-card a { color: var(--primary); text-decoration: underline; text-underline-offset: 3px; overflow-wrap: anywhere; }\n    </style>\n    <div class=\"reveal\" style=\"text-align: center;\">\n      <span class=\"eyebrow\">Help and support</span>\n      <h2>Need a hand?<br><span class=\"gradient-text\">Write to us.</span></h2>\n      <p class=\"lead\" style=\"margin: 0 auto;\">Bondbell is made by Froggy Eye Ltd, a small studio in the UK. If something is unclear or not working, email us and a person will reply.</p>\n    </div>\n    <div class=\"sup-grid\">\n      <div class=\"s-card reveal\">\n        <h3>Contact support</h3>\n        <p>Email <a href=\"mailto:info@froggyeye.com\">info@froggyeye.com</a>. It helps to say which phone or tablet you use and what you were doing when the problem appeared. Please do not send your bond numbers; we never need them.</p>\n        <p>Most questions about adding bonds, checking a draw, reminders and purchases are answered in the <a href=\"#faq\">FAQ</a> below.</p>\n      </div>\n      <div class=\"s-card reveal\">\n        <h3>Privacy</h3>\n        <p>Your bond numbers are saved on your device and are not sent to us. There is no account, no advertising and no analytics.</p>\n        <p>Read the full <a href=\"https://mksoft-ltd.github.io/bondbell/privacy_policy.html\">Bondbell privacy policy</a>.</p>\n      </div>\n      <div class=\"s-card span2 reveal\">\n        <h3>Independent of NS&amp;I</h3>\n        <p>Bondbell is an independent app and is not affiliated with, endorsed by or connected to NS&amp;I (National Savings and Investments). Premium Bonds is a registered trademark of the Director of Savings. Results come from the public lists NS&amp;I publishes; always confirm a prize with NS&amp;I before relying on it.</p>\n        <p>Questions about a prize, a claim, or your Premium Bonds holding itself can only be answered by NS&amp;I.</p>\n      </div>\n    </div>\n  </div>\n</section>\n"
+  },
+  "og_image_alt": "Bondbell. Check your bond numbers on your phone. No login.",
+  "seo_title": "Bondbell: Bond Prize Checker — check Premium Bond numbers on your phone, no login | Froggy Eye Ltd",
+  "seo_desc": "Independent Premium Bond prize checker for iPhone, iPad and Android. Save your bond numbers once and check each draw on your own device. No login, no account; your numbers stay on your phone."
+}

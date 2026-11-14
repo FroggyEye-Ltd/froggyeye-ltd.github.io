@@ -480,5 +480,27 @@
     ],
     "llms_desc": "Once-a-day news digest that puts the top 5-10 stories side by side: real headline quotes from about 29 English-language outlets grouped by political lean (left, centre, right, from AllSides and Ad Fontes Media ratings) and by region (Western and Eastern outlets, state media labelled). Blindspots, shared facts, contested claims; every point links to its source. Analysis generated automatically by an AI model from headlines and short summaries. Free with a non-personalised banner, one-time ad-free purchase.",
     "_note": "Registered 14 Oct 2026, not yet live on either store (15 Oct 2026). Apple app id 6822909350, Play package com.froggyeye.sides. When the listings go live run refresh_store_urls.py (sets apple_url/play_url) then fetch_store_assets.py --only sides + postprocess.py --only sides. Store buttons stay hidden via [data-na] until then. Serves app-ads.txt at the subdomain for AdMob (same line as the root file)."
+  },
+  {
+    "folder": "bondbell",
+    "name": "Bondbell",
+    "tagline": "Bond Prize Checker",
+    "category": "Finance · Utilities",
+    "schema_category": "FinanceApplication",
+    "theme": "forest",
+    "package_id": "com.froggyeye.bondbell",
+    "apple_id": "6834613888",
+    "apple_url": null,
+    "play_url": null,
+    "card_emoji": "🔔",
+    "card_gradient": [
+      "#1F5C45",
+      "#123A2B"
+    ],
+    "extra_pages": [
+      "privacy.html"
+    ],
+    "llms_desc": "Independent UK Premium Bond prize checker. Save bond-number ranges once; when the user taps Check, the app downloads the public winners list to the phone and compares it on the device. Unclaimed-prizes search, optional results-day reminder, sample mode. No login, no account, no ads; bond numbers stay on the device. Free with a one-time Pro purchase. Not affiliated with NS&I.",
+    "_note": "Registered 14 Nov 2026, not yet live on either store. Apple app id 6834613888, Play package com.froggyeye.bondbell. When the listings go live run refresh_store_urls.py (sets apple_url/play_url) then fetch_store_assets.py --only bondbell + postprocess.py --only bondbell. Store buttons stay hidden via [data-na] until then. icon/feature/screenshot1 were seeded from the app repo's store_assets and a sample-mode capture. privacy.html is a copy of the app repo's docs/privacy_policy.html (canonical: mksoft-ltd.github.io/bondbell/privacy_policy.html); re-copy if the policy changes. Copy rules: docs/ASO.md §4 in the app repo (no 'official', no £ figures, no ERNIE, reminder is not a win alert)."
   }
 ]
