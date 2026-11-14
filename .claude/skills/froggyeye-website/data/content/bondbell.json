@@ -72,7 +72,7 @@
     [
       "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 3h6\"/><path d=\"M10 3v6l-5 9a2 2 0 0 0 1.8 3h10.4a2 2 0 0 0 1.8-3l-5-9V3\"/></svg>",
       "Try it with sample numbers",
-      "Sample mode runs a complete check with made-up numbers, so you can see how it works before adding your own. Sample data is clearly labelled and kept apart from your real bonds."
+      "Sample mode lets you try every feature, including the Pro ones, with made-up numbers before adding your own. Sample data is clearly labelled and kept apart from your real bonds."
     ],
     [
       "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>",
@@ -135,7 +135,7 @@
   ],
   "pricing_head_pre": "Free to use.",
   "pricing_head_accent": "Pro is one purchase.",
-  "pricing_lead": "Checking the latest draw, single-number unclaimed searches, reminders and sample mode are all free. Pro is a one-time purchase for people with more than one holder or who want to look further back. There is no subscription.",
+  "pricing_lead": "Checking the latest draw, single-number unclaimed searches, reminders and sample mode are all free. Sample mode also lets you try the Pro features on sample data. Pro is a one-time purchase for people with more than one holder or who want to look further back. There is no subscription.",
   "plans": [
     {
       "name": "Free",
@@ -146,7 +146,7 @@
         "Check the latest draw",
         "Unclaimed search, one number at a time",
         "Results-day reminder",
-        "Sample mode",
+        "Sample mode: try every feature on made-up numbers",
         "No ads, no account"
       ],
       "cta": "Get the app"
@@ -209,6 +209,10 @@
       "The most common reason is that a holder's number has been typed instead of a bond number. The message says what is wrong, such as too many digits or a letter that is never used."
     ],
     [
+      "Can I try it before entering my own bonds?",
+      "Yes. Sample mode uses made-up numbers and lets you try every feature, including the Pro features, on sample data. Start it from the last page of the introduction, from the card on the Check tab or from Settings. A banner shows whenever sample mode is on, and sample data is kept apart from your real bonds."
+    ],
+    [
       "Does Bondbell check automatically?",
       "No. A check runs only when you tap Check. The optional reminder tells you when a new list should be available; you then open the app and check when it suits you."
     ],
@@ -234,7 +238,7 @@
     ],
     [
       "How do I delete my data?",
-      "Delete a single holder or range in My bonds, or use Delete all my data in Settings. Uninstalling the app also removes it."
+      "Delete a single holder or range in My bonds, or use Delete all my data in Settings. That removes every holder, bond number and saved result, including sample-mode data. Your settings, your reminders and your Pro purchase are kept. Uninstalling the app removes all of its data from the device."
     ],
     [
       "What does Pro add, and is it a subscription?",
