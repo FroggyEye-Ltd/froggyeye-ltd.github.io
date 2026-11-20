@@ -1,0 +1,256 @@
+{
+  "folder": "blackouttoolkit",
+  "name": "Blackout: Survival Toolkit",
+  "tagline": "Power cut help, offline guides",
+  "meta_desc": "Get your household ready for a power cut, flood, storm or loss of signal. Offline guides and checklists, a household plan, a torch and SOS light, all on your phone with no internet. For iPhone, iPad and Android.",
+  "nav_examples": "Guides",
+  "hero_eyebrow": "For iPhone, iPad and Android · Works with no internet",
+  "headline_pre": "Ready before the lights go.",
+  "headline_accent": "Calm steps when they do.",
+  "lead": "Blackout: Survival Toolkit helps your household get ready for a power cut, flood, storm or loss of signal, and shows you what to do when one happens. The guides, checklists and tools are stored on your phone, so they work with no internet.",
+  "meta_items": [
+    "22 practical guides, all offline",
+    "Household plan and readiness score",
+    "Torch and SOS light signal",
+    "Free, with a one-time Pro unlock"
+  ],
+  "phone_content": "        <h4>Power cut</h4>\n        <div class=\"phone-art\"><div class=\"emoji\" style=\"font-size:0; line-height:0;\"><img src=\"icon.png\" alt=\"\" width=\"128\" height=\"128\" style=\"width:128px; height:128px; border-radius:28px; display:block;\"></div></div>\n        <div>\n          <p class=\"phone-title\">Know what to do</p>\n          <p class=\"phone-sub\">Stored on your phone &middot; No internet needed</p>\n        </div>\n        <div class=\"phone-scrub\"></div>\n        <div class=\"phone-times\"><span>RIGHT NOW</span><span>DAYS AFTER</span></div>\n        <div class=\"phone-lyric\"><b>In an emergency, call 999</b><br>Then follow the plan for what is failing: power, water, signal or heating.</div>",
+  "chips": [
+    "Power cut",
+    "Flooding",
+    "Severe storm",
+    "Cold weather",
+    "Heatwave",
+    "Gas leak and carbon monoxide",
+    "Water supply loss",
+    "Phone and internet outage",
+    "Card and cash machine outage",
+    "Medication and vulnerable people",
+    "Household plan",
+    "Torch and SOS light",
+    "No account",
+    "No ads",
+    "No tracking"
+  ],
+  "how_head_pre": "Get ready once,",
+  "how_head_accent": "know what to do later.",
+  "how_lead": "There is nothing to sign up for. Everything is stored on your phone, so the guides and tools still work when the power, the network or the signal does not.",
+  "steps": [
+    [
+      "Prepare",
+      "Work through the guide checklists in priority order and watch your readiness score go up. The app suggests the next few things to do, such as storing water or finding the stopcock."
+    ],
+    [
+      "Make a household plan",
+      "Write down where to meet, an out-of-area contact, who needs help, and where the stopcock, fuse box and gas meter are. Copy the whole plan as text in one tap to share it."
+    ],
+    [
+      "Respond",
+      "When something goes wrong, pick what is failing (power, water, signal, heating and more) and get one clear plan: right now, the first hour, today and the days after. In an emergency, call 999 first."
+    ]
+  ],
+  "feat_head_pre": "Practical help that",
+  "feat_head_line2": "works with no internet.",
+  "features": [
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 19.5A2.5 2.5 0 0 1 6.5 17H20\"/><path d=\"M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z\"/></svg>",
+      "22 offline guides",
+      "Power cut, flooding, severe storm, cold weather, heatwave, gas leak and carbon monoxide and more. Each has a checklist in priority order, supplies to keep, common mistakes, regional notes, useful numbers and the public sources it is based on."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><polyline points=\"9 22 9 12 15 12 15 22\"/></svg>",
+      "Household plan",
+      "Where to meet, an out-of-area contact, who needs help, and where the stopcock, fuse box and gas meter are. A readiness score shows what to do next, and a water storage calculator works out how much to keep."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><polyline points=\"12 6 12 12 16 14\"/></svg>",
+      "One plan when it happens",
+      "Respond turns what is failing into one plan by time: right now, the first hour, today and the days after. Calling 999, the right-now steps and every safety step are free for any situation."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 18h6\"/><path d=\"M10 22h4\"/><path d=\"M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2z\"/></svg>",
+      "Torch and SOS light",
+      "A torch, and an SOS light signal in Morse code using the torch or the screen. An emergency card puts your numbers and household plan on one screen, and battery tips help your phone last longer."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z\"/></svg>",
+      "Phone-to-phone chat",
+      "Send short messages over Bluetooth with no internet or mobile signal, through nearby phones that have the app. It needs other people with the app within range, and delivery is never guaranteed. Call 999 whenever you can."
+    ],
+    [
+      "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\"/><path d=\"M7 11V7a5 5 0 0 1 10 0v4\"/></svg>",
+      "Private by design",
+      "No account, no ads, no analytics and no tracking. Your checklists, household plan and messages are kept on your phone. Private group messages are end-to-end encrypted; the public Nearby and SOS channels are not."
+    ]
+  ],
+  "ex_eyebrow": "Guides",
+  "ex_head": "Clear steps for the things that actually happen.",
+  "ex_lead": "Every guide is stored on your phone and based on public UK guidance, with the sources listed in the app.",
+  "examples": [
+    [
+      "#1E3550,#0E1319",
+      "💡",
+      "Power cut",
+      "What to do, and what to keep ready"
+    ],
+    [
+      "#26303B,#131920",
+      "🌊",
+      "Flooding",
+      "Before, during and after"
+    ],
+    [
+      "#1E3550,#0E1319",
+      "🌬️",
+      "Severe storm",
+      "Get the house ready"
+    ],
+    [
+      "#26303B,#131920",
+      "❄️",
+      "Cold weather",
+      "Keep warm if the heating stops"
+    ],
+    [
+      "#1E3550,#0E1319",
+      "☀️",
+      "Heatwave",
+      "Keep cool, check on others"
+    ],
+    [
+      "#26303B,#131920",
+      "🚰",
+      "Water supply loss",
+      "How much to store, how to ration"
+    ],
+    [
+      "#1E3550,#0E1319",
+      "📵",
+      "Phone and internet outage",
+      "Stay in touch without signal"
+    ],
+    [
+      "#26303B,#131920",
+      "💳",
+      "Card and cash machine outage",
+      "Keep some cash at home"
+    ]
+  ],
+  "pricing_head_pre": "Free to use.",
+  "pricing_head_accent": "Pro is one purchase.",
+  "pricing_lead": "All of Prepare and Tools are free, and so are calling 999, the right-now steps and every safety step in Respond. Pro is a one-time unlock that adds the rest of the Respond plan, the live aids and private groups. There is no subscription.",
+  "plans": [
+    {
+      "name": "Free",
+      "price": "Free",
+      "blurb": "Everything you need to get your household ready.",
+      "items": [
+        "All 22 guides and checklists",
+        "Readiness score, household plan, water calculator",
+        "Respond: calling 999, the right-now steps and every safety step",
+        "Torch, SOS light signal, emergency card, battery tips",
+        "Mesh chat: Nearby channel, SOS, \"I am safe\", join a group",
+        "No ads, no account"
+      ],
+      "cta": "Get the app"
+    },
+    {
+      "name": "Blackout Pro",
+      "featured": true,
+      "tag": "Pay once",
+      "price": "One-time",
+      "blurb": "The full plan when something goes wrong.",
+      "items": [
+        "Everything in Free",
+        "The rest of the Respond plan: first hour, today, days after",
+        "Fridge and freezer food safety clock",
+        "Water ration calculator",
+        "Create private groups and send in them (end-to-end encrypted)",
+        "One payment. No subscription."
+      ],
+      "cta": "Get the app"
+    }
+  ],
+  "pricing_footnote": "The app shows the Pro price for your own storefront before you buy. Pro is a one-time unlock, not a subscription, and there is nothing to cancel. Buy it while you are online; once unlocked, Pro works with no connection. On iPhone and iPad, people in your Family Sharing group can use Pro too.",
+  "why_eyebrow": "Why this exists",
+  "why_head_pre": "One light on",
+  "why_head_accent": "in a dark house.",
+  "why_lead": "When the power, water or network goes, the information you need should already be in your pocket.",
+  "why_body": "Blackout: Survival Toolkit is calm and practical: plain steps, in order, based on public UK guidance. It is not an official alerting app and does not receive government or emergency alerts. In an emergency, call 999 (or 112).",
+  "stats": [
+    [
+      "22",
+      "grad",
+      "Practical guides, each with a checklist in priority order, stored on your phone and readable with no internet."
+    ],
+    [
+      "0",
+      "mint",
+      "Accounts, ads, analytics and trackers. Your checklists, plan and messages are kept on your phone."
+    ],
+    [
+      "999",
+      "yellow",
+      "Always the first step in an emergency. Calling 999 and every safety step are free."
+    ]
+  ],
+  "faq": [
+    [
+      "Does it work with no internet?",
+      "Yes. The guides, checklists, household plan and tools are stored on your phone and work with no connection. You only need to be online to buy Pro; once unlocked, Pro works offline too."
+    ],
+    [
+      "Is this an official emergency or alerting app?",
+      "No. It does not receive government or emergency alerts and is not connected to the emergency services. In an emergency, call 999 (or 112)."
+    ],
+    [
+      "What is free?",
+      "All of Prepare (the 22 guides, checklists, readiness score, household plan and water calculator) and all of Tools (torch, SOS light signal, emergency card, battery tips). In Respond, calling 999, the right-now steps and every safety step are free for any situation. In mesh chat, turning it on, passing on messages for others, reading every channel, sending on the public Nearby channel, joining a group, and sending an SOS or an \"I am safe\" message are free."
+    ],
+    [
+      "What does Pro add, and is it a subscription?",
+      "Pro is a one-time unlock, not a subscription. It adds the rest of the Respond plan (the first hour, today and the days after), the fridge and freezer food safety clock, the water ration calculator, and creating private groups and sending messages in them. The app shows the price for your storefront before you buy."
+    ],
+    [
+      "How does mesh chat work?",
+      "It sends short messages phone to phone over Bluetooth, through nearby phones that have the app, with no internet or mobile signal. Mesh chat and SOS pass messages phone to phone over Bluetooth, through nearby phones that have the app. They need other people with the app within range, and delivery is never guaranteed. Someone nearby who deliberately floods the mesh can delay an SOS by an hour or more, or keep it local. Call 999 whenever you can. Keep the app open for the best range."
+    ],
+    [
+      "Are my messages private?",
+      "Messages in private groups are end-to-end encrypted. The Nearby and SOS channels are public: anyone nearby with the app can read them. Messages you send go to nearby phones, and phones that pass them on keep copies for up to 6 hours. You can long-press any message to hide it, delete it or block its sender."
+    ],
+    [
+      "Can I report a message or a sender?",
+      "Yes. Long-press a message and choose Report. This blocks the sender on your phone and opens an email to info@froggyeye.com with the message, the sender's name and when it was sent; you choose whether to send it. Mesh chat has no server, so messages cannot be deleted from other phones. If you are threatened or in danger, call 999."
+    ],
+    [
+      "Where is my data kept?",
+      "On your phone. There is no account and no server of ours in the middle. The app contacts the App Store or Google Play only to show the price and check your purchase. The privacy policy has the full detail."
+    ],
+    [
+      "Does my family need to buy Pro separately?",
+      "On iPhone and iPad, people in your Family Sharing group can use Pro too. On Android, Pro is tied to the Google account that bought it. Reading a group is free for everyone; creating groups and sending in them is Pro."
+    ],
+    [
+      "I bought Pro. How do I get it back on a new phone?",
+      "Open Pro in the app's Settings and restore your purchase there, signed in to the same App Store or Google Play account you bought it with."
+    ],
+    [
+      "How do I get help?",
+      "Email info@froggyeye.com and tell us which phone you use and what happened. A person will reply."
+    ]
+  ],
+  "final_title": "Get ready today. Know what to do tomorrow.",
+  "final_body": "Blackout: Survival Toolkit is free to download, with a one-time Pro unlock. No account, no ads, and everything works with no internet. In an emergency, call 999.",
+  "footer_blurb": "Offline guides, checklists and tools for UK households facing a power cut, flood, storm or loss of signal. Not an official alerting app: in an emergency, call 999. Made in the UK.",
+  "theme": "lamplight",
+  "privacy_url": "https://mksoft-ltd.github.io/blackout_toolkit/privacy_policy.html",
+  "og_image_alt": "Blackout: Survival Toolkit. Offline guides, checklists and phone-to-phone chat.",
+  "seo_title": "Blackout: Survival Toolkit — what to do in a power cut, offline guides and household plan | Froggy Eye Ltd",
+  "seo_desc": "What to do in a power cut, flood or storm in the UK. 22 offline guides with checklists, a household emergency plan, torch and SOS light, all on your phone with no internet. Free, with a one-time Pro unlock.",
+  "extra_section": {
+    "id": "support",
+    "nav_label": "Support",
+    "html": "<section id=\"support\">\n  <div class=\"wrap\">\n    <style>\n      #support .sup-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 48px; }\n      #support .span2 { grid-column: 1 / -1; }\n      @media (max-width: 900px) { #support .sup-grid { grid-template-columns: 1fr; } }\n      #support .s-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 28px; }\n      #support .s-card h3 { font-family: var(--font-body); font-size: 17px; font-weight: 700; letter-spacing: 0; margin: 0 0 12px; }\n      #support .s-card p { color: var(--text-2); font-size: 15px; }\n      #support .s-card > p:last-child { margin-bottom: 0; }\n      #support .s-card a { color: var(--primary); text-decoration: underline; text-underline-offset: 3px; overflow-wrap: anywhere; }\n    </style>\n    <div class=\"reveal\" style=\"text-align: center;\">\n      <span class=\"eyebrow\">Help and support</span>\n      <h2>Need a hand?<br><span class=\"gradient-text\">Write to us.</span></h2>\n      <p class=\"lead\" style=\"margin: 0 auto;\">Blackout: Survival Toolkit is made by Froggy Eye Ltd, a small studio in the UK. If something is unclear or not working, email us and a person will reply.</p>\n    </div>\n    <div class=\"sup-grid\">\n      <div class=\"s-card reveal\">\n        <h3>Contact support</h3>\n        <p>Email <a href=\"mailto:info@froggyeye.com\">info@froggyeye.com</a>. It helps to say which phone or tablet you use and what you were doing when the problem appeared. To report a message or a sender in mesh chat, long-press the message in the app.</p>\n        <p>Most questions about guides, mesh chat and Pro are answered in the <a href=\"#faq\">FAQ</a> below.</p>\n      </div>\n      <div class=\"s-card reveal\">\n        <h3>Privacy</h3>\n        <p>There is no account, no advertising and no analytics. Your checklists, household plan and messages are kept on your phone.</p>\n        <p>Read the full <a href=\"https://mksoft-ltd.github.io/blackout_toolkit/privacy_policy.html\">Blackout: Survival Toolkit privacy policy</a>.</p>\n      </div>\n      <div class=\"s-card span2 reveal\">\n        <h3>In an emergency, call 999</h3>\n        <p>This app is not an official alerting app. It does not receive government or emergency alerts and is not connected to the emergency services. In an emergency, call 999 (or 112).</p>\n        <p>Mesh chat and SOS pass messages phone to phone over Bluetooth, through nearby phones that have the app. They need other people with the app within range, and delivery is never guaranteed. Someone nearby who deliberately floods the mesh can delay an SOS by an hour or more, or keep it local. Call 999 whenever you can.</p>\n      </div>\n    </div>\n  </div>\n</section>\n"
+  }
+}

@@ -502,5 +502,24 @@
     ],
     "llms_desc": "Independent UK Premium Bond prize checker. Save bond-number ranges once; when the user taps Check, the app downloads the public winners list to the phone and compares it on the device. Unclaimed-prizes search, optional results-day reminder, sample mode. No login, no account, no ads; bond numbers stay on the device. Free with a one-time Pro purchase. Not affiliated with NS&I.",
     "_note": "Registered 14 Nov 2026, not yet live on either store. Apple app id 6834613888, Play package com.froggyeye.bondbell. When the listings go live run refresh_store_urls.py (sets apple_url/play_url) then fetch_store_assets.py --only bondbell + postprocess.py --only bondbell. Store buttons stay hidden via [data-na] until then. icon/feature/screenshot1 were seeded from the app repo's store_assets and a sample-mode capture. privacy.html is a copy of the app repo's docs/privacy_policy.html (canonical: mksoft-ltd.github.io/bondbell/privacy_policy.html); re-copy if the policy changes. Copy rules: docs/ASO.md §4 in the app repo (no 'official', no £ figures, no ERNIE, reminder is not a win alert)."
+  },
+  {
+    "folder": "blackouttoolkit",
+    "name": "Blackout: Survival Toolkit",
+    "tagline": "Power cut help, offline guides",
+    "category": "Utilities · Reference",
+    "schema_category": "UtilitiesApplication",
+    "theme": "lamplight",
+    "package_id": "com.froggyeye.blackouttoolkit",
+    "apple_id": "6834878860",
+    "apple_url": null,
+    "play_url": null,
+    "card_emoji": "🔦",
+    "card_gradient": [
+      "#1E3550",
+      "#0E1319"
+    ],
+    "llms_desc": "Household preparedness app for UK power cuts, floods, storms and loss of signal. 22 practical offline guides with priority checklists, a readiness score, a household plan and a water storage calculator; Respond turns what is failing into one plan (right now, first hour, today, days after), with calling 999, the right-now steps and every safety step free. Torch, SOS light signal in Morse and an emergency card. Optional phone-to-phone mesh chat over Bluetooth through nearby phones that have the app; delivery is never guaranteed and only private groups are end-to-end encrypted. No account, ads, analytics or tracking. Free with a one-time Pro unlock (no subscription). Not an official alerting app: call 999 in an emergency.",
+    "_note": "Registered 14 Nov 2026, not yet live on either store (website added 20 Nov 2026). Apple app id 6834878860, Play package com.froggyeye.blackouttoolkit. When the listings go live run refresh_store_urls.py (sets apple_url/play_url) then fetch_store_assets.py --only blackouttoolkit + postprocess.py --only blackouttoolkit. Store buttons stay hidden via [data-na] until then. icon.png is the app repo's store_assets/icon/app_icon_1024.png; feature.png is a 3:2 recomposition of the store feature graphic's own OpenArt background (store_assets/feature_graphic/openart/v1_street_thread.png) with the same title/tagline in Inter; no screenshot1.png yet (no store screenshots exist, none fabricated). Copy rules: store_assets/BRAND.md tone (no 'survive', 'doomsday', 'apocalypse', 'bug out', 'tactical', 'be afraid'), docs/ASO.md §1 (mesh delivery never guaranteed, call 999, Pro one-time, only private groups end-to-end encrypted, not an official alerting app)."
   }
 ]
